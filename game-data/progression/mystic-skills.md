@@ -237,27 +237,7 @@ Mystic Skills are divided into three main categories:
 
 **Vitality Cost**: 0 (free to use)
 
-**Function**: Perform **Mighty Drop** without taking fall damage
-
-**Unlock Method**:
-- Increase **Exploration Level** in specific region
-- Unlocked through exploration progress
-
-**Upgrade**: Cannot be upgraded
-
-**Usage**: Safe drop attacks from any height
-
----
-
-### Diving Skills
-
-#### 11. Abyss Dive (深渊俯冲)
-
-**Type**: Diving (high-altitude dive)
-
-**Vitality Cost**: 0 (free to use)
-
-**Function**: Perform a controlled **dive** from extreme heights
+**Function**: Perform **Mighty Drop** without taking fall damage. Upon learning a Lightness Skill, using Safe Mighty Drop grants **immunity to disease and fall damage** upon landing.
 
 **Unlock Method**:
 - Increase **Exploration Level** in specific region
@@ -266,9 +246,34 @@ Mystic Skills are divided into three main categories:
 **Upgrade**: Cannot be upgraded
 
 **Usage**:
-- Rapid descent from high altitudes
-- Possibly for reaching underwater areas
-- Stylish traversal option
+- Safe drop attacks from any height
+- No fall damage
+- **Grants disease immunity upon landing** (when combined with Lightness Skills)
+- Perfect for descending from extreme heights
+
+---
+
+### Diving Skills
+
+#### 11. Abyss Dive (深渊俯冲)
+
+**Type**: Diving (underwater diving)
+
+**Vitality Cost**: 0 (free to use)
+
+**Function**: After mastering this skill, you can **dive underwater** for a period of time in specific areas like **Crimson Cliff**. Be free beneath the surface like a careless fish.
+
+**Unlock Method**:
+- Increase **Exploration Level** in specific region
+- Unlocked through exploration progress
+
+**Upgrade**: Cannot be upgraded
+
+**Usage**:
+- Dive underwater in specific areas (Crimson Cliff confirmed)
+- Explore underwater caves and locations
+- Extended underwater breathing duration
+- Essential for underwater treasure hunting
 
 ---
 
@@ -297,16 +302,23 @@ Mystic Skills are divided into three main categories:
 4. **Safe Mighty Drop** - Prevents frustrating fall damage
 5. **Advanced skills** (Meteor Flight, Skywalk Dash) - Optimize speed
 
-### Faction Keepsakes
+### Faction Keepsakes and Regional Restrictions
 
-Two skills require **Faction Keepsakes**:
-- **Fan Glider**
-- **Wind Rider**
+**Important Lore**: All major factions enforce restrictions on the use of lightness skills and wall-running abilities. You must increase your Exploration in regions to earn faction keepsakes that grant permission to move freely.
 
-**How to Obtain**:
+**Skills Requiring Faction Keepsakes**:
+- **Fan Glider** - "With a fan in hand, one roams across the mountains, free and unbound"
+- **Wind Rider** - "Riding the wind through emptiness, untouched by the mortal world"
+- **Meteor Flight** - "Like a shooting star, the spear-wielder commands the wind"
+- **Thousand-Mile Flight** - "The loong soars through the sky, leaving traces across the land"
+- **Wallstride - Shadowdash** - "Dash at lightning speed, leaping across peaks and valleys"
+- **Wallstride - Swiftstride** - "Moving along wall and eaves with agility"
+
+**How to Obtain Keepsakes**:
 - Increase **Exploration progress** in specific regions
 - Complete region objectives and activities
 - Unlock as rewards for high Exploration Level
+- Each region's faction grants permission to use advanced movement skills in their territory
 
 ---
 

@@ -146,7 +146,21 @@ Based on historical China and wuxia traditions:
 
 ---
 
-**Note**: 12-13 more regions to be documented (20 total regions)
+#### 9. Crimson Cliff (赤壁)
+**Status**: Confirmed location
+**Type**: Coastal cliff area with underwater exploration
+**Features**:
+- Underwater diving area (requires Abyss Dive Mystic Skill)
+- Underwater caves and locations
+- Special underwater exploration challenges
+- **Historical Note**: Crimson Cliff (Chibi) is a famous historical site from the Three Kingdoms period
+
+**Movement Skills Used Here**:
+- Abyss Dive - Enables underwater exploration in this area
+
+---
+
+**Note**: 11-12 more regions to be documented (20 total regions)
 
 ---
 

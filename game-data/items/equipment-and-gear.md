@@ -213,7 +213,7 @@ Equipment in Where Winds Meet affects both **combat effectiveness** and **appear
 
 ## All Gear Sets
 
-### Jadeware Set (Offensive - DPS)
+### Jadewear Set (Offensive - DPS)
 
 **How to Obtain**:
 - Campaign - Palace of Annals
@@ -222,16 +222,18 @@ Equipment in Where Winds Meet affects both **combat effectiveness** and **appear
 - Group Dungeon
 
 **2-Piece Bonus**:
-- Max Physical Attack +1
+- **Max Physical Attack +27**
 
 **4-Piece Bonus**:
-- Casting Martial Art skill activates **Jadeware effect**:
+- Casting Martial Art skill activates **Jadewear effect**:
   - Increases Affinity DMG by 10%
   - Deals 20% more Affinity DMG to targets under control or with <40% Qi
   - Lasts 12 seconds
   - Triggers once every 30 seconds
 
 **Best For**: Affinity-focused DPS builds, control-heavy playstyles
+
+**Equipment Slots**: Weapons (2 slots) + Disc + Pendant
 
 ---
 
@@ -391,13 +393,53 @@ Equipment in Where Winds Meet affects both **combat effectiveness** and **appear
 - Activity Shop
 
 **2-Piece Bonus**:
-- Min Physical Attack +1
+- **Min Physical Attack +27**
 
 **4-Piece Bonus**:
 - Light Attacks deal **15% more damage** against targets with <40% Qi
 - Light Attacks deal **5% more damage** against Exhausted targets
 
 **Best For**: Light Attack-focused builds, Qi-draining strategies
+
+**Equipment Slots**: Weapons (2 slots) + Disc + Pendant
+
+---
+
+### Swift Gale Set (Offensive - Airborne DPS)
+
+**How to Obtain**:
+- TBD (acquisition method to be documented)
+
+**2-Piece Bonus**:
+- **Max Physical Attack +1**
+
+**4-Piece Bonus**:
+- Increases **Airborne Heavy Attack** damage by **10%**
+- Airborne Heavy Attacks **knock down** the target
+- **Knocked-Down effect** can only trigger once every 10 seconds
+
+**Best For**: Airborne combat builds, aerial combo specialists, crowd control DPS
+
+**Equipment Slots**: Weapons (2 slots) + Disc + Pendant
+
+---
+
+### Swaying Heights Set (Offensive - High HP Target DPS)
+
+**How to Obtain**:
+- TBD (acquisition method to be documented)
+
+**2-Piece Bonus**:
+- **Min Physical Attack +1**
+
+**4-Piece Bonus**:
+- Increases damage dealt against targets with **more than 50% HP** by **5%**
+- Every **5% more HP** further increases this bonus by **1%**, up to **10%** total
+- **Maximum Bonus**: 15% increased damage at 100% HP targets
+
+**Best For**: Boss fights, early engagement burst damage, high HP target specialists
+
+**Equipment Slots**: Weapons (2 slots) + Disc + Pendant
 
 ---
 

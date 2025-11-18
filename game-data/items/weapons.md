@@ -378,17 +378,85 @@ Weapons may also have rarity levels affecting stats:
 
 ## Weapon Stats
 
-### Primary Stats
-- **Base Damage**: Raw attack power
-- **Attack Speed**: Hits per second
-- **Range**: Attack distance
-- **Durability**: (If weapons can break)
+### Physical Attack System
 
-### Secondary Stats
-- **Critical Chance**: Bonus crit rate
-- **Critical Damage**: Bonus crit multiplier
-- **Special Effects**: Bleed, stun, elemental damage
-- **Stat Requirements**: (Strength, Dexterity, etc.)
+**Damage is Randomly Based on Minimum and Maximum Attack**
+
+Weapon damage is calculated using a Physical Attack stat range:
+- Example: Weapon with **Physical Attack 10-16**
+- Each hit randomly applies damage between 10 and 16
+- Min and Max values determine damage consistency and burst potential
+
+**Strategic Implications**:
+- **High Min Attack**: More consistent damage, reliable DPS
+- **High Max Attack**: Higher burst potential, better for critical builds
+- **Wide Range**: Variable damage, gambling playstyle
+- **Narrow Range**: Predictable damage output
+
+---
+
+### Weapon Substats System
+
+**Substat Progression by Weapon Tier**:
+
+Weapons gain additional substat slots as they reach higher tiers:
+
+| Weapon Tier | Substats Available | Notes |
+|-------------|-------------------|-------|
+| Below Tier 31 | 0 substats | Base stats only |
+| Tier 31+ | 1 substat | First substat slot unlocks |
+| Tier 41+ | 2 substats | Tuning unlocks second slot |
+| Tier 51+ | 3 substats | Third slot becomes available |
+| Tier 56+ | 4 substats | Maximum substats (endgame) |
+
+**Substat Types**:
+- **Physical Attack** (Min/Max)
+- **Critical Rate**
+- **Critical Damage**
+- **Affinity Rate**
+- **Precision Rate**
+- **Path-Specific Bonuses** (Bellstrike, Silkbind, Stonesplit, Bamboocut bonuses)
+- **Special Effects** (varies by weapon type)
+
+**Substat Rarity**:
+- **White** (Common)
+- **Green** (Uncommon)
+- **Blue** (Rare)
+- **Purple** (Epic)
+- **Gold** (Legendary)
+
+---
+
+### Tuning Material Weapons
+
+**Special Weapon Property**: Some weapons can gain a **Tuning Material substat**
+
+**How It Works**:
+- These weapons can be used as tuning materials for other weapons
+- Provide **guaranteed substat rarity** when used for tuning:
+  - **Purple Stone Icon** 🟣: Guarantees Purple or higher substat rarity
+  - **Gold Stone Icon** 🟡: Guarantees Gold (Legendary) substat rarity
+
+**Strategic Value**:
+- Don't discard weapons with tuning material substats
+- Save them for tuning your endgame weapons
+- Gold stone weapons are especially valuable for BiS weapon tuning
+
+---
+
+### Primary Stats
+- **Physical Attack (Min/Max)**: Base damage range for all attacks
+- **Attack Speed**: Hits per second, varies by weapon type
+- **Range**: Attack distance (Spears > Swords > Dual Blades)
+- **Weapon Path**: Determines compatible Inner Ways and build identity
+
+### Secondary Stats (Substats)
+- **Critical Rate**: Bonus chance for critical hits
+- **Critical Damage**: Multiplier for critical hit damage
+- **Affinity Rate**: Chance to trigger Affinity (special effect) damage
+- **Precision Rate**: Accuracy and weak point hit bonus
+- **Path Bonuses**: Specialized bonuses for specific Martial Arts Paths
+- **Special Effects**: Bleed, stun, elemental damage (weapon-dependent)
 
 ---
 

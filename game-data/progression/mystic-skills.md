@@ -32,7 +32,281 @@ Mystic Skills are divided into three main categories:
    - Utility-focused, always available
    - Most cannot be upgraded
 
-3. **Movement Mystic Skills** - (Details TBD)
+3. **Movement Mystic Skills** - Mobility and navigation skills (11 documented)
+   - **No Vitality Cost** - Free to use
+   - Unlock via **Exploration Level** in regions
+   - Cannot be upgraded
+   - Essential for traversal and fast travel
+
+---
+
+## Movement Mystic Skills
+
+### Overview
+
+**Total Count**: 11 Movement Mystic Skills
+
+**Key Characteristics**:
+- **No Vitality Cost** - All Movement skills are free to use
+- **No Upgrades** - Cannot be upgraded (no tiers or ranks)
+- **Exploration-Based Unlock** - Unlock by increasing Exploration Level in specific regions
+- **Navigation Focus** - Enable fast travel, wall running, gliding, and special movement
+
+**Categories**:
+1. **Lightness Skills** (4) - Gliding and aerial movement
+2. **Wall Run Skills** (2) - Wall running and vertical traversal
+3. **Movement Skills** (4) - Advanced mobility techniques
+4. **Diving Skills** (1) - High-altitude diving
+
+---
+
+### Lightness Skills
+
+#### 1. Thousand-Mile Flight (千里神行)
+
+**Type**: Lightness (gliding movement)
+
+**Vitality Cost**: 0 (free to use)
+
+**Function**: Gain the ability to glide during **Lightness**
+
+**Unlock Method**:
+- Increase **Exploration Level** in specific region
+- Unlocked naturally through exploration progress
+
+**Upgrade**: Cannot be upgraded
+
+**Usage**: Essential base gliding skill for aerial traversal
+
+---
+
+#### 2. Meteor Flight (流星赶月)
+
+**Type**: Lightness (dash movement)
+
+**Vitality Cost**: 0 (free to use)
+
+**Function**: Gain the ability to dash during **Lightness**
+
+**Unlock Method**:
+- Increase **Exploration Level** in specific region
+- Unlocked through exploration progress
+
+**Upgrade**: Cannot be upgraded
+
+**Usage**: Rapid aerial movement, extends gliding distance
+
+---
+
+#### 3. Fan Glider (扇翼)
+
+**Type**: Lightness (gliding enhancement)
+
+**Vitality Cost**: 0 (free to use)
+
+**Function**: Grants the ability to **glide**
+
+**Unlock Method**:
+- Requires **Faction Keepsake** from specific region
+- Obtained by increasing **Exploration progress** in region
+
+**Upgrade**: Cannot be upgraded
+
+**Usage**: Alternative or enhanced gliding method
+
+---
+
+#### 4. Wind Rider (御风)
+
+**Type**: Lightness (advanced gliding)
+
+**Vitality Cost**: 0 (free to use)
+
+**Function**: Advanced gliding technique
+
+**Unlock Method**:
+- Requires **Faction Keepsake** from specific region
+- Obtained by increasing **Exploration progress** in region
+
+**Upgrade**: Cannot be upgraded
+
+**Usage**: Enhanced aerial control and movement
+
+---
+
+### Wall Run Skills
+
+#### 5. Wallstride - Swiftstride (疾行)
+
+**Type**: Wall Run (speed variant)
+
+**Vitality Cost**: 0 (free to use)
+
+**Function**: Perform **Wall Run** with increased speed
+
+**Unlock Method**:
+- Increase **Exploration Level** in specific region
+- Unlocked through exploration progress
+
+**Upgrade**: Cannot be upgraded
+
+**Usage**: Fast vertical traversal on walls
+
+---
+
+#### 6. Wallstride - Shadowdash (影掠)
+
+**Type**: Wall Run (stealth/alternative variant)
+
+**Vitality Cost**: 0 (free to use)
+
+**Function**: Perform **Wall Run** with different properties (possibly stealth-focused)
+
+**Unlock Method**:
+- Increase **Exploration Level** in specific region
+- Unlocked through exploration progress
+
+**Upgrade**: Cannot be upgraded
+
+**Usage**: Alternative wall running style, possibly with stealth benefits
+
+---
+
+### Movement Skills
+
+#### 7. Threefold Skywalk (三重天步)
+
+**Type**: Movement (aerial stepping)
+
+**Vitality Cost**: 0 (free to use)
+
+**Function**: Perform **three consecutive air jumps**
+
+**Unlock Method**:
+- Increase **Exploration Level** in specific region
+- Unlocked through exploration progress
+
+**Upgrade**: Cannot be upgraded
+
+**Usage**: Essential for reaching high places and crossing large gaps
+
+---
+
+#### 8. Skywalk Dash (天行疾影)
+
+**Type**: Movement (aerial dash)
+
+**Vitality Cost**: 0 (free to use)
+
+**Function**: Dash while performing **Skywalk**
+
+**Unlock Method**:
+- Increase **Exploration Level** in specific region
+- Unlocked through exploration progress
+
+**Upgrade**: Cannot be upgraded
+
+**Usage**: Rapid aerial repositioning, extends jump distance
+
+---
+
+#### 9. Mighty Drop (重落)
+
+**Type**: Movement (impact landing)
+
+**Vitality Cost**: 0 (free to use)
+
+**Function**: Perform a powerful **drop attack** from height
+
+**Unlock Method**:
+- Increase **Exploration Level** in specific region
+- Unlocked through exploration progress
+
+**Upgrade**: Cannot be upgraded
+
+**Usage**:
+- Deal damage to enemies below
+- Stylish engagement opener
+- May cause fall damage to self if too high
+
+---
+
+#### 10. Safe Mighty Drop (安全重落)
+
+**Type**: Movement (safe impact landing)
+
+**Vitality Cost**: 0 (free to use)
+
+**Function**: Perform **Mighty Drop** without taking fall damage
+
+**Unlock Method**:
+- Increase **Exploration Level** in specific region
+- Unlocked through exploration progress
+
+**Upgrade**: Cannot be upgraded
+
+**Usage**: Safe drop attacks from any height
+
+---
+
+### Diving Skills
+
+#### 11. Abyss Dive (深渊俯冲)
+
+**Type**: Diving (high-altitude dive)
+
+**Vitality Cost**: 0 (free to use)
+
+**Function**: Perform a controlled **dive** from extreme heights
+
+**Unlock Method**:
+- Increase **Exploration Level** in specific region
+- Unlocked through exploration progress
+
+**Upgrade**: Cannot be upgraded
+
+**Usage**:
+- Rapid descent from high altitudes
+- Possibly for reaching underwater areas
+- Stylish traversal option
+
+---
+
+## Movement Mystic Skills Strategy
+
+### Essential Movement Skills
+
+**Core Traversal**:
+- **Thousand-Mile Flight** - Base gliding ability
+- **Threefold Skywalk** - Triple jump for vertical movement
+- **Wallstride - Swiftstride** - Wall running for vertical surfaces
+
+**Extended Mobility**:
+- **Meteor Flight** - Aerial dashing
+- **Skywalk Dash** - Enhanced aerial movement
+
+**Safe Exploration**:
+- **Safe Mighty Drop** - Eliminates fall damage concerns
+- **Abyss Dive** - Control during long falls
+
+### Exploration Priority
+
+1. **Unlock Threefold Skywalk early** - Essential for reaching high places
+2. **Get Thousand-Mile Flight** - Core gliding for covering distance
+3. **Wallstride skills** - Enable vertical exploration
+4. **Safe Mighty Drop** - Prevents frustrating fall damage
+5. **Advanced skills** (Meteor Flight, Skywalk Dash) - Optimize speed
+
+### Faction Keepsakes
+
+Two skills require **Faction Keepsakes**:
+- **Fan Glider**
+- **Wind Rider**
+
+**How to Obtain**:
+- Increase **Exploration progress** in specific regions
+- Complete region objectives and activities
+- Unlock as rewards for high Exploration Level
 
 ---
 
@@ -1044,7 +1318,8 @@ Higher Tiers require higher-level materials.
 **NEEDED INFORMATION**:
 - ✅ ~~Offensive Mystic Skills~~ **COMPLETED: 24/24 documented**
 - ✅ ~~General Mystic Skills~~ **COMPLETED: 5/5 documented**
-- **Movement Mystic Skills** category (11 remaining to reach 40 total)
+- ✅ ~~Movement Mystic Skills~~ **COMPLETED: 11/11 documented**
+- 🎉 **ALL 40 MYSTIC SKILLS DOCUMENTED** 🎉
 - Exact Vitality costs for Offensive skills
 - Complete list of Boundary Stone locations
 - Melodies of Peace system details (Oddities collection)

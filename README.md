@@ -78,6 +78,7 @@ Last Updated: 2025-11-18
 - **Special Abilities**: Touch of Death, Windsense, Insight system documented
 - **Game Mechanics**: Complete systems documented
   - Skill Theft: Full mini-game guide with unlock method
+  - Player Housing: Complete rental system (3 types), Commerce Coins, benefits
   - Crime, disease, building, gathering systems
 - **Locations**: 9 confirmed regions with details
 - **Build Archetypes**: Tank, DPS, Healer, Balanced, Support builds documented

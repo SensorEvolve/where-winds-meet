@@ -15,7 +15,9 @@ Where Winds Meet is a free-to-play open-world wuxia action RPG set in 10th-centu
 ### `/game-data/gameplay/`
 - Combat mechanics and systems
 - Game modes (single-player, co-op, MMO)
+- **Skill Theft system** (complete guide)
 - Activities and events
+- Special abilities
 
 ### `/game-data/characters/`
 - Character creation and customization
@@ -74,7 +76,9 @@ Last Updated: 2025-11-18
   - Exploration Attributes: 11 Aspiration stats with mini-game methods
   - Career Attributes: Healer and Scholar complete stat sets
 - **Special Abilities**: Touch of Death, Windsense, Insight system documented
-- **Game Mechanics**: Crime, disease, building, gathering systems documented
+- **Game Mechanics**: Complete systems documented
+  - Skill Theft: Full mini-game guide with unlock method
+  - Crime, disease, building, gathering systems
 - **Locations**: 9 confirmed regions with details
 - **Build Archetypes**: Tank, DPS, Healer, Balanced, Support builds documented
 

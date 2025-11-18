@@ -496,29 +496,34 @@ Mystic Skills are divided into three main categories:
 ### 4. Cloud Steps (云踏) - PUZZLE
 
 **Vitality Cost**: TBD
-**Location**: General's Shrine
+**Location**: General's Shrine / Main Quest
+
+**Lore**:
+In earlier years, the Northern Vow roamed the martial world and resisted the Khitan. From their battle experience they devised a unique lightness art. This technique lets its practitioners bound between rafters and cliff walls, even gain footing in mid-air to soar with the birds. Those who were not aware of this skill were often caught off-guard by its unpredictable, wind-like movements.
 
 **Out of Combat**:
 - Leap high and slam down
 - Hold breath to jump to marked spots
 - Essential for **mobility puzzles**
 - **Shadow Chase** challenges
+- Needed for various mobility puzzles or quests
 
 **In Combat**:
 - Stomp on enemy shoulders for damage
-- **Effective against Cavalry** and Unstable Poise units
+- **Effective against Cavalry** and Unstable Poise units with Unstable Poise
 - Quick distance closer
+- Excellent at disrupting mounted enemies
 
 **Unlock Method**:
-- Found from a corpse in a cave under the General's Shrine
-- Early game acquisition
+- Main Quest (acquired during story progression)
+- Alternative: Found from a corpse in a cave under the General's Shrine
 
 **Upgrade Materials**: Ebon Iron + Beauty's Plume
 
 **Tier Bonuses**:
-- Tier 2: +20% bonus damage on Weak Point Break
-- Tier 3: Increases HP damage taken by target by 20% for 10s after Weak Point Break
-- Tier 4: +30% additional bonus damage on Weak Point Break
+- Tier 2 (Damage Enhancement): +20% bonus damage on Weak Point Break
+- Tier 3 (Strategy Enhancement): Increases HP damage taken by target by 20% for 10s after Weak Point Break
+- Tier 4 (Damage Enhancement): +30% additional bonus damage on Weak Point Break (further increases)
 
 ---
 
@@ -553,22 +558,30 @@ Mystic Skills are divided into three main categories:
 **Location**: Qinghe (multiple bell locations)
 **Recommended for**: Arena (PvP)
 
+**Lore**:
+This hidden Zen technique originates from layman Vimalakirti's experience hearing the Buddha preach. The Buddha's voice, described as a thunderous roar, dispelled dreams and awakened the deluded. Vimalakirti later documented this, stating that true preaching is like a lion's roar, a powerful and impactful truth. The technique remains a closely guarded secret among those who follow the Zen path.
+
 **Effects**:
 - Slam a giant bell, dealing damage
-- Unleash deafening roar (14 hits in large area)
+- Unleash deafening roar dealing damage over **14 hits in large area**
 - Gain **15% Damage Reduction** and **Fortitude**
-- Apply **Silence** debuff (5+ hits on same target)
+- Apply **Silence** debuff (5+ hits on same target for 3 seconds at Tier 3)
 
 **Unlock Method**:
+*"The Buddha said that the bell's sound could suppress the fiends like a lion rules over all the other beasts. If you can find all the copper bells scattered in Qinghe, perhaps you will comprehend the Mystic Skill."*
 - Find and interact with all copper bells scattered in Qinghe
-- First bell is in General's Shrine area (first town)
+- First bell is in General's Shrine area (first town you visit)
+
+**Uses**:
+- Useful for PvP
+- Provides bonus defense, making it useful for the Stonesplit Path or to help reduce damage when solo
 
 **Upgrade Materials**: Ebon Iron + Buddha's Tear Root
 
 **Tier Bonuses**:
-- Tier 2: Enhances Tenacity effect
-- Tier 3: 5+ Roar hits applies Silence for 3s
-- Tier 4: Damage Reduction increased to 40%
+- Tier 2 (Defense Boost): Enhances the Tenacity effect when casting skills
+- Tier 3 (Strategy Enhancement): Dealing Roar damage 5 times or more to the target puts them under Silence for 3 seconds
+- Tier 4 (Defense Boost): DMG Reduction when casting skills is increased to 40%
 
 ---
 

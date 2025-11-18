@@ -36,16 +36,47 @@ These fundamental attributes define character performance in combat and explorat
 
 ---
 
-## Exploration Attributes
+## Exploration Attributes (Aspiration Attributes)
 
 **Purpose**: Enhanced through puzzles and mini-games
 
 **Effect**: Unlock Exploration Skills that provide various bonuses
 
-### Known Exploration Skills
+**Total Skills Available**: 25 Exploration Skills
 
-- **Immunity to Falling Damage**: Take no damage from falls
-- Additional exploration skills TBD
+### Complete List of Exploration Attributes
+
+1. **Magnanimity** (大度) - Generosity and tolerance
+2. **Intelligence** (智识) - Mental acuity and knowledge
+3. **Musicality** (乐律) - Musical talent and rhythm
+4. **Constitution** (体质) - Physical health and endurance
+5. **Perception** (感知) - Awareness and observation
+6. **Coordination** (协调) - Physical coordination and dexterity
+7. **Elegance** (优雅) - Grace and refinement
+8. **Mindset** (心态) - Mental fortitude and attitude
+9. **Memory** (记忆) - Recall and learning ability
+10. **Erudition** (博学) - Scholarly knowledge and wisdom
+
+### How Exploration Skills Work
+
+**Unlock Requirements**:
+- Minimum **Total Aspiration Attributes** (sum of all 10 attributes)
+- Minimum level in specific attribute(s)
+
+**Skill Tiers**:
+- **Tier 1**: 200 Total Aspiration (10 skills)
+- **Tier 2**: 400 Total Aspiration (7 skills)
+- **Tier 3**: 600 Total Aspiration (8 skills)
+
+**See**: `/game-data/progression/exploration-skills.md` for complete list of all 25 skills
+
+### Notable Exploration Skills
+
+- **Body of Iron**: Immunity to falling damage (200 Total, Coordination 30)
+- **Two for One**: Extra gathering rewards in Solo Mode (200 Total, Perception 30)
+- **Treasure Seeker**: Show closest chest on minimap (600 Total, Perception 75, Elegance 75)
+- **Animal Whisperer**: Understand bird and beast speech (600 Total, Mindset 75, Intelligence 50)
+- **Effortless Swim**: Reduced stamina while swimming (200 Total, Elegance 30)
 
 ---
 
@@ -106,10 +137,12 @@ The game features a dedicated Character Status Menu where players can view and m
 - Stat soft/hard caps
 - How equipment affects stats
 - Career attribute details and progression
-- All exploration skills and their unlock requirements
+- ✅ ~~All exploration skills and their unlock requirements~~ **COMPLETED**
 - Status effects (buffs/debuffs)
 - Elemental resistances (if any)
 - Secondary stats and their calculations
 - Attribute point allocation system
 - Respec mechanics (if available)
 - Min-maxing strategies for different builds
+- How to increase Aspiration Attributes (which mini-games give what)
+- Aspiration Attribute soft/hard caps

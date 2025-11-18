@@ -191,16 +191,24 @@
 
 ### Mini-Games
 
-**Puzzle Solving**:
-- Environmental puzzles
-- Mystic skill challenges
-- Unlock exploration skills
+**Complete List of Mini-Games**:
 
-**Other Activities** (Assumed):
-- Gambling games
-- Racing
-- Musical performances
-- Drinking contests (classic wuxia)
+1. **Pitch Pot (投壶)** - Traditional Chinese throwing game
+2. **Gift of Gab (辩论)** - Conversation/debate mini-game with Inspiration mechanic
+3. **Graceful Melody (音律)** - Music performance with scoring
+4. **Horse Capture (捕马)** - Taming wild horses
+5. **Sumo Wrestling (相扑)** - Combat mini-game with push, thrust, and stake techniques
+6. **Fishing Contests (钓鱼比赛)** - Timed fishing activity
+7. **Archery (射箭)** - Bow and arrow mini-game
+8. **Puzzle Solving** - Environmental puzzles using mystic skills
+
+**Benefits**:
+- Increase Aspiration Attributes (Exploration Attributes)
+- Unlock Exploration Skills
+- Earn rewards and materials
+- Social activities with other players
+
+**See**: `/game-data/progression/exploration-skills.md` for skills that enhance mini-game performance
 
 ---
 

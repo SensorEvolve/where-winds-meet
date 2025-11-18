@@ -50,6 +50,25 @@ Based on historical China and wuxia traditions:
 
 ## The 20 Regions
 
+### Known Regions
+
+#### 1. Qinghe (清河)
+**Status**: Confirmed location
+**Features**:
+- Contains treasure chests (shown on minimap with Treasure Seeker skill)
+- Urban area (likely a city or major town)
+
+#### 2. Kaifeng (开封)
+**Status**: Confirmed location
+**Features**:
+- Contains treasure chests (shown on minimap with Treasure Seeker skill)
+- Urban area (likely a major city)
+- **Historical Note**: Kaifeng was a major city in historical China during the Song Dynasty
+
+**Note**: 18 more regions to be documented
+
+---
+
 ### Region Details Needed
 
 For each of the 20 regions, we need:

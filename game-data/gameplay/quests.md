@@ -4,7 +4,9 @@
 
 ## Overview
 
-Where Winds Meet features multiple quest categories including Main Story Campaigns, Career Quests, Side Stories (Fragment Chapters), and Exploration Quests. Each quest type contributes to character progression, world-building, and unlocking new content.
+Where Winds Meet features multiple quest categories including Main Story Campaigns, Career Quests, Lost Chapter Quests, and Exploration Quests. Each quest type contributes to character progression, world-building, and unlocking new content.
+
+**Quest Approach**: Lost Chapter Quests can be followed or ignored in favor of the Main Quests, activities, or multiplayer elements. It is recommended that you mix up your approach, incorporating some story progression while also exploring the many facets of this title.
 
 ---
 
@@ -25,13 +27,15 @@ Where Winds Meet features multiple quest categories including Main Story Campaig
 - Unlocks career abilities and crafting recipes
 - Professional skill progression
 
-### Side Stories (Fragment Chapters)
+### Lost Chapter Quests
 **Description**: Optional narrative quests that expand world lore and character stories
 **Organization**: Organized by region (Qinghe Area, Kaifeng Area)
+**Player Choice**: Can be followed or ignored in favor of Main Quests, activities, or multiplayer
 **Characteristics**:
 - Self-contained stories
 - Multiple quest chains and volumes
 - Rewards: Experience, items, lore revelations
+- Recommended to mix with Main Quest progression for balanced experience
 
 ### Exploration Quests
 **Description**: Discovery-based quests found while exploring the world
@@ -124,13 +128,13 @@ Where Winds Meet features multiple quest categories including Main Story Campaig
 
 ---
 
-## Side Stories (Fragment Chapters)
+## Lost Chapter Quests
 
-Side Stories are self-contained narrative quests that expand the lore and world of Where Winds Meet. They are organized by geographical region.
+Lost Chapter Quests are self-contained narrative quests that expand the lore and world of Where Winds Meet. They are organized by geographical region and can be followed or ignored in favor of Main Quests, activities, or multiplayer elements.
 
 ---
 
-### Qinghe Area Side Stories
+### Qinghe Area Lost Chapter Quests
 
 #### Standalone Quests
 
@@ -233,7 +237,7 @@ Side Stories are self-contained narrative quests that expand the lore and world 
 
 ---
 
-### Kaifeng Area Side Stories
+### Kaifeng Area Lost Chapter Quests
 
 #### Standalone Quests
 

@@ -49,7 +49,7 @@ Where Winds Meet is a free-to-play open-world wuxia action RPG set in 10th-centu
   - Integration with Exploration Skills and Mounts
 - ✅ **Quests** (quest catalog)
   - Campaign Main Story: Chapter 1 (5 quests), Chapter 2 (6+ quests)
-  - Side Stories: 40+ quests across Qinghe and Kaifeng regions
+  - Lost Chapter Quests: 40+ optional quests across Qinghe and Kaifeng regions
   - Quest chains: Three-volume Kaifeng story arc (Volume I, II, III)
   - Career Quests and Exploration Quests (pending documentation)
 - Activities and events
@@ -160,9 +160,9 @@ Last Updated: 2025-11-18
     - Interaction types: Light Incense, Interact with Point, Complete Task, Trigger Cutscene
     - Rewards: Zhou Coins, Character EXP, Stored EXP, treasure, lore cutscenes
     - Integration with Exploration Skills, Mounts, and Jianghu Friends
-  - Quests: Quest catalog (Campaign, Side Stories)
+  - Quests: Quest catalog (Campaign, Lost Chapter Quests)
     - Campaign Main Story: Chapter 1 "Heaven Has No Pier" (5 quests), Chapter 2 "Universal Furnace" (6+ quests)
-    - Side Stories: 40+ Fragment Chapter quests across Qinghe and Kaifeng regions
+    - Lost Chapter Quests: 40+ optional quests across Qinghe and Kaifeng regions (can be followed or ignored)
     - Quest chains: Three-volume Kaifeng arc (Strife in Every Corner, Lights Flicker in Every Home, Every Hearth Aglow)
     - Location-specific quests: Ever-Normal Granary, Jinming Pool, Unbound Cavern
     - Integration with Skill Theft, Jianghu Friends, Factions, and Exploration systems

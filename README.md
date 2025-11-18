@@ -75,19 +75,19 @@ Last Updated: 2025-11-18
   - Career Attributes: Healer and Scholar complete stat sets
 - **Special Abilities**: Touch of Death, Windsense, Insight system documented
 - **Game Mechanics**: Crime, disease, building, gathering systems documented
-- **Locations**: 8 confirmed regions with details
+- **Locations**: 9 confirmed regions with details
 - **Build Archetypes**: Tank, DPS, Healer, Balanced, Support builds documented
 
 ### 🔄 In Progress
 - **Weapons**: 12 base weapons documented, need complete variant list and stats
-- **World Map**: 8/20 regions confirmed, 12 more to document
+- **World Map**: 9/20 regions confirmed, 11 more to document
 - **Combat System**: Core mechanics documented, advanced details needed
 
 ### 📋 Pending
 - Exact Vitality costs for Offensive Mystic Skills
 - Boundary Stone locations (Vitality restore points)
 - Melodies of Peace system details (Oddities for max Vitality)
-- Remaining 12 regions (of 20 total)
+- Remaining 11 regions (of 20 total)
 - Complete weapon variant list with stats
 - Exact damage values and cooldowns for Martial Arts skills
 - Crafting system documentation

@@ -7,9 +7,32 @@
 **Skill Dependency**: Martial Arts skills are tied to equipped weapon
 **Customization**: Each weapon favors different playstyles
 
+### Weapon Paths System
+
+Weapons are organized into **Paths** that determine build identity:
+
+1. **Bellstrike Path** (钟鸣)
+   - Bellstrike - Umbra (Strategic Sword / Heavenquaker Spear)
+   - Bellstrike - Splendor (Nameless Sword / Nameless Spear)
+
+2. **Stonesplit Path** (碎石)
+   - Stonesplit - Might (Thundercry Blade / Stormbreaker Spear)
+
+3. **Skillbind Path** (技艺)
+   - Skillbind - Jade (Inkwell Fan / Ninefold Umbrella)
+   - Skillbind - Deluge (Panacea Fan / Soulshade Umbrella)
+
+4. **Bamboocut Path** (断竹)
+   - Bamboocut - Wind (Infernal Twinblades / Mortal Rope Dart)
+
+**Path Benefits**:
+- Determines compatible Inner Ways (passive skills)
+- Defines build archetype (Tank, DPS, Healer, etc.)
+- Unlock Martial Arts specific to weapon
+
 ---
 
-## Weapon Types
+## Weapon Types & Variants
 
 ### 1. Swords (剑)
 
@@ -26,6 +49,10 @@
 - Versatility in all situations
 - Reliable damage output
 - Good parry capabilities
+
+**Known Sword Variants**:
+- **Strategic Sword** (Bellstrike - Umbra)
+- **Nameless Sword** (Bellstrike - Splendor)
 
 **Martial Arts**: TBD
 
@@ -51,6 +78,11 @@
 - Effective against multiple enemies
 - Defensive spacing
 
+**Known Spear Variants**:
+- **Heavenquaker Spear** (Bellstrike - Umbra)
+- **Nameless Spear** (Bellstrike - Splendor)
+- **Stormbreaker Spear** (Stonesplit - Might)
+
 **Martial Arts**: TBD
 
 **Use Cases**:
@@ -62,23 +94,32 @@
 
 ### 3. Fans (扇)
 
-**Playstyle**: Likely support/defensive with elegant movements
+**Playstyle**: Support/offensive with elegant movements
 
 **Characteristics**:
 - Elegant, dance-like combat
-- Possibly support-oriented
-- May have defensive utilities
+- Support-oriented (Healer) or offensive
+- Ranged capabilities
 - Lighter, faster attacks
 
 **Strengths**:
 - Speed and agility
-- Defensive capabilities
+- Healing/support capabilities (Panacea Fan)
+- Ranged projectile attacks
 - Unique combos
 
-**Martial Arts**: TBD
+**Known Fan Variants**:
+- **Inkwell Fan** (Skillbind - Jade) - Offensive
+- **Panacea Fan** (Skillbind - Deluge) - Healer
+
+**Martial Arts**:
+- Mountain Sky (Inkwell Fan) - Offensive skill
+- Mistbound Aid (Panacea Fan) - Creates healing Water Entity
+- Resurrection (Panacea Fan) - Revive ability
 
 **Use Cases**:
-- Defensive playstyles
+- Healer builds (Panacea Fan)
+- Ranged DPS (Inkwell Fan)
 - Support in groups
 - Mobility-focused builds
 
@@ -86,29 +127,69 @@
 
 ### 4. Umbrellas (伞)
 
-**Playstyle**: Defensive/offensive hybrid
+**Playstyle**: Defensive/offensive hybrid, support
 
 **Characteristics**:
 - Unique weapon type
 - Shield-like defensive properties
 - Unconventional attacks
-- Likely good for tank builds
+- Support or tank focused
 
 **Strengths**:
 - Strong defense
 - Block capabilities
-- Unpredictable offense
+- Healing support (Soulshade Umbrella)
+- Charged attacks (Ninefold Umbrella)
 
-**Martial Arts**: TBD
+**Known Umbrella Variants**:
+- **Ninefold Umbrella** (Skillbind - Jade) - Offensive
+- **Soulshade Umbrella** (Skillbind - Deluge) - Healer/Support
+
+**Martial Arts**:
+- Spring Sorrow (Ninefold Umbrella) - Chargeable skill
+- Thousand Echoes (Soulshade Umbrella) - Restores Dew, heals caster
 
 **Use Cases**:
-- Tank builds
+- Tank builds (Ninefold Umbrella)
+- Healer builds (Soulshade Umbrella)
 - Defensive counter-play
 - Solo survivability
 
 ---
 
-### 5. Rope Darts (绳镖)
+### 5. Blades / Twinblades (双刀)
+
+**Playstyle**: Aggressive dual-wielding DPS
+
+**Characteristics**:
+- Dual-wielding weapon type
+- Fast, aggressive attacks
+- High DPS potential
+- Complex combos
+
+**Strengths**:
+- High attack speed
+- Continuous pressure
+- Bleed/DOT capabilities
+- Combo variety
+
+**Known Blade Variants**:
+- **Thundercry Blade** (Stonesplit - Might) - Tank-oriented
+- **Infernal Twinblades** (Bamboocut - Wind) - DPS-oriented
+
+**Martial Arts**:
+- Stoic Cleaver (Thundercry Blade) - Defensive skill with counterattack
+- Blazing Wrath (Infernal Twinblades) - Offensive stance, applies Bitter Fate
+
+**Use Cases**:
+- Tank builds (Thundercry Blade)
+- Aggressive DPS (Infernal Twinblades)
+- Bleed-focused builds
+- Fast-paced combat
+
+---
+
+### 6. Rope Darts (绳镖)
 
 **Playstyle**: Ranged melee, high mobility
 
@@ -124,12 +205,18 @@
 - Unique attack patterns
 - Can disengage quickly
 
-**Martial Arts**: TBD
+**Known Rope Dart Variants**:
+- **Mortal Rope Dart** (Bamboocut - Wind)
+
+**Martial Arts**:
+- Bounty Order (mentioned in Vendetta Inner Way)
+- Grace Tokens mechanic
 
 **Use Cases**:
 - Hit-and-run tactics
 - Aerial combos
 - Kiting enemies
+- Mobile DPS builds
 
 ---
 

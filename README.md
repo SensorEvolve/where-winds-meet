@@ -31,6 +31,12 @@ Where Winds Meet is a free-to-play open-world wuxia action RPG set in 10th-centu
   - Human, wildlife, and supernatural enemies
   - Rarity tiers: Grunts, Elites, Mini-Bosses, Faction Bosses
   - Location-based spawns across all regions
+- ✅ **Bosses** (complete catalog)
+  - 22 boss encounters (10 Campaign Challenge, 12 World Bosses)
+  - Adversaries of Power classification
+  - First-time clear rewards (Echo Jade, Martial Arts Tomes, Zhou Coins)
+  - Repeatable Campaign Challenges for gear farming (40 Stamina per run)
+  - Multiplayer scaling with expanded move sets
 - Activities and events
 - Special abilities
 
@@ -126,6 +132,13 @@ Last Updated: 2025-11-18
     - Rarity classifications: Grunts, Elites, Mini-Bosses, Faction Bosses
     - Combat roles: Melee, Ranged, Mounted, Support, Tank, Supernatural
     - Location-based spawn distribution
+  - Bosses: Complete boss catalog (22 encounters)
+    - 10 Campaign Challenge Bosses (repeatable, story-driven)
+    - 12 World Bosses (open-world fixed locations)
+    - Adversaries of Power classification
+    - First-time rewards: Echo Jade, Martial Arts Tomes, Zhou Coins, Stored EXP
+    - Campaign Challenge rewards: Gear sets, Cosmetic chests (40 Stamina per run)
+    - Multiplayer scaling: Expanded move sets for group play
   - Crime, disease, building, gathering systems
 - **Equipment & Gear**: Complete gear system documented
   - All 12 Gear Sets with 2-piece and 4-piece bonuses

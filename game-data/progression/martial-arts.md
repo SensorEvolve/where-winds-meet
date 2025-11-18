@@ -6,9 +6,143 @@
 
 **Type**: Weapon-dependent combat skills
 
-**Categories**: Offensive and Defensive abilities organized by weapon
+**Categories**: Offensive and Defensive abilities organized by weapon and Path
 
 **Key Concept**: Martial Arts are the core combat skills tied to your weapon choice. Each weapon has its own unique set of skills including Main skills, Basic attacks, and Charged attacks.
+
+**Paths**: 6 Martial Arts Paths, each with 2 weapons (12 total)
+
+**Flexibility**: Can use up to **2 Martial Arts at the same time** (dual-wielding different weapon styles)
+
+---
+
+## Six Martial Arts Paths
+
+### Bellstrike - Splendor Path
+
+**Focus**: Mobility and charged attacks
+
+**Playstyle**: High single-target damage with burst potential
+
+**Characteristics**:
+- Freely move around combat area
+- Attack with powerful charged attacks
+- Highly effective against bosses
+- Great single-target attacks and overall damage
+
+**Weapons**:
+- **Nameless Sword**
+- **Nameless Spear**
+
+---
+
+### Bellstrike - Umbra Path
+
+**Focus**: Mobility and damage-over-time
+
+**Playstyle**: Inflict wounds and bleeding effects
+
+**Characteristics**:
+- Maintains Bellstrike mobility focus
+- Single-target skill emphasis
+- Damage comes from bleeding effects
+- Drains enemy HP over time rather than burst damage
+
+**Weapons**:
+- **Strategic Sword**
+- **Heavenquaker Spear**
+
+---
+
+### Skillbind - Deluge Path
+
+**Focus**: Full support and healing
+
+**Playstyle**: Buff allies and provide sustain
+
+**Characteristics**:
+- Heal in an area
+- Heal yourself or specific ally
+- Revive knocked-down allies
+- Provide damage buffs
+- Wait for healing cooldowns while supporting
+
+**Weapons**:
+- **Panacea Fan**
+- **Soulshade Umbrella**
+
+---
+
+### Skillbind - Jade Path
+
+**Focus**: Ranged attacks and mobility
+
+**Playstyle**: Stay at distance, avoid damage
+
+**Characteristics**:
+- Excellent mobility and airborne skills
+- Attack from afar to avoid incoming damage
+- One of the most difficult Martial Arts
+- Requires great control and timing for flawless combos
+- Suitable for 1v1 duels
+- Not optimal against many targets
+
+**Weapons**:
+- **Inkwell Fan**
+- **Vernal Umbrella** (Ninefold Umbrella)
+
+---
+
+### Bamboocut - Wind Path
+
+**Focus**: Consecutive attacks and high DPS
+
+**Playstyle**: Suffocate enemies with attack flurries
+
+**Characteristics**:
+- Strong sustained DPS
+- Very high mobility
+- No survivability attributes
+- Depends on performing flurry of attacks
+- Glass cannon approach
+
+**Weapons**:
+- **Infernal Twinblades**
+- **Mortal Rope Dart**
+
+---
+
+### Stonesplit - Might Path
+
+**Focus**: Survivability and area damage
+
+**Playstyle**: Tank damage while controlling groups
+
+**Characteristics**:
+- Damage reductions
+- Resistance to immobilization attacks
+- Shield generation
+- Excellent against many targets
+- AoE damage capabilities
+
+**Weapons**:
+- **Stormbreaker Spear**
+- **Thundercry Blade**
+
+---
+
+## Martial Arts Path Notes
+
+**Same Path, Different Playstyles**: Each Martial Art weapon has its own unique skillset, even within the same Path
+
+**Example**: Using Nameless Sword vs. Nameless Spear (both Bellstrike - Splendor)
+- Both focus on mobility and charged attacks
+- Spear has different skills than Sword
+- Different range, attack patterns, and tactical options
+
+**Talents**: Each Martial Art weapon also has a set of Talents (passive effects) that work alongside the skillset
+
+**Related**: See Inner Ways documentation for Talent details and Path synergies
 
 ---
 
@@ -407,16 +541,205 @@ Many Inner Ways enhance specific Martial Arts:
 
 ## Martial Arts Progression
 
-### Learning Martial Arts
-- **Automatic with weapon acquisition** - Get the weapon, learn its Martial Art
-- **Can master all 12 Martial Arts** by acquiring all weapons
-- **No skill point investment required** - tied to weapon ownership
+### How to Unlock Martial Arts
 
-### Improving Martial Arts
-- Likely can be upgraded (details TBD)
-- May require materials or practice
-- Enhanced by Inner Ways (passive skills)
-- Synergizes with Mystic Skills for complete builds
+**Two Methods**: Skill Theft and Joining a Sect
+
+**Important**: Unlocking a Martial Art is not enough - you must also **equip the actual weapon** to use it
+
+---
+
+#### Method 1: Skill Theft (Primary Method)
+
+**Overview**: Stealth-based infiltration missions where you observe martial artists to learn their techniques
+
+**Steps to Unlock**:
+
+1. **Navigate to Develop Menu** → Martial Arts menu
+2. **Select the weapon** you wish to unlock
+3. **Select "Obtain"** - Automatically marks mission location on map
+4. **Acquire Loong Keys** - Required for infiltration missions
+5. **Infiltrate the faction base** - Stealth required, no fighting
+6. **Find mechanisms** and insert Loong Keys to unlock areas
+7. **Reach the observation point** marked on your map
+8. **Complete Skill Theft mini-game**:
+   - Watch the martial artist perform techniques
+   - Press interact when you see **golden rings** appear
+   - Successfully observe to learn the Martial Art
+9. **Leave the location** to complete the quest
+
+**Required Items**:
+- **Loong Keys** - Essential for unlocking faction bases
+- Obtained from exploration and specific quests
+
+**Recommended Mystic Skills**:
+- **Touch of Death** - Silent takedowns
+- **Veil of Stillness** - Stealth enhancement
+- **Wind Sense** - Detect enemies and obstacles
+
+**Bonus Rewards**:
+- Side missions to open chests during infiltration
+- Chests may contain **weapon items** for the Martial Art you're unlocking
+- Recommended to explore thoroughly for equipment
+
+**Related System**: See `/game-data/gameplay/skill-theft.md` for complete Skill Theft guide
+
+---
+
+#### Method 2: Joining a Sect
+
+**Overview**: Track down and join secret martial arts sects to learn their techniques
+
+**Steps to Join**:
+
+1. **Find clues** scattered throughout the world
+2. **Check Sects Menu** to view collected clues
+3. **Follow the clues** to track down sect elders
+4. **Meet with elders** to receive invitation
+5. **Join the sect** to learn their Martial Art
+
+**Benefits**:
+- Can freely join and leave sects
+- No stealth requirement
+- May provide additional benefits beyond Martial Art
+
+**Challenge**: Locating sects and discovering join requirements can be difficult
+
+---
+
+### Collecting and Equipping Weapons
+
+**After Unlocking**: You must equip the weapon to use the Martial Art
+
+**Steps to Equip**:
+
+1. **Open Martial Art menu** or your inventory
+2. **Select the unlocked Martial Art**
+3. **Equip weapon** from available options
+4. **Choose the best weapon** for your level and playstyle
+
+**Weapon Sources**:
+- Exploration (chests, world drops)
+- Outpost raids
+- Quest rewards
+- Skill Theft mission bonus chests
+- Gear Chests and dungeons
+
+**Important**: If you have high level, you may need to **upgrade the weapon** before using it effectively
+
+**Switching Martial Arts**:
+- If switching between Martial Arts that use **same weapon type** (e.g., Nameless Sword to Strategic Sword, or Panacea Fan to Inkwell Fan):
+  - No need to re-equip
+  - Recommended to check if your current weapon benefits the new Martial Art
+  - Some weapons favor certain Martial Arts over others
+
+---
+
+### Upgrading Martial Arts
+
+**Resources Required**:
+- **Zhou Coins** - Primary currency
+- **Training Items** - Combat practice materials
+- **Tips** (for Breakthroughs) - Special knowledge items
+
+---
+
+#### Regular Upgrades
+
+**Upgrade Process**:
+
+1. **Select Martial Art** in Develop menu
+2. **Use Zhou Coins + Training Items** to level up
+3. **Increases damage** and skill effectiveness
+
+**Level Cap**: Martial Art level **cannot exceed your character level**
+
+**Training Items**:
+- Easily farmed by **defeating enemies**
+- Common drops from world combat
+- Stackable for bulk upgrading
+
+**Benefits of Upgrading**:
+- Increased overall damage output
+- Improved skill effects (damage, range, duration)
+- Enhanced Talent effects (shields, buffs, passive bonuses)
+- Example: Shield skills gain stronger shields at higher levels
+
+---
+
+#### Breakthrough System
+
+**Required Every 10 Levels** to continue upgrading past certain thresholds
+
+**Breakthrough Requirements**:
+- **Tips** - Special knowledge items
+- **Training Items** - Combat materials
+- **Zhou Coins** - Currency
+
+**How to Obtain Tips**:
+
+1. **Access breakthrough menu** when available
+2. **Select Tips item** → Click "More"
+3. **Opens Activity Shop** automatically
+4. **Purchase Martial Arts - Custom Tips** using **Jade Fish** currency
+5. **Select specific Tips** you need for your weapon
+
+**Important Limits**:
+- Can only buy **up to 15 Custom Tips weekly**
+- Plan breakthroughs around weekly reset
+- Prioritize Martial Arts you use most
+
+**Jade Fish Currency**:
+- See `/game-data/items/items-and-materials.md` for Jade Fish acquisition
+- Earned from multiplayer activities
+
+---
+
+### Upgrade Strategy
+
+**Priority Upgrades**:
+1. **Main weapons** you use in active loadout
+2. **Tank weapons** if playing defensive role
+3. **Healer weapons** if playing support role
+4. **Secondary weapons** for flexibility
+
+**Resource Management**:
+- Farm Training Items during regular gameplay
+- Save Zhou Coins for breakthrough costs
+- Stock up on Jade Fish before weekly reset
+- Don't spread resources too thin across all 12 weapons
+
+**Efficient Leveling**:
+- Upgrade main weapons to character level
+- Keep secondary weapons 5-10 levels below
+- Focus breakthroughs on 2-4 most-used weapons
+- Complete breakthroughs before attempting difficult content
+
+---
+
+### Improvement Benefits
+
+**Damage Scaling**:
+- Each level increases base damage of all skills
+- Charged attacks scale more per level
+- Main skills gain significant boosts
+
+**Skill Improvements** (Examples):
+- Healing skills restore more HP
+- Shield skills generate stronger shields
+- Area attacks gain larger radius or more damage
+- Mobility skills cover more distance or have lower cooldown
+
+**Talent Improvements**:
+- Passive effects become more potent
+- Buff durations extend
+- Resource generation increases
+- Synergy effects strengthen
+
+**Related Systems**:
+- Enhanced by **Inner Ways** (passive skills)
+- Synergizes with **Mystic Skills** for complete builds
+- Pairs with **Gear Sets** for optimal performance
 
 ---
 

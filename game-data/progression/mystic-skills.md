@@ -427,7 +427,7 @@ Two skills require **Faction Keepsakes**:
 ### 2. Meridian Touch (点穴) - PUZZLE
 
 **Vitality Cost**: TBD
-**Location**: Fragment Quest
+**Location**: Stonewash Strand
 
 **Out of Combat**:
 - Select acupoints for special effects
@@ -439,7 +439,10 @@ Two skills require **Faction Keepsakes**:
 - Immobilize enemies and break Vital Points
 - Ineffective against mighty enemies and players
 
-**Unlock Method**: Fragment Quest: "Meridian Touch"
+**Unlock Method**:
+- Fragment Quest: "Meridian Touch"
+- Complete quest given by **Yan Qiren**
+- He is located in Stonewash Strand
 
 **Upgrade Materials**: Ebon Iron + Beauty's Plume
 
@@ -481,7 +484,7 @@ Two skills require **Faction Keepsakes**:
 ### 4. Cloud Steps (云踏) - PUZZLE
 
 **Vitality Cost**: TBD
-**Location**: Main Quest
+**Location**: General's Shrine
 
 **Out of Combat**:
 - Leap high and slam down
@@ -494,7 +497,9 @@ Two skills require **Faction Keepsakes**:
 - **Effective against Cavalry** and Unstable Poise units
 - Quick distance closer
 
-**Unlock Method**: Main Quest (automatic)
+**Unlock Method**:
+- Found from a corpse in a cave under the General's Shrine
+- Early game acquisition
 
 **Upgrade Materials**: Ebon Iron + Beauty's Plume
 
@@ -558,7 +563,7 @@ Two skills require **Faction Keepsakes**:
 ### 7. Guardian Palm (护法掌) - AREA DAMAGE
 
 **Vitality Cost**: TBD
-**Location**: TBD
+**Location**: Sundara Land
 
 **Effects**:
 - Smite ground for AoE damage
@@ -566,7 +571,10 @@ Two skills require **Faction Keepsakes**:
   - Palm strike toward ground
   - Knockback in area
 
-**Unlock Method**: TBD
+**Unlock Method**:
+- Reward from **Where a Thousand Buddhas** side story
+- This side story starts from the Nightdream Monk
+- Located in the northeastern section of Sundara Land
 
 **Upgrade Materials**: Ebon Iron + Buddha's Tear Root
 
@@ -580,7 +588,7 @@ Two skills require **Faction Keepsakes**:
 ### 8. Ghost Bind (鬼缚) - AREA DAMAGE
 
 **Vitality Cost**: TBD
-**Location**: TBD
+**Location**: Kaifeng
 
 **Effects**:
 - Flash before enemies
@@ -588,7 +596,9 @@ Two skills require **Faction Keepsakes**:
 - Break Vital Points
 - **Ineffective against powerful enemies and players**
 
-**Unlock Method**: "Trapped in the narrow Corner Gate, Ghostly Blink can upend the sky."
+**Unlock Method**:
+- "Trapped in the narrow Corner Gate, Ghostly Blink can upend the sky."
+- Complete the **Unwanted Hospitality** quest in Kaifeng
 
 **Upgrade Materials**: Ebon Iron + Jade Tower Pearl
 
@@ -631,7 +641,7 @@ Two skills require **Faction Keepsakes**:
 ### 10. Wolflike Frenzy (疯狼棍法) - SINGLE-TARGET CONTROL
 
 **Vitality Cost**: TBD
-**Location**: TBD
+**Location**: Ghostlight Market
 
 **Effects**:
 - Channel strength into staff to knock enemy down
@@ -639,7 +649,8 @@ Two skills require **Faction Keepsakes**:
 - Finish with upward swing
 - **Effective against Cavalry** and Unstable Poise units
 
-**Unlock Method**: TBD
+**Unlock Method**:
+- Located in a chest at the entrance of Ghostlight Market
 
 **Upgrade Materials**: Ebon Iron + Jade Tower Pearl
 
@@ -736,6 +747,7 @@ Two skills require **Faction Keepsakes**:
 
 **Unlock Method**:
 - "The most orthodox techniques kept by government army. Martial Temple has clues."
+- Explore Martial Temple for this orthodox government army technique
 
 **Upgrade Materials**: Ebon Iron + Jasmine Stamen
 
@@ -751,7 +763,7 @@ Two skills require **Faction Keepsakes**:
 ### 15. Dragon's Breath (龙息) - SINGLE-TARGET BURST
 
 **Vitality Cost**: TBD
-**Location**: Beast Reverie, Fairgrounds
+**Location**: Dragon Palace, Kaifeng (Southeastern)
 
 **Effects**:
 - Drink to enter **Intoxicated** state
@@ -760,6 +772,8 @@ Two skills require **Faction Keepsakes**:
 
 **Unlock Method**:
 - "Fire-breathing performer in Beast Reverie in Fairgrounds"
+- Complete quest given by **Luo Jiu**
+- He is located in the dragon palace in southeastern Kaifeng
 
 **Upgrade Materials**: Ebon Iron + Jade Tower Pearl
 
@@ -775,7 +789,7 @@ Two skills require **Faction Keepsakes**:
 ### 16. Drunken Poet (醉仙) - SINGLE-TARGET BURST
 
 **Vitality Cost**: TBD
-**Location**: TBD
+**Location**: Blissful Retreat / Harvestfall Village
 
 **Effects**:
 - Drink deeply to enter **Intoxicated** state
@@ -785,6 +799,8 @@ Two skills require **Faction Keepsakes**:
 
 **Unlock Method**:
 - "When life brings joy, drink it to the last drop..."
+- Purchase and drink roughly 10 bottles of wine from the **Honest Merchant**
+- This NPC can be found at Blissful Retreat or Harvestfall Village depending on story progression
 
 **Upgrade Materials**: Ebon Iron + Vicious Fruit
 
@@ -848,14 +864,16 @@ Two skills require **Faction Keepsakes**:
 ### 19. Ghostly Steps (鬼步) - SUPPORT
 
 **Vitality Cost**: TBD
-**Location**: TBD
+**Location**: Ghostlight Market
 
 **Effects**:
 - Gain **Mirage** status (lasts 20s)
 - Reduces Endurance cost of ground dodge by 40%
 - Slightly increases Untargetable duration
 
-**Unlock Method**: TBD
+**Unlock Method**:
+- Reward for completing the **Cloudwalk Spire Divinecraft Dungeon**
+- This dungeon can be found on the east side of Ghostlight Market
 
 **Upgrade Materials**: Ebon Iron + Frost Mushroom Mycelium
 
@@ -896,7 +914,7 @@ Two skills require **Faction Keepsakes**:
 ### 21. Glow of Fireflies (萤火) - SUPPORT
 
 **Vitality Cost**: 0
-**Location**: TBD
+**Location**: Anywhere with Fireflies
 
 **Effects**:
 - Summons swirl of fireflies around you
@@ -904,7 +922,8 @@ Two skills require **Faction Keepsakes**:
 - **No combat use**
 
 **Unlock Method**:
-- Collect Fireflies to increase insight
+- Collect any **Firefly** in the world
+- Automatically unlocked upon first Firefly collection
 
 **Upgrade Materials**: None (no tiers/ranks)
 
@@ -915,7 +934,7 @@ Two skills require **Faction Keepsakes**:
 ### 22. Veil of Stillness (敛息) - SUPPORT (STEALTH)
 
 **Vitality Cost**: TBD
-**Location**: Exploration Quest
+**Location**: Moonveil Peak
 
 **Effects**:
 - Steady breath and reduce presence
@@ -926,6 +945,7 @@ Two skills require **Faction Keepsakes**:
 - **Synergizes with Touch of Death** for stealth kills
 
 **Unlock Method**:
+- After reaching **level 8**, complete **Skill Theft** encounter at Moonveil Peak
 - Exploration Quest: "Skill Theft: Unearned Lesson"
 
 **Upgrade Materials**: None (no tiers/ranks)
@@ -963,7 +983,7 @@ Two skills require **Faction Keepsakes**:
 ### 24. Golden Body (金身) - SUPPORT
 
 **Vitality Cost**: TBD
-**Location**: Grand Imperial Temple
+**Location**: Temple Gardens, Kaifeng
 
 **Effects**:
 - Gain indestructible Golden Body for 8s
@@ -972,6 +992,8 @@ Two skills require **Faction Keepsakes**:
 
 **Unlock Method**:
 - "Walk around Grand Imperial Temple to see those learning Buddhist abilities"
+- Use **Celestial Seize** on Shi Yi
+- Located in the Temple Gardens in Kaifeng
 
 **Upgrade Materials**: Ebon Iron + Jade Tower Pearl
 

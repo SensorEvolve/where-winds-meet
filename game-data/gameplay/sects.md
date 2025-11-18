@@ -42,8 +42,6 @@ Players can choose **not to join any Sect**, remaining independent in Jianghu.
 - **Increased Martial Arts learning costs** (no discounts)
 - **No reputation bonuses** from Sect membership
 
-**Best For**: Players who want complete freedom without committing to a specific playstyle or ruleset.
-
 ---
 
 ## All Sects
@@ -76,8 +74,6 @@ Players can choose **not to join any Sect**, remaining independent in Jianghu.
 
 **Description**: This Sect values order, mutual support, and righteous conduct. Members are committed to helping one another and are prohibited from attacking fellow Sect members. In return, they must pay mandatory taxes and demonstrate chivalrous behavior.
 
-**Best For**: Players who enjoy cooperative PvE content, value community support, and prefer Tank builds (Thundercry Blade).
-
 **Related Faction**: Well of Heaven (see `/game-data/core/factions.md`)
 
 ---
@@ -107,8 +103,6 @@ Players can choose **not to join any Sect**, remaining independent in Jianghu.
    - **Effect**: Encourages community interaction and approval
 
 **Description**: This Sect focuses on providing healing services and earning player recognition. Members must balance professional healing with community engagement, always charging for their services while maintaining a positive reputation.
-
-**Best For**: Healer Career players, support-focused builds, and those who enjoy helping others in multiplayer content.
 
 ---
 
@@ -140,8 +134,6 @@ Players can choose **not to join any Sect**, remaining independent in Jianghu.
 
 **Description**: This Sect is designed for dedicated PvP players who embrace constant combat and negative karma. Members follow the philosophy that death is the ultimate mercy, ending all suffering. Join only if your primary playstyle revolves around PvP combat.
 
-**Best For**: Aggressive PvP players, those who enjoy high-risk combat, and Infernal Twinblades DPS builds.
-
 **Related Faction**: Midnight Blades (Midnight Mercy) - see `/game-data/core/factions.md`
 
 ---
@@ -169,8 +161,6 @@ Players can choose **not to join any Sect**, remaining independent in Jianghu.
 
 **Description**: If you enjoy tricking and pranking others with street smarts and cunning, the Nine Mortal Ways Sect is for you. Members aim to earn money and Fun Points by any means necessary, using disguises and deception.
 
-**Best For**: Players who enjoy social gameplay, trickery mechanics, merchant activities, and Mortal Rope Dart mobility builds.
-
 ---
 
 ### 5. Hollow Vale
@@ -196,8 +186,6 @@ Players can choose **not to join any Sect**, remaining independent in Jianghu.
 
 **Description**: Hollow Vale disciples walk the line between life and death, wielding both healing and poison. Members must maintain perfect balance between these opposing forces, using poison as often as they heal.
 
-**Best For**: Healer Career players who enjoy dual-role gameplay (healing and damage), Soulshade Umbrella support builds, and those interested in alchemical lore.
-
 **Notable Connection**: Opposes Aureate Pavilion's Sleeping Puppet creation (see `/game-data/core/factions.md`)
 
 ---
@@ -215,8 +203,6 @@ Players can choose **not to join any Sect**, remaining independent in Jianghu.
    - **Effect**: Emphasizes scholarly pursuits and written laws
 
 **Description**: The Inkbound Order is an ancient organization focused on governance through scholarship and written law. Members uphold the wisdom of sages and the power of the written word.
-
-**Best For**: Scholar Career players, those interested in lore and governance systems.
 
 **Related Faction**: Inkbound Order - Ancient governance organization from Spring and Autumn Period (see `/game-data/core/factions.md`)
 
@@ -242,8 +228,6 @@ Players can choose **not to join any Sect**, remaining independent in Jianghu.
    - **Effect**: Encourages altruistic gameplay and mutual aid
 
 **Description**: Mohist Hill follows the philosophy of Mozi (墨子), emphasizing universal love and mutual benefit. Members believe that helping others ultimately helps themselves.
-
-**Best For**: Players who enjoy cooperative gameplay, altruistic actions, and supporting the community.
 
 **Data Collection Needs**:
 - Associated Martial Arts
@@ -634,32 +618,9 @@ To complete Sects documentation, the following information is needed:
 
 ---
 
-## Tips for Choosing a Sect
+## Sect and Martial Arts Association
 
-### Match Playstyle to Sect Philosophy
-
-**PvE Players**:
-- **Well of Heaven**: Brotherhood, cooperative play, Tank builds
-- **Mohist Hill**: Universal love, mutual benefit
-
-**PvP Players**:
-- **Midnight Blades**: Aggressive PvP, Karma farming, negative alignment
-
-**Healer Players**:
-- **Silver Needle**: Paid healing, multiplayer support
-- **Hollow Vale**: Dual healing/poison, balanced gameplay
-
-**Merchant/Social Players**:
-- **Nine Mortal Ways**: Trickery, pranks, wealth accumulation
-
-**Scholar Players**:
-- **Inkbound Order**: Scholarship, writing, governance
-
----
-
-### Consider Martial Arts Discount
-
-If you plan to use a specific weapon, join the associated Sect for discounted learning:
+Each Sect provides a discount when learning its associated Martial Arts:
 
 | Martial Art | Sect | Build Type |
 |-------------|------|------------|
@@ -670,25 +631,7 @@ If you plan to use a specific weapon, join the associated Sect for discounted le
 | Mortal Rope Dart | Nine Mortal Ways | Mobile DPS |
 | Soulshade Umbrella | Hollow Vale | Healer/Support |
 
----
-
-### Evaluate Rule Restrictions
-
-**Avoid Sects with Conflicting Rules**:
-- Don't join **Well of Heaven** if you enjoy PvP (Brotherhood rule prohibits attacking Sect members)
-- Don't join **Midnight Blades** if you prefer PvE (requires constant PvP engagement)
-- Don't join **Silver Needle** if you dislike multiplayer (healing and likes requirements)
-- Don't join **Nine Mortal Ways** if you avoid risk (failed tricks deduct Virtue)
-
----
-
-### Sectless as a Viable Option
-
-**Choose Sectless if**:
-- You want to try all playstyles without restrictions
-- You don't care about exclusive cosmetics
-- You can afford increased Martial Arts learning costs
-- You prefer complete freedom over structured progression
+See `/game-data/progression/martial-arts.md` for complete Martial Arts unlock methods and costs.
 
 ---
 

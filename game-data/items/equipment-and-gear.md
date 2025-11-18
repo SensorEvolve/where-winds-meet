@@ -70,11 +70,13 @@ Equipment in Where Winds Meet affects both **combat effectiveness** and **appear
 
 ### Accessories
 
-**Three Types**:
+Accessories are equipment items that provide significant damage boosts for both melee weapons and bows. They follow the same substat and tuning systems as weapons.
+
+**Four Types**:
 
 #### 1. Discs (Offensive Equipment)
 
-**Primary Function**: Boost **minimum Physical Attack**
+**Primary Function**: Boost **minimum Physical Attack** for melee weapons
 
 **Additional Attributes**:
 - Specialized attack bonuses (Silkbind, Bellstrike, etc.)
@@ -82,11 +84,15 @@ Equipment in Where Winds Meet affects both **combat effectiveness** and **appear
 
 **Set Bonuses**: Contributes to Offensive Equipment Sets (with Pendants and Weapons)
 
+**Documented Disc Items**:
+- **Stormveil Disc** (Tier 16)
+- **Ten Directions Disc** (Tier 31)
+
 ---
 
 #### 2. Pendants (Offensive Equipment)
 
-**Primary Function**: Boost **maximum Physical Attack**
+**Primary Function**: Boost **maximum Physical Attack** for melee weapons
 
 **Additional Attributes**:
 - Specialized attack bonuses (Silkbind, Bellstrike, etc.)
@@ -96,9 +102,31 @@ Equipment in Where Winds Meet affects both **combat effectiveness** and **appear
 
 **Note**: Discs and Pendants are functionally identical except for min/max Physical Attack distinction
 
+**Documented Pendant Items**:
+- **Ten Directions Pendant** (Tier 31)
+
 ---
 
-#### 3. Rings (Bow Equipment)
+#### 3. Bows (Ranged Equipment)
+
+**Primary Function**: Increase **Bow Damage**
+
+**Additional Attributes**:
+- Bow-specific damage modifiers
+- Special bow effects
+- Varies by tier and rarity
+
+**Set Bonuses**: Bows do NOT contribute to Offensive Set Bonuses (separate from melee weapons)
+
+**Important**: Offensive sets (Jadewear, Hawkwing, etc.) only apply to **Melee weapon slots + Disc + Pendant**. They do NOT affect Bows or Archery Manuals.
+
+**Documented Bow Items**:
+- **Stormveil Long Bow - Longshot** (Tier 16)
+- **Crescent Bow - Longshot** (Tier 31)
+
+---
+
+#### 4. Archery Manuals (Bow Equipment)
 
 **Primary Function**: Boost **Bow Weakness Hit Damage**
 
@@ -107,9 +135,56 @@ Equipment in Where Winds Meet affects both **combat effectiveness** and **appear
 - Maximum Flight Duration
 - Other bow-related stats
 
-**Passive Abilities**: Rings come with unique passive abilities (revolve around Bow and Bow Skills)
+**Passive Abilities**: Archery Manuals come with unique passive abilities that enhance Bow and Bow Skills
 
-**Set Bonuses**: Rings do NOT contribute to Set Bonuses (separate from Armor and Offensive Sets)
+**Set Bonuses**: Archery Manuals do NOT contribute to Offensive Set Bonuses (separate from Armor and Offensive Sets)
+
+**Documented Archery Manual Items**:
+- **Crescent Ring** (Tier 31) - Listed as "Archery Manual" type
+
+---
+
+### Accessory Substat System
+
+**Substat Progression by Tier** (Same as Weapons):
+
+Accessories gain additional substat slots as they reach higher tiers:
+
+| Accessory Tier | Substats Available | Notes |
+|----------------|-------------------|-------|
+| Below Tier 31 | 0 substats | Base stats only |
+| Tier 31+ | 1 substat | First substat slot unlocks |
+| Tier 41+ | 2 substats | Tuning unlocks second slot |
+| Tier 51+ | 3 substats | Third slot becomes available |
+| Tier 56+ | 4 substats | Maximum substats (endgame) |
+
+**Substat Types** (Discs & Pendants):
+- Physical Attack (Min/Max)
+- Critical Rate/Damage
+- Affinity Rate
+- Precision Rate
+- Path-Specific Bonuses
+- Special Effects
+
+**Substat Rarity**:
+- White (Common) → Green (Uncommon) → Blue (Rare) → Purple (Epic) → Gold (Legendary)
+
+---
+
+### Tuning Material Accessories
+
+**Special Accessory Property**: Some accessories can gain a **Tuning Material substat**
+
+**How It Works**:
+- These accessories can be used as tuning materials for other accessories
+- Provide **guaranteed substat rarity** when used for tuning:
+  - **Purple Stone Icon** 🟣: Guarantees Purple or higher substat rarity
+  - **Gold Stone Icon** 🟡: Guarantees Gold (Legendary) substat rarity
+
+**Strategic Value**:
+- Don't discard accessories with tuning material substats
+- Save them for tuning your endgame accessories
+- Gold stone accessories are especially valuable for BiS accessory tuning
 
 ---
 

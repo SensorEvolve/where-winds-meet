@@ -3,15 +3,29 @@
 ## Touch of Death (暗杀 - Assassination)
 
 ### Overview
-**Type**: Stealth kill mechanic
+**Type**: General Mystic Skill (stealth kill mechanic)
+
+**Vitality Cost**: 0 (free to use)
 
 **Function**: Execute enemies or deal massive damage without being detected
+
+**Mechanics**:
+- Charge toward target from behind
+- Strike vital point on enemy's back with finger
+- **Instant kill on weak enemies** (weak constitutions)
+- **Massive damage on strong enemies**
 
 **Requirements**:
 - Enemy must be unaware (use Veil of Stillness)
 - Approach from behind or when enemy is blinded
 
-### Related Mystic Skills
+**Unlock**: Side Story: "Volume 1 - The Realm Endures"
+
+**Upgrade**: Can be upgraded (Ebon Iron + Beauty's Plume)
+- Increases damage with each tier
+- Allows kills on enemies with larger HP pools
+
+### Related Mystic Skills & Inner Ways
 
 **Veil of Stillness** (敛息):
 - Reduces enemy detection
@@ -24,21 +38,67 @@
 - Can use Touch of Death on blinded targets
 - Tier 3: +20% Touch of Death damage during effect
 
+**Shadow Assault** (Inner Way):
+- +1.5m Touch of Death range
+- +10% Touch of Death damage
+- Restores 5% of damage dealt as HP
+
 ### Uses
 - Stealth eliminations of guards/patrols
 - Massive damage to unaware enemies
 - Non-alert takedowns
+- Essential for stealth builds
 
 ---
 
 ## Windsense (风感 - Wind Perception)
 
 ### Overview
-**Type**: Detection and perception ability
+**Type**: General Mystic Skill (detection and perception ability)
+
+**Vitality Cost**: 0 (free to use)
 
 **Function**: See enemy patrol routes, field of view, and enable special interactions
 
-### Confirmed Uses
+**Mechanics**:
+- Perceive approaching entities through wind currents
+- Distinguish position by sensing surroundings
+- **Highlights items or people of interest** in area
+- Activated ability/toggle
+
+**Unlock**: Main Quest (automatic)
+
+**Upgrade**: Cannot be upgraded
+
+### Comprehensive Uses
+
+**Combat**:
+- Quickly spot enemies
+- Identify interactable objects
+- View enemy **strengths and weaknesses**
+- Initiate **Healing mode**
+
+**Stealth**:
+- **Identify field of view of patrolling enemies** (detection cones)
+- See enemy detection zones
+- Plan stealth routes
+- Essential with Veil of Stillness
+
+**NPC Interaction**:
+- See what NPCs are carrying
+- Identify items to steal with Celestial Seize
+- View negotiation opportunities
+- Enables stealing from NPCs (with Celestial Seize)
+
+**Quests**:
+- Track targets
+- Find hidden objectives
+- Reveal quest items
+- Highlight important people/items
+
+**General Rule**: When in doubt, use Windsense to spot something overlooked
+
+### Related Skills
 
 **With Veil of Stillness**:
 - See enemy fields of view while stealthed
@@ -50,10 +110,10 @@
 - Reveals stealable items
 - Shows interaction opportunities
 
-### Mechanics
-- Likely activated ability or toggle
-- Shows visual indicators for enemy awareness
-- Reveals hidden opportunities
+**With Touch of Death**:
+- Identify unaware enemies
+- Plan assassination routes
+- See enemy positions
 
 ---
 
@@ -315,6 +375,122 @@ Special challenge mode for skill progression
 **Flaming Meteor**:
 - "Gain proficiency by deflecting in Campaign-Challenge"
 - Acquire skill when Proficiency is full
+
+---
+
+## Insight Resource System
+
+### Overview
+**Insight** is a resource used for **Star Shift** (deflection mechanic)
+
+### Visual Indicator
+- Displayed as split bar under Qi bar during combat
+- More splits = More Insight available
+- Each segment represents 1 use of Star Shift
+
+### How to Use
+- **Star Shift** consumes Insight to trigger Deflection
+- Neutralizes enemy attacks that cannot be countered
+- Essential defensive resource
+
+### Increasing Insight Cap
+
+**Method**: Upgrade Star Shift Mystic Skill
+
+**Upgrades**:
+- Tier 2: +1 Insight Cap
+- Tier 3: +1 Insight Cap (total +2 from base)
+
+**Upgrade Materials**: Ebon Iron + Wine Jujube
+
+### Strategy
+- Start with limited Insight (base amount TBD)
+- Upgrade Star Shift early for more deflections per fight
+- Use for attacks that can't be countered or dodged
+- Essential for defensive builds and boss fights
+
+---
+
+## Divine Counter & Exhaustion System
+
+### Exhaustion State
+
+**What is Exhaustion**:
+- State when enemy or player Endurance is depleted
+- Creates vulnerability window
+- Enables special finishing attacks
+
+**How to Cause**:
+- Drain target's Endurance through repeated attacks
+- Use skills that reduce Endurance recovery
+- Relentless pressure
+
+### Divine Counter Mechanic
+
+**Skill**: Divine Counter (General Mystic Skill)
+
+**Effect**:
+- Counter-attack after defending
+- Deals damage
+- Reduces target Endurance recovery by 50% for 8s
+
+**Strategy**:
+- Use Divine Counter repeatedly to drain enemy Endurance
+- Faster path to Exhaustion state
+- Chain with other Endurance-draining skills
+
+### Exhaustion Execution
+
+**Vital Leech** (Inner Way):
+- Casting Exhaustion Execution Skill restores 8% of damage dealt as HP
+- Life steal from finishing attacks
+
+**Strategy**:
+- Drain Endurance with Divine Counter, Serene Breeze, Talon Strike
+- Wait for Exhaustion state
+- Perform high-damage finishing attack
+- Restore HP with Vital Leech (if equipped)
+
+---
+
+## Oddities & Melodies of Peace
+
+### Oddities System
+
+**What are Oddities**:
+- Collectible items scattered throughout world
+- Used to increase max Vitality
+- Essential progression for Mystic Skills
+
+**Types of Oddities** (from Still Waters description):
+- **Moonbeam Toads** - Mobile creatures
+- **Midnight Nibblers** - Mobile creatures
+- Other types TBD
+
+### Collecting Oddities
+
+**Challenges**:
+- Some Oddities move and must be caught
+- Use **Still Waters** to slow them down (75% movement reduction)
+- Makes collection easier
+
+### Melodies of Peace System
+
+**Purpose**: Exchange Oddities for max Vitality increases
+
+**Process**:
+1. Collect Oddities throughout the world
+2. Submit Oddities to Melodies of Peace system
+3. Increase max Vitality
+4. Unlock ability to cast high-cost Mystic Skills
+
+**Importance**:
+- Some Offensive Mystic Skills have high Vitality costs
+- Starting Vitality insufficient for all skills
+- Must increase cap through this system
+- Essential for endgame builds
+
+**Status**: Full mechanics TBD (how many Oddities, where to submit, exact Vitality increases)
 
 ---
 

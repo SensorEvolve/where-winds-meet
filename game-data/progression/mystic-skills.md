@@ -21,8 +21,17 @@
 
 Mystic Skills are divided into three main categories:
 
-1. **Offensive Mystic Skills** - Combat and puzzle skills (24+ documented)
-2. **General Mystic Skills** - (Details TBD)
+1. **Offensive Mystic Skills** - Combat and puzzle skills (24 documented)
+   - Equipped in 8-slot HUD
+   - Consume Vitality
+   - Combat + exploration uses
+
+2. **General Mystic Skills** - Utility and passive skills (5 documented)
+   - Accessed via hotkeys (not in HUD)
+   - **Do NOT consume Vitality**
+   - Utility-focused, always available
+   - Most cannot be upgraded
+
 3. **Movement Mystic Skills** - (Details TBD)
 
 ---
@@ -701,6 +710,222 @@ Mystic Skills are divided into three main categories:
 
 ---
 
+## General Mystic Skills
+
+### Overview
+
+**Total Count**: 5 General Mystic Skills
+
+**Key Differences from Offensive Skills**:
+- **No Vitality Cost** - Can be used freely
+- **Hotkey Access** - Not equipped in 8-slot HUD
+- **Always Available** - No need to equip in limited slots
+- **Utility-Focused** - Tools rather than offensive assets
+
+**Upgradeable Skills**: Only 2 can be upgraded
+- **Star Shift** - Increases Insight (deflection resource)
+- **Touch of Death** - Increases assassination damage
+
+**Unlock Method**: All unlocked naturally through Main Quest progression (impossible to miss)
+
+---
+
+### 1. Divine Counter (神挡) - ACTIVE
+
+**Type**: Counter-attack skill
+
+**Vitality Cost**: 0 (free to use)
+
+**Effects**:
+- Channel inner energy and focus mind
+- After defending against enemy technique, counter-attack with precise timing
+- Deal damage
+- Reduce target **Endurance recovery by 50%** for 8s
+
+**Usage**:
+- Countering drains enemy Endurance faster
+- Makes enemies fall into **Exhausted state**
+- Perform finishing attack for massive damage when Exhausted
+
+**Unlock Method**: Main Quest (automatic)
+
+**Upgrade**: Cannot be upgraded
+
+**Lore**: One of two secret techniques by Jiang Wulang. Reactive skill where he allows opponent to attack, then counters at the moment their offense falters. Many renowned masters underestimated him and were defeated by this technique.
+
+---
+
+### 2. Star Shift (星移) - ACTIVE
+
+**Type**: Deflection skill
+
+**Vitality Cost**: 0 (consumes **Insight** instead)
+
+**Effects**:
+- Focus mind to read enemy weakness
+- Just before attack lands, consume **Insight** to trigger **Deflection**
+- Neutralizes enemy attack
+
+**Insight System**:
+- Insight is a resource shown under Qi bar during combat
+- Split bar indicates how much Insight available
+- Upgrading Star Shift increases **Insight Cap**
+- More Insight = More deflections possible
+
+**Usage**:
+- Deflect attacks that **cannot be countered**
+- Avoid damage from unblockable attacks
+- Essential defensive tool
+
+**Unlock Method**: Main Quest (automatic)
+
+**Upgrade**: Can be upgraded (uses Ebon Iron + Wine Jujube)
+
+**Tier Bonuses**:
+- Tier 2: +1 Insight Cap
+- Tier 3: +1 Insight Cap
+- Tier 4: N/A
+
+**Lore**: Invented by Shi Jiuge, leader of Raging Tides Sect, to avoid fighting his hot-tempered wife Zhu Xianyu. He'd subtly deflect her attacks to let her vent without harm. Jokingly named "Easy Beating" before being rebranded "Grand Evasion" by the Sichuan hero Ba.
+
+---
+
+### 3. Still Waters (静水) - ACTIVE
+
+**Type**: Time-slow/crowd control skill
+
+**Vitality Cost**: 0 (consumes **Endurance** continuously)
+
+**Effects**:
+- While holding breath, reduce movement speed of surrounding targets by **75%**
+- Consumes Endurance every 0.1 seconds
+- Creates slow-motion effect in area
+
+**Usage**:
+- **Extremely useful for all archery** (combat and contests)
+- Puzzle-solving: Slow down Moonbeam Toads and Midnight Nibblers for Oddity Collection
+- General combat crowd control
+- Gives time to line up shots or avoid danger
+
+**Unlock Method**: Main Quest (automatic)
+
+**Upgrade**: Cannot be upgraded
+
+**Lore**: When mentor Tian Ying abandoned Inkbound Order, archer Feng Jisheng spent a decade perfecting Still Waters. Archery-derived technique that sharpens focus to freeze time's flow. Rather than treasuring it, Feng shared it freely with all kindred spirits.
+
+---
+
+### 4. Touch of Death (暗杀) - PASSIVE
+
+**Type**: Stealth assassination skill
+
+**Vitality Cost**: 0 (free to use)
+
+**Effects**:
+- Charge toward target from behind
+- Strike vital point on enemy's back with finger, dealing damage
+- **Can defeat enemies with weak constitutions with single hit**
+- Instant kill on weak enemies, massive damage on strong enemies
+
+**Usage**:
+- Take out enemies unseen
+- Deal massive damage before being discovered
+- **Best used with Veil of Stillness and Windsense**
+- Essential for stealth gameplay
+
+**Synergies**:
+- **Veil of Stillness** - Reduces enemy detection
+- **Windsense** - See enemy patrol routes and fields of view
+- **Shadow Assault** (Inner Way) - +1.5m range, +10% damage, +5% HP restore
+- **Blinding Mist** (Mystic Skill) - Blind enemies, then use Touch of Death (+20% damage at Tier 3)
+
+**Unlock Method**: Side Story: "Volume 1 - The Realm Endures"
+
+**Upgrade**: Can be upgraded (uses Ebon Iron + Beauty's Plume)
+
+**Tier Bonuses**: Increases damage, allowing kills on enemies with larger HP pools
+
+**Lore**: Developed by Commander Qi Jingtang of Northern Vow's Flying Horse division for close-quarters combat. Years of border patrol left many scouts wounded, prompting creation of swift, precise method to minimize casualties. Goal was ensuring more soldiers returned home alive.
+
+---
+
+### 5. Wind Sense / Windsense (风感) - PASSIVE
+
+**Type**: Detection and perception ability
+
+**Vitality Cost**: 0 (free to use)
+
+**Effects**:
+- Perceive approaching entities through wind currents
+- Distinguish position by sensing surroundings
+- **Highlights items or people of interest** in area
+
+**Comprehensive Uses**:
+
+**Combat**:
+- Quickly spot enemies
+- Identify interactable objects
+- View enemy strengths and weaknesses
+- Initiate Healing mode
+
+**Stealth**:
+- **Identify field of view of patrolling enemies**
+- See enemy detection cones
+- Plan stealth routes
+- Essential with Veil of Stillness
+
+**NPC Interaction**:
+- See what NPCs are carrying
+- Identify items to steal with Celestial Seize
+- View negotiation opportunities
+
+**Quests**:
+- Track targets
+- Find hidden objectives
+- Reveal quest items
+
+**General Rule**: When in doubt, use Windsense to spot something overlooked
+
+**Unlock Method**: Main Quest (automatic)
+
+**Upgrade**: Cannot be upgraded
+
+**Lore**: Legend says Dugu Yuan, master of Well of Heaven, invented this. Despite extreme shyness and reluctance to look at others, he could always identify approaching individuals. Solitary years atop wind-swept pavilions taught him to distinguish people by subtle sounds and air disturbances.
+
+---
+
+## General Mystic Skills Strategy
+
+### Essential Skills for All Players
+
+**Divine Counter**: Learn to counter for Endurance drain
+**Star Shift**: Master deflection timing for survival
+**Windsense**: Use constantly for awareness
+
+### Build-Specific Priorities
+
+**Stealth Builds**:
+- **Touch of Death** - Core assassination tool
+- **Windsense** - See patrol routes
+- Pair with Veil of Stillness and Shadow Assault Inner Way
+
+**Ranged/Archery Builds**:
+- **Still Waters** - Essential for aiming
+- Slow enemies for easier shots
+- Critical for archery contests
+
+**Tank/Defensive Builds**:
+- **Divine Counter** - Drain enemy Endurance
+- **Star Shift** - Deflect unblockable attacks
+- Upgrade Star Shift for more Insight
+
+**All Builds**:
+- **Windsense** - Universal utility
+- Use before engaging enemies
+- Check for hidden items/paths
+
+---
+
 ## Mystic Skill Upgrade System
 
 ### Tier and Rank Structure
@@ -723,14 +948,20 @@ Mystic Skills are divided into three main categories:
 - **Jade Tower Pearl**
 - **Jasmine Stamen**
 - **Frost Mushroom Mycelium**
+- **Wine Jujube** (for Star Shift)
 
 Higher Tiers require higher-level materials.
 
 ### Non-Upgradeable Skills
 
-Some Support skills cannot be upgraded:
+**Offensive Support Skills** (cannot be upgraded):
 - Glow of Fireflies
 - Veil of Stillness
+
+**General Mystic Skills** (cannot be upgraded):
+- Divine Counter
+- Still Waters
+- Wind Sense
 
 ---
 
@@ -811,11 +1042,10 @@ Some Support skills cannot be upgraded:
 ## Data Collection Needs
 
 **NEEDED INFORMATION**:
-- ✅ ~~List of all 23 Mystic Skills~~ **UPDATED: 24 of 40 Offensive skills documented**
-- **16 remaining Mystic Skills** (details needed)
-- Complete **General Mystic Skills** category
-- Complete **Movement Mystic Skills** category
-- Exact Vitality costs for each skill
+- ✅ ~~Offensive Mystic Skills~~ **COMPLETED: 24/24 documented**
+- ✅ ~~General Mystic Skills~~ **COMPLETED: 5/5 documented**
+- **Movement Mystic Skills** category (11 remaining to reach 40 total)
+- Exact Vitality costs for Offensive skills
 - Complete list of Boundary Stone locations
 - Melodies of Peace system details (Oddities collection)
 - Touch of Death ability mechanics

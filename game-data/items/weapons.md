@@ -223,20 +223,151 @@ Weapons are organized into **Paths** that determine build identity:
 ## Weapon Progression
 
 ### Acquisition
-- Starting weapon choice
+- Starting weapon choice (True Heart weapons)
 - Find weapons through exploration
 - Craft weapons
 - Purchase from vendors
 - Earn through quests
 - Drops from enemies/bosses
+- Weapon tier progression as you level up
+
+### Weapon Tier Progression
+
+Weapons progress through multiple tier sets as players level up. Each tier set includes variants for all 7 weapon types.
+
+#### Tier 1: True Heart Set (Starting Weapons)
+
+**Level Range**: 1
+**Availability**: Starting equipment
+
+| Weapon Name | Type |
+|-------------|------|
+| True Heart - Sword | Sword |
+| True Heart Spear | Spear |
+| True Heart Fan | Fan |
+
+**Characteristics**:
+- Basic starter weapons
+- Lowest stats
+- Available at character creation
+- Used for early tutorial content
+
+---
+
+#### Tier 1-3: Simple/Early Progression Set
+
+**Level Range**: 1-3
+**Availability**: Early quest rewards, vendors
+
+| Weapon Name | Type |
+|-------------|------|
+| Simple Wooden Sword | Sword |
+| Simple Wooden Spear | Spear |
+| Jiang Wulang-Old Spear | Spear |
+| Simple Fan | Fan |
+
+**Characteristics**:
+- Early progression weapons
+- Slight upgrade from True Heart set
+- Obtainable through early quests
+- Transitional equipment
+
+---
+
+#### Tier 16: Stormveil Set
+
+**Level Range**: 16+
+**Availability**: Quest rewards, crafting, vendors
+
+| Weapon Name | Type |
+|-------------|------|
+| Stormveil Long Sword | Sword |
+| Stormveil Long Spear | Spear |
+| Stormveil Fan | Fan |
+| Stormveil Umbrella | Umbrella |
+| Stormveil Dual Blades | Dual Blades |
+| Stormveil Mo Blade | Mo Blade |
+| Stormveil Rope Dart | Rope Dart |
+
+**Characteristics**:
+- First complete weapon set (all 7 types)
+- Mid-tier equipment
+- Significant power increase over early weapons
+- Suitable for General's Shrine and early Qinghe content
+
+---
+
+#### Tier 31: Ten Directions Set
+
+**Level Range**: 31+
+**Availability**: Advanced crafting, dungeon rewards, vendors
+
+| Weapon Name | Type |
+|-------------|------|
+| Ten Directions Long Sword | Sword |
+| Ten Directions Long Spear | Spear |
+| Ten Directions Umbrella | Umbrella |
+| Ten Directions Dual Blades | Dual Blades |
+| Ten Directions Mo Blade | Mo Blade |
+| Ten Directions Rope Dart | Rope Dart |
+
+**Characteristics**:
+- Advanced mid-tier set
+- 6 weapon types (no Fan variant)
+- Suitable for Kaifeng content
+- Strong stats for mid-game progression
+
+**Note**: Missing Fan variant in this set - players must use Tier 16 or Tier 56 Fans
+
+---
+
+#### Tier 56: Rhapsody Set (High-End Weapons)
+
+**Level Range**: 56+
+**Availability**: High-level crafting, boss drops, endgame vendors
+
+| Weapon Name | Type |
+|-------------|------|
+| Rhapsody Long Sword | Sword |
+| Rhapsody Long Spear | Spear |
+| Rhapsody Fan | Fan |
+| Rhapsody Umbrella | Umbrella |
+| Rhapsody Dual Blades | Dual Blades |
+| Rhapsody Mo Blade | Mo Blade |
+| Rhapsody Rope Dart | Rope Dart |
+
+**Characteristics**:
+- Complete high-end weapon set (all 7 types)
+- High-tier equipment for endgame content
+- Strongest base stats
+- Suitable for World Bosses and Campaign Challenges
+- Required for optimized endgame builds
+
+---
+
+### Weapon Tier Summary
+
+| Tier | Set Name | Weapon Count | Completeness | Level Range |
+|------|----------|--------------|--------------|-------------|
+| 1 | True Heart | 3 | Partial (Sword, Spear, Fan) | 1 |
+| 1-3 | Simple/Early | 4 | Partial (Sword, Spear, Fan) | 1-3 |
+| 16 | Stormveil | 7 | Complete (All Types) | 16+ |
+| 31 | Ten Directions | 6 | Nearly Complete (No Fan) | 31+ |
+| 56 | Rhapsody | 7 | Complete (All Types) | 56+ |
+
+**Total Documented Weapons**: 27 weapon variants across 5 tier sets
+
+---
 
 ### Upgrade System
 - Weapon enhancement levels
-- Material requirements
-- Stat improvements
+- Material requirements (Ebon Iron, etc.)
+- Stat improvements per level
 - Special effect unlocking
+- Breakthrough materials for high tiers
 
-### Rarity Tiers (Assumed)
+### Rarity Tiers
+Weapons may also have rarity levels affecting stats:
 - Common (White/Gray)
 - Uncommon (Green)
 - Rare (Blue)

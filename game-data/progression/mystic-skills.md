@@ -1286,7 +1286,9 @@ Higher Tiers require higher-level materials.
 ### 3. Skill Theft (技能偷学)
 - Observe NPCs or animals using skills
 - Use "Skill Theft" ability on them
+- Complete timing-based mini-game to learn the skill
 - Examples: Tai Chi (from bear), Leaping Toad (from toad), Honking Havoc (from goose)
+- **See**: `/game-data/gameplay/skill-theft.md` for complete Skill Theft guide
 
 ### 4. Timing Comprehension (悟性领悟)
 - Mini-game: sit and watch animal/person perform skill

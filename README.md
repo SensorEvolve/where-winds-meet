@@ -47,6 +47,11 @@ Where Winds Meet is a free-to-play open-world wuxia action RPG set in 10th-centu
   - Various colored butterflies with different destinations
   - Rewards: Experience, treasure, lore cutscenes
   - Integration with Exploration Skills and Mounts
+- ✅ **Quests** (quest catalog)
+  - Campaign Main Story: Chapter 1 (5 quests), Chapter 2 (6+ quests)
+  - Side Stories: 40+ quests across Qinghe and Kaifeng regions
+  - Quest chains: Three-volume Kaifeng story arc (Volume I, II, III)
+  - Career Quests and Exploration Quests (pending documentation)
 - Activities and events
 - Special abilities
 
@@ -155,6 +160,13 @@ Last Updated: 2025-11-18
     - Interaction types: Light Incense, Interact with Point, Complete Task, Trigger Cutscene
     - Rewards: Zhou Coins, Character EXP, Stored EXP, treasure, lore cutscenes
     - Integration with Exploration Skills, Mounts, and Jianghu Friends
+  - Quests: Quest catalog (Campaign, Side Stories)
+    - Campaign Main Story: Chapter 1 "Heaven Has No Pier" (5 quests), Chapter 2 "Universal Furnace" (6+ quests)
+    - Side Stories: 40+ Fragment Chapter quests across Qinghe and Kaifeng regions
+    - Quest chains: Three-volume Kaifeng arc (Strife in Every Corner, Lights Flicker in Every Home, Every Hearth Aglow)
+    - Location-specific quests: Ever-Normal Granary, Jinming Pool, Unbound Cavern
+    - Integration with Skill Theft, Jianghu Friends, Factions, and Exploration systems
+    - Career Quests and Exploration Quests pending documentation
   - Crime, disease, building, gathering systems
 - **Equipment & Gear**: Complete gear system documented
   - All 12 Gear Sets with 2-piece and 4-piece bonuses
@@ -191,8 +203,8 @@ Last Updated: 2025-11-18
 - Remaining 11 regions (of 20 total)
 - Complete weapon variant list with stats
 - Exact damage values and cooldowns for Martial Arts skills
-- Crafting system documentation
-- Quest database
+- Quest details (objectives, rewards, walkthroughs)
+- Career Quests and Exploration Quests documentation
 - NPC database
 - Talent Points and Enlightenment Points systems
 

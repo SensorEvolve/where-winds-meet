@@ -409,7 +409,11 @@ Mystic Skills are divided into three main categories:
 ### 1. Tai Chi (太极) - PUZZLE
 
 **Vitality Cost**: 0
+**Cooldown**: 12s
 **Location**: Qinghe, General's Shrine
+
+**Lore**:
+In his youth, Master Feng Dao of the Inkbound Order received guidance from Elder Chen Tuan and, through deep study of the I Ching, devised a subtle art. It could redirect an enemy's force to make them stumble, defeating even the strongest without ever being touched. After Tian Ying's betrayal, both the technique and the precious tomes associated with it vanished from the Jianghu.
 
 **Out of Combat**:
 - Gather fallen leaves in certain areas (Leaf Swirl puzzles)
@@ -419,20 +423,20 @@ Mystic Skills are divided into three main categories:
 **In Combat**:
 - Pull and whirl target, then hurl for damage
 - Rotate camera to aim throw direction
-- **Especially effective against Shield-Bearing Enemies**
-- Disarm shields with repeated throws
-- Bonus damage to bears
+- **Especially potent against Shield-Bearing Enemies**
+- Disarm shields with repeated throws (may take more than one throw)
+- Deals bonus damage to bears
 
 **Unlock Method**:
 - Main Quest: "A Bear of a Time"
-- Use **Skill Theft** on bear using Tai Chi near General's Shrine
+- Use **Skill Theft** on bear using Tai Chi on the way to General's Shrine in Qinghe
 
 **Upgrade Materials**: Ebon Iron + Vicious Fruit
 
 **Tier Bonuses**:
-- Tier 2: +20% Shield Breaker damage on Weak Point Break
-- Tier 3: Reduces target defense by 20% for 10s after Weak Point Break
-- Tier 4: +30% additional Shield Breaker damage
+- Tier 2 (Damage Enhancement): Increases Phase-Two Shield Breaker Damage by 20% on Weak Point Break
+- Tier 3 (Strategy Enhancement): Reduces the target's defense by 20% for 10 seconds after Weak Point Break
+- Tier 4 (Damage Enhancement): Further increases Phase-Two Shield Breaker Damage by 30% on Weak Point Break
 
 ---
 

@@ -2,15 +2,26 @@
 
 ## Crime & Theft System
 
-### Heavenly Snatch (天机窃取)
+### Celestial Seize (天机窃取) - Mystic Skill
 
-**Type**: Theft ability
+**Type**: Theft ability (Mystic Skill - Puzzle category)
+
+**Location**: Heaven's Pier (Qinghe)
 
 **Mechanics**:
 - Can steal from NPCs or locations
+- Pull distant objects from chests/backpacks
+- Gather poisonous plants safely
+- **Use with Windsense** to steal from NPCs
 - Success/failure system
 - Failed attempts can arouse suspicion
-- Requires stealth and timing
+
+**Combat Use**:
+- Disarm enemy weapons
+- Counter with their weapon
+- Damage scales with weapon weight
+
+**Unlock**: Exploration Quest - "Foul Play"
 
 **Related Exploration Skills**:
 - **Shadow Theft**: Less likely to arouse suspicion when theft fails (400 Total Aspiration, Mindset 50, Elegance 30)

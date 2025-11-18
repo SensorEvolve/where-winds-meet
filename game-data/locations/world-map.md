@@ -53,19 +53,100 @@ Based on historical China and wuxia traditions:
 ### Known Regions
 
 #### 1. Qinghe (清河)
-**Status**: Confirmed location
+**Status**: Confirmed region
+**Type**: Starting area, urban + wilderness
 **Features**:
 - Contains treasure chests (shown on minimap with Treasure Seeker skill)
-- Urban area (likely a city or major town)
+- Starting region with multiple sub-areas
+
+**Known Locations in Qinghe**:
+- **General's Shrine** - Starting town, first settlement players visit
+- **Heaven's Pier** - Coastal/pier area
+- **West Heaven's Pier** - Western pier location
+- **Blissful Retreat** - Location near West Heaven's Pier
+- **Copper Bells** - Scattered throughout region (collect all for Lion's Roar skill)
+
+**Mystic Skills Found Here**:
+- Tai Chi (General's Shrine - bear)
+- Leaping Toad (General's Shrine - toad)
+- Celestial Seize (Heaven's Pier - "Foul Play" quest)
+- Lion's Roar (Copper bells scattered in region)
+- Yaksha Rush (Side Story quest)
+- Blinding Mist (Side Story quest)
+- Honking Havoc (Road between West Heaven's Pier and Blissful Retreat - goose)
+
+---
 
 #### 2. Kaifeng (开封)
-**Status**: Confirmed location
+**Status**: Confirmed region
+**Type**: Urban, major city
 **Features**:
 - Contains treasure chests (shown on minimap with Treasure Seeker skill)
-- Urban area (likely a major city)
+- Major city location
 - **Historical Note**: Kaifeng was a major city in historical China during the Song Dynasty
 
-**Note**: 18 more regions to be documented
+---
+
+#### 3. Palace of Annals (典籍宫)
+**Status**: Confirmed location
+**Type**: TBD (possibly library or archive)
+**Features**:
+- Home to Golden Eagles
+- Location for learning Talon Strike Mystic Skill
+
+---
+
+#### 4. Halo Peak (光环峰)
+**Status**: Confirmed location
+**Type**: Mountain/Peak, Buddhist temple area
+**Features**:
+- Buddhist temple or monastery
+- Location for learning Free Morph Mystic Skill
+- Related to Master Miaoshan's enlightenment story
+
+---
+
+#### 5. Bodhi Sea (菩提海)
+**Status**: Confirmed location
+**Type**: TBD (possibly ocean/sea area or metaphorical name)
+**Features**:
+- Campaign-Challenge content available
+- Location for learning Flaming Meteor Mystic Skill (via proficiency)
+
+---
+
+#### 6. Fairgrounds (集市)
+**Status**: Confirmed location
+**Type**: Festival/market area
+**Features**:
+- **Beast Reverie** - Performance venue within Fairgrounds
+- Fire-breathing performer location (Dragon's Breath skill)
+- Entertainment and performance area
+
+---
+
+#### 7. Grand Imperial Temple (大皇寺)
+**Status**: Confirmed location
+**Type**: Buddhist temple, imperial significance
+**Features**:
+- Major Buddhist temple
+- Players learning Buddhist abilities here
+- Location for discovering Golden Body Mystic Skill
+- Historically significant (renamed from Jianguo Temple)
+
+---
+
+#### 8. Martial Temple (武庙)
+**Status**: Confirmed location
+**Type**: Military/government martial arts facility
+**Features**:
+- Government army training ground
+- Orthodox military techniques preserved
+- Location for learning Soaring Spin Mystic Skill
+
+---
+
+**Note**: 12-13 more regions to be documented (20 total regions)
 
 ---
 

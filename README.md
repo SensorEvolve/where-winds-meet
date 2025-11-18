@@ -15,7 +15,8 @@ Where Winds Meet is a free-to-play open-world wuxia action RPG set in 10th-centu
 ### `/game-data/gameplay/`
 - Combat mechanics and systems
 - Game modes (single-player, co-op, MMO)
-- **Skill Theft system** (complete guide)
+- ✅ **Skill Theft system** (complete guide)
+- ✅ **Crafting system** (5 categories, 100+ recipes)
 - Activities and events
 - Special abilities
 
@@ -86,6 +87,9 @@ Last Updated: 2025-11-18
 - **Game Mechanics**: Complete systems documented
   - Skill Theft: Full mini-game guide with unlock method
   - Player Housing: Complete rental system (3 types), Commerce Coins, benefits
+  - Crafting: 5 categories (Construction & Housing, Weapons & Gear, Talismans, Potions, Food)
+    - 100+ recipes with materials and Stamina costs
+    - Career-exclusive crafting (Scholar: Talismans, Healer: Potions)
   - Crime, disease, building, gathering systems
 - **Equipment & Gear**: Complete gear system documented
   - All 12 Gear Sets with 2-piece and 4-piece bonuses

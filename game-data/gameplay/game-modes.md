@@ -1,96 +1,57 @@
 # Where Winds Meet - Game Modes
 
-## Available Game Modes
-
-### 1. Single-Player Campaign
-
-**Description**: Rich, narrative-driven adventure
-
-**Features**:
-- 100-150+ hours of solo gameplay
-- Story-focused experience
-- Personal journey as a sword master
-- Can be played entirely offline/solo
-
-**Best For**:
-- Players who prefer story immersion
-- Solo gamers
-- Those who want to experience lore deeply
+> **Early Access Note**: This document reflects game modes from the Early Access version. Additional modes and features may be added in future updates.
 
 ---
 
-### 2. Co-op Mode
+## Available Game Modes
 
-**Description**: Seamless cooperative multiplayer
+### Single-Player Campaign
+
+Experience a rich, narrative-driven wuxia adventure as a solo player.
+
+**Features**:
+- 100-150+ hours of story-focused gameplay
+- Personal journey as a sword master uncovering forgotten truths
+- Can be played entirely offline/solo
+- Full access to main story and world exploration
+
+---
+
+### Co-op Mode
+
+Team up with friends in seamless cooperative multiplayer.
 
 **Features**:
 - **Party Size**: Up to 4 players
-- **Cross-play**: Full support across PC, PS5, and Mobile
-- **Cross-progression**: Shared progress across platforms
-- **Integration**: Seamlessly open your world to friends
-- **Content**: Experience story and world together
-
-**Best For**:
-- Playing with friends
-- Coordinated combat strategies
-- Shared exploration
+- **Cross-Play**: Full support across PC, PS5, and Mobile
+- **Cross-Progression**: Shared progress across all platforms
+- **World Sharing**: Open your world to friends seamlessly
+- **Shared Content**: Experience story quests and exploration together
 
 ---
 
-### 3. MMO Mode
+### MMO Mode
 
-**Description**: Online shared world experience
+Join thousands of players in a shared online world.
 
 **Features**:
-- Thousands of players in shared world
-- Social interactions
-- Large-scale events (assumed)
-- Guild/Clan systems (assumed)
-- World bosses (assumed)
-- Trading and economy (assumed)
-
-**Best For**:
-- Social players
-- Large-scale content
-- Community engagement
-- Competitive gameplay
+- Shared world with thousands of concurrent players
+- Social interactions and community engagement
+- Large-scale multiplayer activities
+- Persistent online world experience
 
 ---
 
 ## Mode Flexibility
 
-**Player Choice**: Players can choose their preferred mode or mix between them
-
-**Seamless Transition**: Appears to allow switching between solo, co-op, and MMO experiences
-
----
-
-## Additional Activities (Assumed)
-
-### PvE Content
-- Dungeons
-- World bosses
-- Events and festivals
-- Daily/weekly challenges
-
-### PvP Content (Status: Unknown)
-- Arena battles
-- Duels
-- Territory control
-- Ranked matches
-
-### Side Activities
-- Crafting and gathering
-- Fishing
-- Mini-games
-- Racing
-- Exploration challenges
+Where Winds Meet allows players to choose their preferred mode or seamlessly mix between them. Switch between solo, co-op, and MMO experiences based on your preference at any time.
 
 ---
 
 ## Data Collection Needs
 
-**NEEDED INFORMATION**:
+**Additional Information Needed**:
 - PvP modes and mechanics
 - Dungeon/raid structure and difficulty tiers
 - Guild system details
@@ -101,5 +62,5 @@
 - Social features (chat, guilds, friends lists)
 - Leaderboards and ranking systems
 - Endgame content structure
-- Daily/weekly activity rewards
+- Daily/weekly activity systems
 - Battle pass content and progression

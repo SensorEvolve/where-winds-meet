@@ -195,7 +195,6 @@ Last Updated: 2025-11-18
   - Item acquisition methods and storage systems
   - Material-to-upgrade mapping for Mystic Skills
 - **Locations**: 9 confirmed regions with details
-- **Build Archetypes**: Tank, DPS, Healer, Balanced, Support builds documented
 - **Factions**: 6 major organizations documented
   - Northern Vow: Resistance fighting for Yanyun lands (led by Wang Qin)
   - Aureate Pavilion: Jiangnan Kingdom infiltrators creating Sleeping Puppets

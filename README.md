@@ -69,6 +69,10 @@ Last Updated: 2025-11-18
 - **Mystic Skills**: All 40 skills documented (Offensive 24, General 5, Movement 11)
 - **Inner Ways**: All 37+ passive skills documented with Weapon Paths
 - **Exploration Skills**: All 25 skills documented with requirements
+- **Character Attributes**: Complete stat system documented
+  - Combat Attributes: 5 Primary + 25+ Secondary stats
+  - Exploration Attributes: 11 Aspiration stats with mini-game methods
+  - Career Attributes: Healer and Scholar complete stat sets
 - **Special Abilities**: Touch of Death, Windsense, Insight system documented
 - **Game Mechanics**: Crime, disease, building, gathering systems documented
 - **Locations**: 8 confirmed regions with details

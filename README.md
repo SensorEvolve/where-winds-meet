@@ -26,6 +26,11 @@ Where Winds Meet is a free-to-play open-world wuxia action RPG set in 10th-centu
   - Weekly gifts at revered status
   - Interaction types: Pitch Pot, Fishing Contest, Gift of Gab (AI Chat), Sparring Match, Food Vendors
   - Regional distribution across Qinghe and other areas
+- ✅ **Enemies** (complete catalog)
+  - 30+ enemy types across 9 factions
+  - Human, wildlife, and supernatural enemies
+  - Rarity tiers: Grunts, Elites, Mini-Bosses, Faction Bosses
+  - Location-based spawns across all regions
 - Activities and events
 - Special abilities
 
@@ -115,6 +120,12 @@ Last Updated: 2025-11-18
     - Multiple interaction types: Pitch Pot, Fishing, AI Chat, Sparring, Vendors
     - Customized approach per NPC (scholars, warriors, monks, refugees, bandits)
     - Regional distribution across Qinghe and other areas
+  - Enemies: Complete enemy catalog (30+ types)
+    - 9 major factions: Aureate Pavilion, Buddha Fort, Bloodscale Hall, Song Dynasty Army, Greenwood Wanderers, Jade Serpent Hall, Tigers in Chains, Unbound Cavern
+    - Human, wildlife, and supernatural enemy types
+    - Rarity classifications: Grunts, Elites, Mini-Bosses, Faction Bosses
+    - Combat roles: Melee, Ranged, Mounted, Support, Tank, Supernatural
+    - Location-based spawn distribution
   - Crime, disease, building, gathering systems
 - **Equipment & Gear**: Complete gear system documented
   - All 12 Gear Sets with 2-piece and 4-piece bonuses

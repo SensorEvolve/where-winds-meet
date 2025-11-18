@@ -50,7 +50,9 @@ Where Winds Meet is a free-to-play open-world wuxia action RPG set in 10th-centu
 - Skills and abilities
 - ✅ **Martial Arts (12 types - COMPLETE)**
   - All weapon skills documented (Main, Basic, Charged)
-  - Weapon Paths: Bellstrike, Stonesplit, Skillbind, Bamboocut
+  - 6 Weapon Paths: Bellstrike (Splendor/Umbra), Stonesplit, Skillbind (Jade/Deluge), Bamboocut
+  - Complete unlock methods (Skill Theft missions, Joining Sects)
+  - Full upgrade system (Zhou Coins, Training Items, Breakthrough every 10 levels)
 - ✅ **Mystic Skills (40 types - COMPLETE)**
   - Offensive: 24/24 ✅
   - General: 5/5 ✅
@@ -76,6 +78,9 @@ Last Updated: 2025-11-18
 
 ### ✅ Complete Systems
 - **Martial Arts**: All 12 weapon-based combat systems fully documented
+  - 6 Martial Arts Paths with playstyle characteristics
+  - Unlock methods: Skill Theft (stealth missions, Loong Keys) and Joining Sects
+  - Upgrade system: Zhou Coins, Training Items, Breakthrough (Tips from Activity Shop, 15 weekly limit)
 - **Mystic Skills**: All 40 skills documented (Offensive 24, General 5, Movement 11)
 - **Inner Ways**: All 37+ passive skills documented with Weapon Paths
 - **Exploration Skills**: All 25 skills documented with requirements

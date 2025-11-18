@@ -42,6 +42,11 @@ Where Winds Meet is a free-to-play open-world wuxia action RPG set in 10th-centu
   - First-time clear rewards (Echo Jade, Martial Arts Tomes, Zhou Coins)
   - Repeatable Campaign Challenges for gear farming (40 Stamina per run)
   - Multiplayer scaling with expanded move sets
+- ✅ **Exploration Features** (Butterflies system)
+  - Butterflies guide players to secrets, landmarks, and hidden rewards
+  - Various colored butterflies with different destinations
+  - Rewards: Experience, treasure, lore cutscenes
+  - Integration with Exploration Skills and Mounts
 - Activities and events
 - Special abilities
 
@@ -144,6 +149,12 @@ Last Updated: 2025-11-18
     - First-time rewards: Echo Jade, Martial Arts Tomes, Zhou Coins, Stored EXP
     - Campaign Challenge rewards: Gear sets, Cosmetic chests (40 Stamina per run)
     - Multiplayer scaling: Expanded move sets for group play
+  - Exploration Features: Butterflies guiding system
+    - Butterflies lead players to secrets, landmarks, and hidden rewards
+    - Multiple colors with different significance
+    - Interaction types: Light Incense, Interact with Point, Complete Task, Trigger Cutscene
+    - Rewards: Zhou Coins, Character EXP, Stored EXP, treasure, lore cutscenes
+    - Integration with Exploration Skills, Mounts, and Jianghu Friends
   - Crime, disease, building, gathering systems
 - **Equipment & Gear**: Complete gear system documented
   - All 12 Gear Sets with 2-piece and 4-piece bonuses

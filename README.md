@@ -11,6 +11,11 @@ Where Winds Meet is a free-to-play open-world wuxia action RPG set in 10th-centu
 - Game overview and basic information
 - Story, lore, and setting details
 - World information and regions
+- ✅ **Factions** (major organizations)
+  - 6 major factions documented
+  - Northern Vow, Aureate Pavilion, Tiger Fort, Inkbound Order, Midnight Blades, Well of Heaven
+  - Faction philosophies, territories, and relationships
+  - Story integration and player interaction
 
 ### `/game-data/gameplay/`
 - Combat mechanics and systems
@@ -153,6 +158,15 @@ Last Updated: 2025-11-18
   - Material-to-upgrade mapping for Mystic Skills
 - **Locations**: 9 confirmed regions with details
 - **Build Archetypes**: Tank, DPS, Healer, Balanced, Support builds documented
+- **Factions**: 6 major organizations documented
+  - Northern Vow: Resistance fighting for Yanyun lands (led by Wang Qin)
+  - Aureate Pavilion: Jiangnan Kingdom infiltrators creating Sleeping Puppets
+  - Tiger Fort: Bandit organization led by three brothers (Zhang Loong, Zhang Hu, Zhang Bao)
+  - Inkbound Order: Ancient governance-focused organization (Spring and Autumn Period origins)
+  - Midnight Blades (Midnight Mercy): Extremist sect ending suffering through death
+  - Well of Heaven: Charitable sect from snow mountains redistributing wealth
+  - Faction philosophies, territories, major events, and relationships
+  - Story integration and player consequences
 
 ### 🔄 In Progress
 - **Weapons**: 12 base weapons documented, need complete variant list and stats

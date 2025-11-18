@@ -52,6 +52,13 @@ Where Winds Meet is a free-to-play open-world wuxia action RPG set in 10th-centu
   - Lost Chapter Quests: 40+ optional quests across Qinghe and Kaifeng regions
   - Quest chains: Three-volume Kaifeng story arc (Volume I, II, III)
   - Career Quests and Exploration Quests (pending documentation)
+- ✅ **Sects** (faction membership system)
+  - 11 Sects documented (6 complete, 5 pending details)
+  - Sect-specific rules: Precept Value, Karma Points, Virtue, Fun Points
+  - Benefits: Exclusive shops, discounted Martial Arts learning, rule-based rewards
+  - Reputation system: Commands, weekly 1,200 cap, weekend +30 bonus
+  - Integration with Martial Arts, Factions, Careers, and PvP systems
+  - Sectless option available
 - Activities and events
 - Special abilities
 
@@ -167,6 +174,14 @@ Last Updated: 2025-11-18
     - Location-specific quests: Ever-Normal Granary, Jinming Pool, Unbound Cavern
     - Integration with Skill Theft, Jianghu Friends, Factions, and Exploration systems
     - Career Quests and Exploration Quests pending documentation
+  - Sects: Faction membership system (11 Sects)
+    - 6 Sects fully documented: Well of Heaven, Silver Needle, Midnight Blades, Nine Mortal Ways, Hollow Vale, Inkbound Order (partial), Mohist Hill (partial)
+    - 5 Sects pending: Raging Tides, Velvet Shade, The Masked Troupe, Lone Cloud
+    - Sect-specific rules: Precept Value, Karma Points, Virtue, Fun Points
+    - Benefits: Exclusive Sect shops, discounted Martial Arts learning, rule-based progression
+    - Reputation system: Commands (errands), weekly 1,200 reputation cap, weekend +30 bonus
+    - Integration with Martial Arts (discounted learning), Factions (lore connections), Careers (alignment), PvP (Midnight Blades)
+    - Sectless option: No restrictions, no benefits, increased Martial Arts costs
   - Crime, disease, building, gathering systems
 - **Equipment & Gear**: Complete gear system documented
   - All 12 Gear Sets with 2-piece and 4-piece bonuses

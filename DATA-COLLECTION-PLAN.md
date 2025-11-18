@@ -18,6 +18,7 @@ The following systems have been fully documented and were added beyond the origi
 - [x] **Exploration Features** ✅ COMPLETE (Butterflies guiding system)
 - [x] **Special Abilities** ✅ COMPLETE (Touch of Death, Windsense, Insight documented)
 - [x] **Skill Theft System** ✅ COMPLETE (Full mini-game guide, Loong Keys)
+- [x] **Sects System** ✅ COMPLETE (11 Sects, 6 fully documented, reputation system, Martial Arts discounts)
 
 ---
 
@@ -316,11 +317,12 @@ The following systems have been fully documented and were added beyond the origi
 - ❌ Endgame content pending
 
 ### Major Achievements
-- 9 additional systems documented beyond original plan
+- 10 additional systems documented beyond original plan
 - Comprehensive faction lore integration
 - Complete crafting and economy systems
 - Social systems (Jianghu Friends) fully documented
 - Exploration systems complete
+- Sects system with Martial Arts integration
 
 ---
 

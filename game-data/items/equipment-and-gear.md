@@ -37,31 +37,83 @@ Equipment in Where Winds Meet affects both **combat effectiveness** and **appear
 
 ### Armor
 
-**Function**: Protective gear that provides defense and HP bonuses
+**Function**: Protective gear that provides defense and HP bonuses for character survivability
+
+**Primary Stats**: Every armor piece increases **Max Health** and **Physical Defense**
 
 **Armor Slots** (4 total):
-1. **Head Armor** (Helms) - Boosts HP and defense
-2. **Chest Armor** - Greatest defense boost, most important HP increase
-3. **Leg Armor** (Greaves) - Physical defense and HP
+1. **Head Armor** (Helms/Crown) - Boosts HP and defense
+2. **Chest Armor** (Robe/Armor) - Greatest defense boost, most important HP increase
+3. **Leg Armor** (Greaves/Leg Wraps/Leg Armor) - Physical defense and HP
 4. **Arm Armor** (Bracers) - Protection and HP boosts
-
-**Additional Slots**:
-- **Waist Armor** - Additional defensive slot
-- **Foot Armor** - Leg protection
-- **Glove Armor** - Hand protection
 
 **Base Attributes**:
 - Every armor piece boosts **Physical Defense** and **Max HP**
 - Amounts vary by tier and Mastery level
 
-**Secondary Attributes** (random):
-- Momentum
-- Attack
+**Documented Armor Pieces**:
+
+| Armor Name | Type | Tier |
+|------------|------|------|
+| Fleeting Robe | Chest Armor | 16 |
+| Fleeting Crown | Helm | 31 |
+| Fleeting Leg Wraps | Greaves | 31 |
+| Fleeting Bracers | Bracers | 31 |
+| Gloryway Crown | Helm | 56 |
+| Gloryway Armor | Chest Armor | 56 |
+| Gloryway Leg Armor | Greaves | 56 |
+| Gloryway Bracers | Bracers | 56 |
+
+**Total Documented**: 8 armor pieces across Tier 16, 31, and 56
+
+---
+
+### Armor Substat System
+
+**Substat Progression by Tier** (Same as Weapons and Accessories):
+
+Armor gains additional substat slots as it reaches higher tiers:
+
+| Armor Tier | Substats Available | Notes |
+|------------|-------------------|-------|
+| Below Tier 31 | 0 substats | Base stats only |
+| Tier 31+ | 1 substat | First substat slot unlocks |
+| Tier 41+ | 2 substats | Tuning unlocks second slot |
+| Tier 51+ | 3 substats | Third slot becomes available |
+| Tier 56+ | 4 substats | Maximum substats (endgame) |
+
+**Substat Types** (Armor):
 - Additional Physical Defense
 - Additional Max HP
-- And more (increasingly common at higher levels)
+- Momentum
+- Attack
+- Other defensive stats
 
-**Rerolling**:
+**Substat Rarity**:
+- White (Common) → Green (Uncommon) → Blue (Rare) → Purple (Epic) → Gold (Legendary)
+
+---
+
+### Tuning Material Armor
+
+**Special Armor Property**: Some armor can gain a **Tuning Material substat**
+
+**How It Works**:
+- These armor pieces can be used as tuning materials for other armor
+- Provide **guaranteed substat rarity** when used for tuning:
+  - **Purple Stone Icon** 🟣: Guarantees Purple or higher substat rarity
+  - **Gold Stone Icon** 🟡: Guarantees Gold (Legendary) substat rarity
+
+**Strategic Value**:
+- Don't discard armor with tuning material substats
+- Save them for tuning your endgame armor
+- Gold stone armor is especially valuable for BiS armor tuning
+
+---
+
+### Armor Rerolling
+
+**Reroll System**:
 - Players can reroll secondary attributes (limited uses, costs resources)
 - Can use unwanted gear to improve items and potentially roll better attributes
 - Focus on rerolling at higher levels when upgrading matters most
@@ -322,13 +374,15 @@ Accessories gain additional substat slots as they reach higher tiers:
 - Group Dungeon
 
 **2-Piece Bonus**:
-- Physical Defense +1
+- **Physical Defense +13**
 
 **4-Piece Bonus**:
 - Shield duration extended by 2 seconds
 - If you have >85% Qi or a Qi damage immunity shield: **Reduce all HP damage taken by 20%**
 
 **Best For**: Tank builds, Stonesplit Path, shield-focused gameplay
+
+**Equipment Slots**: Head + Chest + Legs + Arms (4 armor pieces)
 
 ---
 
@@ -529,14 +583,16 @@ Accessories gain additional substat slots as they reach higher tiers:
 - Activity Shop
 
 **2-Piece Bonus**:
-- Physical Defense +1
+- **Physical Defense +13**
 
 **4-Piece Bonus**:
-- Perfect Dodge of enemy attack has 50% chance to:
+- Perfect Dodge of enemy attack has **50% chance** to:
   - Restore 3% of Max HP
   - Restore 10 Endurance
 
 **Best For**: Perfect Dodge-focused tanks, high-skill players
+
+**Equipment Slots**: Head + Chest + Legs + Arms (4 armor pieces)
 
 ---
 
@@ -568,7 +624,7 @@ Accessories gain additional substat slots as they reach higher tiers:
 - Group Dungeon
 
 **2-Piece Bonus**:
-- Physical Defense +1
+- **Physical Defense +1**
 
 **4-Piece Bonus**:
 - When you lose **>40% of Max HP in single hit** OR **HP falls below 20%**:
@@ -576,6 +632,45 @@ Accessories gain additional substat slots as they reach higher tiers:
   - Triggers once every 60 seconds
 
 **Best For**: Tank builds with healer support, clutch healing scenarios, burst damage mitigation
+
+**Equipment Slots**: Head + Chest + Legs + Arms (4 armor pieces)
+
+---
+
+### Agile Steps Set (Defensive - Deflection Tank)
+
+**How to Obtain**:
+- TBD (acquisition method to be documented)
+
+**2-Piece Bonus**:
+- **Max HP +40**
+
+**4-Piece Bonus**:
+- Upon a successful **deflection**, reduces all damage taken within 2 seconds by **20%**
+- **Stacks up to 3 times** (60% total damage reduction)
+
+**Best For**: Deflection-focused tanks, skilled defensive players, counter-attack builds
+
+**Equipment Slots**: Head + Chest + Legs + Arms (4 armor pieces)
+
+---
+
+### Flawless Defense Set (Defensive - Low HP Tank)
+
+**How to Obtain**:
+- TBD (acquisition method to be documented)
+
+**2-Piece Bonus**:
+- **Physical Defense +1**
+
+**4-Piece Bonus**:
+- Reduces damage taken by **5%**
+- When HP falls below **60%**: Further reduces damage taken by **1% for every 10% HP lost**
+- **Stacks up to 5 times** (at 10% HP: 5% base + 5% stacks = 10% total reduction)
+
+**Best For**: Low HP tank builds, last stand situations, damage scaling inversely with HP
+
+**Equipment Slots**: Head + Chest + Legs + Arms (4 armor pieces)
 
 ---
 

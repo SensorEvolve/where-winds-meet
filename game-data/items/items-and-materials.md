@@ -4,6 +4,8 @@
 
 Items in Where Winds Meet encompass all collectible and usable objects beyond weapons and armor. The game features a sprawling open world filled with discoverable items used for crafting, questing, healing, and progression.
 
+**Important Note**: Where Winds Meet is currently in pre-release state. Official English names for items in the global release may differ from current documentation. This guide reflects current available information and will be updated with finalized naming conventions upon global launch.
+
 **Item Categories**:
 1. **Materials** - Crafting and gameplay resources
 2. **Development Materials** - Character progression items
@@ -1404,10 +1406,12 @@ Development Materials are specialized items used for **character progression** a
 
 Consumables are **one-time use items** with various effects including healing, buffing, and utility. Where Winds Meet features classic RPG consumables including **food, bait, throwables**, and **distractions**.
 
+**Pre-Release Note**: Where Winds Meet is still in pre-release state. Official English names for the global release may differ from current documentation. This guide will be updated upon global release with finalized naming conventions.
+
 **Consumable Types**:
 - **Food** - Cooked dishes providing buffs and healing
 - **Bait** - Fishing materials
-- **Throwables** - Combat items (to be documented)
+- **Throwables** - Combat items (potions, elixirs, damage items - to be documented)
 - **Distractions** - Stealth aids (to be documented)
 
 ---

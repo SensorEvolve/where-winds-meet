@@ -30,6 +30,10 @@ Where Winds Meet is a free-to-play open-world wuxia action RPG set in 10th-centu
 - ✅ **Equipment & Gear** (complete system)
   - All 12 Gear Sets (Armor, Offensive, Bow Equipment)
   - Slot Enhancement, Tuning, Mastery
+- ✅ **Items & Materials** (complete catalog)
+  - 4 Currencies, 4 Medicines, 50+ Materials
+  - 15+ Development Materials (Ebon Iron, Tuning Stones)
+  - 30+ Consumables (food, bait), 20+ Common Items, 30+ Quest Items
 - Armor and equipment
 - Consumables
 - Crafting materials
@@ -88,6 +92,12 @@ Last Updated: 2025-11-18
   - Slot Enhancement, Tuning, and Mastery mechanics
   - Gear acquisition methods (Gear Chests, Dungeons, Campaign, Activity Shop)
   - Combat role optimization (Tank, DPS, Healer, Balanced)
+- **Items & Materials**: Complete item catalog documented
+  - All Currencies (4), Medicines (4), Materials (50+), Development Materials (15+)
+  - Consumables: 30+ food dishes, 3 bait types
+  - Common Items (20+) and Quest Items (30+)
+  - Item acquisition methods and storage systems
+  - Material-to-upgrade mapping for Mystic Skills
 - **Locations**: 9 confirmed regions with details
 - **Build Archetypes**: Tank, DPS, Healer, Balanced, Support builds documented
 

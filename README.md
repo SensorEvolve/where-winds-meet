@@ -21,6 +21,11 @@ Where Winds Meet is a free-to-play open-world wuxia action RPG set in 10th-centu
   - 6 Cash Shop mounts, 16+ Standard mounts, Painted Boat
   - Mount skills: Traversal, Collection, Exploration, Utility
   - Acquisition methods: Horse Theft, Stallion Ranches, Events, Exploration Rewards
+- ✅ **Jianghu Friends (Old Friends)** (complete system)
+  - 100+ unique NPCs with reputation system
+  - Weekly gifts at revered status
+  - Interaction types: Pitch Pot, Fishing Contest, Gift of Gab (AI Chat), Sparring Match, Food Vendors
+  - Regional distribution across Qinghe and other areas
 - Activities and events
 - Special abilities
 
@@ -105,6 +110,11 @@ Last Updated: 2025-11-18
     - 16+ Standard mounts with varied skill sets
     - Acquisition methods: Horse Theft, Stallion Ranches, Events, Exploration
     - Mount skills: Traversal, Collection, Exploration, Utility
+  - Jianghu Friends (Old Friends): Social/reputation system (100+ NPCs)
+    - Weekly gifts at revered status
+    - Multiple interaction types: Pitch Pot, Fishing, AI Chat, Sparring, Vendors
+    - Customized approach per NPC (scholars, warriors, monks, refugees, bandits)
+    - Regional distribution across Qinghe and other areas
   - Crime, disease, building, gathering systems
 - **Equipment & Gear**: Complete gear system documented
   - All 12 Gear Sets with 2-piece and 4-piece bonuses

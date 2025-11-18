@@ -146,6 +146,311 @@
 
 ---
 
+## Path Builds and Recommendations
+
+Each Path comes with official game recommendations for Martial Arts Weapons, Internal Arts, and Gear Sets to maximize effectiveness. Access these in-game via Path Guide Menu → Select Path → Combination.
+
+---
+
+### Bellstrike - Splendor Build
+
+**Role**: DPS Melee Combat
+
+**Description**: High mobility and single-target control; excels at kiting enemies. Combine strong endurance with charged skills to unleash Burst Damage.
+
+**Strengths**:
+- DPS
+- Mobility
+
+**Weaknesses**:
+- Control
+- Support
+
+#### Recommended Martial Arts
+
+**Nameless Sword**:
+- Shadow Step
+- Fearless Lunge
+- Homeless Charge
+
+**Nameless Spear**:
+- Legion Breaker
+- Qiankun's Lock
+- Storm Dance
+
+#### Recommended Internal Arts
+
+| Internal Art | Weapon Requirement | Description |
+|--------------|-------------------|-------------|
+| **Adaptive Steel** | Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra) | Gain a Martial Art effect based on your current Blade Weapon. |
+| **Insightful Strike** | Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra) | Dealing Affinity DMG increases your ability to see through enemy attacks, increases your Affinity DMG, and has a chance to reduce damage taken. |
+| **Sword Horizon** | Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra) | After casting Strategic Sword's Martial Arts Skills, Special Skills, or Charged Skills, you can cast Crosswind Blade during the ending phase to unleash follow-up attacks and deal high Bleed damage if the target has max stacks of Bleed. |
+| **Wolfchaser's Art** | Strategic Sword / Heavenquaker Spear (Stonesplit - Might) | Heavenquaker Spear's Art Skill, Sober Sorrow, lowers combo count requirements for buff activation. Each hit on bleeding-enchanted bosses has a chance to grant extra combo counts. |
+
+#### Recommended Gear Sets
+
+**Hawkwing Set (Weapons)**:
+- **2 Pieces**: Increases the Affinity Rate
+- **4 Pieces**: When any of your damage triggers Affinity, gain Hawkwing: Increases Physical Attack by 2% for 5 seconds, stacking up to 5 times.
+- **Acquisition**: Campaign - Still Shore, Campaign - Gleaming Abyss, Sword Trial, Group Dungeon
+
+**Eaglerise Set (Armor)**:
+- **2 Pieces**: Increase in Physical Defense
+- **4 Pieces**: Dealing damage over time or healing grants 1 stack of Eaglerise: Reduces damage taken by 1.2% for 10 seconds, stacking up to 5 times. At max stacks, receives an Eagle Guard effect that reduces the next incoming damage within 10 seconds by 90% (halved when the damage comes from a boss). This effect can only trigger once every 30 seconds.
+- **Acquisition**: Campaign - Still Shore, Campaign - Gleaming Abyss, Campaign - Halo Peak, Sword Trial, Group Dungeon
+
+---
+
+### Bellstrike - Umbra Build
+
+**Role**: DPS Melee Combat
+
+**Description**: By applying bleed status effects, it triggers frequent and sustained damage ticks. Additionally, by increasing its own damage multiplier, it can focus and eliminate targets faster. It also retains decent mobility.
+
+**Strengths**:
+- DPS
+- Mobility
+
+**Weaknesses**:
+- Control
+- Survivability
+
+#### Recommended Martial Arts
+
+**Strategic Sword**:
+- Inner Track Slash
+- Second Track Slash
+- Inner Balance Strike III
+
+**Heavenquaker Spear**:
+- Sober Sorrow
+- Drifting Thrust
+- Sweep All
+
+#### Recommended Internal Arts
+
+| Internal Art | Weapon Requirement | Description |
+|--------------|-------------------|-------------|
+| **Adaptive Steel** | Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra) | Gain a Martial Art effect based on your current Blade Weapon. |
+| **Insightful Strike** | Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra) | Dealing Affinity DMG increases your ability to see through enemy attacks, increases your Affinity DMG, and has a chance to reduce damage taken. |
+| **Sword Horizon** | Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra) | After casting Strategic Sword's Martial Arts Skills, Special Skills, or Charged Skills, you can cast Crosswind Blade during the ending phase to unleash follow-up attacks and deal high Bleed damage if the target has max stacks of Bleed. |
+| **Wolfchaser's Art** | Strategic Sword / Heavenquaker Spear (Stonesplit - Might) | Heavenquaker Spear's Art Skill, Sober Sorrow, lowers combo count requirements for buff activation. Each hit on bleeding-enchanted bosses has a chance to grant extra combo counts. |
+
+#### Recommended Gear Sets
+
+**Hawkwing Set (Weapons)**:
+- **2 Pieces**: Increases the Affinity Rate
+- **4 Pieces**: When any of your damage triggers Affinity, gain Hawkwing: Increases Physical Attack by 2% for 5 seconds, stacking up to 5 times.
+- **Acquisition**: Campaign - Still Shore, Campaign - Gleaming Abyss, Sword Trial, Group Dungeon
+
+**Eaglerise Set (Armor)**:
+- **2 Pieces**: Increase in Physical Defense
+- **4 Pieces**: Dealing damage over time or healing grants 1 stack of Eaglerise: Reduces damage taken by 1.2% for 10 seconds, stacking up to 5 times. At max stacks, receives an Eagle Guard effect that reduces the next incoming damage within 10 seconds by 90% (halved when the damage comes from a boss). This effect can only trigger once every 30 seconds.
+- **Acquisition**: Campaign - Still Shore, Campaign - Gleaming Abyss, Campaign - Halo Peak, Sword Trial, Group Dungeon
+
+---
+
+### Skillbind - Deluge Build
+
+**Role**: Support/Healer
+
+**Description**: Features both burst and sustained healing, covering single-target and group recovery. Revive abilities allow defeated allies to rejoin the fight, while also providing team-wide damage buffs for support.
+
+**Strengths**:
+- Support
+- Survivability
+
+**Weaknesses**:
+- Control
+- DPS
+- Mobility
+
+#### Recommended Martial Arts
+
+**Panacea Fan**:
+- Fourfold Inquiry
+- Emerald Dewtouch
+- Cloudburst Healing
+- Light Dust After Morning Rain
+
+**Soulshade Umbrella**:
+- Floating Grace
+- Pale Petal
+- Echoes of a Thousand Plants
+
+#### Recommended Internal Arts
+
+| Internal Art | Weapon Requirement | Description |
+|--------------|-------------------|-------------|
+| **Esoteric Revival** | Panacea Fan / Soulshade Umbrella (Skillbind - Deluge) | Increases the healing of Panacea Fan's Perception Skill, Resurrection, by 50% on the revived target. |
+| **Mending Loom** | Panacea Fan / Soulshade Umbrella (Skillbind - Deluge) | Soulshade Umbrella's Special Skill, Thousand Echoes, restores Dew upon activation. Consuming certain amounts of Dew additionally heals the caster. |
+| **Restoring Blossom** | Panacea Fan / Soulshade Umbrella (Skillbind - Deluge) | Dealing Critical healing applies one stack of Nurturing for 3 seconds, increasing healing received by 2%, stacking up to 3 times. |
+| **Royal Remedy** | Panacea Fan / Soulshade Umbrella (Skillbind - Deluge) | The Water Entity created by the Panacea Fan's Martial Art Skill, Mistbound Aid, deals increased healing and restores bonus Dewdrops. |
+
+#### Recommended Gear Sets
+
+**Ivorybloom Set (Weapons)**:
+- **2 Pieces**: Increased Critical Rate
+- **4 Pieces**: At Max HP, there is a bonus 5% chance to deal Critical healing and damage, and increases the effects of Critical healing and damage by 15%.
+- **Acquisition**: Campaign - Ever-Normal Granary, Sword Trial, Group Dungeon
+
+**Whirlsnow Set (Armor)**:
+- **2 Pieces**: Increase Physical Defense
+- **4 Pieces**: When you lose more than 40% of Max HP in a single instance of damage or when your HP falls below 20%, the next healing you receive within 5 seconds restores an additional 25% of your Max HP. This effect triggers once every 60 seconds.
+- **Acquisition**: Campaign - Ever-Normal Granary, Campaign - Furnace of Righteousness, Sword Trial, Group Dungeon
+
+---
+
+### Skillbind - Jade Build
+
+**Role**: DPS Ranged Combat
+
+**Description**: A ranged playstyle, capable of sustained ranged DPS. Also has some control, allowing for burst combos with airborne attacks.
+
+**Strengths**:
+- DPS
+- Control
+- Mobility
+
+**Weaknesses**:
+- Support
+- Survivability
+
+#### Recommended Martial Arts
+
+**Inkwell Fan**:
+- Glow & Flow
+- Moon Shatter Spring
+- Jadewind Shield
+
+**Vernal Umbrella** (Ninefold Umbrella):
+- Apricot Heaven
+- Unfading Flower
+- Spring Sorrow
+
+#### Recommended Internal Arts
+
+| Internal Art | Weapon Requirement | Description |
+|--------------|-------------------|-------------|
+| **Blossom Barrage** | Inkwell Fan / Ninefold Umbrella (Skillbind - Jade) | The Ninefold Umbrella's skill, Spring Sorrow, can be charged up to 2 layers. When hitting an Enemy, it increases the damage of your Projectile skills. |
+| **Flying Gourds** | Inkwell Fan / Ninefold Umbrella (Skillbind - Jade) | The Inkwell Fan's Skill, Mountain Sky, gains 2 charges but with an increased cooldown. |
+| **Star Reacher** | Inkwell Fan / Ninefold Umbrella (Skillbind - Jade) | Gains External Attack bonus after inflicting Airborne status on enemies. |
+| **Thunderous Bloom** | Inkwell Fan / Ninefold Umbrella (Skillbind - Jade) | Grants damage bonus to the next heavy attack or airborne heavy attack after moving a significant distance within a short duration. |
+
+#### Recommended Gear Sets
+
+**Veil of the Willow Set (Weapons)**:
+- **2 Pieces**: Increased Precision Rate
+- **4 Pieces**: After a Light Attack/Airborne Light Attack, Heavy Attack/Airborne Heavy Attack damage is increased 12%, lasting 10 seconds. The reverse is also true. Particularly, after a Heavy Attack/Airborne Heavy Attack, Light Attack Charged Attack damage is increased 12%
+- **Acquisition**: Campaign - Heavenfall, Sword Trial, Group Dungeon
+
+**Beyond the Chill Set (Armor)**:
+- **2 Pieces**: Increase Max HP
+- **4 Pieces**: After entering combat, if no damage is taken for 10 seconds, gain Beyond the Chill: Reduces the next damage taken and all damage taken within 2 seconds afterward by 40%. Beyond the Chill is removed upon leaving combat.
+- **Acquisition**: Campaign - Heavenfall, Campaign - Furnace of Righteousness, Sword Trial, Group Dungeon
+
+---
+
+### Bamboocut - Wind Build
+
+**Role**: DPS Melee Combat
+
+**Description**: Boasts extreme mobility and rapid, consecutive attacks, with multiple ways to close the gap quickly. Has some control tools to maintain a safe damage-dealing environment.
+
+**Strengths**:
+- DPS
+- Control
+- Mobility
+
+**Weaknesses**:
+- Support
+- Survivability
+
+#### Recommended Martial Arts
+
+**Infernal Twinblades**:
+- Blade of Heaven's Wrath
+- Addled Mind
+- Calamity's Greed
+- Flamelash
+
+**Mortal Rope Dart**:
+- Rodent's Resilience
+- Rodent Rampage
+- Bladebound Thread
+
+#### Recommended Internal Arts
+
+| Internal Art | Weapon Requirement | Description |
+|--------------|-------------------|-------------|
+| **Breaking Point** | Infernal Twinblades / Mortal Rope Dart (Bamboocut - Wind) | Dealing Critical Damage to Exhausted Enemies grants 1 stack of Disintegration. Each stack increases your external Penetration and Critical Damage Bonus (max 3 stacks), lasting 3 seconds. |
+| **Echoes of Oblivion** | Infernal Twinblades / Mortal Rope Dart (Bamboocut - Wind) | Infernal Twinblades's normal Light Attack applies Malevolent Mark stacks to enemies. When in Blazing Wrath state, Light Attacks apply Bitter Fate stacks. Attacking targets with Malevolent Mark or Bitter Fate causes the Infernal Twinblades to ignore 10% of the target's external Defense and 10% Bamboocut Resistance, respectively. |
+| **Riptide Reflex** | Infernal Twinblades / Mortal Rope Dart (Bamboocut - Wind) | Hitting Enemies with Control Skills reduces the Cooldown of your current Martial Arts Skill. This effect can trigger once every 10 seconds. |
+| **Vendetta** | Infernal Twinblades / Mortal Rope Dart (Bamboocut - Wind) | Rope Blade extends the duration of Bounty Order and additionally restores Grace Tokens. |
+
+#### Recommended Gear Sets
+
+**Swallowcall Set (Weapons)**:
+- **2 Pieces**: Increased Min Physical Attack
+- **4 Pieces**: Light Attacks deal 15% more damage against targets with less than 40% Qi and 5% more damage against Exhausted targets.
+- **Acquisition**: Campaign - Blissful Retreat, Campaign - Jinming Pool, Sword Trial, Group Dungeon
+
+**Calmwaters Set (Armor)**:
+- **2 Pieces**: Physical Defense increase
+- **4 Pieces**: A Perfect Dodge of an enemy attack has a 50% chance of restoring 3% of your Max HP and 10 Endurance.
+- **Acquisition**: Campaign - Blissful Retreat, Campaign - Jinming Pool, Campaign - Halo Peak, Sword Trial, Group Dungeon
+
+---
+
+### Stonesplit - Might Build
+
+**Role**: Tank Melee Combat
+
+**Description**: Equipped with shields, DMG Reduction, and interruption resistance, it has strong survivability. It can also serve as the team's damage sponge via taunt abilities. Can group enemies and then use wide-range charged skills for AoE damage.
+
+**Strengths**:
+- Survivability
+- Control
+
+**Weaknesses**:
+- Mobility
+- DPS
+
+#### Recommended Martial Arts
+
+**Thundercry Blade**:
+- Predator's Shield
+- Galecloud Cleave
+- Sunrush Gale
+
+**Stormbreaker Spear**:
+- Storm Roar
+- Fury Spear
+- Thunder Thrust
+
+#### Recommended Internal Arts
+
+| Internal Art | Weapon Requirement | Description |
+|--------------|-------------------|-------------|
+| **Art of Resistance** | Thundercry Blade / Stormbreaker Spear (Stonesplit - Might) | Increases the duration of Health Shields and any additional effects granted by their source Skills. |
+| **Exquisite Scenery** | Thundercry Blade / Stormbreaker Spear (Stonesplit - Might) | Successfully defending with Stoic Cleaver (Thundercry Blade) activates its special counterattack. Press Perception Skill or Heavy Attack to unleash a first-stage Charged Heavy Attack without charging. This effect can only trigger once every 10 seconds. Hitting a target with a Varied Combo restores 1 bar of Battle Will (no more than 1 bar restored per cast). |
+| **Rock Solid** | Thundercry Blade / Stormbreaker Spear (Stonesplit - Might) | Increases the damage reduction of Stormbreaker Spear's Storm Roar after taunting a unit. While the damage reduction is active, it reduces all damage dealt and increases the Aggro produced. |
+| **Trapped Beast** | Thundercry Blade / Stormbreaker Spear (Stonesplit - Might) | Taking damage while HP is below 30% triggers Cornered Beast, generating a shield that absorbs up to 30% of Max HP. This effect lasts 4 seconds and can trigger once every 300 seconds. |
+
+#### Recommended Gear Sets
+
+**Rainwhisper Set (Weapons)**:
+- **2 Pieces**: Increases Max HP
+- **4 Pieces**: Increases all Critical DMG and healing by 10%, and further increases them by 15% when you have an HP shield.
+- **Acquisition**: Campaign - Unbound Cavern, Sword Trial, Group Dungeon
+
+**Eaglerise Set (Armor)**:
+- **2 Pieces**: Increase Max HP
+- **4 Pieces**: When attacking while defending, there is a 30% chance to create a shield that absorbs up to 10% of Max HP, lasting 20 seconds. If a shield already exists, restores 2% HP in addition. This effect can only trigger once every 60 seconds.
+- **Acquisition**: Campaign - Unbound Cavern, Campaign - Furnace of Righteousness, Sword Trial, Group Dungeon
+
+---
+
 ## How Martial Arts Work
 
 ### Weapon Dependency

@@ -17,6 +17,10 @@ Where Winds Meet is a free-to-play open-world wuxia action RPG set in 10th-centu
 - Game modes (single-player, co-op, MMO)
 - ✅ **Skill Theft system** (complete guide)
 - ✅ **Crafting system** (5 categories, 100+ recipes)
+- ✅ **Mounts** (complete system)
+  - 6 Cash Shop mounts, 16+ Standard mounts, Painted Boat
+  - Mount skills: Traversal, Collection, Exploration, Utility
+  - Acquisition methods: Horse Theft, Stallion Ranches, Events, Exploration Rewards
 - Activities and events
 - Special abilities
 
@@ -79,6 +83,7 @@ Last Updated: 2025-11-18
 ### ✅ Complete Systems
 - **Martial Arts**: All 12 weapon-based combat systems fully documented
   - 6 Martial Arts Paths with playstyle characteristics
+  - Complete Path Builds with recommended Internal Arts and Gear Sets
   - Unlock methods: Skill Theft (stealth missions, Loong Keys) and Joining Sects
   - Upgrade system: Zhou Coins, Training Items, Breakthrough (Tips from Activity Shop, 15 weekly limit)
 - **Mystic Skills**: All 40 skills documented (Offensive 24, General 5, Movement 11)
@@ -95,6 +100,11 @@ Last Updated: 2025-11-18
   - Crafting: 5 categories (Construction & Housing, Weapons & Gear, Talismans, Potions, Food)
     - 100+ recipes with materials and Stamina costs
     - Career-exclusive crafting (Scholar: Talismans, Healer: Potions)
+  - Mounts: Complete mount system (22+ mounts)
+    - 6 Cash Shop mounts with special abilities
+    - 16+ Standard mounts with varied skill sets
+    - Acquisition methods: Horse Theft, Stallion Ranches, Events, Exploration
+    - Mount skills: Traversal, Collection, Exploration, Utility
   - Crime, disease, building, gathering systems
 - **Equipment & Gear**: Complete gear system documented
   - All 12 Gear Sets with 2-piece and 4-piece bonuses

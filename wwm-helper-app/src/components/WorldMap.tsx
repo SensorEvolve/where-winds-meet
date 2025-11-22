@@ -1,32 +1,26 @@
 import React from 'react';
-import { View, StyleSheet, Dimensions } from 'react-native';
-import ImageViewer from 'react-native-image-zoom-viewer';
+import { View, StyleSheet, ScrollView, Image, Dimensions } from 'react-native';
 import { colors } from '../theme';
 
-const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get('window');
+const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
 export default function WorldMap() {
-  const images = [
-    {
-      url: '', // Will use props.source instead
-      props: {
-        source: require('../../assets/wwm_world_map.png'),
-      },
-    },
-  ];
-
   return (
     <View style={styles.container}>
-      <ImageViewer
-        imageUrls={images}
-        enableSwipeDown={false}
-        backgroundColor={colors.background}
-        maxOverflow={0}
-        enableImageZoom={true}
-        saveToLocalByLongPress={false}
-        doubleClickInterval={250}
-        style={styles.imageViewer}
-      />
+      <ScrollView
+        style={styles.scrollView}
+        contentContainerStyle={styles.scrollContent}
+        maximumZoomScale={3}
+        minimumZoomScale={1}
+        showsHorizontalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
+      >
+        <Image
+          source={require('../../assets/wwm_world_map.png')}
+          style={styles.image}
+          resizeMode="contain"
+        />
+      </ScrollView>
     </View>
   );
 }
@@ -36,7 +30,16 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: colors.background,
   },
-  imageViewer: {
+  scrollView: {
     flex: 1,
+  },
+  scrollContent: {
+    flexGrow: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  image: {
+    width: SCREEN_WIDTH,
+    height: '100%',
   },
 });

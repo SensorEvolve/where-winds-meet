@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(dir:*)",
+      "Bash(npm run check-translations:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfeat(i18n): add complete zh-TW progression translations\n\n- Add Traditional Chinese translations for all 5 progression content files\n- Translate exploration-skills.ts (1,299 words, 25 skills)\n- Translate inner-ways.ts (2,342 words, 25 skills)\n- Translate path-guides.ts (2,732 words, 6 guides)\n- Translate martial-arts.ts (5,704 words, 12 martial arts)\n- Translate mystic-skills.ts (6,173 words, 40 skills)\n- Update weapon database translations (zh-TW, ja, ko)\n- All translations validated and synced (153 keys)\n\nTotal translation volume: ~18,250 words\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

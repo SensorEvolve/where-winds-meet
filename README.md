@@ -1,226 +1,553 @@
-# Where Winds Meet - Companion App Data Repository
+# Where Winds Meet - Companion App
 
-This repository contains comprehensive information about **Where Winds Meet** to support companion app development.
+A comprehensive companion app for **Where Winds Meet**, a wuxia action RPG set in 10th-century China. The app provides players with detailed game information, guides, and references in multiple languages.
 
-## Project Overview
-Where Winds Meet is a free-to-play open-world wuxia action RPG set in 10th-century China during the Five Dynasties and Ten Kingdoms era.
+---
 
-## Repository Structure
+## Table of Contents
 
-### `/game-data/core/`
-- Game overview and basic information
-- Story, lore, and setting details
-- World information and regions
-- ✅ **Factions** (major organizations)
-  - 6 major factions documented
-  - Northern Vow, Aureate Pavilion, Tiger Fort, Inkbound Order, Midnight Blades, Well of Heaven
-  - Faction philosophies, territories, and relationships
-  - Story integration and player interaction
+1. [Overview](#overview)
+2. [Technology Stack](#technology-stack)
+3. [App Structure](#app-structure)
+4. [Content System](#content-system)
+5. [Translation Workflow](#translation-workflow)
+6. [Adding New Content](#adding-new-content)
+7. [Development](#development)
+8. [Project Structure](#project-structure)
 
-### `/game-data/gameplay/`
-- Combat mechanics and systems
-- Game modes (single-player, co-op, MMO)
-- ✅ **Skill Theft system** (complete guide)
-- ✅ **Crafting system** (5 categories, 100+ recipes)
-- ✅ **Mounts** (complete system)
-  - 6 Cash Shop mounts, 16+ Standard mounts, Painted Boat
-  - Mount skills: Traversal, Collection, Exploration, Utility
-  - Acquisition methods: Horse Theft, Stallion Ranches, Events, Exploration Rewards
-- ✅ **Jianghu Friends (Old Friends)** (complete system)
-  - 100+ unique NPCs with reputation system
-  - Weekly gifts at revered status
-  - Interaction types: Pitch Pot, Fishing Contest, Gift of Gab (AI Chat), Sparring Match, Food Vendors
-  - Regional distribution across Qinghe and other areas
-- ✅ **Enemies** (complete catalog)
-  - 30+ enemy types across 9 factions
-  - Human, wildlife, and supernatural enemies
-  - Rarity tiers: Grunts, Elites, Mini-Bosses, Faction Bosses
-  - Location-based spawns across all regions
-- ✅ **Bosses** (complete catalog)
-  - 22 boss encounters (10 Campaign Challenge, 12 World Bosses)
-  - Adversaries of Power classification
-  - First-time clear rewards (Echo Jade, Martial Arts Tomes, Zhou Coins)
-  - Repeatable Campaign Challenges for gear farming (40 Stamina per run)
-  - Multiplayer scaling with expanded move sets
-- ✅ **Exploration Features** (Butterflies system)
-  - Butterflies guide players to secrets, landmarks, and hidden rewards
-  - Various colored butterflies with different destinations
-  - Rewards: Experience, treasure, lore cutscenes
-  - Integration with Exploration Skills and Mounts
-- ✅ **Quests** (quest catalog)
-  - Campaign Main Story: Chapter 1 (5 quests), Chapter 2 (6+ quests)
-  - Lost Chapter Quests: 40+ optional quests across Qinghe and Kaifeng regions
-  - Quest chains: Three-volume Kaifeng story arc (Volume I, II, III)
-  - Career Quests and Exploration Quests (pending documentation)
-- ✅ **Sects** (faction membership system)
-  - 11 Sects documented (6 complete, 5 pending details)
-  - Sect-specific rules: Precept Value, Karma Points, Virtue, Fun Points
-  - Benefits: Exclusive shops, discounted Martial Arts learning, rule-based rewards
-  - Reputation system: Commands, weekly 1,200 cap, weekend +30 bonus
-  - Integration with Martial Arts, Factions, Careers, and PvP systems
-  - Sectless option available
-- Activities and events
-- Special abilities
+---
 
-### `/game-data/characters/`
-- Character creation and customization
-- Attributes and stats
-- Builds and playstyles
-- Careers/professions
+## Overview
 
-### `/game-data/items/`
-- Weapons (swords, spears, fans, umbrellas, rope darts)
-- ✅ **Equipment & Gear** (complete system)
-  - All 12 Gear Sets (Armor, Offensive, Bow Equipment)
-  - Slot Enhancement, Tuning, Mastery
-- ✅ **Items & Materials** (complete catalog)
-  - 4 Currencies, 4 Medicines, 50+ Materials
-  - 15+ Development Materials (Ebon Iron, Tuning Stones)
-  - 30+ Consumables (food, bait), 20+ Common Items, 30+ Quest Items
-- Armor and equipment
-- Consumables
-- Crafting materials
+### What is this app?
 
-### `/game-data/locations/`
-- Map information
-- Regions (20 distinct areas)
-- Points of interest
-- Quest locations
+A mobile companion app (iOS/Android/Web) that provides:
+- **Character guides**: Attributes, combat, mechanics, game modes, abilities
+- **Item database**: Weapons, equipment, crafting recipes, mounts
+- **Location guides**: World map, exploration, housing, quests, factions, sects
+- **Progression systems**: Martial arts, inner ways, mystic skills, path guides
+- **Multilingual support**: English, Traditional Chinese, Japanese, Korean
 
-### `/game-data/progression/`
-- Leveling systems
-- Skills and abilities
-- ✅ **Martial Arts (12 types - COMPLETE)**
-  - All weapon skills documented (Main, Basic, Charged)
-  - 6 Weapon Paths: Bellstrike (Splendor/Umbra), Stonesplit, Skillbind (Jade/Deluge), Bamboocut
-  - Complete unlock methods (Skill Theft missions, Joining Sects)
-  - Full upgrade system (Zhou Coins, Training Items, Breakthrough every 10 levels)
-- ✅ **Mystic Skills (40 types - COMPLETE)**
-  - Offensive: 24/24 ✅
-  - General: 5/5 ✅
-  - Movement: 11/11 ✅
-- ✅ **Inner Ways (37+ skills - COMPLETE)**
-- ✅ **Exploration Skills (25 skills - COMPLETE)**
+### Game Background
 
-### `/game-data/technical/`
-- Platform information
-- System requirements
-- Release dates
-- Monetization details
+Where Winds Meet is a free-to-play open-world wuxia action RPG set during the Five Dynasties and Ten Kingdoms era (10th-century China).
 
-### `/game-data/community/`
-- Guides and tips
-- Build recommendations
-- Resource farming locations
-- Community tools and calculators
+---
 
-## Data Collection Status
+## Technology Stack
 
-Last Updated: 2025-11-18
+### Core
+- **React Native** 0.81.5 + **Expo** ~54
+- **TypeScript** ~5.9
+- **React** 19.1.0
 
-### ✅ Complete Systems
-- **Martial Arts**: All 12 weapon-based combat systems fully documented
-  - 6 Martial Arts Paths with playstyle characteristics
-  - Complete Path Builds with recommended Internal Arts and Gear Sets
-  - Unlock methods: Skill Theft (stealth missions, Loong Keys) and Joining Sects
-  - Upgrade system: Zhou Coins, Training Items, Breakthrough (Tips from Activity Shop, 15 weekly limit)
-- **Mystic Skills**: All 40 skills documented (Offensive 24, General 5, Movement 11)
-- **Inner Ways**: All 37+ passive skills documented with Weapon Paths
-- **Exploration Skills**: All 25 skills documented with requirements
-- **Character Attributes**: Complete stat system documented
-  - Combat Attributes: 5 Primary + 25+ Secondary stats
-  - Exploration Attributes: 11 Aspiration stats with mini-game methods
-  - Career Attributes: Healer and Scholar complete stat sets
-- **Special Abilities**: Touch of Death, Windsense, Insight system documented
-- **Game Mechanics**: Complete systems documented
-  - Skill Theft: Full mini-game guide with unlock method
-  - Player Housing: Complete rental system (3 types), Commerce Coins, benefits
-  - Crafting: 5 categories (Construction & Housing, Weapons & Gear, Talismans, Potions, Food)
-    - 100+ recipes with materials and Stamina costs
-    - Career-exclusive crafting (Scholar: Talismans, Healer: Potions)
-  - Mounts: Complete mount system (22+ mounts)
-    - 6 Cash Shop mounts with special abilities
-    - 16+ Standard mounts with varied skill sets
-    - Acquisition methods: Horse Theft, Stallion Ranches, Events, Exploration
-    - Mount skills: Traversal, Collection, Exploration, Utility
-  - Jianghu Friends (Old Friends): Social/reputation system (100+ NPCs)
-    - Weekly gifts at revered status
-    - Multiple interaction types: Pitch Pot, Fishing, AI Chat, Sparring, Vendors
-    - Customized approach per NPC (scholars, warriors, monks, refugees, bandits)
-    - Regional distribution across Qinghe and other areas
-  - Enemies: Complete enemy catalog (30+ types)
-    - 9 major factions: Aureate Pavilion, Buddha Fort, Bloodscale Hall, Song Dynasty Army, Greenwood Wanderers, Jade Serpent Hall, Tigers in Chains, Unbound Cavern
-    - Human, wildlife, and supernatural enemy types
-    - Rarity classifications: Grunts, Elites, Mini-Bosses, Faction Bosses
-    - Combat roles: Melee, Ranged, Mounted, Support, Tank, Supernatural
-    - Location-based spawn distribution
-  - Bosses: Complete boss catalog (22 encounters)
-    - 10 Campaign Challenge Bosses (repeatable, story-driven)
-    - 12 World Bosses (open-world fixed locations)
-    - Adversaries of Power classification
-    - First-time rewards: Echo Jade, Martial Arts Tomes, Zhou Coins, Stored EXP
-    - Campaign Challenge rewards: Gear sets, Cosmetic chests (40 Stamina per run)
-    - Multiplayer scaling: Expanded move sets for group play
-  - Exploration Features: Butterflies guiding system
-    - Butterflies lead players to secrets, landmarks, and hidden rewards
-    - Multiple colors with different significance
-    - Interaction types: Light Incense, Interact with Point, Complete Task, Trigger Cutscene
-    - Rewards: Zhou Coins, Character EXP, Stored EXP, treasure, lore cutscenes
-    - Integration with Exploration Skills, Mounts, and Jianghu Friends
-  - Quests: Quest catalog (Campaign, Lost Chapter Quests)
-    - Campaign Main Story: Chapter 1 "Heaven Has No Pier" (5 quests), Chapter 2 "Universal Furnace" (6+ quests)
-    - Lost Chapter Quests: 40+ optional quests across Qinghe and Kaifeng regions (can be followed or ignored)
-    - Quest chains: Three-volume Kaifeng arc (Strife in Every Corner, Lights Flicker in Every Home, Every Hearth Aglow)
-    - Location-specific quests: Ever-Normal Granary, Jinming Pool, Unbound Cavern
-    - Integration with Skill Theft, Jianghu Friends, Factions, and Exploration systems
-    - Career Quests and Exploration Quests pending documentation
-  - Sects: Faction membership system (11 Sects)
-    - 6 Sects fully documented: Well of Heaven, Silver Needle, Midnight Blades, Nine Mortal Ways, Hollow Vale, Inkbound Order (partial), Mohist Hill (partial)
-    - 5 Sects pending: Raging Tides, Velvet Shade, The Masked Troupe, Lone Cloud
-    - Sect-specific rules: Precept Value, Karma Points, Virtue, Fun Points
-    - Benefits: Exclusive Sect shops, discounted Martial Arts learning, rule-based progression
-    - Reputation system: Commands (errands), weekly 1,200 reputation cap, weekend +30 bonus
-    - Integration with Martial Arts (discounted learning), Factions (lore connections), Careers (alignment), PvP (Midnight Blades)
-    - Sectless option: No restrictions, no benefits, increased Martial Arts costs
-  - Crime, disease, building, gathering systems
-- **Equipment & Gear**: Complete gear system documented
-  - All 12 Gear Sets with 2-piece and 4-piece bonuses
-  - Slot Enhancement, Tuning, and Mastery mechanics
-  - Gear acquisition methods (Gear Chests, Dungeons, Campaign, Activity Shop)
-  - Combat role optimization (Tank, DPS, Healer, Balanced)
-- **Items & Materials**: Complete item catalog documented
-  - All Currencies (4), Medicines (4), Materials (50+), Development Materials (15+)
-  - Consumables: 30+ food dishes, 3 bait types
-  - Common Items (20+) and Quest Items (30+)
-  - Item acquisition methods and storage systems
-  - Material-to-upgrade mapping for Mystic Skills
-- **Locations**: 9 confirmed regions with details
-- **Factions**: 6 major organizations documented
-  - Northern Vow: Resistance fighting for Yanyun lands (led by Wang Qin)
-  - Aureate Pavilion: Jiangnan Kingdom infiltrators creating Sleeping Puppets
-  - Tiger Fort: Bandit organization led by three brothers (Zhang Loong, Zhang Hu, Zhang Bao)
-  - Inkbound Order: Ancient governance-focused organization (Spring and Autumn Period origins)
-  - Midnight Blades (Midnight Mercy): Extremist sect ending suffering through death
-  - Well of Heaven: Charitable sect from snow mountains redistributing wealth
-  - Faction philosophies, territories, major events, and relationships
-  - Story integration and player consequences
+### Navigation
+- **React Navigation** 7.x
+  - Bottom Tabs Navigator (main tabs)
+  - Native Stack Navigator (onboarding flow)
+  - Tab View (sub-tabs within main tabs)
 
-### 🔄 In Progress
-- **Weapons**: 12 base weapons documented, need complete variant list and stats
-- **World Map**: 9/20 regions confirmed, 11 more to document
-- **Combat System**: Core mechanics documented, advanced details needed
+### Content & Display
+- **react-native-markdown-display** - Renders game content
+- **react-i18next** + **i18next** - Internationalization
+- **expo-localization** - Device locale detection
 
-### 📋 Pending
-- Exact Vitality costs for Offensive Mystic Skills
-- Boundary Stone locations (Vitality restore points)
-- Melodies of Peace system details (Oddities for max Vitality)
-- Remaining 11 regions (of 20 total)
-- Complete weapon variant list with stats
-- Exact damage values and cooldowns for Martial Arts skills
-- Quest details (objectives, rewards, walkthroughs)
-- Career Quests and Exploration Quests documentation
-- NPC database
-- Talent Points and Enlightenment Points systems
+### State Management
+- **Zustand** - Lightweight state management
+
+### UI Components
+- **React Native Paper** - Material Design components
+- **React Native Vector Icons** - Icon library
+- Custom theme system (Wuxia-inspired gold/black design)
+
+### Monetization (Ready)
+- **react-native-google-mobile-ads** - Ad integration
+- **react-native-purchases** - In-app purchases
+
+---
+
+## App Structure
+
+### Navigation Flow
+
+```
+App Start
+  └─> Onboarding (first launch only)
+       ├─> Language Selection (EN, ZH-TW, JA, KO)
+       └─> Intro Carousel (3 slides)
+            └─> Main App
+
+Main App (Bottom Tabs)
+  ├─> Home (News & Updates)
+  ├─> Character (6 sub-tabs with markdown content)
+  ├─> Items (5 sub-tabs: Weapons use database, others use markdown)
+  ├─> Locations (9 sub-tabs with markdown content)
+  ├─> Progression (5 sub-tabs with markdown content)
+  └─> More (Settings & additional features)
+```
+
+### Main Tabs Overview
+
+#### 1. **Home**
+- Welcome message
+- Latest news and events
+- Featured content
+- No sub-tabs
+
+#### 2. **Character** (6 sub-tabs)
+- Attributes
+- Combat
+- Mechanics
+- Modes
+- Abilities
+- Skill Theft
+
+#### 3. **Items** (5 sub-tabs)
+- **Weapons** (uses WeaponDatabase with images)
+- Equipment
+- Items & Materials
+- Crafting
+- Mounts
+
+#### 4. **Locations** (9 sub-tabs)
+- World Map (image viewer)
+- Exploration
+- Housing
+- Quests
+- Factions
+- Sects
+- Jianghu Friends
+- Bosses (card-based display)
+- Enemies
+
+#### 5. **Progression** (5 sub-tabs)
+- Martial Arts
+- Inner Ways
+- Mystic Skills
+- Exploration Skills
+- Path Guides
+
+#### 6. **More**
+- Settings
+- About
+- Additional features
+
+---
+
+## Content System
+
+### How Content Works
+
+All game content is stored as **TypeScript files** with markdown strings, organized by:
+1. **Category** (character, items, locations, progression)
+2. **Language** (en, zh-TW, ja, ko)
+3. **Content file** (e.g., `attributes-and-stats.ts`)
+
+### File Organization
+
+```
+wwm-helper-app/src/data/
+├── character/
+│   ├── en/
+│   │   ├── attributes-and-stats.ts
+│   │   ├── combat-system.ts
+│   │   ├── game-mechanics.ts
+│   │   ├── game-modes.ts
+│   │   ├── player-housing.ts
+│   │   ├── skill-theft.ts
+│   │   └── special-abilities.ts
+│   ├── zh-TW/
+│   ├── ja/
+│   └── ko/
+├── items/
+│   ├── en/
+│   │   ├── crafting.ts
+│   │   ├── equipment-and-gear.ts
+│   │   ├── items-and-materials.ts
+│   │   ├── mounts.ts
+│   │   └── weapons.ts (not currently used)
+│   ├── zh-TW/
+│   ├── ja/
+│   └── ko/
+├── locations/
+│   ├── en/
+│   │   ├── bosses.ts
+│   │   ├── enemies.ts
+│   │   ├── exploration-features.ts
+│   │   ├── factions.ts
+│   │   ├── jianghu-friends.ts
+│   │   ├── quests.ts
+│   │   ├── sects.ts
+│   │   └── world-map.ts
+│   ├── zh-TW/
+│   ├── ja/
+│   └── ko/
+├── progression/
+│   ├── en/
+│   │   ├── exploration-skills.ts
+│   │   ├── inner-ways.ts
+│   │   ├── martial-arts.ts
+│   │   ├── mystic-skills.ts
+│   │   └── path-guides.ts
+│   ├── zh-TW/
+│   ├── ja/
+│   └── ko/
+└── weapons/
+    ├── en/
+    │   └── weaponDatabase.ts (detailed weapon entries)
+    ├── zh-TW/
+    ├── ja/
+    └── ko/
+```
+
+### Content Loading
+
+**Hook:** `useGameContent(category, filename)`
+
+**Example:**
+```typescript
+const content = useGameContent('character', 'combat-system');
+// Automatically loads content in user's selected language
+```
+
+**How it works:**
+1. User selects language in onboarding (stored in AsyncStorage)
+2. i18next manages current language
+3. `useGameContent` hook loads correct language file
+4. Markdown component renders content with custom styling
+
+---
+
+## Translation Workflow
+
+### Current Translation Status
+
+- ✅ **English (en)**: Complete (source language)
+- 🔄 **Traditional Chinese (zh-TW)**: In progress
+- 🔄 **Japanese (ja)**: In progress
+- 🔄 **Korean (ko)**: In progress
+
+### Translation Files
+
+#### 1. **Content Files** (Game guides)
+Located in: `wwm-helper-app/src/data/{category}/{lang}/`
+- Format: TypeScript files exporting markdown strings
+- Example: `character/zh-TW/combat-system.ts`
+
+#### 2. **UI Translations** (App interface)
+Located in: `wwm-helper-app/src/locales/`
+- `en.json` - English UI strings
+- `zh-TW.json` - Traditional Chinese UI strings
+- `ja.json` - Japanese UI strings
+- `ko.json` - Korean UI strings
+
+### Translation Process
+
+#### Step 1: Source Content (Markdown)
+Game content starts in: `/game-data/{category}/{file}.md`
+
+Example: `/game-data/Character/combat-system.md`
+
+#### Step 2: Convert to TypeScript
+Run conversion script:
+```bash
+npm run convert-markdown
+```
+
+This generates:
+- `src/data/character/en/combat-system.ts`
+- Placeholder files for other languages
+
+#### Step 3: Translate Content
+1. Copy English `.ts` file to target language folder
+2. Translate the markdown content inside the string
+3. Keep markdown formatting intact
+4. Test in app to verify rendering
+
+#### Step 4: Translate UI Strings
+Edit `src/locales/{lang}.json` with translated UI text:
+- Tab labels
+- Button text
+- Navigation labels
+- Error messages
+
+---
+
+## Adding New Content
+
+### Scenario 1: Add New Game Content
+
+**Example:** Adding "Careers" section to Character tab
+
+#### 1. Create markdown source
+```
+/game-data/Character/careers.md
+```
+
+#### 2. Convert to TypeScript (all languages)
+```bash
+node wwm-helper-app/scripts/convertMarkdownToTS.js
+```
+
+This creates:
+```
+src/data/character/en/careers.ts
+src/data/character/zh-TW/careers.ts
+src/data/character/ja/careers.ts
+src/data/character/ko/careers.ts
+```
+
+#### 3. Import in `useGameContent.ts`
+```typescript
+// Add imports for all languages
+import * as characterEnCareers from '../data/character/en/careers';
+import * as characterZhTWCareers from '../data/character/zh-TW/careers';
+// ... etc
+
+// Add to contentMap
+en: {
+  character: {
+    // ... existing
+    'careers': characterEnCareers,
+  }
+}
+```
+
+#### 4. Add tab to screen
+```typescript
+// In Character.tsx
+const characterData = [
+  // ... existing tabs
+  { key: 'careers', title: t('character.careers') },
+];
+
+const renderScene = SceneMap({
+  // ... existing
+  careers: createCharacterScreen('careers'),
+});
+```
+
+#### 5. Add translation key
+```json
+// In src/locales/en.json
+{
+  "character": {
+    "careers": "Careers"
+  }
+}
+```
+
+### Scenario 2: Add New Tab
+
+**Example:** Adding "Social" tab
+
+#### 1. Create tab screen
+```typescript
+// src/screens/tabs/Social.tsx
+export default function SocialScreen() { ... }
+```
+
+#### 2. Register in BottomTabNavigator
+```typescript
+<Tab.Screen
+  name="Social"
+  component={SocialScreen}
+  options={{
+    title: t('tabs.social'),
+    tabBarIcon: ({ focused }) => (/* icon */)
+  }}
+/>
+```
+
+#### 3. Add data structure
+Create content files in:
+```
+src/data/social/en/
+src/data/social/zh-TW/
+src/data/social/ja/
+src/data/social/ko/
+```
+
+---
+
+## Development
+
+### Prerequisites
+- Node.js 18+
+- npm or yarn
+- Expo CLI
+- iOS Simulator (Mac) or Android Emulator
+
+### Installation
+
+```bash
+cd wwm-helper-app
+npm install
+```
+
+### Running the App
+
+```bash
+# Start Expo dev server
+npm start
+
+# Run on Android
+npm run android
+
+# Run on iOS
+npm run ios
+
+# Run on web
+npm run web
+```
+
+### Reset Onboarding (for testing)
+
+Onboarding is temporarily auto-reset in `App.tsx` (lines 21-22):
+```typescript
+await AsyncStorage.default.removeItem('@wwm_helper:onboarding_complete');
+```
+
+Remove this in production!
+
+### Check Translations
+
+```bash
+npm run check-translations
+```
+
+This script verifies all translation keys exist across all languages.
+
+---
+
+## Project Structure
+
+### Key Directories
+
+```
+wwm-helper-app/
+├── assets/                    # Images, icons, fonts
+│   ├── bosses-campaign/       # Boss images
+│   ├── bosses-world/          # World boss images
+│   ├── martial_art_weapons/  # Weapon images
+│   └── menu_buttons/          # Tab icons
+├── src/
+│   ├── components/
+│   │   ├── navigation/        # Navigation components
+│   │   ├── weapons/           # Weapon-related components
+│   │   ├── BossesContent.tsx  # Bosses display
+│   │   └── WorldMap.tsx       # World map viewer
+│   ├── data/                  # All game content
+│   │   ├── character/
+│   │   ├── items/
+│   │   ├── locations/
+│   │   ├── progression/
+│   │   └── weapons/
+│   ├── hooks/
+│   │   ├── useGameContent.ts  # Content loading hook
+│   │   └── useWeaponDatabase.ts
+│   ├── locales/               # UI translations
+│   │   ├── en.json
+│   │   ├── zh-TW.json
+│   │   ├── ja.json
+│   │   └── ko.json
+│   ├── screens/
+│   │   ├── onboarding/        # Onboarding screens
+│   │   └── tabs/              # Main tab screens
+│   ├── services/
+│   │   └── i18n.ts            # i18next configuration
+│   ├── theme/                 # Design system
+│   │   ├── colors.ts
+│   │   ├── typography.ts
+│   │   ├── spacing.ts
+│   │   └── index.ts
+│   └── types/                 # TypeScript types
+├── scripts/
+│   └── convertMarkdownToTS.js # Markdown converter
+├── App.tsx                    # Root component
+├── package.json
+└── tsconfig.json
+
+game-data/                     # Source markdown files
+├── Character/
+├── items/
+├── locations/
+└── progression/
+```
+
+### Key Files
+
+| File | Purpose |
+|------|---------|
+| `App.tsx` | Root component, app initialization |
+| `src/components/navigation/RootNavigator.tsx` | Onboarding vs Main app routing |
+| `src/components/navigation/BottomTabNavigator.tsx` | Main tab navigation |
+| `src/hooks/useGameContent.ts` | Content loading system |
+| `src/services/i18n.ts` | i18next configuration |
+| `src/theme/` | Design system (colors, typography, spacing) |
+| `.claude/command.md` | Quick reference for tab structure |
+
+---
+
+## Key Concepts
+
+### 1. Markdown-based Content
+- All game guides stored as markdown strings
+- Rendered with custom styling for wuxia theme
+- Supports tables, lists, code blocks, images
+
+### 2. Multilingual Architecture
+- Language selected once in onboarding
+- All content automatically loads in selected language
+- Fallback to English if translation missing
+
+### 3. Tab-based Navigation
+- Main tabs for major sections
+- Sub-tabs for detailed categories
+- Consistent navigation pattern throughout
+
+### 4. Theme System
+- Gold/bronze wuxia aesthetic
+- Dark mode optimized
+- Consistent spacing and typography
+- Category-specific gradient colors
+
+### 5. Special Components
+- **WeaponsNavigator**: Interactive weapon database with images
+- **WorldMap**: Zoomable world map viewer
+- **BossesContent**: Card-based boss display
+- **Markdown renderer**: Custom-styled markdown display
+
+---
+
+## Quick Reference
+
+See `.claude/command.md` for complete tab structure reference.
+
+---
 
 ## Contributing
-This data is collected to build a comprehensive companion app for Where Winds Meet players.
+
+### For Developers
+1. Follow existing file structure
+2. Use TypeScript for type safety
+3. Keep markdown formatting consistent
+4. Test all language versions
+
+### For Translators
+1. Work in `src/data/{category}/{lang}/` for content
+2. Work in `src/locales/{lang}.json` for UI
+3. Keep markdown syntax intact
+4. Test in app before submitting
+
+---
+
+## License
+
+This companion app is built for the Where Winds Meet player community.
+
+---
+
+## Contact
+
+For questions or issues, please contact the development team.

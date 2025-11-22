@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(do rm -f \"src/data/character/$lang/character-creation.ts\")",
+      "Bash(tree:*)",
+      "Bash(md5sum:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

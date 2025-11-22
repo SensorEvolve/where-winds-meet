@@ -1,1421 +1,1421 @@
-export const content = `# Mystic Skills (奇术)
+export const content = `# 秘術技能
 
-## Mystic Skills System Overview
+## 秘術技能系統概述
 
-**Total Count**: **40 Mystic Skills**
+**總數量**：**40個秘術技能**
 
-**Equipment Limit**: Up to **8 Mystic Skills** can be equipped simultaneously
+**裝備限制**：最多可同時裝備**8個秘術技能**
 
-**Equipment Layout**:
-- 4 skills per row × 2 rows = 8 total slots
-- Can switch between rows during combat or exploration
-- Slots must be unlocked through Talent Points system
+**裝備配置**：
+- 每行4個技能 × 2行 = 共8個插槽
+- 可在戰鬥或探索期間切換行
+- 插槽必須通過天賦點系統解鎖
 
-**Independence**: NOT tied to weapons - can use with any weapon setup
+**獨立性**：不依賴武器 - 可與任何武器設置一起使用
 
-**Dual Function**: Many skills are useful in both combat AND exploration/puzzle-solving
-
----
-
-## Mystic Skill Categories
-
-Mystic Skills are divided into three main categories:
-
-1. **Offensive Mystic Skills** - Combat and puzzle skills (24 documented)
-   - Equipped in 8-slot HUD
-   - Consume Vitality
-   - Combat + exploration uses
-
-2. **General Mystic Skills** - Utility and passive skills (5 documented)
-   - Accessed via hotkeys (not in HUD)
-   - **Do NOT consume Vitality**
-   - Utility-focused, always available
-   - Most cannot be upgraded
-
-3. **Movement Mystic Skills** - Mobility and navigation skills (11 documented)
-   - **No Vitality Cost** - Free to use
-   - Unlock via **Exploration Level** in regions
-   - Cannot be upgraded
-   - Essential for traversal and fast travel
+**雙重功能**：許多技能在戰鬥和探索/解謎中都有用
 
 ---
 
-## Movement Mystic Skills
+## 秘術技能分類
 
-### Overview
+秘術技能分為三個主要類別：
 
-**Total Count**: 11 Movement Mystic Skills
+1. **進攻秘術技能** - 戰鬥和謎題技能（已記錄24個）
+   - 裝備在8槽HUD中
+   - 消耗精力
+   - 戰鬥 + 探索用途
 
-**Key Characteristics**:
-- **No Vitality Cost** - All Movement skills are free to use
-- **No Upgrades** - Cannot be upgraded (no tiers or ranks)
-- **Exploration-Based Unlock** - Unlock by increasing Exploration Level in specific regions
-- **Navigation Focus** - Enable fast travel, wall running, gliding, and special movement
+2. **通用秘術技能** - 實用和被動技能（已記錄5個）
+   - 通過熱鍵訪問（不在HUD中）
+   - **不消耗精力**
+   - 專注於實用性，始終可用
+   - 大多數無法升級
 
-**Categories**:
-1. **Lightness Skills** (4) - Gliding and aerial movement
-2. **Wall Run Skills** (2) - Wall running and vertical traversal
-3. **Movement Skills** (4) - Advanced mobility techniques
-4. **Diving Skills** (1) - High-altitude diving
-
----
-
-### Lightness Skills
-
-#### 1. Thousand-Mile Flight (千里神行)
-
-**Type**: Lightness (gliding movement)
-
-**Vitality Cost**: 0 (free to use)
-
-**Function**: Gain the ability to glide during **Lightness**
-
-**Unlock Method**:
-- Increase **Exploration Level** in specific region
-- Unlocked naturally through exploration progress
-
-**Upgrade**: Cannot be upgraded
-
-**Usage**: Essential base gliding skill for aerial traversal
+3. **移動秘術技能** - 機動性和導航技能（已記錄11個）
+   - **無精力消耗** - 免費使用
+   - 通過區域中的**探索等級**解鎖
+   - 無法升級
+   - 對於穿越和快速旅行至關重要
 
 ---
 
-#### 2. Meteor Flight (流星赶月)
+## 移動秘術技能
 
-**Type**: Lightness (dash movement)
+### 概述
 
-**Vitality Cost**: 0 (free to use)
+**總數量**：11個移動秘術技能
 
-**Function**: Gain the ability to dash during **Lightness**
+**關鍵特徵**：
+- **無精力消耗** - 所有移動技能都可免費使用
+- **無升級** - 無法升級（無階級或等級）
+- **基於探索的解鎖** - 通過提高特定區域的探索等級解鎖
+- **導航專注** - 啟用快速旅行、跑牆、滑翔和特殊移動
 
-**Unlock Method**:
-- Increase **Exploration Level** in specific region
-- Unlocked through exploration progress
-
-**Upgrade**: Cannot be upgraded
-
-**Usage**: Rapid aerial movement, extends gliding distance
-
----
-
-#### 3. Fan Glider (扇翼)
-
-**Type**: Lightness (gliding enhancement)
-
-**Vitality Cost**: 0 (free to use)
-
-**Function**: Grants the ability to **glide**
-
-**Unlock Method**:
-- Requires **Faction Keepsake** from specific region
-- Obtained by increasing **Exploration progress** in region
-
-**Upgrade**: Cannot be upgraded
-
-**Usage**: Alternative or enhanced gliding method
+**類別**：
+1. **輕功技能**（4個）- 滑翔和空中移動
+2. **跑牆技能**（2個）- 跑牆和垂直穿越
+3. **移動技能**（4個）- 高級機動技術
+4. **潛水技能**（1個）- 高空潛水
 
 ---
 
-#### 4. Wind Rider (御风)
+### 輕功技能
 
-**Type**: Lightness (advanced gliding)
+#### 1. 千里神行
 
-**Vitality Cost**: 0 (free to use)
+**類型**：輕功（滑翔移動）
 
-**Function**: Advanced gliding technique
+**精力消耗**：0（免費使用）
 
-**Unlock Method**:
-- Requires **Faction Keepsake** from specific region
-- Obtained by increasing **Exploration progress** in region
+**功能**：在**輕功**期間獲得滑翔能力
 
-**Upgrade**: Cannot be upgraded
+**解鎖方法**：
+- 提高特定區域的**探索等級**
+- 通過探索進度自然解鎖
 
-**Usage**: Enhanced aerial control and movement
+**升級**：無法升級
 
----
-
-### Wall Run Skills
-
-#### 5. Wallstride - Swiftstride (疾行)
-
-**Type**: Wall Run (speed variant)
-
-**Vitality Cost**: 0 (free to use)
-
-**Function**: Perform **Wall Run** with increased speed
-
-**Unlock Method**:
-- Increase **Exploration Level** in specific region
-- Unlocked through exploration progress
-
-**Upgrade**: Cannot be upgraded
-
-**Usage**: Fast vertical traversal on walls
+**用途**：空中穿越的基本滑翔技能
 
 ---
 
-#### 6. Wallstride - Shadowdash (影掠)
+#### 2. 流星趕月
 
-**Type**: Wall Run (stealth/alternative variant)
+**類型**：輕功（衝刺移動）
 
-**Vitality Cost**: 0 (free to use)
+**精力消耗**：0（免費使用）
 
-**Function**: Perform **Wall Run** with different properties (possibly stealth-focused)
+**功能**：在**輕功**期間獲得衝刺能力
 
-**Unlock Method**:
-- Increase **Exploration Level** in specific region
-- Unlocked through exploration progress
+**解鎖方法**：
+- 提高特定區域的**探索等級**
+- 通過探索進度解鎖
 
-**Upgrade**: Cannot be upgraded
+**升級**：無法升級
 
-**Usage**: Alternative wall running style, possibly with stealth benefits
-
----
-
-### Movement Skills
-
-#### 7. Threefold Skywalk (三重天步)
-
-**Type**: Movement (aerial stepping)
-
-**Vitality Cost**: 0 (free to use)
-
-**Function**: Perform **three consecutive air jumps**
-
-**Unlock Method**:
-- Increase **Exploration Level** in specific region
-- Unlocked through exploration progress
-
-**Upgrade**: Cannot be upgraded
-
-**Usage**: Essential for reaching high places and crossing large gaps
+**用途**：快速空中移動，延長滑翔距離
 
 ---
 
-#### 8. Skywalk Dash (天行疾影)
+#### 3. 扇翼
 
-**Type**: Movement (aerial dash)
+**類型**：輕功（滑翔增強）
 
-**Vitality Cost**: 0 (free to use)
+**精力消耗**：0（免費使用）
 
-**Function**: Dash while performing **Skywalk**
+**功能**：獲得**滑翔**能力
 
-**Unlock Method**:
-- Increase **Exploration Level** in specific region
-- Unlocked through exploration progress
+**解鎖方法**：
+- 需要來自特定區域的**派系信物**
+- 通過提高區域中的**探索進度**獲得
 
-**Upgrade**: Cannot be upgraded
+**升級**：無法升級
 
-**Usage**: Rapid aerial repositioning, extends jump distance
-
----
-
-#### 9. Mighty Drop (重落)
-
-**Type**: Movement (impact landing)
-
-**Vitality Cost**: 0 (free to use)
-
-**Function**: Perform a powerful **drop attack** from height
-
-**Unlock Method**:
-- Increase **Exploration Level** in specific region
-- Unlocked through exploration progress
-
-**Upgrade**: Cannot be upgraded
-
-**Usage**:
-- Deal damage to enemies below
-- Stylish engagement opener
-- May cause fall damage to self if too high
+**用途**：替代或增強的滑翔方法
 
 ---
 
-#### 10. Safe Mighty Drop (安全重落)
+#### 4. 御風
 
-**Type**: Movement (safe impact landing)
+**類型**：輕功（高級滑翔）
 
-**Vitality Cost**: 0 (free to use)
+**精力消耗**：0（免費使用）
 
-**Function**: Perform **Mighty Drop** without taking fall damage. Upon learning a Lightness Skill, using Safe Mighty Drop grants **immunity to disease and fall damage** upon landing.
+**功能**：高級滑翔技術
 
-**Unlock Method**:
-- Increase **Exploration Level** in specific region
-- Unlocked through exploration progress
+**解鎖方法**：
+- 需要來自特定區域的**派系信物**
+- 通過提高區域中的**探索進度**獲得
 
-**Upgrade**: Cannot be upgraded
+**升級**：無法升級
 
-**Usage**:
-- Safe drop attacks from any height
-- No fall damage
-- **Grants disease immunity upon landing** (when combined with Lightness Skills)
-- Perfect for descending from extreme heights
+**用途**：增強的空中控制和移動
 
 ---
 
-### Diving Skills
+### 跑牆技能
 
-#### 11. Abyss Dive (深渊俯冲)
+#### 5. 疾行
 
-**Type**: Diving (underwater diving)
+**類型**：跑牆（速度變體）
 
-**Vitality Cost**: 0 (free to use)
+**精力消耗**：0（免費使用）
 
-**Function**: After mastering this skill, you can **dive underwater** for a period of time in specific areas like **Crimson Cliff**. Be free beneath the surface like a careless fish.
+**功能**：以增加的速度執行**跑牆**
 
-**Unlock Method**:
-- Increase **Exploration Level** in specific region
-- Unlocked through exploration progress
+**解鎖方法**：
+- 提高特定區域的**探索等級**
+- 通過探索進度解鎖
 
-**Upgrade**: Cannot be upgraded
+**升級**：無法升級
 
-**Usage**:
-- Dive underwater in specific areas (Crimson Cliff confirmed)
-- Explore underwater caves and locations
-- Extended underwater breathing duration
-- Essential for underwater treasure hunting
+**用途**：牆上的快速垂直穿越
 
 ---
 
-## Movement Mystic Skills Strategy
+#### 6. 影掠
 
-### Essential Movement Skills
+**類型**：跑牆（隱身/替代變體）
 
-**Core Traversal**:
-- **Thousand-Mile Flight** - Base gliding ability
-- **Threefold Skywalk** - Triple jump for vertical movement
-- **Wallstride - Swiftstride** - Wall running for vertical surfaces
+**精力消耗**：0（免費使用）
 
-**Extended Mobility**:
-- **Meteor Flight** - Aerial dashing
-- **Skywalk Dash** - Enhanced aerial movement
+**功能**：執行具有不同屬性的**跑牆**（可能專注於隱身）
 
-**Safe Exploration**:
-- **Safe Mighty Drop** - Eliminates fall damage concerns
-- **Abyss Dive** - Control during long falls
+**解鎖方法**：
+- 提高特定區域的**探索等級**
+- 通過探索進度解鎖
 
-### Exploration Priority
+**升級**：無法升級
 
-1. **Unlock Threefold Skywalk early** - Essential for reaching high places
-2. **Get Thousand-Mile Flight** - Core gliding for covering distance
-3. **Wallstride skills** - Enable vertical exploration
-4. **Safe Mighty Drop** - Prevents frustrating fall damage
-5. **Advanced skills** (Meteor Flight, Skywalk Dash) - Optimize speed
-
-### Faction Keepsakes and Regional Restrictions
-
-**Important Lore**: All major factions enforce restrictions on the use of lightness skills and wall-running abilities. You must increase your Exploration in regions to earn faction keepsakes that grant permission to move freely.
-
-**Skills Requiring Faction Keepsakes**:
-- **Fan Glider** - "With a fan in hand, one roams across the mountains, free and unbound"
-- **Wind Rider** - "Riding the wind through emptiness, untouched by the mortal world"
-- **Meteor Flight** - "Like a shooting star, the spear-wielder commands the wind"
-- **Thousand-Mile Flight** - "The loong soars through the sky, leaving traces across the land"
-- **Wallstride - Shadowdash** - "Dash at lightning speed, leaping across peaks and valleys"
-- **Wallstride - Swiftstride** - "Moving along wall and eaves with agility"
-
-**How to Obtain Keepsakes**:
-- Increase **Exploration progress** in specific regions
-- Complete region objectives and activities
-- Unlock as rewards for high Exploration Level
-- Each region's faction grants permission to use advanced movement skills in their territory
+**用途**：替代跑牆風格，可能具有隱身優勢
 
 ---
 
-## Vitality System
+### 移動技能
 
-### What is Vitality?
+#### 7. 三重天步
 
-**Vitality** is the resource consumed when casting Mystic Skills (separate from Chi).
+**類型**：移動（空中踏步）
 
-**Vitality Meter**:
-- Displayed as a white circle in the Mystic Skills HUD
-- Shows current Vitality available
-- Each Mystic Skill has a specific Vitality cost
+**精力消耗**：0（免費使用）
 
-### How to Restore Vitality
+**功能**：執行**三次連續空中跳躍**
 
-1. **Combat**: Hitting enemies repeatedly produces Vitality
-2. **Boundary Stones**: Approach these landmarks to regain Vitality
-3. **Natural Regeneration**: Some passive regeneration (details TBD)
+**解鎖方法**：
+- 提高特定區域的**探索等級**
+- 通過探索進度解鎖
 
-### Increasing Maximum Vitality
+**升級**：無法升級
 
-**Method**: Melodies of Peace system
-- Collect **Oddities**
-- Submit Oddities to increase max Vitality
-- Essential for using high-cost Mystic Skills
+**用途**：到達高處和跨越大間隙的關鍵
 
 ---
 
-## Offensive Mystic Skills Sub-Categories
+#### 8. 天行疾影
 
-### Puzzle Skills
-**Dual-Purpose**: Different effects in/out of combat
-- **Out of Combat**: Solve environmental puzzles
-- **In Combat**: Control or damage enemies
+**類型**：移動（空中衝刺）
 
-**Examples**: Tai Chi, Meridian Touch, Celestial Seize, Cloud Steps
+**精力消耗**：0（免費使用）
 
----
+**功能**：執行**天步**時衝刺
 
-### Area Debuff Skills
-**Purpose**: Apply area-of-effect debuffs to multiple enemies
-- Leaping Toad (applies Toad Venom)
-- Lion's Roar (Silence effect)
+**解鎖方法**：
+- 提高特定區域的**探索等級**
+- 通過探索進度解鎖
 
----
+**升級**：無法升級
 
-### Area Damage Skills
-**Purpose**: Deal damage in an area without primary debuff focus
-- Guardian Palm
-- Ghost Bind
-- Flaming Meteor
+**用途**：快速空中重新定位，延長跳躍距離
 
 ---
 
-### Single-Target Control Skills
-**Purpose**: Control a single enemy (slow, stun, knockback, etc.)
-- Wolflike Frenzy
-- Talon Strike
-- Yaksha Rush
-- Free Morph
-- Soaring Spin
+#### 9. 重落
+
+**類型**：移動（衝擊著陸）
+
+**精力消耗**：0（免費使用）
+
+**功能**：從高處執行強大的**墜落攻擊**
+
+**解鎖方法**：
+- 提高特定區域的**探索等級**
+- 通過探索進度解鎖
+
+**升級**：無法升級
+
+**用途**：
+- 對下方的敵人造成傷害
+- 華麗的戰鬥開場
+- 如果太高可能對自己造成墜落傷害
 
 ---
 
-### Single-Target Burst Skills
-**Purpose**: High damage against single targets (especially bosses)
-- Dragon's Breath
-- Drunken Poet
-- Dragon Head
+#### 10. 安全重落
+
+**類型**：移動（安全衝擊著陸）
+
+**精力消耗**：0（免費使用）
+
+**功能**：執行**重落**而不受到墜落傷害。學習輕功技能後，使用安全重落在著陸時獲得**疾病和墜落傷害免疫**。
+
+**解鎖方法**：
+- 提高特定區域的**探索等級**
+- 通過探索進度解鎖
+
+**升級**：無法升級
+
+**用途**：
+- 從任何高度安全墜落攻擊
+- 無墜落傷害
+- **著陸時獲得疾病免疫**（與輕功技能結合時）
+- 從極端高度下降的完美選擇
 
 ---
 
-### Support Skills
-**Purpose**: Buffs, healing, utility, stealth
-- Serene Breeze (control break)
-- Ghostly Steps (dodge cost reduction)
-- Honking Havoc (AoE breath-hold)
-- Glow of Fireflies (illumination)
-- Veil of Stillness (stealth)
-- Blinding Mist (blind enemies)
-- Golden Body (shield and damage reduction)
+### 潛水技能
+
+#### 11. 深淵俯衝
+
+**類型**：潛水（水下潛水）
+
+**精力消耗**：0（免費使用）
+
+**功能**：掌握此技能後，你可以在特定區域（如**赤壁**）**潛水**一段時間。像一條無憂無慮的魚一樣在水面下自由。
+
+**解鎖方法**：
+- 提高特定區域的**探索等級**
+- 通過探索進度解鎖
+
+**升級**：無法升級
+
+**用途**：
+- 在特定區域（已確認赤壁）潛水
+- 探索水下洞穴和地點
+- 延長水下呼吸持續時間
+- 對於水下尋寶至關重要
 
 ---
 
-## Complete List of Offensive Mystic Skills
+## 移動秘術技能策略
 
-### 1. Tai Chi (太极) - PUZZLE
+### 基本移動技能
 
-**Vitality Cost**: 0
-**Cooldown**: 12s
-**Location**: Qinghe, General's Shrine
+**核心穿越**：
+- **千里神行** - 基本滑翔能力
+- **三重天步** - 垂直移動的三段跳
+- **疾行** - 垂直表面的跑牆
 
-**Lore**:
-In his youth, Master Feng Dao of the Inkbound Order received guidance from Elder Chen Tuan and, through deep study of the I Ching, devised a subtle art. It could redirect an enemy's force to make them stumble, defeating even the strongest without ever being touched. After Tian Ying's betrayal, both the technique and the precious tomes associated with it vanished from the Jianghu.
+**擴展機動性**：
+- **流星趕月** - 空中衝刺
+- **天行疾影** - 增強的空中移動
 
-**Out of Combat**:
-- Gather fallen leaves in certain areas (Leaf Swirl puzzles)
-- Create ripples on water to make fish leap
-- Solve environmental puzzles
+**安全探索**：
+- **安全重落** - 消除墜落傷害的擔憂
+- **深淵俯衝** - 長時間墜落期間的控制
 
-**In Combat**:
-- Pull and whirl target, then hurl for damage
-- Rotate camera to aim throw direction
-- **Especially potent against Shield-Bearing Enemies**
-- Disarm shields with repeated throws (may take more than one throw)
-- Deals bonus damage to bears
+### 探索優先級
 
-**Unlock Method**:
-- Main Quest: "A Bear of a Time"
-- Use **Skill Theft** on bear using Tai Chi on the way to General's Shrine in Qinghe
+1. **儘早解鎖三重天步** - 到達高處的關鍵
+2. **獲得千里神行** - 覆蓋距離的核心滑翔
+3. **跑牆技能** - 啟用垂直探索
+4. **安全重落** - 防止令人沮喪的墜落傷害
+5. **高級技能**（流星趕月、天行疾影）- 優化速度
 
-**Upgrade Materials**: Ebon Iron + Vicious Fruit
+### 派系信物和區域限制
 
-**Tier Bonuses**:
-- Tier 2 (Damage Enhancement): Increases Phase-Two Shield Breaker Damage by 20% on Weak Point Break
-- Tier 3 (Strategy Enhancement): Reduces the target's defense by 20% for 10 seconds after Weak Point Break
-- Tier 4 (Damage Enhancement): Further increases Phase-Two Shield Breaker Damage by 30% on Weak Point Break
+**重要背景**：所有主要派系都對使用輕功技能和跑牆能力強制執行限制。你必須提高區域的探索度以獲得派系信物，這些信物授予你自由移動的許可。
 
----
+**需要派系信物的技能**：
+- **扇翼** - "手持扇子，在山間漫遊，自由無束"
+- **御風** - "御風穿空，不染塵世"
+- **流星趕月** - "如流星，持槍者駕馭風"
+- **千里神行** - "龍騰空中，在大地留下痕跡"
+- **影掠** - "閃電般衝刺，跨越山峰和峽谷"
+- **疾行** - "靈活地沿牆和屋簷移動"
 
-### 2. Meridian Touch (点穴) - PUZZLE
-
-**Vitality Cost**: TBD
-**Location**: Stonewash Strand
-
-**Out of Combat**:
-- Select acupoints for special effects
-- Solve **Martial Arts Sync** puzzles
-- Open **Bell Chests**
-- Catch **Thieves**
-
-**In Combat**:
-- Immobilize enemies and break Vital Points
-- Ineffective against mighty enemies and players
-
-**Unlock Method**:
-- Fragment Quest: "Meridian Touch"
-- Complete quest given by **Yan Qiren**
-- He is located in Stonewash Strand
-
-**Upgrade Materials**: Ebon Iron + Beauty's Plume
-
-**Tier Bonuses**:
-- Tier 2: +20% bonus damage on Weak Point Break
-- Tier 3: Increases Qi damage taken by target by 20% for 10s after Weak Point Break
-- Tier 4: +30% additional bonus damage on Weak Point Break
+**如何獲得信物**：
+- 提高特定區域的**探索進度**
+- 完成區域目標和活動
+- 作為高探索等級的獎勵解鎖
+- 每個區域的派系授予在其領土上使用高級移動技能的許可
 
 ---
 
-### 3. Celestial Seize (天机窃取) - PUZZLE
+## 精力系統
 
-**Vitality Cost**: 0
-**Location**: Heaven's Pier (Qinghe)
+### 什麼是精力？
 
-**Out of Combat**:
-- Pull distant objects
-- Steal items from chests/backpacks
-- **Gather poisonous plants safely**
-- Required for various quests and guarded chests
-- **Use with Windsense to steal from NPCs**
+**精力**是施放秘術技能時消耗的資源（與氣分開）。
 
-**In Combat**:
-- Disarm enemy weapon
-- Counter with their own weapon
-- Deal damage scaling with weapon weight
+**精力計量表**：
+- 在秘術技能HUD中顯示為白色圓圈
+- 顯示當前可用精力
+- 每個秘術技能都有特定的精力消耗
 
-**Unlock Method**: Exploration Quest: "Foul Play"
+### 如何恢復精力
 
-**Upgrade Materials**: Ebon Iron + Vicious Fruit
+1. **戰鬥**：重複擊中敵人產生精力
+2. **界石**：接近這些地標以恢復精力
+3. **自然恢復**：一些被動恢復（詳情待定）
 
-**Tier Bonuses**:
-- Tier 2: +20% bonus damage on Weak Point Break
-- Tier 3: Reduces target attack by 20% for 10s after Weak Point Break
-- Tier 4: +30% additional bonus damage on Weak Point Break
+### 增加最大精力
+
+**方法**：平安旋律系統
+- 收集**奇物**
+- 提交奇物以增加最大精力
+- 對於使用高成本秘術技能至關重要
 
 ---
 
-### 4. Cloud Steps (云踏) - PUZZLE
+## 進攻秘術技能子類別
 
-**Vitality Cost**: TBD
-**Location**: General's Shrine / Main Quest
+### 謎題技能
+**雙重用途**：戰鬥內/外效果不同
+- **戰鬥外**：解決環境謎題
+- **戰鬥中**：控制或傷害敵人
 
-**Lore**:
-In earlier years, the Northern Vow roamed the martial world and resisted the Khitan. From their battle experience they devised a unique lightness art. This technique lets its practitioners bound between rafters and cliff walls, even gain footing in mid-air to soar with the birds. Those who were not aware of this skill were often caught off-guard by its unpredictable, wind-like movements.
-
-**Out of Combat**:
-- Leap high and slam down
-- Hold breath to jump to marked spots
-- Essential for **mobility puzzles**
-- **Shadow Chase** challenges
-- Needed for various mobility puzzles or quests
-
-**In Combat**:
-- Stomp on enemy shoulders for damage
-- **Effective against Cavalry** and Unstable Poise units with Unstable Poise
-- Quick distance closer
-- Excellent at disrupting mounted enemies
-
-**Unlock Method**:
-- Main Quest (acquired during story progression)
-- Alternative: Found from a corpse in a cave under the General's Shrine
-
-**Upgrade Materials**: Ebon Iron + Beauty's Plume
-
-**Tier Bonuses**:
-- Tier 2 (Damage Enhancement): +20% bonus damage on Weak Point Break
-- Tier 3 (Strategy Enhancement): Increases HP damage taken by target by 20% for 10s after Weak Point Break
-- Tier 4 (Damage Enhancement): +30% additional bonus damage on Weak Point Break (further increases)
+**範例**：太極、點穴、天機竊取、雲踏
 
 ---
 
-### 5. Leaping Toad (跳蛤功) - AREA DEBUFF
-
-**Vitality Cost**: TBD
-**Location**: General's Shrine (Qinghe)
-**Recommended for**: Arena (PvP)
-
-**Effects**:
-- Flip to knockback enemies and deal damage
-- Lunge at target, deal damage, and retreat
-- **Recast twice** to apply **Toad Venom**
-- 3rd cast becomes **Golden Toad Crash** (knockdown AoE slam)
-
-**Unlock Method**:
-- Talk to Liang Xiaolong
-- Use **Skill Theft** on jumping toad in General's Shrine
-
-**Upgrade Materials**: Ebon Iron + Beauty's Plume
-
-**Tier Bonuses**:
-- Tier 2: +30% Toad Venom Qi damage within 10s after casting
-- Tier 3: Toad Venom spreads to nearby units as Lesser Toad Venom on explosion
-- Tier 4: +50% explosion radius for Toad Venom
+### 區域減益技能
+**目的**：對多個敵人施加範圍減益
+- 跳蛤功（施加蛤蟆毒）
+- 獅子吼（沉默效果）
 
 ---
 
-### 6. Lion's Roar (狮子吼) - AREA DEBUFF
-
-**Vitality Cost**: TBD
-**Location**: Qinghe (multiple bell locations)
-**Recommended for**: Arena (PvP)
-
-**Lore**:
-This hidden Zen technique originates from layman Vimalakirti's experience hearing the Buddha preach. The Buddha's voice, described as a thunderous roar, dispelled dreams and awakened the deluded. Vimalakirti later documented this, stating that true preaching is like a lion's roar, a powerful and impactful truth. The technique remains a closely guarded secret among those who follow the Zen path.
-
-**Effects**:
-- Slam a giant bell, dealing damage
-- Unleash deafening roar dealing damage over **14 hits in large area**
-- Gain **15% Damage Reduction** and **Fortitude**
-- Apply **Silence** debuff (5+ hits on same target for 3 seconds at Tier 3)
-
-**Unlock Method**:
-*"The Buddha said that the bell's sound could suppress the fiends like a lion rules over all the other beasts. If you can find all the copper bells scattered in Qinghe, perhaps you will comprehend the Mystic Skill."*
-- Find and interact with all copper bells scattered in Qinghe
-- First bell is in General's Shrine area (first town you visit)
-
-**Uses**:
-- Useful for PvP
-- Provides bonus defense, making it useful for the Stonesplit Path or to help reduce damage when solo
-
-**Upgrade Materials**: Ebon Iron + Buddha's Tear Root
-
-**Tier Bonuses**:
-- Tier 2 (Defense Boost): Enhances the Tenacity effect when casting skills
-- Tier 3 (Strategy Enhancement): Dealing Roar damage 5 times or more to the target puts them under Silence for 3 seconds
-- Tier 4 (Defense Boost): DMG Reduction when casting skills is increased to 40%
+### 區域傷害技能
+**目的**：在區域內造成傷害，無主要減益專注
+- 護法掌
+- 鬼縛
+- 流星火雨
 
 ---
 
-### 7. Guardian Palm (护法掌) - AREA DAMAGE
-
-**Vitality Cost**: TBD
-**Location**: Sundara Land
-
-**Effects**:
-- Smite ground for AoE damage
-- **At 3-5m height**: Upgrades to **Lamp Light**
-  - Palm strike toward ground
-  - Knockback in area
-
-**Unlock Method**:
-- Reward from **Where a Thousand Buddhas** side story
-- This side story starts from the Nightdream Monk
-- Located in the northeastern section of Sundara Land
-
-**Upgrade Materials**: Ebon Iron + Buddha's Tear Root
-
-**Tier Bonuses**:
-- Tier 2: +20% palm strike damage and knockdown on first two hits
-- Tier 3: At 5m+ height, evolves to **Rite of Transcendence** (16s cooldown, Demon-subduing Vajra Mark)
-- Tier 4: +60% AoE radius for palm strikes
+### 單體控制技能
+**目的**：控制單個敵人（減速、眩暈、擊退等）
+- 瘋狼棍法
+- 鷹爪功
+- 夜叉衝
+- 自在化身
+- 旋風槍
 
 ---
 
-### 8. Ghost Bind (鬼缚) - AREA DAMAGE
-
-**Vitality Cost**: TBD
-**Location**: Kaifeng
-
-**Effects**:
-- Flash before enemies
-- **Immobilize up to 6 targets** and deal damage
-- Break Vital Points
-- **Ineffective against powerful enemies and players**
-
-**Unlock Method**:
-- "Trapped in the narrow Corner Gate, Ghostly Blink can upend the sky."
-- Complete the **Unwanted Hospitality** quest in Kaifeng
-
-**Upgrade Materials**: Ebon Iron + Jade Tower Pearl
-
-**Tier Bonuses**:
-- Tier 2: +2s immobilization duration
-- Tier 3: Records damage dealt; deals 12% of recorded damage when effect ends
-- Tier 4: -5s cooldown
-
-**Best For**: Solo content against moderate enemy groups
+### 單體爆發技能
+**目的**：對單個目標造成高傷害（尤其是首領）
+- 龍息
+- 醉仙
+- 龍首
 
 ---
 
-### 9. Flaming Meteor (流星火雨) - AREA DAMAGE
-
-**Vitality Cost**: TBD
-**Location**: Bodhi Sea
-
-**Effects**:
-- Charge forward, stomp to leap into air
-- Form blazing spear and hurl at target (AoE explosion)
-- Crash down like meteor for additional damage
-- Gain **15% Damage Reduction** and **Super Armor**
-
-**Unlock Method**:
-- "Condensed by tormented general, deep in Bodhi Sea"
-- Gain proficiency by **deflecting in Campaign-Challenge**
-- Acquire when Proficiency is full
-
-**Upgrade Materials**: Ebon Iron + Buddha's Tear Root
-
-**Tier Bonuses**:
-- Tier 2: Recover 3 Vitality per unit hit (up to 3) with spear
-- Tier 3: +10% final damage per unit in landing area (up to 5)
-- Tier 4: Damage Reduction increased to 40%
-
-**Best For**: Mobility builds, Stonesplit Path (tank)
+### 支援技能
+**目的**：增益、治療、實用、隱身
+- 清風（控制破除）
+- 鬼步（閃避成本降低）
+- 鵝鳴（範圍屏息）
+- 螢火（照明）
+- 斂息（隱身）
+- 迷霧（致盲敵人）
+- 金身（護盾和傷害減免）
 
 ---
 
-### 10. Wolflike Frenzy (疯狼棍法) - SINGLE-TARGET CONTROL
+## 進攻秘術技能完整列表
 
-**Vitality Cost**: TBD
-**Location**: Ghostlight Market
+### 1. 太極 - 謎題
 
-**Effects**:
-- Channel strength into staff to knock enemy down
-- Rapid series of strikes
-- Finish with upward swing
-- **Effective against Cavalry** and Unstable Poise units
+**精力消耗**：0
+**冷卻時間**：12秒
+**位置**：清河，將軍祠
 
-**Unlock Method**:
-- Located in a chest at the entrance of Ghostlight Market
+**背景**：
+在他年輕時，墨縛教的馮道大師從陳摶長老那裡獲得指導，並通過深入研究《易經》，設計出一種巧妙的武術。它可以重定向敵人的力量使他們跌倒，即使是最強大的敵人也無需接觸就能擊敗。在田穎的背叛之後，這項技術和與之相關的珍貴書籍都從江湖上消失了。
 
-**Upgrade Materials**: Ebon Iron + Jade Tower Pearl
+**戰鬥外**：
+- 在某些區域收集落葉（葉旋謎題）
+- 在水上產生漣漪使魚躍起
+- 解決環境謎題
 
-**Tier Bonuses**:
-- Tier 2: +10% damage to players
-- Tier 3: Inflicts **Hamstring** (unable to cast lightness skill for 5s)
-- Tier 4: -5 Vitality cost
+**戰鬥中**：
+- 拉動並旋轉目標，然後投擲造成傷害
+- 旋轉相機以瞄準投擲方向
+- **對持盾敵人特別有效**
+- 通過重複投擲解除盾牌（可能需要多次投擲）
+- 對熊造成額外傷害
 
-**Note**: Slower animation, harder to use when surrounded
+**解鎖方法**：
+- 主線任務："熊的時刻"
+- 在前往清河將軍祠的路上，對使用太極的熊使用**技偷**
 
----
+**升級材料**：墨鐵 + 兇果
 
-### 11. Talon Strike (鹰爪功) - SINGLE-TARGET CONTROL
-
-**Vitality Cost**: TBD
-**Location**: Palace of Annals
-**Recommended for**: Arena (PvP)
-
-**Effects**:
-- Swift falcon-like strikes
-- Swipe to break defense
-- 3 follow-up hits for damage
-- Mobility and defense breaking
-
-**Unlock Method**:
-- "Find a Golden Eagle in Palace of Annals for inspiration"
-
-**Upgrade Materials**: Ebon Iron + Vicious Fruit
-
-**Tier Bonuses**:
-- Tier 2: +1.5m dash distance
-- Tier 3: On defense break, reduces target Defense by 10% and Endurance Recovery by 50% for 5s
-- Tier 4: +1.5m additional dash distance
+**階級獎勵**：
+- 第2階（傷害增強）：破弱點時第二階段破盾傷害增加20%
+- 第3階（策略增強）：破弱點後降低目標防禦20%，持續10秒
+- 第4階（傷害增強）：破弱點時第二階段破盾傷害進一步增加30%
 
 ---
 
-### 12. Yaksha Rush (夜叉冲) - SINGLE-TARGET CONTROL
+### 2. 點穴 - 謎題
 
-**Vitality Cost**: TBD
-**Location**: Qinghe
-**Recommended for**: Arena (PvP)
+**精力消耗**：待定
+**位置**：洗石灘
 
-**Effects**:
-- Gather Qi and lunge forward with Yaksha ferocity
-- Break enemy defense
-- Knock upward
-- **Breaking defense deals great damage**
+**戰鬥外**：
+- 選擇穴位以獲得特殊效果
+- 解決**武術同步**謎題
+- 打開**鐘寶箱**
+- 抓捕**小偷**
 
-**Unlock Method**:
-- Complete Side Story: "Final Volume - A Rainbow in the Endless Night" (Qinghe)
+**戰鬥中**：
+- 固定敵人並破壞要害點
+- 對強大的敵人和玩家無效
 
-**Upgrade Materials**: Ebon Iron + Buddha's Tear Root
+**解鎖方法**：
+- 碎片任務："點穴"
+- 完成**閻啟仁**給予的任務
+- 他位於洗石灘
 
-**Tier Bonuses**:
-- Tier 2: +10% damage to players
-- Tier 3: Inflicts **Silence** for 3s on defense break
-- Tier 4: +2m dash distance
+**升級材料**：墨鐵 + 美人羽
 
----
-
-### 13. Free Morph (自在化身) - SINGLE-TARGET CONTROL
-
-**Vitality Cost**: TBD
-**Location**: Halo Peak
-
-**Effects**:
-- Vault into air
-- Storm of kicks: launch target upward
-- Relentless midair strikes
-- Finish with slam (AoE damage on impact)
-
-**Unlock Method**:
-- "Go to Halo Peak to find the tip"
-- Based on Master Miaoshan's enlightenment
-
-**Upgrade Materials**: Ebon Iron + Buddha's Tear Root
-
-**Tier Bonuses**:
-- Tier 2: +10% damage to players
-- Tier 3: +20% damage to targets with HP Shield
-- Tier 4: -5 Vitality cost
+**階級獎勵**：
+- 第2階：破弱點時額外傷害+20%
+- 第3階：破弱點後增加目標受到的氣傷害20%，持續10秒
+- 第4階：破弱點時額外傷害+30%
 
 ---
 
-### 14. Soaring Spin (旋风枪) - SINGLE-TARGET CONTROL
+### 3. 天機竊取 - 謎題
 
-**Vitality Cost**: TBD
-**Location**: Martial Temple
+**精力消耗**：0
+**位置**：天橋（清河）
 
-**Effects**:
-- Channel Qi into roaring thrust
-- Shift stance into spiraling follow-up
-- Deal damage and inflict **Healing Reduction**
+**戰鬥外**：
+- 拉取遠處物品
+- 從寶箱/背包偷取物品
+- **安全收集有毒植物**
+- 各種任務和守衛寶箱所需
+- **與風感一起使用從NPC處偷竊**
 
-**Unlock Method**:
-- "The most orthodox techniques kept by government army. Martial Temple has clues."
-- Explore Martial Temple for this orthodox government army technique
+**戰鬥中**：
+- 解除敵人武器
+- 用他們自己的武器反擊
+- 造成隨武器重量縮放的傷害
 
-**Upgrade Materials**: Ebon Iron + Jasmine Stamen
+**解鎖方法**：探索任務："惡作劇"
 
-**Tier Bonuses**:
-- Tier 2: +10% damage to players
-- Tier 3: Adds cancel point after first thrust
-- Tier 4: +2m dash distance
+**升級材料**：墨鐵 + 兇果
 
-**Best For**: Fighting opponents that can heal
-
----
-
-### 15. Dragon's Breath (龙息) - SINGLE-TARGET BURST
-
-**Vitality Cost**: TBD
-**Location**: Dragon Palace, Kaifeng (Southeastern)
-
-**Effects**:
-- Drink to enter **Intoxicated** state
-- Breathe fire with Qi (2 hits + **Ignition**)
-- Gain **15% Damage Reduction** and **Fortitude**
-
-**Unlock Method**:
-- "Fire-breathing performer in Beast Reverie in Fairgrounds"
-- Complete quest given by **Luo Jiu**
-- He is located in the dragon palace in southeastern Kaifeng
-
-**Upgrade Materials**: Ebon Iron + Jade Tower Pearl
-
-**Tier Bonuses**:
-- Tier 2: Enhances Tenacity effect
-- Tier 3: Ignition stacks up to 10 times; synergy with Drunken Poet
-- Tier 4: Damage Reduction increased to 40%
-
-**Best For**: Tank or DPS Paths; synergizes with Drunken Poet
+**階級獎勵**：
+- 第2階：破弱點時額外傷害+20%
+- 第3階：破弱點後降低目標攻擊20%，持續10秒
+- 第4階：破弱點時額外傷害+30%
 
 ---
 
-### 16. Drunken Poet (醉仙) - SINGLE-TARGET BURST
+### 4. 雲踏 - 謎題
 
-**Vitality Cost**: TBD
-**Location**: Blissful Retreat / Harvestfall Village
+**精力消耗**：待定
+**位置**：將軍祠 / 主線任務
 
-**Effects**:
-- Drink deeply to enter **Intoxicated** state
-- Imitates drunken grace of Poet Immortal Li Bai
-- Cast repeatedly for **up to 5 strikes**
-- Inflicts **Drunken Haze**
+**背景**：
+早年，北盟在江湖中漫遊並抵抗契丹。從他們的戰鬥經驗中，他們設計出一種獨特的輕功武術。這項技術讓其使用者在椽子和懸崖壁之間跳躍，甚至在空中獲得立足點，與鳥兒一起翱翔。那些不了解這項技能的人經常被其不可預測的、如風般的移動所措手不及。
 
-**Unlock Method**:
-- "When life brings joy, drink it to the last drop..."
-- Purchase and drink roughly 10 bottles of wine from the **Honest Merchant**
-- This NPC can be found at Blissful Retreat or Harvestfall Village depending on story progression
+**戰鬥外**：
+- 高跳並猛擊
+- 屏住呼吸跳到標記的地點
+- 對於**機動性謎題**至關重要
+- **追影**挑戰
+- 各種機動性謎題或任務所需
 
-**Upgrade Materials**: Ebon Iron + Vicious Fruit
+**戰鬥中**：
+- 踩踏敵人肩膀造成傷害
+- **對騎兵有效**和具有不穩定姿態的單位
+- 快速縮短距離
+- 擾亂騎乘敵人的絕佳選擇
 
-**Tier Bonuses**:
-- Tier 2: Grants 15% Damage Reduction and Tenacity when casting
+**解鎖方法**：
+- 主線任務（在故事進展期間獲得）
+- 替代方法：在將軍祠下的洞穴中從屍體找到
 
-**Best For**: DPS Paths; synergizes with Dragon's Breath
+**升級材料**：墨鐵 + 美人羽
 
----
-
-### 17. Dragon Head (龙首) - SINGLE-TARGET BURST
-
-**Vitality Cost**: TBD
-**Location**: Unlock by learning 35 other Mystic Skills
-
-**Effects**:
-- Channel inner force to gather leaves and dust
-- Shape into dragon's head
-- Strike enemies in range for damage and knockback
-- Gain **15% Damage Reduction** and **Super Armor**
-
-**Unlock Method**:
-- **Learn 35 Mystic Skills first**
-- Recreates amazing skill glimpsed in youth
-
-**Upgrade Materials**: Ebon Iron + Jade Tower Pearl
-
-**Tier Bonuses**:
-- Tier 2: +10% skill damage
-- Tier 3: +damage based on HP lost (up to 25% bonus)
-- Tier 4: HP-based damage bonus increased to 45%
-
-**Best For**: All-around excellent for most players
+**階級獎勵**：
+- 第2階（傷害增強）：破弱點時額外傷害+20%
+- 第3階（策略增強）：破弱點後增加目標受到的生命傷害20%，持續10秒
+- 第4階（傷害增強）：破弱點時額外傷害+30%（進一步增加）
 
 ---
 
-### 18. Serene Breeze (清风) - SUPPORT
+### 5. 跳蛤功 - 區域減益
 
-**Vitality Cost**: TBD
-**Location**: Unlock with Talent Points
+**精力消耗**：待定
+**位置**：將軍祠（清河）
+**推薦用於**：競技場（PvP）
 
-**Effects**:
-- Channel Qi to clear vein blockages
-- **Can be used while under attack or control effects**
-- On hit: reduces target Endurance recovery by 50% for 8s
+**效果**：
+- 翻轉以擊退敵人並造成傷害
+- 向目標猛撲，造成傷害，然後撤退
+- **重新施放兩次**以施加**蛤蟆毒**
+- 第3次施放變為**金蛤撞擊**（擊倒範圍猛擊）
 
-**Unlock Method**:
-- Unlock with **Talent Points** (earned from Enlightenment Points)
+**解鎖方法**：
+- 與梁小龍交談
+- 在將軍祠對跳躍的蛤蟆使用**技偷**
 
-**Upgrade Materials**: Ebon Iron + Beauty's Plume
+**升級材料**：墨鐵 + 美人羽
 
-**Tier Bonuses**:
-- Tier 2: Auto-break control after 10s in Arena (gain super armor briefly)
-- Tier 3: -5s cooldown
-- Tier 4: Successful hit on player deals +10 Qi damage and recovers 6 Qi
-
-**Best For**: Breaking control effects; draining enemy Endurance
-
----
-
-### 19. Ghostly Steps (鬼步) - SUPPORT
-
-**Vitality Cost**: TBD
-**Location**: Ghostlight Market
-
-**Effects**:
-- Gain **Mirage** status (lasts 20s)
-- Reduces Endurance cost of ground dodge by 40%
-- Slightly increases Untargetable duration
-
-**Unlock Method**:
-- Reward for completing the **Cloudwalk Spire Divinecraft Dungeon**
-- This dungeon can be found on the east side of Ghostlight Market
-
-**Upgrade Materials**: Ebon Iron + Frost Mushroom Mycelium
-
-**Tier Bonuses**:
-- Tier 2: +10s Mirage duration
-- Tier 3: +10% Endurance reduction for all skills
-- Tier 4: -10 Vitality cost
-
-**Best For**: Dodge-focused builds
+**階級獎勵**：
+- 第2階：施放後10秒內蛤蟆毒氣傷害+30%
+- 第3階：蛤蟆毒爆炸時擴散到附近單位為次級蛤蟆毒
+- 第4階：蛤蟆毒爆炸半徑+50%
 
 ---
 
-### 20. Honking Havoc (鹅鸣) - SUPPORT
+### 6. 獅子吼 - 區域減益
 
-**Vitality Cost**: TBD
-**Location**: Between West Heaven's Pier and Blissful Retreat
+**精力消耗**：待定
+**位置**：清河（多個鐘位置）
+**推薦用於**：競技場（PvP）
 
-**Effects**:
-- Clamp goose's throat, force it to honk forward
-- Deals AoE damage
-- Triggers long **Breath-hold**
+**背景**：
+這種隱藏的禪宗技術源自居士維摩詰聽佛說法的經驗。佛陀的聲音被描述為雷鳴般的咆哮，驅散夢境並喚醒迷惑者。維摩詰後來記錄了這一點，指出真正的說法就像獅子的咆哮，是一個強大而有影響力的真理。這項技術仍然是遵循禪宗道路的人嚴密守護的秘密。
 
-**Unlock Method**:
-- **Save the Bear from the Goose!**
-- Use **Skill Theft** on goose terrorizing bear on road
+**效果**：
+- 敲擊巨鐘，造成傷害
+- 釋放震耳欲聾的咆哮，在大範圍內造成**14次命中**的傷害
+- 獲得**15%傷害減免**和**堅韌**
+- 施加**沉默**減益（在第3階對同一目標5次以上命中，持續3秒）
 
-**Upgrade Materials**: Ebon Iron + Vicious Fruit
+**解鎖方法**：
+*"佛說鐘聲可以像獅子統治所有其他野獸一樣壓制魔鬼。如果你能找到散落在清河的所有銅鐘，也許你會領悟秘術技能。"*
+- 找到並與散落在清河的所有銅鐘互動
+- 第一個鐘在將軍祠區域（你訪問的第一個城鎮）
 
-**Tier Bonuses**:
-- Tier 2: +1.5s breath-holding duration
-- Tier 3: Enhances second chirp's impact vs. non-players
-- Tier 4: -10 Vitality cost
+**用途**：
+- 對PvP有用
+- 提供額外防禦，使其對石裂路線有用或在單人時幫助減少傷害
 
-**Best For**: Large groups of enemies
+**升級材料**：墨鐵 + 佛淚根
 
----
-
-### 21. Glow of Fireflies (萤火) - SUPPORT
-
-**Vitality Cost**: 0
-**Location**: Anywhere with Fireflies
-
-**Effects**:
-- Summons swirl of fireflies around you
-- Casts gentle light for 30s in darkness
-- **No combat use**
-
-**Unlock Method**:
-- Collect any **Firefly** in the world
-- Automatically unlocked upon first Firefly collection
-
-**Upgrade Materials**: None (no tiers/ranks)
-
-**Best For**: Lighting dark caves or buildings
+**階級獎勵**：
+- 第2階（防禦增強）：施放技能時增強堅韌效果
+- 第3階（策略增強）：對目標造成5次或更多咆哮傷害時，使其沉默3秒
+- 第4階（防禦增強）：施放技能時傷害減免增加到40%
 
 ---
 
-### 22. Veil of Stillness (敛息) - SUPPORT (STEALTH)
+### 7. 護法掌 - 區域傷害
 
-**Vitality Cost**: TBD
-**Location**: Moonveil Peak
+**精力消耗**：待定
+**位置**：須彌地
 
-**Effects**:
-- Steady breath and reduce presence
-- **Makes you less detectable by enemies**
-- Cannot be used in combat
-- **Not perfect stealth** (enemies can see from front)
-- **Use with Windsense** to see enemy field of view
-- **Synergizes with Touch of Death** for stealth kills
+**效果**：
+- 擊打地面造成範圍傷害
+- **在3-5米高度**：升級為**燈光**
+  - 向地面掌擊
+  - 區域擊退
 
-**Unlock Method**:
-- After reaching **level 8**, complete **Skill Theft** encounter at Moonveil Peak
-- Exploration Quest: "Skill Theft: Unearned Lesson"
+**解鎖方法**：
+- 來自**千佛何處**支線故事的獎勵
+- 此支線故事從夜夢僧開始
+- 位於須彌地的東北部
 
-**Upgrade Materials**: None (no tiers/ranks)
+**升級材料**：墨鐵 + 佛淚根
 
-**Best For**: Stealth gameplay, avoiding patrols
-
----
-
-### 23. Blinding Mist (迷雾) - SUPPORT
-
-**Vitality Cost**: TBD
-**Location**: Qinghe
-
-**Effects**:
-- Release poisonous mist in front
-- Block enemy vision and deal damage
-- **Blind enemies for 5s** (unable to fight)
-- Can use **Touch of Death** to subdue blinded targets
-- Ineffective against mighty enemies
-
-**Unlock Method**:
-- Complete Side Story: "Volume IV - Blinded by Mortalbound" (Qinghe)
-
-**Upgrade Materials**: Ebon Iron + Vicious Fruit
-
-**Tier Bonuses**:
-- Tier 2: +2s mist duration
-- Tier 3: +20% Touch of Death damage during effect
-- Tier 4: -10 Vitality cost
-
-**Best For**: Large groups of weak enemies
+**階級獎勵**：
+- 第2階：前兩次命中掌擊傷害+20%和擊倒
+- 第3階：在5米以上高度，演變為**超度儀式**（16秒冷卻，降魔金剛印）
+- 第4階：掌擊範圍半徑+60%
 
 ---
 
-### 24. Golden Body (金身) - SUPPORT
+### 8. 鬼縛 - 區域傷害
 
-**Vitality Cost**: TBD
-**Location**: Temple Gardens, Kaifeng
+**精力消耗**：待定
+**位置**：開封
 
-**Effects**:
-- Gain indestructible Golden Body for 8s
-- Grants **Shield** and **Qi Recovery**
-- While Shield holds: grants **Fortitude** and **Damage Reduction**
+**效果**：
+- 在敵人面前閃現
+- **固定最多6個目標**並造成傷害
+- 破壞要害點
+- **對強大的敵人和玩家無效**
 
-**Unlock Method**:
-- "Walk around Grand Imperial Temple to see those learning Buddhist abilities"
-- Use **Celestial Seize** on Shi Yi
-- Located in the Temple Gardens in Kaifeng
+**解鎖方法**：
+- "困在狹窄的角門，鬼閃可以顛覆天空。"
+- 完成開封的**不受歡迎的款待**任務
 
-**Upgrade Materials**: Ebon Iron + Jade Tower Pearl
+**升級材料**：墨鐵 + 玉樓珠
 
-**Tier Bonuses**:
-- Tier 2: +10% Damage Reduction, +2s duration; converts 50% of expired shield to HP
-- Tier 3: If Vitality ≥100 with allies nearby, grants AoE shield (consumes 40 Vitality, +10s cooldown)
-- Tier 4: -10 Vitality cost
+**階級獎勵**：
+- 第2階：固定持續時間+2秒
+- 第3階：記錄造成的傷害；效果結束時造成記錄傷害的12%
+- 第4階：冷卻時間-5秒
 
-**Best For**: Stonesplit Path (tank); excellent survivability
-
----
-
-## General Mystic Skills
-
-### Overview
-
-**Total Count**: 5 General Mystic Skills
-
-**Key Differences from Offensive Skills**:
-- **No Vitality Cost** - Can be used freely
-- **Hotkey Access** - Not equipped in 8-slot HUD
-- **Always Available** - No need to equip in limited slots
-- **Utility-Focused** - Tools rather than offensive assets
-
-**Upgradeable Skills**: Only 2 can be upgraded
-- **Star Shift** - Increases Insight (deflection resource)
-- **Touch of Death** - Increases assassination damage
-
-**Unlock Method**: All unlocked naturally through Main Quest progression (impossible to miss)
+**最適合**：對抗中等敵人群體的單人內容
 
 ---
 
-### 1. Divine Counter (神挡) - ACTIVE
+### 9. 流星火雨 - 區域傷害
 
-**Type**: Counter-attack skill
+**精力消耗**：待定
+**位置**：菩提海
 
-**Vitality Cost**: 0 (free to use)
+**效果**：
+- 向前衝鋒，踩踏以跳入空中
+- 形成熾熱的長槍並向目標投擲（範圍爆炸）
+- 像流星一樣墜落造成額外傷害
+- 獲得**15%傷害減免**和**霸體**
 
-**Effects**:
-- Channel inner energy and focus mind
-- After defending against enemy technique, counter-attack with precise timing
-- Deal damage
-- Reduce target **Endurance recovery by 50%** for 8s
+**解鎖方法**：
+- "由折磨的將軍凝聚，在菩提海深處"
+- 通過在**戰役-挑戰**中**格擋**獲得熟練度
+- 熟練度滿時獲得
 
-**Usage**:
-- Countering drains enemy Endurance faster
-- Makes enemies fall into **Exhausted state**
-- Perform finishing attack for massive damage when Exhausted
+**升級材料**：墨鐵 + 佛淚根
 
-**Unlock Method**: Main Quest (automatic)
+**階級獎勵**：
+- 第2階：用長槍擊中每個單位恢復3精力（最多3個）
+- 第3階：著陸區域每個單位最終傷害+10%（最多5個）
+- 第4階：傷害減免增加到40%
 
-**Upgrade**: Cannot be upgraded
-
-**Lore**: One of two secret techniques by Jiang Wulang. Reactive skill where he allows opponent to attack, then counters at the moment their offense falters. Many renowned masters underestimated him and were defeated by this technique.
-
----
-
-### 2. Star Shift (星移) - ACTIVE
-
-**Type**: Deflection skill
-
-**Vitality Cost**: 0 (consumes **Insight** instead)
-
-**Effects**:
-- Focus mind to read enemy weakness
-- Just before attack lands, consume **Insight** to trigger **Deflection**
-- Neutralizes enemy attack
-
-**Insight System**:
-- Insight is a resource shown under Qi bar during combat
-- Split bar indicates how much Insight available
-- Upgrading Star Shift increases **Insight Cap**
-- More Insight = More deflections possible
-
-**Usage**:
-- Deflect attacks that **cannot be countered**
-- Avoid damage from unblockable attacks
-- Essential defensive tool
-
-**Unlock Method**: Main Quest (automatic)
-
-**Upgrade**: Can be upgraded (uses Ebon Iron + Wine Jujube)
-
-**Tier Bonuses**:
-- Tier 2: +1 Insight Cap
-- Tier 3: +1 Insight Cap
-- Tier 4: N/A
-
-**Lore**: Invented by Shi Jiuge, leader of Raging Tides Sect, to avoid fighting his hot-tempered wife Zhu Xianyu. He'd subtly deflect her attacks to let her vent without harm. Jokingly named "Easy Beating" before being rebranded "Grand Evasion" by the Sichuan hero Ba.
+**最適合**：機動性建構，石裂路線（坦克）
 
 ---
 
-### 3. Still Waters (静水) - ACTIVE
+### 10. 瘋狼棍法 - 單體控制
 
-**Type**: Time-slow/crowd control skill
+**精力消耗**：待定
+**位置**：鬼燈市
 
-**Vitality Cost**: 0 (consumes **Endurance** continuously)
+**效果**：
+- 將力量注入法杖以擊倒敵人
+- 快速連續打擊
+- 以向上揮動結束
+- **對騎兵有效**和具有不穩定姿態的單位
 
-**Effects**:
-- While holding breath, reduce movement speed of surrounding targets by **75%**
-- Consumes Endurance every 0.1 seconds
-- Creates slow-motion effect in area
+**解鎖方法**：
+- 位於鬼燈市入口的寶箱中
 
-**Usage**:
-- **Extremely useful for all archery** (combat and contests)
-- Puzzle-solving: Slow down Moonbeam Toads and Midnight Nibblers for Oddity Collection
-- General combat crowd control
-- Gives time to line up shots or avoid danger
+**升級材料**：墨鐵 + 玉樓珠
 
-**Unlock Method**: Main Quest (automatic)
+**階級獎勵**：
+- 第2階：對玩家傷害+10%
+- 第3階：造成**斷筋**（5秒內無法施放輕功技能）
+- 第4階：精力消耗-5
 
-**Upgrade**: Cannot be upgraded
-
-**Lore**: When mentor Tian Ying abandoned Inkbound Order, archer Feng Jisheng spent a decade perfecting Still Waters. Archery-derived technique that sharpens focus to freeze time's flow. Rather than treasuring it, Feng shared it freely with all kindred spirits.
-
----
-
-### 4. Touch of Death (暗杀) - PASSIVE
-
-**Type**: Stealth assassination skill
-
-**Vitality Cost**: 0 (free to use)
-
-**Effects**:
-- Charge toward target from behind
-- Strike vital point on enemy's back with finger, dealing damage
-- **Can defeat enemies with weak constitutions with single hit**
-- Instant kill on weak enemies, massive damage on strong enemies
-
-**Usage**:
-- Take out enemies unseen
-- Deal massive damage before being discovered
-- **Best used with Veil of Stillness and Windsense**
-- Essential for stealth gameplay
-
-**Synergies**:
-- **Veil of Stillness** - Reduces enemy detection
-- **Windsense** - See enemy patrol routes and fields of view
-- **Shadow Assault** (Inner Way) - +1.5m range, +10% damage, +5% HP restore
-- **Blinding Mist** (Mystic Skill) - Blind enemies, then use Touch of Death (+20% damage at Tier 3)
-
-**Unlock Method**: Side Story: "Volume 1 - The Realm Endures"
-
-**Upgrade**: Can be upgraded (uses Ebon Iron + Beauty's Plume)
-
-**Tier Bonuses**: Increases damage, allowing kills on enemies with larger HP pools
-
-**Lore**: Developed by Commander Qi Jingtang of Northern Vow's Flying Horse division for close-quarters combat. Years of border patrol left many scouts wounded, prompting creation of swift, precise method to minimize casualties. Goal was ensuring more soldiers returned home alive.
+**注意**：動畫較慢，在被包圍時更難使用
 
 ---
 
-### 5. Wind Sense / Windsense (风感) - PASSIVE
+### 11. 鷹爪功 - 單體控制
 
-**Type**: Detection and perception ability
+**精力消耗**：待定
+**位置**：史料館
+**推薦用於**：競技場（PvP）
 
-**Vitality Cost**: 0 (free to use)
+**效果**：
+- 快速的獵鷹般打擊
+- 滑動以破除防禦
+- 3次後續命中造成傷害
+- 機動性和防禦破除
 
-**Effects**:
-- Perceive approaching entities through wind currents
-- Distinguish position by sensing surroundings
-- **Highlights items or people of interest** in area
+**解鎖方法**：
+- "在史料館找到金鷹以獲得靈感"
 
-**Comprehensive Uses**:
+**升級材料**：墨鐵 + 兇果
 
-**Combat**:
-- Quickly spot enemies
-- Identify interactable objects
-- View enemy strengths and weaknesses
-- Initiate Healing mode
-
-**Stealth**:
-- **Identify field of view of patrolling enemies**
-- See enemy detection cones
-- Plan stealth routes
-- Essential with Veil of Stillness
-
-**NPC Interaction**:
-- See what NPCs are carrying
-- Identify items to steal with Celestial Seize
-- View negotiation opportunities
-
-**Quests**:
-- Track targets
-- Find hidden objectives
-- Reveal quest items
-
-**General Rule**: When in doubt, use Windsense to spot something overlooked
-
-**Unlock Method**: Main Quest (automatic)
-
-**Upgrade**: Cannot be upgraded
-
-**Lore**: Legend says Dugu Yuan, master of Well of Heaven, invented this. Despite extreme shyness and reluctance to look at others, he could always identify approaching individuals. Solitary years atop wind-swept pavilions taught him to distinguish people by subtle sounds and air disturbances.
+**階級獎勵**：
+- 第2階：衝刺距離+1.5米
+- 第3階：破除防禦時，降低目標防禦10%和耐力恢復50%，持續5秒
+- 第4階：額外衝刺距離+1.5米
 
 ---
 
-## General Mystic Skills Strategy
+### 12. 夜叉衝 - 單體控制
 
-### Essential Skills for All Players
+**精力消耗**：待定
+**位置**：清河
+**推薦用於**：競技場（PvP）
 
-**Divine Counter**: Learn to counter for Endurance drain
-**Star Shift**: Master deflection timing for survival
-**Windsense**: Use constantly for awareness
+**效果**：
+- 聚集氣並以夜叉的兇猛向前猛撲
+- 破除敵人防禦
+- 向上擊飛
+- **破除防禦造成巨大傷害**
 
-### Build-Specific Priorities
+**解鎖方法**：
+- 完成支線故事："最終卷 - 無盡之夜中的彩虹"（清河）
 
-**Stealth Builds**:
-- **Touch of Death** - Core assassination tool
-- **Windsense** - See patrol routes
-- Pair with Veil of Stillness and Shadow Assault Inner Way
+**升級材料**：墨鐵 + 佛淚根
 
-**Ranged/Archery Builds**:
-- **Still Waters** - Essential for aiming
-- Slow enemies for easier shots
-- Critical for archery contests
-
-**Tank/Defensive Builds**:
-- **Divine Counter** - Drain enemy Endurance
-- **Star Shift** - Deflect unblockable attacks
-- Upgrade Star Shift for more Insight
-
-**All Builds**:
-- **Windsense** - Universal utility
-- Use before engaging enemies
-- Check for hidden items/paths
+**階級獎勵**：
+- 第2階：對玩家傷害+10%
+- 第3階：破除防禦時造成**沉默**3秒
+- 第4階：衝刺距離+2米
 
 ---
 
-## Mystic Skill Upgrade System
+### 13. 自在化身 - 單體控制
 
-### Tier and Rank Structure
+**精力消耗**：待定
+**位置**：光暈峰
 
-**4 Tiers** per Mystic Skill (most skills)
-- Each Tier has **9 Ranks**
-- Total: 36 upgrade levels per skill (4 tiers × 9 ranks)
+**效果**：
+- 跳入空中
+- 踢擊風暴：將目標向上發射
+- 無情的空中打擊
+- 以猛擊結束（著陸時範圍傷害）
 
-**Rank Upgrades**: General effectiveness (damage, duration, etc.)
-**Tier Upgrades**: Add new effects or significantly enhance abilities
+**解鎖方法**：
+- "前往光暈峰尋找提示"
+- 基於妙善大師的啟蒙
 
-### Upgrade Materials
+**升級材料**：墨鐵 + 佛淚根
 
-**Common Material**: **Ebon Iron** (all skills use this)
-
-**Secondary Materials** (varies by skill):
-- **Vicious Fruit**
-- **Beauty's Plume**
-- **Buddha's Tear Root**
-- **Jade Tower Pearl**
-- **Jasmine Stamen**
-- **Frost Mushroom Mycelium**
-- **Wine Jujube** (for Star Shift)
-
-Higher Tiers require higher-level materials.
-
-### Non-Upgradeable Skills
-
-**Offensive Support Skills** (cannot be upgraded):
-- Glow of Fireflies
-- Veil of Stillness
-
-**General Mystic Skills** (cannot be upgraded):
-- Divine Counter
-- Still Waters
-- Wind Sense
+**階級獎勵**：
+- 第2階：對玩家傷害+10%
+- 第3階：對有生命護盾的目標傷害+20%
+- 第4階：精力消耗-5
 
 ---
 
-## Mystic Skill Unlock Methods
+### 14. 旋風槍 - 單體控制
 
-### 1. Main Quest
-- Automatic unlocks through story progression
-- Example: Cloud Steps
+**精力消耗**：待定
+**位置**：武廟
 
-### 2. Side Quests & Side Stories
-- Complete specific quest chains
-- Examples: Yaksha Rush, Blinding Mist
+**效果**：
+- 將氣注入咆哮的突刺
+- 轉變姿態為螺旋後續攻擊
+- 造成傷害並施加**治療減免**
 
-### 3. Skill Theft (技能偷学)
-- Observe NPCs or animals using skills
-- Use "Skill Theft" ability on them
-- Complete timing-based mini-game to learn the skill
-- Examples: Tai Chi (from bear), Leaping Toad (from toad), Honking Havoc (from goose)
-- **See**: \`/game-data/gameplay/skill-theft.md\` for complete Skill Theft guide
+**解鎖方法**：
+- "由政府軍保存的最正統的技術。武廟有線索。"
+- 探索武廟以獲得這種正統的政府軍技術
 
-### 4. Timing Comprehension (悟性领悟)
-- Mini-game: sit and watch animal/person perform skill
-- Interact when you see golden ring
-- Requires timing and observation
+**升級材料**：墨鐵 + 茉莉花蕊
 
-### 5. Fragment Quests
-- Collect fragments or complete puzzle quests
-- Example: Meridian Touch
+**階級獎勵**：
+- 第2階：對玩家傷害+10%
+- 第3階：第一次突刺後添加取消點
+- 第4階：衝刺距離+2米
 
-### 6. Exploration Quests
-- Discover through world exploration
-- Examples: Celestial Seize ("Foul Play"), Veil of Stillness
-
-### 7. Learning Requirement
-- Must learn X number of other skills first
-- Example: Dragon Head (requires 35 skills learned)
-
-### 8. Talent Points
-- Unlock with Talent Points (from Enlightenment)
-- Example: Serene Breeze
-
-### 9. Location-Based Discovery
-- Find specific locations and interact
-- Examples: Lion's Roar (copper bells in Qinghe), Guardian Palm (Grand Imperial Temple)
-
-### 10. Proficiency Building
-- Perform specific actions repeatedly to gain proficiency
-- Example: Flaming Meteor (deflect in Campaign-Challenge)
+**最適合**：對抗可以治療的對手
 
 ---
 
-## Special Mechanics
+### 15. 龍息 - 單體爆發
 
-### Touch of Death (暗杀)
-- Mentioned in relation to several skills
-- Stealth kill mechanic
-- Enhanced by Veil of Stillness
-- Can subdue blinded enemies (Blinding Mist)
-- +20% damage when used with Blinding Mist (Tier 3)
+**精力消耗**：待定
+**位置**：龍宮，開封（東南部）
 
-### Windsense (风感)
-- Mentioned with Celestial Seize and Veil of Stillness
-- Use to see enemy patrol routes/field of view
-- Enables stealing from NPCs with Celestial Seize
+**效果**：
+- 飲酒進入**醉酒**狀態
+- 用氣噴火（2次命中 + **點燃**）
+- 獲得**15%傷害減免**和**堅韌**
 
-### Status Effects Applied by Mystic Skills
-- **Toad Venom** (Leaping Toad)
-- **Silence** (Lion's Roar, Yaksha Rush)
-- **Ignition** (Dragon's Breath)
-- **Drunken Haze** (Drunken Poet)
-- **Intoxicated** (Dragon's Breath, Drunken Poet)
-- **Mirage** (Ghostly Steps)
-- **Hamstring** (Wolflike Frenzy) - prevents lightness skills
-- **Healing Reduction** (Soaring Spin)
-- **Blind** (Blinding Mist)
-- **Breath-hold** (Honking Havoc)
+**解鎖方法**：
+- "在博覽會的獸夢中噴火表演者"
+- 完成**羅九**給予的任務
+- 他位於開封東南部的龍宮
 
-## Recommended Skill Loadouts
+**升級材料**：墨鐵 + 玉樓珠
 
-### For PvP (Arena)
-**High Priority**:
-- Leaping Toad
-- Lion's Roar
-- Talon Strike
-- Yaksha Rush
+**階級獎勵**：
+- 第2階：增強堅韌效果
+- 第3階：點燃最多堆疊10次；與醉仙協同
+- 第4階：傷害減免增加到40%
 
-### For Tank/Stonesplit Path
-**High Priority**:
-- Flaming Meteor (mobility + defense)
-- Lion's Roar (defense buff)
-- Golden Body (shield + damage reduction)
-- Dragon Head (defense + knockback)
-
-### For DPS Builds
-**High Priority**:
-- Dragon's Breath
-- Drunken Poet (synergy with Dragon's Breath)
-- Dragon Head
-- Free Morph
-
-### For Exploration
-**Essential**:
-- Tai Chi (Leaf Swirl puzzles)
-- Meridian Touch (Bell Chests, Martial Arts Sync)
-- Celestial Seize (distant objects, guarded chests)
-- Cloud Steps (mobility puzzles)
-- Glow of Fireflies (dark areas)
-
-### For Stealth Gameplay
-**High Priority**:
-- Veil of Stillness (stealth)
-- Blinding Mist (blind groups)
-- Celestial Seize (steal items)
-- Touch of Death (stealth kills)
+**最適合**：坦克或DPS路線；與醉仙協同
 
 ---
 
-## Tips
+### 16. 醉仙 - 單體爆發
 
-1. **Unlock slots early** through Talent Points system
-2. **Prioritize Vitality upgrades** (Melodies of Peace)
-3. **Use 2-row system strategically**: Combat row + Puzzle row
-4. **Upgrade frequently-used skills first** (limited materials)
-5. **Learn Tai Chi, Meridian Touch, Celestial Seize, Cloud Steps ASAP** - needed for many puzzles
-6. **Dragon Head requires 35 skills** - save for later game
-7. **Skill Theft from animals** often gives unique/fun abilities
-8. **Golden Body is essential for tanks**
-9. **Dragon's Breath + Drunken Poet synergy** is powerful for DPS
-10. **Use Windsense with stealth** to see patrol patterns
+**精力消耗**：待定
+**位置**：極樂靜修 / 豐收村
+
+**效果**：
+- 深飲進入**醉酒**狀態
+- 模仿詩仙李白的醉態優雅
+- 重複施放**最多5次打擊**
+- 造成**醉霧**
+
+**解鎖方法**：
+- "人生得意須盡歡..."
+- 從**誠實商人**購買並飲用大約10瓶酒
+- 根據故事進展，此NPC可在極樂靜修或豐收村找到
+
+**升級材料**：墨鐵 + 兇果
+
+**階級獎勵**：
+- 第2階：施放時獲得15%傷害減免和堅韌
+
+**最適合**：DPS路線；與龍息協同
+
+---
+
+### 17. 龍首 - 單體爆發
+
+**精力消耗**：待定
+**位置**：通過學習其他35個秘術技能解鎖
+
+**效果**：
+- 引導內力收集樹葉和塵埃
+- 塑造成龍頭
+- 打擊範圍內的敵人造成傷害和擊退
+- 獲得**15%傷害減免**和**霸體**
+
+**解鎖方法**：
+- **首先學習35個秘術技能**
+- 重現年輕時瞥見的驚人技能
+
+**升級材料**：墨鐵 + 玉樓珠
+
+**階級獎勵**：
+- 第2階：技能傷害+10%
+- 第3階：基於失去的生命值增加傷害（最多25%加成）
+- 第4階：基於生命值的傷害加成增加到45%
+
+**最適合**：對大多數玩家來說是全面優秀的
+
+---
+
+### 18. 清風 - 支援
+
+**精力消耗**：待定
+**位置**：用天賦點解鎖
+
+**效果**：
+- 引導氣以清除脈絡阻塞
+- **可在受到攻擊或控制效果時使用**
+- 命中時：降低目標耐力恢復50%，持續8秒
+
+**解鎖方法**：
+- 用**天賦點**解鎖（從啟蒙點獲得）
+
+**升級材料**：墨鐵 + 美人羽
+
+**階級獎勵**：
+- 第2階：在競技場中被控制10秒後自動破除控制（短暫獲得霸體）
+- 第3階：冷卻時間-5秒
+- 第4階：成功命中玩家造成+10氣傷害並恢復6氣
+
+**最適合**：破除控制效果；消耗敵人耐力
+
+---
+
+### 19. 鬼步 - 支援
+
+**精力消耗**：待定
+**位置**：鬼燈市
+
+**效果**：
+- 獲得**幻影**狀態（持續20秒）
+- 降低地面閃避的耐力消耗40%
+- 略微增加無法鎖定持續時間
+
+**解鎖方法**：
+- 完成**雲行塔神工副本**的獎勵
+- 這個副本可以在鬼燈市的東側找到
+
+**升級材料**：墨鐵 + 霜菌絲
+
+**階級獎勵**：
+- 第2階：幻影持續時間+10秒
+- 第3階：所有技能耐力減少+10%
+- 第4階：精力消耗-10
+
+**最適合**：專注於閃避的建構
+
+---
+
+### 20. 鵝鳴 - 支援
+
+**精力消耗**：待定
+**位置**：西天橋和極樂靜修之間
+
+**效果**：
+- 夾住鵝的喉嚨，強迫它向前鳴叫
+- 造成範圍傷害
+- 觸發長時間**屏息**
+
+**解鎖方法**：
+- **從鵝那裡拯救熊！**
+- 在路上對恐嚇熊的鵝使用**技偷**
+
+**升級材料**：墨鐵 + 兇果
+
+**階級獎勵**：
+- 第2階：屏息持續時間+1.5秒
+- 第3階：增強第二次鳴叫對非玩家的影響
+- 第4階：精力消耗-10
+
+**最適合**：大群敵人
+
+---
+
+### 21. 螢火 - 支援
+
+**精力消耗**：0
+**位置**：任何有螢火蟲的地方
+
+**效果**：
+- 召喚螢火蟲在你周圍旋轉
+- 在黑暗中投射柔和的光線30秒
+- **無戰鬥用途**
+
+**解鎖方法**：
+- 在世界中收集任何**螢火蟲**
+- 首次收集螢火蟲時自動解鎖
+
+**升級材料**：無（無階級/等級）
+
+**最適合**：照亮黑暗的洞穴或建築
+
+---
+
+### 22. 斂息 - 支援（隱身）
+
+**精力消耗**：待定
+**位置**：月紗峰
+
+**效果**：
+- 穩定呼吸並降低存在感
+- **使你不太容易被敵人發現**
+- 無法在戰鬥中使用
+- **不是完美的隱身**（敵人可以從正面看到）
+- **與風感一起使用**以查看敵人的視野
+- **與暗殺協同**進行隱身擊殺
+
+**解鎖方法**：
+- 達到**8級**後，在月紗峰完成**技偷**遭遇
+- 探索任務："技偷：不勞而獲的教訓"
+
+**升級材料**：無（無階級/等級）
+
+**最適合**：隱身遊戲玩法，避開巡邏
+
+---
+
+### 23. 迷霧 - 支援
+
+**精力消耗**：待定
+**位置**：清河
+
+**效果**：
+- 在前方釋放有毒霧氣
+- 阻擋敵人視野並造成傷害
+- **致盲敵人5秒**（無法戰鬥）
+- 可以使用**暗殺**制服致盲的目標
+- 對強大的敵人無效
+
+**解鎖方法**：
+- 完成支線故事："第四卷 - 塵緣蒙眼"（清河）
+
+**升級材料**：墨鐵 + 兇果
+
+**階級獎勵**：
+- 第2階：霧持續時間+2秒
+- 第3階：效果期間暗殺傷害+20%
+- 第4階：精力消耗-10
+
+**最適合**：大群弱敵
+
+---
+
+### 24. 金身 - 支援
+
+**精力消耗**：待定
+**位置**：寺廟花園，開封
+
+**效果**：
+- 獲得無敵金身8秒
+- 授予**護盾**和**氣恢復**
+- 護盾持續期間：授予**堅韌**和**傷害減免**
+
+**解鎖方法**：
+- "在大相國寺附近走走，看看那些學習佛教能力的人"
+- 對施逸使用**天機竊取**
+- 位於開封的寺廟花園
+
+**升級材料**：墨鐵 + 玉樓珠
+
+**階級獎勵**：
+- 第2階：傷害減免+10%，持續時間+2秒；將過期護盾的50%轉換為生命值
+- 第3階：如果精力≥100且附近有隊友，授予範圍護盾（消耗40精力，冷卻時間+10秒）
+- 第4階：精力消耗-10
+
+**最適合**：石裂路線（坦克）；出色的生存能力
+
+---
+
+## 通用秘術技能
+
+### 概述
+
+**總數量**：5個通用秘術技能
+
+**與進攻技能的主要區別**：
+- **無精力消耗** - 可以自由使用
+- **熱鍵訪問** - 不裝備在8槽HUD中
+- **始終可用** - 無需在有限插槽中裝備
+- **專注於實用性** - 工具而非進攻資產
+
+**可升級技能**：只有2個可以升級
+- **星移** - 增加洞察（格擋資源）
+- **暗殺** - 增加暗殺傷害
+
+**解鎖方法**：全部通過主線任務進展自然解鎖（不可能錯過）
+
+---
+
+### 1. 神擋 - 主動
+
+**類型**：反擊技能
+
+**精力消耗**：0（免費使用）
+
+**效果**：
+- 引導內能並集中精神
+- 在防禦敵人技術後，以精確的時機反擊
+- 造成傷害
+- 降低目標**耐力恢復50%**，持續8秒
+
+**用途**：
+- 反擊更快地消耗敵人耐力
+- 使敵人陷入**疲憊狀態**
+- 疲憊時執行終結攻擊造成巨大傷害
+
+**解鎖方法**：主線任務（自動）
+
+**升級**：無法升級
+
+**背景**：江無浪的兩種秘密技術之一。反應技能，他允許對手攻擊，然後在他們的進攻減弱時反擊。許多知名大師低估了他，並被這項技術擊敗。
+
+---
+
+### 2. 星移 - 主動
+
+**類型**：格擋技能
+
+**精力消耗**：0（消耗**洞察**代替）
+
+**效果**：
+- 集中精神讀懂敵人的弱點
+- 就在攻擊落下之前，消耗**洞察**以觸發**格擋**
+- 抵消敵人攻擊
+
+**洞察系統**：
+- 洞察是戰鬥期間在氣條下顯示的資源
+- 分段條顯示可用的洞察量
+- 升級星移增加**洞察上限**
+- 更多洞察 = 更多可能的格擋
+
+**用途**：
+- 格擋**無法反擊**的攻擊
+- 避免無法格擋的攻擊造成的傷害
+- 基本防禦工具
+
+**解鎖方法**：主線任務（自動）
+
+**升級**：可以升級（使用墨鐵 + 酒棗）
+
+**階級獎勵**：
+- 第2階：洞察上限+1
+- 第3階：洞察上限+1
+- 第4階：無
+
+**背景**：由怒潮門的領袖石九歌發明，以避免與他脾氣暴躁的妻子朱仙玉戰鬥。他會巧妙地格擋她的攻擊，讓她發洩而不受傷害。開玩笑地命名為"輕鬆挨打"，後來被四川英雄巴重新命名為"大迴避"。
+
+---
+
+### 3. 靜水 - 主動
+
+**類型**：時間減速/群體控制技能
+
+**精力消耗**：0（持續消耗**耐力**）
+
+**效果**：
+- 屏住呼吸時，降低周圍目標的移動速度**75%**
+- 每0.1秒消耗耐力
+- 在區域內創造慢動作效果
+
+**用途**：
+- **對所有射箭極其有用**（戰鬥和比賽）
+- 解謎：減慢月光蟾蜍和午夜啃食者以收集奇物
+- 一般戰鬥群體控制
+- 給時間來瞄準射擊或避開危險
+
+**解鎖方法**：主線任務（自動）
+
+**升級**：無法升級
+
+**背景**：當導師田穎拋棄墨縛教時，弓箭手馮繼盛花了十年時間完善靜水。源自射箭的技術，可以銳化專注力以凍結時間流動。風繼盛沒有珍藏它，而是自由地與所有志同道合的人分享。
+
+---
+
+### 4. 暗殺 - 被動
+
+**類型**：隱身暗殺技能
+
+**精力消耗**：0（免費使用）
+
+**效果**：
+- 從後面向目標衝鋒
+- 用手指擊打敵人背部的要害，造成傷害
+- **可以一擊擊敗體質較弱的敵人**
+- 對弱敵即殺，對強敵造成巨大傷害
+
+**用途**：
+- 在未被發現的情況下消滅敵人
+- 在被發現前造成巨大傷害
+- **最好與斂息和風感一起使用**
+- 隱身遊戲玩法的關鍵
+
+**協同效應**：
+- **斂息** - 降低敵人偵測
+- **風感** - 查看敵人巡邏路線和視野
+- **影襲**（內功） - 範圍+1.5米，傷害+10%，生命恢復+5%
+- **迷霧**（秘術技能） - 致盲敵人，然後使用暗殺（第3階傷害+20%）
+
+**解鎖方法**：支線故事："第一卷 - 世界長存"
+
+**升級**：可以升級（使用墨鐵 + 美人羽）
+
+**階級獎勵**：增加傷害，允許擊殺更大生命池的敵人
+
+**背景**：由北盟飛馬師的指揮官齊敬堂為近戰而開發。多年的邊境巡邏使許多偵察兵受傷，促使創建迅速、精確的方法以最小化傷亡。目標是確保更多士兵活著回家。
+
+---
+
+### 5. 風感 - 被動
+
+**類型**：偵測和感知能力
+
+**精力消耗**：0（免費使用）
+
+**效果**：
+- 通過風流感知接近的實體
+- 通過感知周圍環境區分位置
+- **突出顯示區域內感興趣的物品或人**
+
+**全面用途**：
+
+**戰鬥**：
+- 快速發現敵人
+- 識別可互動對象
+- 查看敵人的優勢和劣勢
+- 啟動治療模式
+
+**隱身**：
+- **識別巡邏敵人的視野**
+- 查看敵人偵測錐
+- 規劃隱身路線
+- 與斂息一起使用至關重要
+
+**NPC互動**：
+- 查看NPC攜帶什麼
+- 識別用天機竊取偷竊的物品
+- 查看談判機會
+
+**任務**：
+- 追蹤目標
+- 找到隱藏的目標
+- 顯示任務物品
+
+**一般規則**：當有疑問時，使用風感發現被忽略的東西
+
+**解鎖方法**：主線任務（自動）
+
+**升級**：無法升級
+
+**背景**：傳說天井大師獨孤遠發明了這個。儘管極度害羞並不願看著別人，但他總能識別接近的個人。在風吹的樓閣上獨處的歲月教會了他通過微妙的聲音和空氣擾動來區分人。
+
+---
+
+## 通用秘術技能策略
+
+### 所有玩家的基本技能
+
+**神擋**：學習反擊以消耗耐力
+**星移**：掌握格擋時機以求生存
+**風感**：持續使用以提高意識
+
+### 特定建構優先級
+
+**隱身建構**：
+- **暗殺** - 核心暗殺工具
+- **風感** - 查看巡邏路線
+- 與斂息和影襲內功配對
+
+**遠程/射箭建構**：
+- **靜水** - 瞄準的關鍵
+- 減慢敵人以便更容易射擊
+- 對射箭比賽至關重要
+
+**坦克/防禦建構**：
+- **神擋** - 消耗敵人耐力
+- **星移** - 格擋無法格擋的攻擊
+- 升級星移以獲得更多洞察
+
+**所有建構**：
+- **風感** - 通用實用性
+- 在與敵人交戰前使用
+- 檢查隱藏的物品/路徑
+
+---
+
+## 秘術技能升級系統
+
+### 階級和等級結構
+
+**每個秘術技能4個階級**（大多數技能）
+- 每個階級有**9個等級**
+- 總計：每個技能36個升級等級（4階級 × 9等級）
+
+**等級升級**：一般效果（傷害、持續時間等）
+**階級升級**：添加新效果或顯著增強能力
+
+### 升級材料
+
+**通用材料**：**墨鐵**（所有技能都使用）
+
+**次要材料**（因技能而異）：
+- **兇果**
+- **美人羽**
+- **佛淚根**
+- **玉樓珠**
+- **茉莉花蕊**
+- **霜菌絲**
+- **酒棗**（用於星移）
+
+更高階級需要更高級別的材料。
+
+### 不可升級的技能
+
+**進攻支援技能**（無法升級）：
+- 螢火
+- 斂息
+
+**通用秘術技能**（無法升級）：
+- 神擋
+- 靜水
+- 風感
+
+---
+
+## 秘術技能解鎖方法
+
+### 1. 主線任務
+- 通過故事進展自動解鎖
+- 範例：雲踏
+
+### 2. 支線任務和支線故事
+- 完成特定任務鏈
+- 範例：夜叉衝、迷霧
+
+### 3. 技偷
+- 觀察NPC或動物使用技能
+- 對它們使用"技偷"能力
+- 完成基於時機的小遊戲以學習技能
+- 範例：太極（從熊）、跳蛤功（從蛤蟆）、鵝鳴（從鵝）
+- **參見**：\`/game-data/gameplay/skill-theft.md\` 獲取完整的技偷指南
+
+### 4. 時機領悟
+- 小遊戲：坐下觀看動物/人執行技能
+- 看到金色圓環時互動
+- 需要時機和觀察
+
+### 5. 碎片任務
+- 收集碎片或完成謎題任務
+- 範例：點穴
+
+### 6. 探索任務
+- 通過世界探索發現
+- 範例：天機竊取（"惡作劇"）、斂息
+
+### 7. 學習要求
+- 必須先學習X個其他技能
+- 範例：龍首（需要學習35個技能）
+
+### 8. 天賦點
+- 用天賦點解鎖（來自啟蒙）
+- 範例：清風
+
+### 9. 基於位置的發現
+- 找到特定位置並互動
+- 範例：獅子吼（清河的銅鐘）、護法掌（大相國寺）
+
+### 10. 熟練度建立
+- 重複執行特定動作以獲得熟練度
+- 範例：流星火雨（在戰役-挑戰中格擋）
+
+---
+
+## 特殊機制
+
+### 暗殺
+- 與幾個技能相關
+- 隱身擊殺機制
+- 被斂息增強
+- 可以制服致盲的敵人（迷霧）
+- 與迷霧一起使用時傷害+20%（第3階）
+
+### 風感
+- 與天機竊取和斂息一起提到
+- 用於查看敵人巡邏路線/視野
+- 使用天機竊取從NPC處偷竊
+
+### 秘術技能施加的狀態效果
+- **蛤蟆毒**（跳蛤功）
+- **沉默**（獅子吼、夜叉衝）
+- **點燃**（龍息）
+- **醉霧**（醉仙）
+- **醉酒**（龍息、醉仙）
+- **幻影**（鬼步）
+- **斷筋**（瘋狼棍法） - 防止輕功技能
+- **治療減免**（旋風槍）
+- **致盲**（迷霧）
+- **屏息**（鵝鳴）
+
+## 推薦技能裝載
+
+### 用於PvP（競技場）
+**高優先級**：
+- 跳蛤功
+- 獅子吼
+- 鷹爪功
+- 夜叉衝
+
+### 用於坦克/石裂路線
+**高優先級**：
+- 流星火雨（機動性 + 防禦）
+- 獅子吼（防禦增益）
+- 金身（護盾 + 傷害減免）
+- 龍首（防禦 + 擊退）
+
+### 用於DPS建構
+**高優先級**：
+- 龍息
+- 醉仙（與龍息協同）
+- 龍首
+- 自在化身
+
+### 用於探索
+**基本**：
+- 太極（葉旋謎題）
+- 點穴（鐘寶箱、武術同步）
+- 天機竊取（遠處物品、守衛寶箱）
+- 雲踏（機動性謎題）
+- 螢火（黑暗區域）
+
+### 用於隱身遊戲玩法
+**高優先級**：
+- 斂息（隱身）
+- 迷霧（致盲群體）
+- 天機竊取（偷取物品）
+- 暗殺（隱身擊殺）
+
+---
+
+## 提示
+
+1. **儘早解鎖插槽**通過天賦點系統
+2. **優先精力升級**（平安旋律）
+3. **策略性使用2行系統**：戰鬥行 + 謎題行
+4. **首先升級常用技能**（材料有限）
+5. **盡快學習太極、點穴、天機竊取、雲踏** - 許多謎題需要
+6. **龍首需要35個技能** - 留到遊戲後期
+7. **從動物技偷**通常給予獨特/有趣的能力
+8. **金身對坦克至關重要**
+9. **龍息 + 醉仙協同**對DPS強大
+10. **與隱身一起使用風感**以查看巡邏模式
 
 ---
 

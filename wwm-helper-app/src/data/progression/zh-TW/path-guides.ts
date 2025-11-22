@@ -1,613 +1,613 @@
-export const content = `# Path Guides (Classes)
+export const content = `# 路線指南（職業）
 
-Path Guides in Where Winds Meet are concise recommendations that show how to build a character to fulfill a specific role (such as DPS Melee, Heal Ranged, or Tank Melee). Each guide explains the key stats, Inner Ways priorities, gear choices, and playstyle considerations needed to reliably perform that role.
+路線指南在《逆水寒》中提供簡明的建議，說明如何建立角色以履行特定角色（例如近戰DPS、遠程治療或近戰坦克）。每份指南都說明了可靠執行該角色所需的關鍵屬性、內功優先順序、裝備選擇和玩法考量。
 
-Use Path Guides as a starting blueprint: they highlight the core synergies and tradeoffs so you can adapt the build to your preferred weapons, traits, available gear, and playstyle.
-
----
-
-## How to Access Path Guides
-
-Access your menu using ESC or the proper button on your controller. Then select the **Develop** menu, **Abilities** Tab, and then **Inner Ways**. You can also click on the icon next to the Inner Way to see path guides.
+將路線指南作為起始藍圖使用：它們突顯了核心協同效應和權衡，讓你可以根據自己偏好的武器、特質、可用裝備和玩法進行調整。
 
 ---
 
-## Available Paths
+## 如何存取路線指南
 
-There are 6 distinct paths (classes) you can follow:
-
-1. **Bellstrike - Splendor** (DPS Melee Combat)
-2. **Bellstrike - Umbra** (DPS Melee Combat)
-3. **Stonesplit - Might** (Tank Melee Combat)
-4. **Skillbind - Jade** (DPS Ranged Combat)
-5. **Bamboocut - Wind** (DPS Melee Combat)
-6. **Skillbind - Deluge** (Heal Ranged Combat)
-
-The game may even encourage you to target different classes to combat different boss types that employ varying strategies.
+使用ESC或控制器上的適當按鈕存取選單。然後選擇**養成**選單、**能力**標籤，接著選擇**內功**。你也可以點擊內功旁邊的圖示來查看路線指南。
 
 ---
 
-## Path Guide Components
+## 可用路線
 
-Each Path Guide includes:
+共有6種不同的路線（職業）可供選擇：
 
-### Profile
-- Build overview and purpose
-- Video snippets showing best usage situations
-- Stats graph showing strengths and weaknesses across:
-  - Difficulty
-  - Survivability
+1. **鳴鐘 - 華彩**（近戰DPS）
+2. **鳴鐘 - 暗影**（近戰DPS）
+3. **裂石 - 威能**（近戰坦克）
+4. **制技 - 翠玉**（遠程DPS）
+5. **斬竹 - 疾風**（近戰DPS）
+6. **制技 - 洪流**（遠程治療）
+
+遊戲甚至可能鼓勵你針對不同類型的首領選擇不同職業，以應對各種戰略。
+
+---
+
+## 路線指南組成
+
+每個路線指南包括：
+
+### 檔案
+- 流派概述和目的
+- 展示最佳使用情況的影片片段
+- 屬性圖表，顯示以下方面的強弱：
+  - 難度
+  - 生存能力
   - DPS
-  - Control
-  - Mobility
-  - Support
+  - 控制
+  - 機動性
+  - 支援
 
-### Combination
-- Two recommended Martial Arts Weapons and their key skills
-- Four recommended Internal Arts
-- Two recommended Gear Sets with acquisition methods
+### 組合
+- 兩種推薦的武學武器及其關鍵技能
+- 四種推薦的內功
+- 兩套推薦的裝備套裝及獲取方法
 
-### Challenges
-- 20 challenges to hone your skills
-- Each challenge offers rewards for completion
-- Remember to claim rewards from the menu after completion
-
----
-
-## Bellstrike - Splendor
-
-**Role**: DPS Melee Combat
-
-**Description**: High mobility and single-target control; excels at kiting enemies. Combine strong endurance with charged skills to unleash Burst Damage.
-
-### Strengths
-- **DPS**: Excellent damage output
-- **Mobility**: High movement speed and agility
-
-### Weaknesses
-- **Control**: Limited crowd control abilities
-- **Support**: Minimal team support capabilities
+### 挑戰
+- 20個磨練技能的挑戰
+- 每個挑戰完成後提供獎勵
+- 記得完成後從選單領取獎勵
 
 ---
 
-### Recommended Martial Arts
+## 鳴鐘 - 華彩
 
-#### Strategic Sword
-**Key Skills**:
-- Inner Track Slash
-- Second Track Slash
-- Inner Balance Strike III
+**角色**：近戰DPS
 
-#### Heavenquaker Spear
-**Key Skills**:
-- Sober Sorrow
-- Drifting Thrust
-- Sweep All
+**描述**：高機動性和單體控制；擅長風箏敵人。結合強大的耐力與蓄力技能來釋放爆發傷害。
 
----
+### 優勢
+- **DPS**：優秀的傷害輸出
+- **機動性**：高移動速度和靈活性
 
-### Recommended Internal Arts
-
-#### Adaptive Steel
-**Required Weapon**: Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra)
-
-**Effect**: Gain a Martial Art effect based on your current Blade Weapon.
+### 劣勢
+- **控制**：有限的群體控制能力
+- **支援**：最小化的團隊支援能力
 
 ---
 
-#### Insightful Strike
-**Required Weapon**: Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra)
+### 推薦武學
 
-**Effect**: Dealing Affinity DMG increases your ability to see through enemy attacks, increases your Affinity DMG, and has a chance to reduce damage taken.
+#### 謀略劍
+**關鍵技能**：
+- 內路斬
+- 二路斬
+- 內平衡擊III
 
----
-
-#### Sword Horizon
-**Required Weapon**: Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra)
-
-**Effect**: After casting Strategic Sword's Martial Arts Skills, Special Skills, or Charged Skills, you can cast Crosswind Blade during the ending phase to unleash follow-up attacks and deal high Bleed damage if the target has max stacks of Bleed.
-
----
-
-#### Wolfchaser's Art
-**Required Weapon**: Heavenquaker Spear (Stonesplit - Might)
-
-**Effect**: Heavenquaker Spear's Art Skill, Sober Sorrow, lowers combo count requirements for buff activation. Each hit on bleeding-enchanted bosses has a chance to grant extra combo counts.
+#### 撼天槍
+**關鍵技能**：
+- 醒酒愁
+- 飄移刺
+- 橫掃千軍
 
 ---
 
-### Recommended Gear Sets
+### 推薦內功
 
-#### Hawkwing Set (Weapons)
+#### 適應之鋼
+**需求武器**：謀略劍 / 撼天槍（鳴鐘 - 暗影）
 
-**2-Piece Bonus**: Increases the Affinity Rate
-
-**4-Piece Bonus**: When any of your damage triggers Affinity, gain Hawkwing: Increases Physical Attack by 2% for 5 seconds, stacking up to 5 times.
-
-**How to Obtain**:
-- Campaign - Still Shore
-- Campaign - Gleaming Abyss
-- Sword Trial
-- Group Dungeon
+**效果**：根據當前刀劍武器獲得武學效果。
 
 ---
 
-#### Eaglerise Set (Armor)
+#### 洞察之擊
+**需求武器**：謀略劍 / 撼天槍（鳴鐘 - 暗影）
 
-**2-Piece Bonus**: Increase in Physical Defense
-
-**4-Piece Bonus**: Dealing damage over time or healing grants 1 stack of Eaglerise: Reduces damage taken by 1.2% for 10 seconds, stacking up to 5 times. At max stacks, receives an Eagle Guard effect that reduces the next incoming damage within 10 seconds by 90% (halved when the damage comes from a boss). This effect can only trigger once every 30 seconds.
-
-**How to Obtain**:
-- Campaign - Still Shore
-- Campaign - Gleaming Abyss
-- Campaign - Halo Peak
-- Sword Trial
-- Group Dungeon
+**效果**：造成契合傷害時提升看穿敵人攻擊的能力，增加契合傷害，並有機率降低受到的傷害。
 
 ---
 
-## Bellstrike - Umbra
+#### 劍氣長河
+**需求武器**：謀略劍 / 撼天槍（鳴鐘 - 暗影）
 
-**Role**: DPS Melee Combat
-
-**Description**: By applying bleed status effects, it triggers frequent and sustained damage ticks. Additionally, by increasing its own damage multiplier, it can focus and eliminate targets faster. It also retains decent mobility.
-
-### Strengths
-- **DPS**: Excellent damage output with bleed effects
-- **Mobility**: Decent movement speed
-
-### Weaknesses
-- **Control**: Limited crowd control abilities
-- **Survivability**: Lower defensive capabilities
+**效果**：施放謀略劍的武學技能、特殊技能或蓄力技能後，可在結束階段施放橫風斬來釋放後續攻擊，如果目標有最大層數流血則造成高額流血傷害。
 
 ---
 
-### Recommended Martial Arts
+#### 逐狼之藝
+**需求武器**：撼天槍（裂石 - 威能）
 
-#### Strategic Sword
-**Key Skills**:
-- Inner Track Slash
-- Second Track Slash
-- Inner Balance Strike III
-
-#### Heavenquaker Spear
-**Key Skills**:
-- Sober Sorrow
-- Drifting Thrust
-- Sweep All
+**效果**：撼天槍的絕技醒酒愁降低增益啟動的連招數量需求。對流血附魔的首領的每次命中都有機率獲得額外連招數。
 
 ---
 
-### Recommended Internal Arts
+### 推薦裝備套裝
 
-#### Adaptive Steel
-**Required Weapon**: Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra)
+#### 鷹翼套裝（武器）
 
-**Effect**: Gain a Martial Art effect based on your current Blade Weapon.
+**2件套加成**：提高契合率
 
----
+**4件套加成**：當你的任何傷害觸發契合時，獲得鷹翼：物理攻擊提高2%，持續5秒，最多疊加5層。
 
-#### Insightful Strike
-**Required Weapon**: Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra)
-
-**Effect**: Dealing Affinity DMG increases your ability to see through enemy attacks, increases your Affinity DMG, and has a chance to reduce damage taken.
-
----
-
-#### Sword Horizon
-**Required Weapon**: Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra)
-
-**Effect**: After casting Strategic Sword's Martial Arts Skills, Special Skills, or Charged Skills, you can cast Crosswind Blade during the ending phase to unleash follow-up attacks and deal high Bleed damage if the target has max stacks of Bleed.
+**如何獲得**：
+- 戰役 - 靜岸
+- 戰役 - 閃耀深淵
+- 劍試
+- 團隊副本
 
 ---
 
-#### Wolfchaser's Art
-**Required Weapon**: Heavenquaker Spear (Stonesplit - Might)
+#### 鷹起套裝（護甲）
 
-**Effect**: Heavenquaker Spear's Art Skill, Sober Sorrow, lowers combo count requirements for buff activation. Each hit on bleeding-enchanted bosses has a chance to grant extra combo counts.
+**2件套加成**：物理防禦提高
 
----
+**4件套加成**：造成持續傷害或治療時獲得1層鷹起效果：受到的傷害降低1.2%，持續10秒，最多疊加5層。滿層時，獲得鷹衛效果，10秒內下一次受到的傷害降低90%（來自首領的傷害減半）。此效果每30秒只能觸發一次。
 
-### Recommended Gear Sets
-
-#### Hawkwing Set (Weapons)
-
-**2-Piece Bonus**: Increases the Affinity Rate
-
-**4-Piece Bonus**: When any of your damage triggers Affinity, gain Hawkwing: Increases Physical Attack by 2% for 5 seconds, stacking up to 5 times.
-
-**How to Obtain**:
-- Campaign - Still Shore
-- Campaign - Gleaming Abyss
-- Sword Trial
-- Group Dungeon
+**如何獲得**：
+- 戰役 - 靜岸
+- 戰役 - 閃耀深淵
+- 戰役 - 光環峰
+- 劍試
+- 團隊副本
 
 ---
 
-#### Eaglerise Set (Armor)
+## 鳴鐘 - 暗影
 
-**2-Piece Bonus**: Increase in Physical Defense
+**角色**：近戰DPS
 
-**4-Piece Bonus**: Dealing damage over time or healing grants 1 stack of Eaglerise: Reduces damage taken by 1.2% for 10 seconds, stacking up to 5 times. At max stacks, receives an Eagle Guard effect that reduces the next incoming damage within 10 seconds by 90% (halved when the damage comes from a boss). This effect can only trigger once every 30 seconds.
+**描述**：通過施加流血狀態效果，觸發頻繁且持續的傷害跳動。此外，通過提高自身傷害倍率，可以更快地專注並消滅目標。同時保持不錯的機動性。
 
-**How to Obtain**:
-- Campaign - Still Shore
-- Campaign - Gleaming Abyss
-- Campaign - Halo Peak
-- Sword Trial
-- Group Dungeon
+### 優勢
+- **DPS**：優秀的流血傷害輸出
+- **機動性**：不錯的移動速度
 
----
-
-## Stonesplit - Might
-
-**Role**: Tank Melee Combat
-
-**Description**: Equipped with shields, DMG Reduction, and interruption resistance, it has strong survivability. It can also serve as the team's damage sponge via taunt abilities. Can group enemies and then use wide-range charged skills for AoE damage.
-
-### Strengths
-- **Survivability**: Excellent defensive capabilities with shields and damage reduction
-- **Control**: Strong crowd control and enemy grouping
-
-### Weaknesses
-- **Mobility**: Limited movement speed
-- **DPS**: Lower damage output compared to DPS builds
+### 劣勢
+- **控制**：有限的群體控制能力
+- **生存能力**：較低的防禦能力
 
 ---
 
-### Recommended Martial Arts
+### 推薦武學
 
-#### Thundercry Blade
-**Key Skills**:
-- Predator's Shield
-- Galecloud Cleave
-- Sunrush Gale
+#### 謀略劍
+**關鍵技能**：
+- 內路斬
+- 二路斬
+- 內平衡擊III
 
-#### Stormbreaker Spear
-**Key Skills**:
-- Storm Roar
-- Fury Spear
-- Thunder Thrust
-
----
-
-### Recommended Internal Arts
-
-#### Art of Resistance
-**Required Weapon**: Thundercry Blade / Stormbreaker Spear (Stonesplit - Might)
-
-**Effect**: Increases the duration of Health Shields and any additional effects granted by their source Skills.
+#### 撼天槍
+**關鍵技能**：
+- 醒酒愁
+- 飄移刺
+- 橫掃千軍
 
 ---
 
-#### Exquisite Scenery
-**Required Weapon**: Thundercry Blade / Stormbreaker Spear (Stonesplit - Might)
+### 推薦內功
 
-**Effect**: Successfully defending with Stoic Cleaver (Thundercry Blade) activates its special counterattack. Press Perception Skill or Heavy Attack to unleash a first-stage Charged Heavy Attack without charging. This effect can only trigger once every 10 seconds. Hitting a target with a Varied Combo restores 1 bar of Battle Will (no more than 1 bar restored per cast).
+#### 適應之鋼
+**需求武器**：謀略劍 / 撼天槍（鳴鐘 - 暗影）
 
----
-
-#### Rock Solid
-**Required Weapon**: Thundercry Blade / Stormbreaker Spear (Stonesplit - Might)
-
-**Effect**: Increases the damage reduction of Stormbreaker Spear's Storm Roar after taunting a unit. While the damage reduction is active, it reduces all damage dealt and increases the Aggro produced.
+**效果**：根據當前刀劍武器獲得武學效果。
 
 ---
 
-#### Trapped Beast
-**Required Weapon**: Thundercry Blade / Stormbreaker Spear (Stonesplit - Might)
+#### 洞察之擊
+**需求武器**：謀略劍 / 撼天槍（鳴鐘 - 暗影）
 
-**Effect**: Taking damage while HP is below 30% triggers Cornered Beast, generating a shield that absorbs up to 30% of Max HP. This effect lasts 4 seconds and can trigger once every 300 seconds.
-
----
-
-### Recommended Gear Sets
-
-#### Rainwhisper Set (Weapons)
-
-**2-Piece Bonus**: Increases Max HP
-
-**4-Piece Bonus**: Increases all Critical DMG and healing by 10%, and further increases them by 15% when you have an HP shield.
-
-**How to Obtain**:
-- Campaign - Unbound Cavern
-- Sword Trial
-- Group Dungeon
+**效果**：造成契合傷害時提升看穿敵人攻擊的能力，增加契合傷害，並有機率降低受到的傷害。
 
 ---
 
-#### Moonflare Set (Armor)
+#### 劍氣長河
+**需求武器**：謀略劍 / 撼天槍（鳴鐘 - 暗影）
 
-**2-Piece Bonus**: Increase Max HP
-
-**4-Piece Bonus**: When attacking while defending, there is a 30% chance to create a shield that absorbs up to 10% of Max HP, lasting 20 seconds. If a shield already exists, restores 2% HP in addition. This effect can only trigger once every 60 seconds.
-
-**How to Obtain**:
-- Campaign - Unbound Cavern
-- Campaign - Furnace of Righteousness
-- Sword Trial
-- Group Dungeon
+**效果**：施放謀略劍的武學技能、特殊技能或蓄力技能後，可在結束階段施放橫風斬來釋放後續攻擊，如果目標有最大層數流血則造成高額流血傷害。
 
 ---
 
-## Skillbind - Jade
+#### 逐狼之藝
+**需求武器**：撼天槍（裂石 - 威能）
 
-**Role**: DPS Ranged Combat
-
-**Description**: A ranged playstyle, capable of sustained ranged DPS. Also has some control, allowing for burst combos with airborne attacks.
-
-### Strengths
-- **DPS**: Excellent ranged damage output
-- **Control**: Good crowd control with airborne combos
-- **Mobility**: High movement capabilities
-
-### Weaknesses
-- **Support**: Limited team support abilities
-- **Survivability**: Lower defensive capabilities
+**效果**：撼天槍的絕技醒酒愁降低增益啟動的連招數量需求。對流血附魔的首領的每次命中都有機率獲得額外連招數。
 
 ---
 
-### Recommended Martial Arts
+### 推薦裝備套裝
 
-#### Inkwell Fan
-**Key Skills**:
-- Glow & Flow
-- Moon Shatter Spring
-- Jadewind Shield
+#### 鷹翼套裝（武器）
 
-#### Vernal Umbrella
-**Key Skills**:
-- Apricot Heaven
-- Unfading Flower
-- Spring Sorrow
+**2件套加成**：提高契合率
 
----
+**4件套加成**：當你的任何傷害觸發契合時，獲得鷹翼：物理攻擊提高2%，持續5秒，最多疊加5層。
 
-### Recommended Internal Arts
-
-#### Blossom Barrage
-**Required Weapon**: Inkwell Fan / Ninefold Umbrella (Skillbind - Jade)
-
-**Effect**: The Ninefold Umbrella's skill, Spring Sorrow, can be charged up to 2 layers. When hitting an Enemy, it increases the damage of your Projectile skills.
+**如何獲得**：
+- 戰役 - 靜岸
+- 戰役 - 閃耀深淵
+- 劍試
+- 團隊副本
 
 ---
 
-#### Flying Gourds
-**Required Weapon**: Inkwell Fan / Ninefold Umbrella (Skillbind - Jade)
+#### 鷹起套裝（護甲）
 
-**Effect**: The Inkwell Fan's Skill, Mountain Sky, gains 2 charges but with an increased cooldown.
+**2件套加成**：物理防禦提高
 
----
+**4件套加成**：造成持續傷害或治療時獲得1層鷹起效果：受到的傷害降低1.2%，持續10秒，最多疊加5層。滿層時，獲得鷹衛效果，10秒內下一次受到的傷害降低90%（來自首領的傷害減半）。此效果每30秒只能觸發一次。
 
-#### Star Reacher
-**Required Weapon**: Inkwell Fan / Ninefold Umbrella (Skillbind - Jade)
-
-**Effect**: Gains External Attack bonus after inflicting Airborne status on enemies.
-
----
-
-#### Thunderous Bloom
-**Required Weapon**: Inkwell Fan / Ninefold Umbrella (Skillbind - Jade)
-
-**Effect**: Grants damage bonus to the next heavy attack or airborne heavy attack after moving a significant distance within a short duration.
+**如何獲得**：
+- 戰役 - 靜岸
+- 戰役 - 閃耀深淵
+- 戰役 - 光環峰
+- 劍試
+- 團隊副本
 
 ---
 
-### Recommended Gear Sets
+## 裂石 - 威能
 
-#### Veil of the Willow Set (Weapons)
+**角色**：近戰坦克
 
-**2-Piece Bonus**: Increased Precision Rate
+**描述**：配備護盾、傷害減免和打斷抗性，具有強大的生存能力。還可以通過嘲諷能力作為團隊的傷害海綿。可以集結敵人，然後使用大範圍蓄力技能進行範圍傷害。
 
-**4-Piece Bonus**: After a Light Attack/Airborne Light Attack, Heavy Attack/Airborne Heavy Attack damage is increased 12%, lasting 10 seconds. The reverse is also true. Particularly, after a Heavy Attack/Airborne Heavy Attack, Light Attack Charged Attack damage is increased 12%
+### 優勢
+- **生存能力**：優秀的防禦能力，配備護盾和傷害減免
+- **控制**：強大的群體控制和敵人集結能力
 
-**How to Obtain**:
-- Campaign - Heavenfall
-- Sword Trial
-- Group Dungeon
-
----
-
-#### Beyond the Chill Set (Armor)
-
-**2-Piece Bonus**: Increase Max HP
-
-**4-Piece Bonus**: After entering combat, if no damage is taken for 10 seconds, gain Beyond the Chill: Reduces the next damage taken and all damage taken within 2 seconds afterward by 40%. Beyond the Chill is removed upon leaving combat.
-
-**How to Obtain**:
-- Campaign - Heavenfall
-- Campaign - Furnace of Righteousness
-- Sword Trial
-- Group Dungeon
+### 劣勢
+- **機動性**：有限的移動速度
+- **DPS**：與DPS流派相比較低的傷害輸出
 
 ---
 
-## Bamboocut - Wind
+### 推薦武學
 
-**Role**: DPS Melee Combat
+#### 雷鳴刀
+**關鍵技能**：
+- 掠食者之盾
+- 烈風雲斬
+- 日升烈風
 
-**Description**: Boasts extreme mobility and rapid, consecutive attacks, with multiple ways to close the gap quickly. Has some control tools to maintain a safe damage-dealing environment.
-
-### Strengths
-- **DPS**: Excellent damage output with rapid consecutive attacks
-- **Control**: Good control tools for safe damage dealing
-- **Mobility**: Extreme mobility with gap closers
-
-### Weaknesses
-- **Support**: Limited team support abilities
-- **Survivability**: Lower defensive capabilities
-
----
-
-### Recommended Martial Arts
-
-#### Infernal Twinblades
-**Key Skills**:
-- Blade of Heaven's Wrath
-- Addled Mind
-- Calamity's Greed
-- Flamelash
-
-#### Mortal Rope Dart
-**Key Skills**:
-- Rodent's Resilience
-- Rodent Rampage
-- Bladebound Thread
+#### 破陣槍
+**關鍵技能**：
+- 風暴咆哮
+- 怒槍
+- 雷霆刺
 
 ---
 
-### Recommended Internal Arts
+### 推薦內功
 
-#### Breaking Point
-**Required Weapon**: Infernal Twinblades / Mortal Rope Dart (Bamboocut - Wind)
+#### 抗性之藝
+**需求武器**：雷鳴刀 / 破陣槍（裂石 - 威能）
 
-**Effect**: Dealing Critical Damage to Exhausted Enemies grants 1 stack of Disintegration. Each stack increases your external Penetration and Critical Damage Bonus (max 3 stacks), lasting 3 seconds.
-
----
-
-#### Echoes of Oblivion
-**Required Weapon**: Infernal Twinblades / Mortal Rope Dart (Bamboocut - Wind)
-
-**Effect**: Infernal Twinblades's normal Light Attack applies Malevolent Mark stacks to enemies. When in Blazing Wrath state, Light Attacks apply Bitter Fate stacks. Attacking targets with Malevolent Mark or Bitter Fate causes the Infernal Twinblades to ignore 10% of the target's external Defense and 10% Bamboocut Resistance, respectively.
+**效果**：延長生命護盾的持續時間以及來源技能授予的任何額外效果。
 
 ---
 
-#### Riptide Reflex
-**Required Weapon**: Infernal Twinblades / Mortal Rope Dart (Bamboocut - Wind)
+#### 絕美風景
+**需求武器**：雷鳴刀 / 破陣槍（裂石 - 威能）
 
-**Effect**: Hitting Enemies with Control Skills reduces the Cooldown of your current Martial Arts Skill. This effect can trigger once every 10 seconds.
-
----
-
-#### Vendetta
-**Required Weapon**: Infernal Twinblades / Mortal Rope Dart (Bamboocut - Wind)
-
-**Effect**: Rope Blade extends the duration of Bounty Order and additionally restores Grace Tokens.
+**效果**：使用堅毅劈砍（雷鳴刀）成功防禦時啟動其特殊反擊。按洞察技能或重擊可釋放第一階段蓄力重擊，無需蓄力。此效果每10秒只能觸發一次。用變招連擊命中目標恢復1格戰意（每次施放恢復不超過1格）。
 
 ---
 
-### Recommended Gear Sets
+#### 堅如磐石
+**需求武器**：雷鳴刀 / 破陣槍（裂石 - 威能）
 
-#### Swallowcall Set (Weapons)
-
-**2-Piece Bonus**: Increased Min Physical Attack
-
-**4-Piece Bonus**: Light Attacks deal 15% more damage against targets with less than 40% Qi and 5% more damage against Exhausted targets.
-
-**How to Obtain**:
-- Campaign - Blissful Retreat
-- Campaign - Jinming Pool
-- Sword Trial
-- Group Dungeon
+**效果**：提高破陣槍的風暴咆哮在嘲諷單位後的傷害減免。當傷害減免啟動時，降低所有造成的傷害並提高產生的仇恨。
 
 ---
 
-#### Calmwaters Set (Armor)
+#### 困獸
+**需求武器**：雷鳴刀 / 破陣槍（裂石 - 威能）
 
-**2-Piece Bonus**: Physical Defense increase
-
-**4-Piece Bonus**: A Perfect Dodge of an enemy attack has a 50% chance of restoring 3% of your Max HP and 10 Endurance.
-
-**How to Obtain**:
-- Campaign - Blissful Retreat
-- Campaign - Jinming Pool
-- Campaign - Halo Peak
-- Sword Trial
-- Group Dungeon
+**效果**：生命值低於30%時受到傷害觸發困獸之鬥，生成吸收最多30%最大生命值的護盾。此效果持續4秒，每300秒可觸發一次。
 
 ---
 
-## Skillbind - Deluge
+### 推薦裝備套裝
 
-**Role**: Heal Ranged Combat
+#### 雨語套裝（武器）
 
-**Description**: Features both burst and sustained healing, covering single-target and group recovery. Revive abilities allow defeated allies to rejoin the fight, while also providing team-wide damage buffs for support.
+**2件套加成**：提高最大生命值
 
-### Strengths
-- **Support**: Exceptional team support with healing and buffs
-- **Survivability**: High survivability with healing capabilities
+**4件套加成**：所有爆擊傷害和治療提高10%，當你有生命護盾時進一步提高15%。
 
-### Weaknesses
-- **Control**: Limited crowd control abilities
-- **DPS**: Lower damage output
-- **Mobility**: Limited movement capabilities
+**如何獲得**：
+- 戰役 - 無拘洞窟
+- 劍試
+- 團隊副本
 
 ---
 
-### Recommended Martial Arts
+#### 月焰套裝（護甲）
 
-#### Panacea Fan
-**Key Skills**:
-- Fourfold Inquiry
-- Emerald Dewtouch
-- Cloudburst Healing
-- Light Dust After Morning Rain
+**2件套加成**：提高最大生命值
 
-#### Soulshade Umbrella
-**Key Skills**:
-- Floating Grace
-- Pale Petal
-- Echoes of a Thousand Plants
+**4件套加成**：在防禦時攻擊有30%機率產生吸收最多10%最大生命值的護盾，持續20秒。如果護盾已存在，則額外恢復2%生命值。此效果每60秒只能觸發一次。
+
+**如何獲得**：
+- 戰役 - 無拘洞窟
+- 戰役 - 正義熔爐
+- 劍試
+- 團隊副本
 
 ---
 
-### Recommended Internal Arts
+## 制技 - 翠玉
 
-#### Esoteric Revival
-**Required Weapon**: Panacea Fan / Soulshade Umbrella (Skillbind - Deluge)
+**角色**：遠程DPS
 
-**Effect**: Increases the healing of Panacea Fan's Perception Skill, Resurrection, by 50% on the revived target.
+**描述**：遠程玩法，能夠持續進行遠程DPS。同時具有一些控制能力，可以通過浮空攻擊進行爆發連擊。
 
----
+### 優勢
+- **DPS**：優秀的遠程傷害輸出
+- **控制**：良好的浮空連擊群體控制
+- **機動性**：高移動能力
 
-#### Mending Loom
-**Required Weapon**: Panacea Fan / Soulshade Umbrella (Skillbind - Deluge)
-
-**Effect**: Soulshade Umbrella's Special Skill, Thousand Echoes, restores Dew upon activation. Consuming certain amounts of Dew additionally heals the caster.
-
----
-
-#### Restoring Blossom
-**Required Weapon**: Panacea Fan / Soulshade Umbrella (Skillbind - Deluge)
-
-**Effect**: Dealing Critical healing applies one stack of Nurturing for 3 seconds, increasing healing received by 2%, stacking up to 3 times.
+### 劣勢
+- **支援**：有限的團隊支援能力
+- **生存能力**：較低的防禦能力
 
 ---
 
-#### Royal Remedy
-**Required Weapon**: Panacea Fan / Soulshade Umbrella (Skillbind - Deluge)
+### 推薦武學
 
-**Effect**: The Water Entity created by the Panacea Fan's Martial Art Skill, Mistbound Aid, deals increased healing and restores bonus Dewdrops.
+#### 墨扇
+**關鍵技能**：
+- 光輝流動
+- 月碎春
+- 翠風盾
 
----
-
-### Recommended Gear Sets
-
-#### Ivorybloom Set (Weapons)
-
-**2-Piece Bonus**: Increased Critical Rate
-
-**4-Piece Bonus**: At Max HP, there is a bonus 5% chance to deal Critical healing and damage, and increases the effects of Critical healing and damage by 15%.
-
-**How to Obtain**:
-- Campaign - Ever-Normal Granary
-- Sword Trial
-- Group Dungeon
+#### 春季傘
+**關鍵技能**：
+- 杏花天
+- 不凋花
+- 春愁
 
 ---
 
-#### Whirlsnow Set (Armor)
+### 推薦內功
 
-**2-Piece Bonus**: Increase Physical Defense
+#### 花雨齊發
+**需求武器**：墨扇 / 九折傘（制技 - 翠玉）
 
-**4-Piece Bonus**: When you lose more than 40% of Max HP in a single instance of damage or when your HP falls below 20%, the next healing you receive within 5 seconds restores an additional 25% of your Max HP. This effect triggers once every 60 seconds.
+**效果**：九折傘的技能春愁可蓄力至2層。命中敵人時提高投射物技能的傷害。
 
-**How to Obtain**:
-- Campaign - Ever-Normal Granary
-- Campaign - Furnace of Righteousness
-- Sword Trial
-- Group Dungeon
+---
+
+#### 飛葫
+**需求武器**：墨扇 / 九折傘（制技 - 翠玉）
+
+**效果**：墨扇的技能山色空濛獲得2次使用次數，但冷卻時間增加。
+
+---
+
+#### 摘星
+**需求武器**：墨扇 / 九折傘（制技 - 翠玉）
+
+**效果**：對敵人造成浮空狀態後獲得外功攻擊加成。
+
+---
+
+#### 雷鳴綻放
+**需求武器**：墨扇 / 九折傘（制技 - 翠玉）
+
+**效果**：短時間內移動顯著距離後，為下一次重擊或浮空重擊提供傷害加成。
+
+---
+
+### 推薦裝備套裝
+
+#### 柳帷套裝（武器）
+
+**2件套加成**：提高精準率
+
+**4件套加成**：輕攻擊/浮空輕攻擊後，重攻擊/浮空重攻擊傷害提高12%，持續10秒。反之亦然。特別是，重攻擊/浮空重攻擊後，輕攻擊蓄力攻擊傷害提高12%。
+
+**如何獲得**：
+- 戰役 - 天降
+- 劍試
+- 團隊副本
+
+---
+
+#### 霜外套裝（護甲）
+
+**2件套加成**：提高最大生命值
+
+**4件套加成**：進入戰鬥後，如果10秒內未受到傷害，獲得霜外效果：降低下一次受到的傷害以及之後2秒內所有受到的傷害40%。離開戰鬥時移除霜外效果。
+
+**如何獲得**：
+- 戰役 - 天降
+- 戰役 - 正義熔爐
+- 劍試
+- 團隊副本
+
+---
+
+## 斬竹 - 疾風
+
+**角色**：近戰DPS
+
+**描述**：擁有極致的機動性和快速連續攻擊，有多種方式可以快速拉近距離。具有一些控制工具來維持安全的傷害輸出環境。
+
+### 優勢
+- **DPS**：快速連續攻擊的優秀傷害輸出
+- **控制**：良好的控制工具確保安全傷害輸出
+- **機動性**：極致機動性，配備拉近距離的技能
+
+### 劣勢
+- **支援**：有限的團隊支援能力
+- **生存能力**：較低的防禦能力
+
+---
+
+### 推薦武學
+
+#### 焚獄雙刀
+**關鍵技能**：
+- 天怒之刃
+- 迷亂之心
+- 災厄之貪
+- 焰鞭
+
+#### 索命繩鏢
+**關鍵技能**：
+- 老鼠韌性
+- 老鼠狂暴
+- 刃縛之線
+
+---
+
+### 推薦內功
+
+#### 破碎點
+**需求武器**：焚獄雙刀 / 索命繩鏢（斬竹 - 疾風）
+
+**效果**：對疲憊敵人造成爆擊傷害時獲得1層瓦解。每層提升外功穿透和爆擊傷害加成（最多3層），持續3秒。
+
+---
+
+#### 遺忘迴響
+**需求武器**：焚獄雙刀 / 索命繩鏢（斬竹 - 疾風）
+
+**效果**：焚獄雙刀的普通輕攻擊對敵人施加惡意標記層數。在燃燒怒火狀態下，輕攻擊施加苦命層數。攻擊帶有惡意標記或苦命的目標時，焚獄雙刀分別無視目標10%的外功防禦和10%的斬竹抗性。
+
+---
+
+#### 激流反射
+**需求武器**：焚獄雙刀 / 索命繩鏢（斬竹 - 疾風）
+
+**效果**：用控制技能命中敵人時降低當前武學技能的冷卻時間。此效果每10秒可觸發一次。
+
+---
+
+#### 復仇
+**需求武器**：焚獄雙刀 / 索命繩鏢（斬竹 - 疾風）
+
+**效果**：繩鏢延長懸賞令的持續時間並額外恢復恩澤標記。
+
+---
+
+### 推薦裝備套裝
+
+#### 燕鳴套裝（武器）
+
+**2件套加成**：提高最小物理攻擊
+
+**4件套加成**：輕攻擊對氣力低於40%的目標造成15%更多傷害，對疲憊目標造成5%更多傷害。
+
+**如何獲得**：
+- 戰役 - 極樂隱居
+- 戰役 - 金明池
+- 劍試
+- 團隊副本
+
+---
+
+#### 靜水套裝（護甲）
+
+**2件套加成**：物理防禦提高
+
+**4件套加成**：完美閃避敵人攻擊有50%機率恢復3%最大生命值和10點耐力。
+
+**如何獲得**：
+- 戰役 - 極樂隱居
+- 戰役 - 金明池
+- 戰役 - 光環峰
+- 劍試
+- 團隊副本
+
+---
+
+## 制技 - 洪流
+
+**角色**：遠程治療
+
+**描述**：具有爆發和持續治療，涵蓋單體和群體恢復。復活能力允許被擊敗的盟友重新加入戰鬥，同時還為團隊提供傷害增益支援。
+
+### 優勢
+- **支援**：卓越的團隊支援，配備治療和增益
+- **生存能力**：治療能力帶來的高生存能力
+
+### 劣勢
+- **控制**：有限的群體控制能力
+- **DPS**：較低的傷害輸出
+- **機動性**：有限的移動能力
+
+---
+
+### 推薦武學
+
+#### 靈藥扇
+**關鍵技能**：
+- 四問
+- 翠露撫觸
+- 雲暴治癒
+- 晨雨後塵輕
+
+#### 魂影傘
+**關鍵技能**：
+- 浮恩
+- 蒼白花瓣
+- 千株回聲
+
+---
+
+### 推薦內功
+
+#### 玄妙重生
+**需求武器**：靈藥扇 / 魂影傘（制技 - 洪流）
+
+**效果**：靈藥扇洞察技能起死回生對復活目標的治療提高50%。
+
+---
+
+#### 織補之網
+**需求武器**：靈藥扇 / 魂影傘（制技 - 洪流）
+
+**效果**：魂影傘的特殊技能千聲回響啟動時恢復露水。消耗一定量的露水額外治療施法者。
+
+---
+
+#### 恢復之花
+**需求武器**：靈藥扇 / 魂影傘（制技 - 洪流）
+
+**效果**：造成爆擊治療時施加1層滋養效果，持續3秒，受到的治療提高2%，最多疊加3層。
+
+---
+
+#### 王者良藥
+**需求武器**：靈藥扇 / 魂影傘（制技 - 洪流）
+
+**效果**：靈藥扇武學技能雲霧縹緲創造的水靈提供更高治療並恢復額外露珠。
+
+---
+
+### 推薦裝備套裝
+
+#### 象牙花套裝（武器）
+
+**2件套加成**：提高爆擊率
+
+**4件套加成**：在最大生命值時，額外有5%機率造成爆擊治療和傷害，並將爆擊治療和傷害的效果提高15%。
+
+**如何獲得**：
+- 戰役 - 常平倉
+- 劍試
+- 團隊副本
+
+---
+
+#### 旋雪套裝（護甲）
+
+**2件套加成**：提高物理防禦
+
+**4件套加成**：當你在單次傷害中失去超過40%最大生命值或生命值降至20%以下時，5秒內獲得的下一次治療額外恢復25%最大生命值。此效果每60秒觸發一次。
+
+**如何獲得**：
+- 戰役 - 常平倉
+- 戰役 - 正義熔爐
+- 劍試
+- 團隊副本
 
 ---
 `;

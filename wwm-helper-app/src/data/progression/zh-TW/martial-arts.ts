@@ -1,1184 +1,1184 @@
-export const content = `# Martial Arts (武术)
+export const content = `# 武術
 
-## Martial Arts System Overview
+## 武術系統概述
 
-**Total Count**: 12 Martial Arts (one per weapon)
+**總數量**：12種武術（每種武器一種）
 
-**Type**: Weapon-dependent combat skills
+**類型**：依賴武器的戰鬥技能
 
-**Categories**: Offensive and Defensive abilities organized by weapon and Path
+**分類**：依武器和路線分類的攻擊與防禦能力
 
-**Key Concept**: Martial Arts are the core combat skills tied to your weapon choice. Each weapon has its own unique set of skills including Main skills, Basic attacks, and Charged attacks.
+**核心概念**：武術是與武器選擇相關的核心戰鬥技能。每種武器都有自己獨特的技能組，包括主要技能、基礎攻擊和蓄力攻擊。
 
-**Paths**: 6 Martial Arts Paths, each with 2 weapons (12 total)
+**路線**：6條武術路線，每條路線有2種武器（共12種）
 
-**Flexibility**: Can use up to **2 Martial Arts at the same time** (dual-wielding different weapon styles)
-
----
-
-## Six Martial Arts Paths
-
-### Bellstrike - Splendor Path
-
-**Focus**: Mobility and charged attacks
-
-**Playstyle**: High single-target damage with burst potential
-
-**Characteristics**:
-- Freely move around combat area
-- Attack with powerful charged attacks
-- Highly effective against bosses
-- Great single-target attacks and overall damage
-
-**Weapons**:
-- **Nameless Sword**
-- **Nameless Spear**
+**靈活性**：最多可同時使用**2種武術**（雙持不同武器風格）
 
 ---
 
-### Bellstrike - Umbra Path
+## 六條武術路線
 
-**Focus**: Mobility and damage-over-time
+### 鳴鐘 - 華彩路線
 
-**Playstyle**: Inflict wounds and bleeding effects
+**專注**：機動性和蓄力攻擊
 
-**Characteristics**:
-- Maintains Bellstrike mobility focus
-- Single-target skill emphasis
-- Damage comes from bleeding effects
-- Drains enemy HP over time rather than burst damage
+**遊戲風格**：高單體傷害與爆發潛力
 
-**Weapons**:
-- **Strategic Sword**
-- **Heavenquaker Spear**
+**特點**：
+- 在戰鬥區域自由移動
+- 使用強大的蓄力攻擊
+- 對首領特別有效
+- 出色的單體攻擊和整體傷害
 
----
-
-### Skillbind - Deluge Path
-
-**Focus**: Full support and healing
-
-**Playstyle**: Buff allies and provide sustain
-
-**Characteristics**:
-- Heal in an area
-- Heal yourself or specific ally
-- Revive knocked-down allies
-- Provide damage buffs
-- Wait for healing cooldowns while supporting
-
-**Weapons**:
-- **Panacea Fan**
-- **Soulshade Umbrella**
+**武器**：
+- **無名劍**
+- **無名槍**
 
 ---
 
-### Skillbind - Jade Path
+### 鳴鐘 - 暗影路線
 
-**Focus**: Ranged attacks and mobility
+**專注**：機動性和持續傷害
 
-**Playstyle**: Stay at distance, avoid damage
+**遊戲風格**：造成傷口和流血效果
 
-**Characteristics**:
-- Excellent mobility and airborne skills
-- Attack from afar to avoid incoming damage
-- One of the most difficult Martial Arts
-- Requires great control and timing for flawless combos
-- Suitable for 1v1 duels
-- Not optimal against many targets
+**特點**：
+- 維持鳴鐘的機動性專注
+- 單體技能重點
+- 傷害來自流血效果
+- 隨時間流失敵人生命值而非爆發傷害
 
-**Weapons**:
-- **Inkwell Fan**
-- **Vernal Umbrella** (Ninefold Umbrella)
+**武器**：
+- **戰略劍**
+- **震天槍**
 
 ---
 
-### Bamboocut - Wind Path
+### 技縛 - 澤雨路線
 
-**Focus**: Consecutive attacks and high DPS
+**專注**：全面支援和治療
 
-**Playstyle**: Suffocate enemies with attack flurries
+**遊戲風格**：增益隊友並提供持續
 
-**Characteristics**:
-- Strong sustained DPS
-- Very high mobility
-- No survivability attributes
-- Depends on performing flurry of attacks
-- Glass cannon approach
+**特點**：
+- 區域治療
+- 治療自己或特定隊友
+- 復活倒下的隊友
+- 提供傷害增益
+- 在支援時等待治療冷卻
 
-**Weapons**:
-- **Infernal Twinblades**
-- **Mortal Rope Dart**
-
----
-
-### Stonesplit - Might Path
-
-**Focus**: Survivability and area damage
-
-**Playstyle**: Tank damage while controlling groups
-
-**Characteristics**:
-- Damage reductions
-- Resistance to immobilization attacks
-- Shield generation
-- Excellent against many targets
-- AoE damage capabilities
-
-**Weapons**:
-- **Stormbreaker Spear**
-- **Thundercry Blade**
+**武器**：
+- **百草扇**
+- **魂影傘**
 
 ---
 
-## Martial Arts Path Notes
+### 技縛 - 碧玉路線
 
-**Same Path, Different Playstyles**: Each Martial Art weapon has its own unique skillset, even within the same Path
+**專注**：遠程攻擊和機動性
 
-**Example**: Using Nameless Sword vs. Nameless Spear (both Bellstrike - Splendor)
-- Both focus on mobility and charged attacks
-- Spear has different skills than Sword
-- Different range, attack patterns, and tactical options
+**遊戲風格**：保持距離，避免傷害
 
-**Talents**: Each Martial Art weapon also has a set of Talents (passive effects) that work alongside the skillset
+**特點**：
+- 出色的機動性和空中技能
+- 從遠處攻擊以避免受到傷害
+- 最困難的武術之一
+- 需要出色的控制和時機來完成完美連擊
+- 適合1v1對決
+- 對抗多個目標不是最佳選擇
 
-**Related**: See Inner Ways documentation for Talent details and Path synergies
+**武器**：
+- **墨扇**
+- **九折傘**
 
 ---
 
-## Path Builds and Recommendations
+### 竹斬 - 風路線
 
-Each Path comes with official game recommendations for Martial Arts Weapons, Internal Arts, and Gear Sets to maximize effectiveness. Access these in-game via Path Guide Menu → Select Path → Combination.
+**專注**：連續攻擊和高DPS
+
+**遊戲風格**：用攻擊狂潮壓制敵人
+
+**特點**：
+- 強大的持續DPS
+- 非常高的機動性
+- 無生存屬性
+- 依賴於進行攻擊狂潮
+- 玻璃大炮策略
+
+**武器**：
+- **煉獄雙刃**
+- **凡繩鏢**
 
 ---
 
-### Bellstrike - Splendor Build
+### 石裂 - 威力路線
 
-**Role**: DPS Melee Combat
+**專注**：生存能力和區域傷害
 
-**Description**: High mobility and single-target control; excels at kiting enemies. Combine strong endurance with charged skills to unleash Burst Damage.
+**遊戲風格**：在控制群體的同時承受傷害
 
-**Strengths**:
+**特點**：
+- 傷害減免
+- 抵抗定身攻擊
+- 護盾生成
+- 對抗多個目標表現出色
+- 範圍傷害能力
+
+**武器**：
+- **破風槍**
+- **雷鳴刀**
+
+---
+
+## 武術路線注意事項
+
+**相同路線，不同遊戲風格**：每種武術武器都有其獨特的技能組，即使在同一路線內也是如此
+
+**範例**：使用無名劍與無名槍（兩者都是鳴鐘 - 華彩）
+- 兩者都專注於機動性和蓄力攻擊
+- 槍的技能與劍不同
+- 不同的射程、攻擊模式和戰術選擇
+
+**天賦**：每種武術武器也有一組天賦（被動效果），與技能組一起運作
+
+**相關**：查看內功文檔以了解天賦詳情和路線協同效應
+
+---
+
+## 路線建構和建議
+
+每條路線都附帶官方遊戲建議的武術武器、內功和裝備套裝，以最大化效果。在遊戲中通過路線指南菜單 → 選擇路線 → 組合來訪問這些內容。
+
+---
+
+### 鳴鐘 - 華彩建構
+
+**角色**：DPS 近戰
+
+**描述**：高機動性和單體控制；擅長風箏敵人。結合強大的耐力與蓄力技能以釋放爆發傷害。
+
+**優勢**：
 - DPS
-- Mobility
+- 機動性
 
-**Weaknesses**:
-- Control
-- Support
+**劣勢**：
+- 控制
+- 支援
 
-#### Recommended Martial Arts
+#### 推薦武術
 
-**Nameless Sword**:
-- Shadow Step
-- Fearless Lunge
-- Homeless Charge
+**無名劍**：
+- 影步
+- 無懼突進
+- 無家衝鋒
 
-**Nameless Spear**:
-- Legion Breaker
-- Qiankun's Lock
-- Storm Dance
+**無名槍**：
+- 破陣
+- 乾坤之鎖
+- 暴風舞
 
-#### Recommended Internal Arts
+#### 推薦內功
 
-| Internal Art | Weapon Requirement | Description |
-|--------------|-------------------|-------------|
-| **Adaptive Steel** | Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra) | Gain a Martial Art effect based on your current Blade Weapon. |
-| **Insightful Strike** | Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra) | Dealing Affinity DMG increases your ability to see through enemy attacks, increases your Affinity DMG, and has a chance to reduce damage taken. |
-| **Sword Horizon** | Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra) | After casting Strategic Sword's Martial Arts Skills, Special Skills, or Charged Skills, you can cast Crosswind Blade during the ending phase to unleash follow-up attacks and deal high Bleed damage if the target has max stacks of Bleed. |
-| **Wolfchaser's Art** | Strategic Sword / Heavenquaker Spear (Stonesplit - Might) | Heavenquaker Spear's Art Skill, Sober Sorrow, lowers combo count requirements for buff activation. Each hit on bleeding-enchanted bosses has a chance to grant extra combo counts. |
+| 內功 | 武器需求 | 描述 |
+|------|---------|------|
+| **適應之鋼** | 戰略劍 / 震天槍（鳴鐘 - 暗影） | 根據你當前的刀刃武器獲得武術效果。 |
+| **洞察打擊** | 戰略劍 / 震天槍（鳴鐘 - 暗影） | 造成親和傷害會增加你看穿敵人攻擊的能力，增加你的親和傷害，並有機會減少受到的傷害。 |
+| **劍視** | 戰略劍 / 震天槍（鳴鐘 - 暗影） | 施放戰略劍的武術技能、特殊技能或蓄力技能後，你可以在結束階段施放橫風刃以釋放後續攻擊，如果目標有最大流血堆疊，則造成高流血傷害。 |
+| **追狼之術** | 戰略劍 / 震天槍（石裂 - 威力） | 震天槍的藝術技能，醒悟之悲，降低了增益激活的連擊計數要求。擊中流血附魔的首領時有機會獲得額外的連擊計數。 |
 
-#### Recommended Gear Sets
+#### 推薦裝備套裝
 
-**Hawkwing Set (Weapons)**:
-- **2 Pieces**: Increases the Affinity Rate
-- **4 Pieces**: When any of your damage triggers Affinity, gain Hawkwing: Increases Physical Attack by 2% for 5 seconds, stacking up to 5 times.
-- **Acquisition**: Campaign - Still Shore, Campaign - Gleaming Abyss, Sword Trial, Group Dungeon
+**鷹翼套裝（武器）**：
+- **2件**：增加親和率
+- **4件**：當你的任何傷害觸發親和時，獲得鷹翼：物理攻擊增加2%，持續5秒，最多堆疊5次。
+- **獲取途徑**：戰役 - 靜岸、戰役 - 璀璨深淵、劍試、組隊副本
 
-**Eaglerise Set (Armor)**:
-- **2 Pieces**: Increase in Physical Defense
-- **4 Pieces**: Dealing damage over time or healing grants 1 stack of Eaglerise: Reduces damage taken by 1.2% for 10 seconds, stacking up to 5 times. At max stacks, receives an Eagle Guard effect that reduces the next incoming damage within 10 seconds by 90% (halved when the damage comes from a boss). This effect can only trigger once every 30 seconds.
-- **Acquisition**: Campaign - Still Shore, Campaign - Gleaming Abyss, Campaign - Halo Peak, Sword Trial, Group Dungeon
+**鷹起套裝（護甲）**：
+- **2件**：物理防禦增加
+- **4件**：造成持續傷害或治療時獲得1層鷹起：減少1.2%受到的傷害，持續10秒，最多堆疊5次。滿層時，獲得鷹盾效果，減少10秒內下次受到的傷害90%（來自首領的傷害減半）。此效果每30秒只能觸發一次。
+- **獲取途徑**：戰役 - 靜岸、戰役 - 璀璨深淵、戰役 - 光暈峰、劍試、組隊副本
 
 ---
 
-### Bellstrike - Umbra Build
+### 鳴鐘 - 暗影建構
 
-**Role**: DPS Melee Combat
+**角色**：DPS 近戰
 
-**Description**: By applying bleed status effects, it triggers frequent and sustained damage ticks. Additionally, by increasing its own damage multiplier, it can focus and eliminate targets faster. It also retains decent mobility.
+**描述**：通過施加流血狀態效果，觸發頻繁且持續的傷害跳動。此外，通過增加自己的傷害倍數，它可以專注並更快地消滅目標。它還保留了不錯的機動性。
 
-**Strengths**:
+**優勢**：
 - DPS
-- Mobility
+- 機動性
 
-**Weaknesses**:
-- Control
-- Survivability
+**劣勢**：
+- 控制
+- 生存能力
 
-#### Recommended Martial Arts
+#### 推薦武術
 
-**Strategic Sword**:
-- Inner Track Slash
-- Second Track Slash
-- Inner Balance Strike III
+**戰略劍**：
+- 內軌斬
+- 二軌斬
+- 內平衡擊 III
 
-**Heavenquaker Spear**:
-- Sober Sorrow
-- Drifting Thrust
-- Sweep All
+**震天槍**：
+- 醒悟之悲
+- 漂移刺
+- 橫掃千軍
 
-#### Recommended Internal Arts
+#### 推薦內功
 
-| Internal Art | Weapon Requirement | Description |
-|--------------|-------------------|-------------|
-| **Adaptive Steel** | Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra) | Gain a Martial Art effect based on your current Blade Weapon. |
-| **Insightful Strike** | Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra) | Dealing Affinity DMG increases your ability to see through enemy attacks, increases your Affinity DMG, and has a chance to reduce damage taken. |
-| **Sword Horizon** | Strategic Sword / Heavenquaker Spear (Bellstrike - Umbra) | After casting Strategic Sword's Martial Arts Skills, Special Skills, or Charged Skills, you can cast Crosswind Blade during the ending phase to unleash follow-up attacks and deal high Bleed damage if the target has max stacks of Bleed. |
-| **Wolfchaser's Art** | Strategic Sword / Heavenquaker Spear (Stonesplit - Might) | Heavenquaker Spear's Art Skill, Sober Sorrow, lowers combo count requirements for buff activation. Each hit on bleeding-enchanted bosses has a chance to grant extra combo counts. |
+| 內功 | 武器需求 | 描述 |
+|------|---------|------|
+| **適應之鋼** | 戰略劍 / 震天槍（鳴鐘 - 暗影） | 根據你當前的刀刃武器獲得武術效果。 |
+| **洞察打擊** | 戰略劍 / 震天槍（鳴鐘 - 暗影） | 造成親和傷害會增加你看穿敵人攻擊的能力，增加你的親和傷害，並有機會減少受到的傷害。 |
+| **劍視** | 戰略劍 / 震天槍（鳴鐘 - 暗影） | 施放戰略劍的武術技能、特殊技能或蓄力技能後，你可以在結束階段施放橫風刃以釋放後續攻擊，如果目標有最大流血堆疊，則造成高流血傷害。 |
+| **追狼之術** | 戰略劍 / 震天槍（石裂 - 威力） | 震天槍的藝術技能，醒悟之悲，降低了增益激活的連擊計數要求。擊中流血附魔的首領時有機會獲得額外的連擊計數。 |
 
-#### Recommended Gear Sets
+#### 推薦裝備套裝
 
-**Hawkwing Set (Weapons)**:
-- **2 Pieces**: Increases the Affinity Rate
-- **4 Pieces**: When any of your damage triggers Affinity, gain Hawkwing: Increases Physical Attack by 2% for 5 seconds, stacking up to 5 times.
-- **Acquisition**: Campaign - Still Shore, Campaign - Gleaming Abyss, Sword Trial, Group Dungeon
+**鷹翼套裝（武器）**：
+- **2件**：增加親和率
+- **4件**：當你的任何傷害觸發親和時，獲得鷹翼：物理攻擊增加2%，持續5秒，最多堆疊5次。
+- **獲取途徑**：戰役 - 靜岸、戰役 - 璀璨深淵、劍試、組隊副本
 
-**Eaglerise Set (Armor)**:
-- **2 Pieces**: Increase in Physical Defense
-- **4 Pieces**: Dealing damage over time or healing grants 1 stack of Eaglerise: Reduces damage taken by 1.2% for 10 seconds, stacking up to 5 times. At max stacks, receives an Eagle Guard effect that reduces the next incoming damage within 10 seconds by 90% (halved when the damage comes from a boss). This effect can only trigger once every 30 seconds.
-- **Acquisition**: Campaign - Still Shore, Campaign - Gleaming Abyss, Campaign - Halo Peak, Sword Trial, Group Dungeon
+**鷹起套裝（護甲）**：
+- **2件**：物理防禦增加
+- **4件**：造成持續傷害或治療時獲得1層鷹起：減少1.2%受到的傷害，持續10秒，最多堆疊5次。滿層時，獲得鷹盾效果，減少10秒內下次受到的傷害90%（來自首領的傷害減半）。此效果每30秒只能觸發一次。
+- **獲取途徑**：戰役 - 靜岸、戰役 - 璀璨深淵、戰役 - 光暈峰、劍試、組隊副本
 
 ---
 
-### Skillbind - Deluge Build
+### 技縛 - 澤雨建構
 
-**Role**: Support/Healer
+**角色**：支援/治療
 
-**Description**: Features both burst and sustained healing, covering single-target and group recovery. Revive abilities allow defeated allies to rejoin the fight, while also providing team-wide damage buffs for support.
+**描述**：具有爆發和持續治療，涵蓋單體和群體恢復。復活能力允許倒下的隊友重新加入戰鬥，同時還為團隊提供傷害增益以進行支援。
 
-**Strengths**:
-- Support
-- Survivability
+**優勢**：
+- 支援
+- 生存能力
 
-**Weaknesses**:
-- Control
+**劣勢**：
+- 控制
 - DPS
-- Mobility
+- 機動性
 
-#### Recommended Martial Arts
+#### 推薦武術
 
-**Panacea Fan**:
-- Fourfold Inquiry
-- Emerald Dewtouch
-- Cloudburst Healing
-- Light Dust After Morning Rain
+**百草扇**：
+- 四重詢問
+- 翡翠露觸
+- 雲暴治療
+- 晨雨後輕塵
 
-**Soulshade Umbrella**:
-- Floating Grace
-- Pale Petal
-- Echoes of a Thousand Plants
+**魂影傘**：
+- 漂浮恩典
+- 蒼白花瓣
+- 千草回響
 
-#### Recommended Internal Arts
+#### 推薦內功
 
-| Internal Art | Weapon Requirement | Description |
-|--------------|-------------------|-------------|
-| **Esoteric Revival** | Panacea Fan / Soulshade Umbrella (Skillbind - Deluge) | Increases the healing of Panacea Fan's Perception Skill, Resurrection, by 50% on the revived target. |
-| **Mending Loom** | Panacea Fan / Soulshade Umbrella (Skillbind - Deluge) | Soulshade Umbrella's Special Skill, Thousand Echoes, restores Dew upon activation. Consuming certain amounts of Dew additionally heals the caster. |
-| **Restoring Blossom** | Panacea Fan / Soulshade Umbrella (Skillbind - Deluge) | Dealing Critical healing applies one stack of Nurturing for 3 seconds, increasing healing received by 2%, stacking up to 3 times. |
-| **Royal Remedy** | Panacea Fan / Soulshade Umbrella (Skillbind - Deluge) | The Water Entity created by the Panacea Fan's Martial Art Skill, Mistbound Aid, deals increased healing and restores bonus Dewdrops. |
+| 內功 | 武器需求 | 描述 |
+|------|---------|------|
+| **深奧復甦** | 百草扇 / 魂影傘（技縛 - 澤雨） | 百草扇的感知技能，復活，對復活的目標的治療增加50%。 |
+| **修補織機** | 百草扇 / 魂影傘（技縛 - 澤雨） | 魂影傘的特殊技能，千回響，在激活時恢復露水。消耗一定量的露水額外治療施放者。 |
+| **恢復之花** | 百草扇 / 魂影傘（技縛 - 澤雨） | 造成暴擊治療時施加一層滋養，持續3秒，增加2%受到的治療，最多堆疊3次。 |
+| **皇家療法** | 百草扇 / 魂影傘（技縛 - 澤雨） | 百草扇的武術技能，霧縛援助，創造的水元素造成增加的治療並恢復額外的露珠。 |
 
-#### Recommended Gear Sets
+#### 推薦裝備套裝
 
-**Ivorybloom Set (Weapons)**:
-- **2 Pieces**: Increased Critical Rate
-- **4 Pieces**: At Max HP, there is a bonus 5% chance to deal Critical healing and damage, and increases the effects of Critical healing and damage by 15%.
-- **Acquisition**: Campaign - Ever-Normal Granary, Sword Trial, Group Dungeon
+**象牙花套裝（武器）**：
+- **2件**：暴擊率增加
+- **4件**：滿血時，有額外5%的機率造成暴擊治療和傷害，並增加暴擊治療和傷害的效果15%。
+- **獲取途徑**：戰役 - 常平倉、劍試、組隊副本
 
-**Whirlsnow Set (Armor)**:
-- **2 Pieces**: Increase Physical Defense
-- **4 Pieces**: When you lose more than 40% of Max HP in a single instance of damage or when your HP falls below 20%, the next healing you receive within 5 seconds restores an additional 25% of your Max HP. This effect triggers once every 60 seconds.
-- **Acquisition**: Campaign - Ever-Normal Granary, Campaign - Furnace of Righteousness, Sword Trial, Group Dungeon
+**旋雪套裝（護甲）**：
+- **2件**：物理防禦增加
+- **4件**：當你在單次傷害中失去超過最大生命值40%或當你的生命值低於20%時，你在5秒內受到的下次治療額外恢復你最大生命值的25%。此效果每60秒觸發一次。
+- **獲取途徑**：戰役 - 常平倉、戰役 - 正義熔爐、劍試、組隊副本
 
 ---
 
-### Skillbind - Jade Build
+### 技縛 - 碧玉建構
 
-**Role**: DPS Ranged Combat
+**角色**：DPS 遠程戰鬥
 
-**Description**: A ranged playstyle, capable of sustained ranged DPS. Also has some control, allowing for burst combos with airborne attacks.
+**描述**：遠程遊戲風格，能夠持續遠程DPS。還有一些控制，允許空中攻擊的爆發連擊。
 
-**Strengths**:
+**優勢**：
 - DPS
-- Control
-- Mobility
+- 控制
+- 機動性
 
-**Weaknesses**:
-- Support
-- Survivability
+**劣勢**：
+- 支援
+- 生存能力
 
-#### Recommended Martial Arts
+#### 推薦武術
 
-**Inkwell Fan**:
-- Glow & Flow
-- Moon Shatter Spring
-- Jadewind Shield
+**墨扇**：
+- 光流
+- 月碎春
+- 碧風盾
 
-**Vernal Umbrella** (Ninefold Umbrella):
-- Apricot Heaven
-- Unfading Flower
-- Spring Sorrow
+**九折傘**：
+- 杏天
+- 不凋花
+- 春愁
 
-#### Recommended Internal Arts
+#### 推薦內功
 
-| Internal Art | Weapon Requirement | Description |
-|--------------|-------------------|-------------|
-| **Blossom Barrage** | Inkwell Fan / Ninefold Umbrella (Skillbind - Jade) | The Ninefold Umbrella's skill, Spring Sorrow, can be charged up to 2 layers. When hitting an Enemy, it increases the damage of your Projectile skills. |
-| **Flying Gourds** | Inkwell Fan / Ninefold Umbrella (Skillbind - Jade) | The Inkwell Fan's Skill, Mountain Sky, gains 2 charges but with an increased cooldown. |
-| **Star Reacher** | Inkwell Fan / Ninefold Umbrella (Skillbind - Jade) | Gains External Attack bonus after inflicting Airborne status on enemies. |
-| **Thunderous Bloom** | Inkwell Fan / Ninefold Umbrella (Skillbind - Jade) | Grants damage bonus to the next heavy attack or airborne heavy attack after moving a significant distance within a short duration. |
+| 內功 | 武器需求 | 描述 |
+|------|---------|------|
+| **花雨彈幕** | 墨扇 / 九折傘（技縛 - 碧玉） | 九折傘的技能，春愁，可以充能最多2層。擊中敵人時，增加你的投射物技能的傷害。 |
+| **飛葫蘆** | 墨扇 / 九折傘（技縛 - 碧玉） | 墨扇的技能，山天，獲得2次充能但冷卻時間增加。 |
+| **摘星者** | 墨扇 / 九折傘（技縛 - 碧玉） | 對敵人施加浮空狀態後獲得外部攻擊加成。 |
+| **雷鳴之花** | 墨扇 / 九折傘（技縛 - 碧玉） | 在短時間內移動相當距離後，對下一次重攻擊或空中重攻擊給予傷害加成。 |
 
-#### Recommended Gear Sets
+#### 推薦裝備套裝
 
-**Veil of the Willow Set (Weapons)**:
-- **2 Pieces**: Increased Precision Rate
-- **4 Pieces**: After a Light Attack/Airborne Light Attack, Heavy Attack/Airborne Heavy Attack damage is increased 12%, lasting 10 seconds. The reverse is also true. Particularly, after a Heavy Attack/Airborne Heavy Attack, Light Attack Charged Attack damage is increased 12%
-- **Acquisition**: Campaign - Heavenfall, Sword Trial, Group Dungeon
+**柳紗套裝（武器）**：
+- **2件**：精確率增加
+- **4件**：輕攻擊/空中輕攻擊後，重攻擊/空中重攻擊傷害增加12%，持續10秒。反之亦然。特別是，重攻擊/空中重攻擊後，輕攻擊蓄力攻擊傷害增加12%
+- **獲取途徑**：戰役 - 天墜、劍試、組隊副本
 
-**Beyond the Chill Set (Armor)**:
-- **2 Pieces**: Increase Max HP
-- **4 Pieces**: After entering combat, if no damage is taken for 10 seconds, gain Beyond the Chill: Reduces the next damage taken and all damage taken within 2 seconds afterward by 40%. Beyond the Chill is removed upon leaving combat.
-- **Acquisition**: Campaign - Heavenfall, Campaign - Furnace of Righteousness, Sword Trial, Group Dungeon
+**冰寒之外套裝（護甲）**：
+- **2件**：最大生命值增加
+- **4件**：進入戰鬥後，如果10秒內未受到傷害，獲得冰寒之外：減少下次受到的傷害以及之後2秒內受到的所有傷害40%。離開戰鬥時移除冰寒之外。
+- **獲取途徑**：戰役 - 天墜、戰役 - 正義熔爐、劍試、組隊副本
 
 ---
 
-### Bamboocut - Wind Build
+### 竹斬 - 風建構
 
-**Role**: DPS Melee Combat
+**角色**：DPS 近戰
 
-**Description**: Boasts extreme mobility and rapid, consecutive attacks, with multiple ways to close the gap quickly. Has some control tools to maintain a safe damage-dealing environment.
+**描述**：擁有極致的機動性和快速連續攻擊，有多種快速縮短差距的方法。有一些控制工具來維持安全的傷害輸出環境。
 
-**Strengths**:
+**優勢**：
 - DPS
-- Control
-- Mobility
+- 控制
+- 機動性
 
-**Weaknesses**:
-- Support
-- Survivability
+**劣勢**：
+- 支援
+- 生存能力
 
-#### Recommended Martial Arts
+#### 推薦武術
 
-**Infernal Twinblades**:
-- Blade of Heaven's Wrath
-- Addled Mind
-- Calamity's Greed
-- Flamelash
+**煉獄雙刃**：
+- 天怒之刃
+- 迷心
+- 災厄之貪
+- 焰鞭
 
-**Mortal Rope Dart**:
-- Rodent's Resilience
-- Rodent Rampage
-- Bladebound Thread
+**凡繩鏢**：
+- 鼠韌
+- 鼠狂
+- 刃縛線
 
-#### Recommended Internal Arts
+#### 推薦內功
 
-| Internal Art | Weapon Requirement | Description |
-|--------------|-------------------|-------------|
-| **Breaking Point** | Infernal Twinblades / Mortal Rope Dart (Bamboocut - Wind) | Dealing Critical Damage to Exhausted Enemies grants 1 stack of Disintegration. Each stack increases your external Penetration and Critical Damage Bonus (max 3 stacks), lasting 3 seconds. |
-| **Echoes of Oblivion** | Infernal Twinblades / Mortal Rope Dart (Bamboocut - Wind) | Infernal Twinblades's normal Light Attack applies Malevolent Mark stacks to enemies. When in Blazing Wrath state, Light Attacks apply Bitter Fate stacks. Attacking targets with Malevolent Mark or Bitter Fate causes the Infernal Twinblades to ignore 10% of the target's external Defense and 10% Bamboocut Resistance, respectively. |
-| **Riptide Reflex** | Infernal Twinblades / Mortal Rope Dart (Bamboocut - Wind) | Hitting Enemies with Control Skills reduces the Cooldown of your current Martial Arts Skill. This effect can trigger once every 10 seconds. |
-| **Vendetta** | Infernal Twinblades / Mortal Rope Dart (Bamboocut - Wind) | Rope Blade extends the duration of Bounty Order and additionally restores Grace Tokens. |
+| 內功 | 武器需求 | 描述 |
+|------|---------|------|
+| **破壞點** | 煉獄雙刃 / 凡繩鏢（竹斬 - 風） | 對疲憊的敵人造成暴擊傷害時獲得1層崩解。每層增加你的外部穿透和暴擊傷害加成（最多3層），持續3秒。 |
+| **遺忘回響** | 煉獄雙刃 / 凡繩鏢（竹斬 - 風） | 煉獄雙刃的普通輕攻擊對敵人施加惡意標記堆疊。在烈焰之怒狀態下時，輕攻擊施加苦命堆疊。攻擊帶有惡意標記或苦命的目標會使煉獄雙刃忽略目標10%的外部防禦和10%的竹斬抗性。 |
+| **激流反射** | 煉獄雙刃 / 凡繩鏢（竹斬 - 風） | 用控制技能擊中敵人會減少你當前武術技能的冷卻時間。此效果每10秒只能觸發一次。 |
+| **仇恨** | 煉獄雙刃 / 凡繩鏢（竹斬 - 風） | 繩刃延長賞金令的持續時間並額外恢復恩典代幣。 |
 
-#### Recommended Gear Sets
+#### 推薦裝備套裝
 
-**Swallowcall Set (Weapons)**:
-- **2 Pieces**: Increased Min Physical Attack
-- **4 Pieces**: Light Attacks deal 15% more damage against targets with less than 40% Qi and 5% more damage against Exhausted targets.
-- **Acquisition**: Campaign - Blissful Retreat, Campaign - Jinming Pool, Sword Trial, Group Dungeon
+**燕召套裝（武器）**：
+- **2件**：最小物理攻擊增加
+- **4件**：輕攻擊對氣少於40%的目標造成15%更多傷害，對疲憊目標造成5%更多傷害。
+- **獲取途徑**：戰役 - 極樂靜修、戰役 - 金明池、劍試、組隊副本
 
-**Calmwaters Set (Armor)**:
-- **2 Pieces**: Physical Defense increase
-- **4 Pieces**: A Perfect Dodge of an enemy attack has a 50% chance of restoring 3% of your Max HP and 10 Endurance.
-- **Acquisition**: Campaign - Blissful Retreat, Campaign - Jinming Pool, Campaign - Halo Peak, Sword Trial, Group Dungeon
+**靜水套裝（護甲）**：
+- **2件**：物理防禦增加
+- **4件**：完美閃避敵人攻擊有50%的機率恢復3%的最大生命值和10點耐力。
+- **獲取途徑**：戰役 - 極樂靜修、戰役 - 金明池、戰役 - 光暈峰、劍試、組隊副本
 
 ---
 
-### Stonesplit - Might Build
+### 石裂 - 威力建構
 
-**Role**: Tank Melee Combat
+**角色**：坦克 近戰
 
-**Description**: Equipped with shields, DMG Reduction, and interruption resistance, it has strong survivability. It can also serve as the team's damage sponge via taunt abilities. Can group enemies and then use wide-range charged skills for AoE damage.
+**描述**：配備護盾、傷害減免和打斷抗性，具有強大的生存能力。它還可以通過嘲諷能力作為團隊的傷害海綿。可以聚集敵人，然後使用大範圍蓄力技能造成範圍傷害。
 
-**Strengths**:
-- Survivability
-- Control
+**優勢**：
+- 生存能力
+- 控制
 
-**Weaknesses**:
-- Mobility
+**劣勢**：
+- 機動性
 - DPS
 
-#### Recommended Martial Arts
+#### 推薦武術
 
-**Thundercry Blade**:
-- Predator's Shield
-- Galecloud Cleave
-- Sunrush Gale
+**雷鳴刀**：
+- 掠食者之盾
+- 風雲斬
+- 日衝狂風
 
-**Stormbreaker Spear**:
-- Storm Roar
-- Fury Spear
-- Thunder Thrust
+**破風槍**：
+- 風暴咆哮
+- 狂怒槍
+- 雷霆突刺
 
-#### Recommended Internal Arts
+#### 推薦內功
 
-| Internal Art | Weapon Requirement | Description |
-|--------------|-------------------|-------------|
-| **Art of Resistance** | Thundercry Blade / Stormbreaker Spear (Stonesplit - Might) | Increases the duration of Health Shields and any additional effects granted by their source Skills. |
-| **Exquisite Scenery** | Thundercry Blade / Stormbreaker Spear (Stonesplit - Might) | Successfully defending with Stoic Cleaver (Thundercry Blade) activates its special counterattack. Press Perception Skill or Heavy Attack to unleash a first-stage Charged Heavy Attack without charging. This effect can only trigger once every 10 seconds. Hitting a target with a Varied Combo restores 1 bar of Battle Will (no more than 1 bar restored per cast). |
-| **Rock Solid** | Thundercry Blade / Stormbreaker Spear (Stonesplit - Might) | Increases the damage reduction of Stormbreaker Spear's Storm Roar after taunting a unit. While the damage reduction is active, it reduces all damage dealt and increases the Aggro produced. |
-| **Trapped Beast** | Thundercry Blade / Stormbreaker Spear (Stonesplit - Might) | Taking damage while HP is below 30% triggers Cornered Beast, generating a shield that absorbs up to 30% of Max HP. This effect lasts 4 seconds and can trigger once every 300 seconds. |
+| 內功 | 武器需求 | 描述 |
+|------|---------|------|
+| **抗拒之術** | 雷鳴刀 / 破風槍（石裂 - 威力） | 增加生命護盾的持續時間以及其來源技能授予的任何附加效果。 |
+| **精緻風景** | 雷鳴刀 / 破風槍（石裂 - 威力） | 用堅韌劈（雷鳴刀）成功防禦會激活其特殊反擊。按感知技能或重攻擊以釋放無需充能的第一階段蓄力重攻擊。此效果每10秒只能觸發一次。用多變連擊擊中目標會恢復1條戰意（每次施放恢復不超過1條）。 |
+| **堅如磐石** | 雷鳴刀 / 破風槍（石裂 - 威力） | 嘲諷單位後增加破風槍的風暴咆哮的傷害減免。當傷害減免激活時，它會減少造成的所有傷害並增加產生的仇恨。 |
+| **困獸** | 雷鳴刀 / 破風槍（石裂 - 威力） | 生命值低於30%時受到傷害會觸發困獸，生成一個吸收最多30%最大生命值的護盾。此效果持續4秒，每300秒可觸發一次。 |
 
-#### Recommended Gear Sets
+#### 推薦裝備套裝
 
-**Rainwhisper Set (Weapons)**:
-- **2 Pieces**: Increases Max HP
-- **4 Pieces**: Increases all Critical DMG and healing by 10%, and further increases them by 15% when you have an HP shield.
-- **Acquisition**: Campaign - Unbound Cavern, Sword Trial, Group Dungeon
+**雨語套裝（武器）**：
+- **2件**：最大生命值增加
+- **4件**：增加所有暴擊傷害和治療10%，當你有生命護盾時進一步增加15%。
+- **獲取途徑**：戰役 - 無拘洞窟、劍試、組隊副本
 
-**Eaglerise Set (Armor)**:
-- **2 Pieces**: Increase Max HP
-- **4 Pieces**: When attacking while defending, there is a 30% chance to create a shield that absorbs up to 10% of Max HP, lasting 20 seconds. If a shield already exists, restores 2% HP in addition. This effect can only trigger once every 60 seconds.
-- **Acquisition**: Campaign - Unbound Cavern, Campaign - Furnace of Righteousness, Sword Trial, Group Dungeon
-
----
-
-## How Martial Arts Work
-
-### Weapon Dependency
-- **One Martial Art per weapon** - Each of the 12 weapons has its own unique Martial Art
-- **Switching weapons changes your available skills** completely
-- **Can carry 2 weapons in combat** with 4 skills each
-- **Can master all Martial Arts** though you can only use two sets at a time
-
-### Skill Structure
-
-Each weapon's Martial Art includes:
-
-**Main Skills**:
-- Primary combat abilities
-- Special techniques unique to the weapon
-- Conversion skills for tactical options
-
-**Basic Skills**:
-- Light Attack combos
-- Fundamental strikes
-- Quick, low-cost attacks
-
-**Charged Skills**:
-- Heavy Attack variants
-- High-damage, slower attacks
-- Often consume more resources
+**鷹起套裝（護甲）**：
+- **2件**：最大生命值增加
+- **4件**：防禦時攻擊有30%的機率創造一個吸收最多10%最大生命值的護盾，持續20秒。如果護盾已經存在，額外恢復2%生命值。此效果每60秒只能觸發一次。
+- **獲取途徑**：戰役 - 無拘洞窟、戰役 - 正義熔爐、劍試、組隊副本
 
 ---
 
-## All 12 Martial Arts by Weapon
+## 武術如何運作
 
-### Bellstrike - Umbra Path
+### 武器依賴性
+- **每種武器一種武術** - 12種武器中的每一種都有其獨特的武術
+- **切換武器會完全改變你可用的技能**
+- **戰鬥中可攜帶2種武器**，每種武器有4個技能
+- **可以精通所有武術**，儘管你一次只能使用兩套
 
-#### Strategic Sword (战略剑)
+### 技能結構
 
-**Martial Art Path**: Bellstrike - Umbra
+每種武器的武術包括：
 
-**Main Skills**:
-- **Third Track Recoil** - Defensive counter technique
-- **Inner Track Slash** - Internal energy slash attack
-- **Sword - Conversion** - Tactical stance change
+**主要技能**：
+- 主要戰鬥能力
+- 武器獨特的特殊技巧
+- 戰術選擇的轉換技能
 
-**Basic Skills**:
-- **Sword - Light Attack** - Standard sword combo
+**基礎技能**：
+- 輕攻擊連擊
+- 基本打擊
+- 快速、低成本攻擊
 
-**Charged Skills**:
-- **Second Track Slash** - Powerful charged slash
-- **Sword - Heavy Attack** - Heavy sword strike
-
-**Playstyle**: Strategic offense with counter-attack focus
-
----
-
-#### Heavenquaker Spear (震天枪)
-
-**Martial Art Path**: Bellstrike - Umbra
-
-**Main Skills**:
-- **Sweep All** - Wide sweeping spear attack
-- **Sober Sorrow** - Special spear technique
-- **Spear - Conversion** - Tactical stance change
-
-**Basic Skills**:
-- **Spear - Light Attack** - Standard spear combo
-
-**Charged Skills**:
-- **Drifting Thrust** - Charging thrust attack
-- **Spear - Heavy Attack** - Heavy spear strike
-
-**Playstyle**: Long-range control with sweeping attacks
+**蓄力技能**：
+- 重攻擊變體
+- 高傷害、較慢的攻擊
+- 通常消耗更多資源
 
 ---
 
-### Bellstrike - Splendor Path
+## 按武器分類的全部12種武術
 
-#### Nameless Sword (无名剑)
+### 鳴鐘 - 暗影路線
 
-**Martial Art Path**: Bellstrike - Splendor
+#### 戰略劍
 
-**Main Skills**:
-- **Shadow Step** - Mobility and evasion technique
-- **Fearless Lunge** - Aggressive forward strike
-- **Sword - Conversion** - Tactical stance change
+**武術路線**：鳴鐘 - 暗影
 
-**Basic Skills**:
-- **Sword - Light Attack** - Standard sword combo
+**主要技能**：
+- **三軌反衝** - 防禦反擊技巧
+- **內軌斬** - 內力斬擊攻擊
+- **劍 - 轉換** - 戰術姿態改變
 
-**Charged Skills**:
-- **Homeless Charge** - Charging sword attack
-- **Sword - Heavy Attack** (implied)
+**基礎技能**：
+- **劍 - 輕攻擊** - 標準劍連擊
 
-**Playstyle**: Aggressive offense with mobility
+**蓄力技能**：
+- **二軌斬** - 強大的蓄力斬擊
+- **劍 - 重攻擊** - 重劍打擊
 
----
-
-#### Nameless Spear (无名枪)
-
-**Martial Art Path**: Bellstrike - Splendor
-
-**Main Skills**:
-- **Legion Breaker** - Anti-group technique
-- **Qiankun's Lock** - Control/lock technique
-- **Spear - Conversion** - Tactical stance change
-
-**Basic Skills**:
-- **Spear - Light Attack** - Standard spear combo
-
-**Charged Skills**:
-- **Storm Dance** - Spinning spear technique
-- **Spear - Heavy Attack** - Heavy spear strike
-
-**Playstyle**: Crowd control with area denial
+**遊戲風格**：專注於反擊攻擊的戰略進攻
 
 ---
 
-### Stonesplit - Might Path
+#### 震天槍
 
-#### Thundercry Blade (雷鸣刀)
+**武術路線**：鳴鐘 - 暗影
 
-**Martial Art Path**: Stonesplit - Might
+**主要技能**：
+- **橫掃千軍** - 寬範圍橫掃槍攻擊
+- **醒悟之悲** - 特殊槍技
+- **槍 - 轉換** - 戰術姿態改變
 
-**Main Skills**:
-- **Sunrush Gale** - Swift blade technique
-- **Predator's Shield** - Defensive skill
-- **Shifting Heaven** - Tactical ability
-- **Mo Blade - Conversion** - Tactical stance change
+**基礎技能**：
+- **槍 - 輕攻擊** - 標準槍連擊
 
-**Basic Skills**:
-- **Mo Blade - Light Attack** - Standard blade combo
-- **Galecloud Cleave** - Special light attack variant
+**蓄力技能**：
+- **漂移刺** - 衝鋒刺擊攻擊
+- **槍 - 重攻擊** - 重槍打擊
 
-**Charged Skills**:
-- **Avalanche** - Devastating heavy attack
-
-**Playstyle**: Tank/bruiser with defensive options
+**遊戲風格**：遠程控制與橫掃攻擊
 
 ---
 
-#### Stormbreaker Spear (破风枪)
+### 鳴鐘 - 華彩路線
 
-**Martial Art Path**: Stonesplit - Might
+#### 無名劍
 
-**Main Skills**:
-- **Thunder Shock** - Electric/shock technique
-- **Storm Roar** - Taunt ability (mentioned in Inner Ways)
-- **Spear - Conversion** - Tactical stance change
+**武術路線**：鳴鐘 - 華彩
 
-**Basic Skills**:
-- **Spear - Light Attack** - Standard spear combo
+**主要技能**：
+- **影步** - 機動性和閃避技巧
+- **無懼突進** - 激進的向前打擊
+- **劍 - 轉換** - 戰術姿態改變
 
-**Charged Skills**:
-- **Fury Spear** - Rage-fueled spear attack
-- **Spear - Heavy Attack** - Heavy spear strike
+**基礎技能**：
+- **劍 - 輕攻擊** - 標準劍連擊
 
-**Playstyle**: Tank with taunt mechanics and durability
+**蓄力技能**：
+- **無家衝鋒** - 衝鋒劍攻擊
+- **劍 - 重攻擊**（隱含）
 
----
-
-### Skillbind - Jade Path
-
-#### Inkwell Fan (墨扇)
-
-**Martial Art Path**: Skillbind - Jade
-
-**Main Skills**:
-- **Mountain Sky** - Projectile/area skill (mentioned in Inner Ways)
-- **Jadewind Shield** - Defensive shield
-- **Fan - Conversion** - Tactical stance change
-
-**Basic Skills**:
-- **Fan - Light Attack** - Standard fan combo
-- **Forsaken Fame** - Special light attack variant
-
-**Charged Skills**:
-- **Fan - Heavy Attack** - Heavy fan strike
-- **Moonlit Spring** - Charged special attack
-
-**Playstyle**: Ranged support with shields
+**遊戲風格**：激進的進攻與機動性
 
 ---
 
-#### Ninefold Umbrella (九折伞)
+#### 無名槍
 
-**Martial Art Path**: Skillbind - Jade
+**武術路線**：鳴鐘 - 華彩
 
-**Main Skills**:
-- **Unfaded Flower** - Graceful technique
-- **Spring Sorrow** - Chargeable skill (mentioned in Inner Ways)
-- **Umbrella - Conversion** - Tactical stance change
+**主要技能**：
+- **破陣** - 反群組技巧
+- **乾坤之鎖** - 控制/鎖定技巧
+- **槍 - 轉換** - 戰術姿態改變
 
-**Basic Skills**:
-- **Umbrella - Light Attack** - Standard umbrella combo
-- **Spring Away** - Evasive light attack variant
+**基礎技能**：
+- **槍 - 輕攻擊** - 標準槍連擊
 
-**Charged Skills**:
-- **Apricot Heaven** - Charged umbrella skill
-- **Colorful Phoenix** - Special charged attack
+**蓄力技能**：
+- **暴風舞** - 旋轉槍技
+- **槍 - 重攻擊** - 重槍打擊
 
-**Playstyle**: Defensive with projectile damage bonuses
-
----
-
-### Skillbind - Deluge Path
-
-#### Panacea Fan (百草扇)
-
-**Martial Art Path**: Skillbind - Deluge
-
-**Main Skills**:
-- **Light Dust After Morning Rain** - Healing ability
-- **Resurrection** - Revival skill (mentioned in Inner Ways)
-- **Mistbound Aid** - Water entity healing (mentioned in Inner Ways)
-- **Endless Cloud** - Support technique
-- **Fan - Conversion** - Tactical stance change
-
-**Basic Skills**:
-- **Fourfold Inquiry** - Standard fan combo
-
-**Charged Skills**:
-- **Emerald Dewtouch** - Healing charged attack
-
-**Playstyle**: Pure healer/support
+**遊戲風格**：群眾控制與區域否定
 
 ---
 
-#### Soulshade Umbrella (魂影伞)
+### 石裂 - 威力路線
 
-**Martial Art Path**: Skillbind - Deluge
+#### 雷鳴刀
 
-**Main Skills**:
-- **Echoes of a Thousand Plants** - Nature-based technique
-- **Floating Grace** - Graceful movement skill
-- **Thousand Echoes** - Dew restoration skill (mentioned in Inner Ways)
-- **Umbrella - Conversion** - Tactical stance change
+**武術路線**：石裂 - 威力
 
-**Basic Skills**:
-- **Umbrella - Light Attack** - Standard umbrella combo
+**主要技能**：
+- **日衝狂風** - 快速刀刃技巧
+- **掠食者之盾** - 防禦技能
+- **移天** - 戰術能力
+- **莫刀 - 轉換** - 戰術姿態改變
 
-**Charged Skills**:
-- **Pale Petal** - Charged umbrella attack
-- **Umbrella Heavy Attack** - Heavy umbrella strike
+**基礎技能**：
+- **莫刀 - 輕攻擊** - 標準刀刃連擊
+- **風雲斬** - 特殊輕攻擊變體
 
-**Playstyle**: Hybrid healer with offensive options
+**蓄力技能**：
+- **雪崩** - 毀滅性重攻擊
 
----
-
-### Bamboocut - Wind Path
-
-#### Infernal Twinblades (炼狱双刃)
-
-**Martial Art Path**: Bamboocut - Wind
-
-**Main Skills**:
-- **Calamity's Greed** - Aggressive dual-blade technique
-- **Addled Mind** - Confusion/control ability
-- **Dual Blades - Dual-Weapon Skill** - Special twin-blade technique
-
-**Basic Skills**:
-- **Dual Blades - Light Attack** - Standard dual-blade combo
-- **Heaven's Wrath** - Special light attack variant
-
-**Charged Skills**:
-- **Flamelash** - Fire-based charged attack
-
-**Special Mechanics**:
-- **Blazing Wrath State** - Mentioned in Inner Ways
-- **Malevolent Mark** - Applied by light attacks
-- **Bitter Fate** - Applied during Blazing Wrath
-
-**Playstyle**: High-speed dual-wielding DPS
+**遊戲風格**：坦克/戰士與防禦選項
 
 ---
 
-#### Mortal Rope Dart (凡绳镖)
+#### 破風槍
 
-**Martial Art Path**: Bamboocut - Wind
+**武術路線**：石裂 - 威力
 
-**Main Skills**:
-- **Rodent Rampage** - Agile multi-hit technique
-- **Bladebound Thread** - Rope control ability
-- **Bounty Order** - Duration-based buff (mentioned in Inner Ways)
-- **Rope Dart - Conversion** - Tactical stance change
+**主要技能**：
+- **雷霆震擊** - 電擊/衝擊技巧
+- **風暴咆哮** - 嘲諷能力（在內功中提到）
+- **槍 - 轉換** - 戰術姿態改變
 
-**Basic Skills**:
-- **Rope Dart - Light Attack** - Standard rope dart combo
-- **Coiled Loong** - Dragon-style light attack
+**基礎技能**：
+- **槍 - 輕攻擊** - 標準槍連擊
 
-**Charged Skills**:
-- **Rodent's Resilience** - Defensive charged skill
+**蓄力技能**：
+- **狂怒槍** - 憤怒驅動的槍攻擊
+- **槍 - 重攻擊** - 重槍打擊
 
-**Special Mechanics**:
-- **Grace Tokens** - Resource mentioned in Inner Ways
-
-**Playstyle**: Mid-range agility with control
+**遊戲風格**：具有嘲諷機制和耐久性的坦克
 
 ---
 
-## Weapon Path Summary
+### 技縛 - 碧玉路線
 
-### Bellstrike Paths
-**Focus**: Balanced combat, strategic offense
-- **Bellstrike - Umbra**: Counter-attack, defensive offense (Strategic Sword, Heavenquaker Spear)
-- **Bellstrike - Splendor**: Aggressive offense, mobility (Nameless Sword, Nameless Spear)
+#### 墨扇
 
-### Stonesplit Path
-**Focus**: Tank, durability, might
-- **Stonesplit - Might**: High defense, taunt mechanics, shields (Thundercry Blade, Stormbreaker Spear)
+**武術路線**：技縛 - 碧玉
 
-### Skillbind Paths
-**Focus**: Support, ranged, healing
-- **Skillbind - Jade**: Shields, projectiles, defensive support (Inkwell Fan, Ninefold Umbrella)
-- **Skillbind - Deluge**: Healing, restoration, support (Panacea Fan, Soulshade Umbrella)
+**主要技能**：
+- **山天** - 投射物/區域技能（在內功中提到）
+- **碧風盾** - 防禦護盾
+- **扇 - 轉換** - 戰術姿態改變
 
-### Bamboocut Path
-**Focus**: Speed, agility, DPS
-- **Bamboocut - Wind**: Fast attacks, high damage, control (Infernal Twinblades, Mortal Rope Dart)
+**基礎技能**：
+- **扇 - 輕攻擊** - 標準扇連擊
+- **棄名** - 特殊輕攻擊變體
 
----
+**蓄力技能**：
+- **扇 - 重攻擊** - 重扇打擊
+- **月光春** - 蓄力特殊攻擊
 
-## Martial Arts Skill Types Explained
-
-### Main Skills
-- **Core combat abilities** unique to each weapon
-- Usually have cooldowns
-- Provide tactical options
-- Include the weapon's signature moves
-
-### Conversion Skills
-- **Tactical stance changes** available on most weapons
-- Allow switching between combat modes
-- Provide versatility in combat
-- Enable different strategies mid-fight
-
-### Basic Skills (Light Attacks)
-- **Fundamental attack chains**
-- Low or no resource cost
-- Fast execution
-- Foundation of combos
-- Some weapons have **variant Light Attacks** with special properties
-
-### Charged Skills (Heavy Attacks)
-- **High-damage attacks** requiring charge time
-- Consume more resources (Endurance)
-- Slower but more powerful
-- Can have special effects
-- Often break enemy defenses
+**遊戲風格**：遠程支援與護盾
 
 ---
 
-## Martial Arts Synergies with Inner Ways
+#### 九折傘
 
-Many Inner Ways enhance specific Martial Arts:
+**武術路線**：技縛 - 碧玉
 
-**Weapon-Specific Inner Ways**:
-- Require specific weapon/Path equipped
-- Enhance that weapon's Martial Art skills
-- Add special effects or bonuses
-- See \`inner-ways.md\` for complete list
+**主要技能**：
+- **不凋花** - 優雅技巧
+- **春愁** - 可充能技能（在內功中提到）
+- **傘 - 轉換** - 戰術姿態改變
 
-**Universal Inner Ways**:
-- Work with any weapon
-- Enhance general combat mechanics
-- Stack with weapon-specific bonuses
+**基礎技能**：
+- **傘 - 輕攻擊** - 標準傘連擊
+- **春離** - 閃避輕攻擊變體
 
----
+**蓄力技能**：
+- **杏天** - 蓄力傘技能
+- **彩鳳** - 特殊蓄力攻擊
 
-## Combat Mechanics
-
-### Two-Weapon System
-- **Equip 2 weapons simultaneously**
-- **4 skills per weapon** = 8 total Martial Art skills available
-- **Switch weapons mid-combat** for different techniques
-- **Weapon-switching combos** possible
-
-### Resource Management
-**Endurance**:
-- Consumed by Charged Skills
-- Consumed by dodging
-- Regenerates over time
-- Enhanced by certain Inner Ways
-
-**Chi/Qi**:
-- Used for special abilities
-- Separate from Endurance
-- See \`combat-system.md\` for details
-
-**Battle Will**:
-- Resource for certain skills
-- Restored by specific actions
-- Mentioned in Inner Ways (Exquisite Scenery)
+**遊戲風格**：防禦與投射物傷害加成
 
 ---
 
-## Martial Arts Progression
+### 技縛 - 澤雨路線
 
-### How to Unlock Martial Arts
+#### 百草扇
 
-**Two Methods**: Skill Theft and Joining a Sect
+**武術路線**：技縛 - 澤雨
 
-**Important**: Unlocking a Martial Art is not enough - you must also **equip the actual weapon** to use it
+**主要技能**：
+- **晨雨後輕塵** - 治療能力
+- **復活** - 復甦技能（在內功中提到）
+- **霧縛援助** - 水元素治療（在內功中提到）
+- **無盡雲** - 支援技巧
+- **扇 - 轉換** - 戰術姿態改變
 
----
+**基礎技能**：
+- **四重詢問** - 標準扇連擊
 
-#### Method 1: Skill Theft (Primary Method)
+**蓄力技能**：
+- **翡翠露觸** - 治療蓄力攻擊
 
-**Overview**: Stealth-based infiltration missions where you observe martial artists to learn their techniques
-
-**Steps to Unlock**:
-
-1. **Navigate to Develop Menu** → Martial Arts menu
-2. **Select the weapon** you wish to unlock
-3. **Select "Obtain"** - Automatically marks mission location on map
-4. **Acquire Loong Keys** - Required for infiltration missions
-5. **Infiltrate the faction base** - Stealth required, no fighting
-6. **Find mechanisms** and insert Loong Keys to unlock areas
-7. **Reach the observation point** marked on your map
-8. **Complete Skill Theft mini-game**:
-   - Watch the martial artist perform techniques
-   - Press interact when you see **golden rings** appear
-   - Successfully observe to learn the Martial Art
-9. **Leave the location** to complete the quest
-
-**Required Items**:
-- **Loong Keys** - Essential for unlocking faction bases
-- Obtained from exploration and specific quests
-
-**Recommended Mystic Skills**:
-- **Touch of Death** - Silent takedowns
-- **Veil of Stillness** - Stealth enhancement
-- **Wind Sense** - Detect enemies and obstacles
-
-**Bonus Rewards**:
-- Side missions to open chests during infiltration
-- Chests may contain **weapon items** for the Martial Art you're unlocking
-- Recommended to explore thoroughly for equipment
-
-**Related System**: See \`/game-data/gameplay/skill-theft.md\` for complete Skill Theft guide
+**遊戲風格**：純治療/支援
 
 ---
 
-#### Method 2: Joining a Sect
+#### 魂影傘
 
-**Overview**: Track down and join secret martial arts sects to learn their techniques
+**武術路線**：技縛 - 澤雨
 
-**Steps to Join**:
+**主要技能**：
+- **千草回響** - 自然技巧
+- **漂浮恩典** - 優雅移動技能
+- **千回響** - 露水恢復技能（在內功中提到）
+- **傘 - 轉換** - 戰術姿態改變
 
-1. **Find clues** scattered throughout the world
-2. **Check Sects Menu** to view collected clues
-3. **Follow the clues** to track down sect elders
-4. **Meet with elders** to receive invitation
-5. **Join the sect** to learn their Martial Art
+**基礎技能**：
+- **傘 - 輕攻擊** - 標準傘連擊
 
-**Benefits**:
-- Can freely join and leave sects
-- No stealth requirement
-- May provide additional benefits beyond Martial Art
+**蓄力技能**：
+- **蒼白花瓣** - 蓄力傘攻擊
+- **傘重攻擊** - 重傘打擊
 
-**Challenge**: Locating sects and discovering join requirements can be difficult
-
----
-
-### Collecting and Equipping Weapons
-
-**After Unlocking**: You must equip the weapon to use the Martial Art
-
-**Steps to Equip**:
-
-1. **Open Martial Art menu** or your inventory
-2. **Select the unlocked Martial Art**
-3. **Equip weapon** from available options
-4. **Choose the best weapon** for your level and playstyle
-
-**Weapon Sources**:
-- Exploration (chests, world drops)
-- Outpost raids
-- Quest rewards
-- Skill Theft mission bonus chests
-- Gear Chests and dungeons
-
-**Important**: If you have high level, you may need to **upgrade the weapon** before using it effectively
-
-**Switching Martial Arts**:
-- If switching between Martial Arts that use **same weapon type** (e.g., Nameless Sword to Strategic Sword, or Panacea Fan to Inkwell Fan):
-  - No need to re-equip
-  - Recommended to check if your current weapon benefits the new Martial Art
-  - Some weapons favor certain Martial Arts over others
+**遊戲風格**：混合治療與進攻選項
 
 ---
 
-### Upgrading Martial Arts
+### 竹斬 - 風路線
 
-**Resources Required**:
-- **Zhou Coins** - Primary currency
-- **Training Items** - Combat practice materials
-- **Tips** (for Breakthroughs) - Special knowledge items
+#### 煉獄雙刃
 
----
+**武術路線**：竹斬 - 風
 
-#### Regular Upgrades
+**主要技能**：
+- **災厄之貪** - 激進的雙刃技巧
+- **迷心** - 混亂/控制能力
+- **雙刃 - 雙武器技能** - 特殊雙刃技巧
 
-**Upgrade Process**:
+**基礎技能**：
+- **雙刃 - 輕攻擊** - 標準雙刃連擊
+- **天怒** - 特殊輕攻擊變體
 
-1. **Select Martial Art** in Develop menu
-2. **Use Zhou Coins + Training Items** to level up
-3. **Increases damage** and skill effectiveness
+**蓄力技能**：
+- **焰鞭** - 火焰蓄力攻擊
 
-**Level Cap**: Martial Art level **cannot exceed your character level**
+**特殊機制**：
+- **烈焰之怒狀態** - 在內功中提到
+- **惡意標記** - 由輕攻擊施加
+- **苦命** - 在烈焰之怒期間施加
 
-**Training Items**:
-- Easily farmed by **defeating enemies**
-- Common drops from world combat
-- Stackable for bulk upgrading
-
-**Benefits of Upgrading**:
-- Increased overall damage output
-- Improved skill effects (damage, range, duration)
-- Enhanced Talent effects (shields, buffs, passive bonuses)
-- Example: Shield skills gain stronger shields at higher levels
+**遊戲風格**：高速雙持DPS
 
 ---
 
-#### Breakthrough System
+#### 凡繩鏢
 
-**Required Every 10 Levels** to continue upgrading past certain thresholds
+**武術路線**：竹斬 - 風
 
-**Breakthrough Requirements**:
-- **Tips** - Special knowledge items
-- **Training Items** - Combat materials
-- **Zhou Coins** - Currency
+**主要技能**：
+- **鼠狂** - 敏捷多重打擊技巧
+- **刃縛線** - 繩索控制能力
+- **賞金令** - 基於持續時間的增益（在內功中提到）
+- **繩鏢 - 轉換** - 戰術姿態改變
 
-**How to Obtain Tips**:
+**基礎技能**：
+- **繩鏢 - 輕攻擊** - 標準繩鏢連擊
+- **盤龍** - 龍式輕攻擊
 
-1. **Access breakthrough menu** when available
-2. **Select Tips item** → Click "More"
-3. **Opens Activity Shop** automatically
-4. **Purchase Martial Arts - Custom Tips** using **Jade Fish** currency
-5. **Select specific Tips** you need for your weapon
+**蓄力技能**：
+- **鼠韌** - 防禦蓄力技能
 
-**Important Limits**:
-- Can only buy **up to 15 Custom Tips weekly**
-- Plan breakthroughs around weekly reset
-- Prioritize Martial Arts you use most
+**特殊機制**：
+- **恩典代幣** - 在內功中提到的資源
 
-**Jade Fish Currency**:
-- See \`/game-data/items/items-and-materials.md\` for Jade Fish acquisition
-- Earned from multiplayer activities
+**遊戲風格**：中程敏捷與控制
 
 ---
 
-### Upgrade Strategy
+## 武器路線總結
 
-**Priority Upgrades**:
-1. **Main weapons** you use in active loadout
-2. **Tank weapons** if playing defensive role
-3. **Healer weapons** if playing support role
-4. **Secondary weapons** for flexibility
+### 鳴鐘路線
+**專注**：平衡戰鬥、戰略進攻
+- **鳴鐘 - 暗影**：反擊攻擊、防禦進攻（戰略劍、震天槍）
+- **鳴鐘 - 華彩**：激進進攻、機動性（無名劍、無名槍）
 
-**Resource Management**:
-- Farm Training Items during regular gameplay
-- Save Zhou Coins for breakthrough costs
-- Stock up on Jade Fish before weekly reset
-- Don't spread resources too thin across all 12 weapons
+### 石裂路線
+**專注**：坦克、耐久性、威力
+- **石裂 - 威力**：高防禦、嘲諷機制、護盾（雷鳴刀、破風槍）
 
-**Efficient Leveling**:
-- Upgrade main weapons to character level
-- Keep secondary weapons 5-10 levels below
-- Focus breakthroughs on 2-4 most-used weapons
-- Complete breakthroughs before attempting difficult content
+### 技縛路線
+**專注**：支援、遠程、治療
+- **技縛 - 碧玉**：護盾、投射物、防禦支援（墨扇、九折傘）
+- **技縛 - 澤雨**：治療、恢復、支援（百草扇、魂影傘）
 
----
-
-### Improvement Benefits
-
-**Damage Scaling**:
-- Each level increases base damage of all skills
-- Charged attacks scale more per level
-- Main skills gain significant boosts
-
-**Skill Improvements** (Examples):
-- Healing skills restore more HP
-- Shield skills generate stronger shields
-- Area attacks gain larger radius or more damage
-- Mobility skills cover more distance or have lower cooldown
-
-**Talent Improvements**:
-- Passive effects become more potent
-- Buff durations extend
-- Resource generation increases
-- Synergy effects strengthen
-
-**Related Systems**:
-- Enhanced by **Inner Ways** (passive skills)
-- Synergizes with **Mystic Skills** for complete builds
-- Pairs with **Gear Sets** for optimal performance
+### 竹斬路線
+**專注**：速度、敏捷、DPS
+- **竹斬 - 風**：快速攻擊、高傷害、控制（煉獄雙刃、凡繩鏢）
 
 ---
 
-## Build Archetypes by Path
+## 武術技能類型說明
 
-### Tank Build (Stonesplit - Might)
-**Weapons**: Thundercry Blade, Stormbreaker Spear
-**Martial Arts Focus**:
-- Predator's Shield (Thundercry Blade)
-- Storm Roar (Stormbreaker Spear) - Taunt ability
-- High defense, shield generation
-**Best Inner Ways**: Rock Solid, Art of Resistance, Exquisite Scenery, Trapped Beast
+### 主要技能
+- **核心戰鬥能力**，每種武器獨特
+- 通常有冷卻時間
+- 提供戰術選擇
+- 包括武器的標誌性動作
 
----
+### 轉換技能
+- **戰術姿態改變**，大多數武器可用
+- 允許在戰鬥模式之間切換
+- 提供戰鬥中的多功能性
+- 啟用戰鬥中期的不同策略
 
-### DPS Build (Bamboocut - Wind)
-**Weapons**: Infernal Twinblades, Mortal Rope Dart
-**Martial Arts Focus**:
-- Calamity's Greed (Infernal Twinblades)
-- Rodent Rampage (Mortal Rope Dart)
-- High-speed attacks, critical damage
-**Best Inner Ways**: Breaking Point, Echoes of Oblivion, Riptide Reflex, Vendetta
+### 基礎技能（輕攻擊）
+- **基本攻擊鏈**
+- 低或無資源消耗
+- 快速執行
+- 連擊的基礎
+- 某些武器有**變體輕攻擊**，具有特殊屬性
 
----
-
-### Healer Build (Skillbind - Deluge)
-**Weapons**: Panacea Fan, Soulshade Umbrella
-**Martial Arts Focus**:
-- Resurrection (Panacea Fan)
-- Mistbound Aid (Panacea Fan)
-- Thousand Echoes (Soulshade Umbrella)
-- Pure healing and support
-**Best Inner Ways**: Esoteric Revival, Mending Loom, Restoring Blossom, Royal Remedy
+### 蓄力技能（重攻擊）
+- **高傷害攻擊**，需要蓄力時間
+- 消耗更多資源（耐力）
+- 較慢但更強大
+- 可以有特殊效果
+- 通常打破敵人的防禦
 
 ---
 
-### Balanced Build (Bellstrike Paths)
-**Weapons**: Strategic Sword, Nameless Sword, Heavenquaker Spear, Nameless Spear
-**Martial Arts Focus**:
-- Mix of offense and defense
-- Counter-attack strategies
-- Mobility options
-**Best Inner Ways**: Adaptive Steel, Insightful Strike, Sword Horizon, Battle Anthem
+## 武術與內功的協同效應
+
+許多內功增強特定武術：
+
+**武器特定內功**：
+- 需要特定武器/路線裝備
+- 增強該武器的武術技能
+- 添加特殊效果或加成
+- 查看 \`inner-ways.md\` 獲取完整列表
+
+**通用內功**：
+- 適用於任何武器
+- 增強一般戰鬥機制
+- 與武器特定加成疊加
 
 ---
 
-### Support/Control Build (Skillbind - Jade)
-**Weapons**: Inkwell Fan, Ninefold Umbrella
-**Martial Arts Focus**:
-- Jadewind Shield (Inkwell Fan)
-- Mountain Sky (Inkwell Fan)
-- Spring Sorrow (Ninefold Umbrella)
-- Shields, projectiles, area control
-**Best Inner Ways**: Flying Gourds, Blossom Barrage, Star Reacher, Thunderous Bloom
+## 戰鬥機制
+
+### 雙武器系統
+- **同時裝備2種武器**
+- **每種武器4個技能** = 共8個武術技能可用
+- **戰鬥中切換武器**以使用不同技巧
+- **武器切換連擊**成為可能
+
+### 資源管理
+**耐力**：
+- 被蓄力技能消耗
+- 被閃避消耗
+- 隨時間恢復
+- 被某些內功增強
+
+**氣**：
+- 用於特殊能力
+- 與耐力分開
+- 查看 \`combat-system.md\` 獲取詳情
+
+**戰意**：
+- 某些技能的資源
+- 通過特定動作恢復
+- 在內功中提到（精緻風景）
 
 ---
 
-## Special Martial Art Mechanics
+## 武術進展
 
-### Shield-Based Skills
-**Weapons with Shields**:
-- Thundercry Blade (Predator's Shield)
-- Inkwell Fan (Jadewind Shield)
-- Golden Body (Mystic Skill that creates shield)
+### 如何解鎖武術
 
-**Synergies**:
-- Art of Resistance (Inner Way) - Extends shield duration
-- Free Morph (Mystic Skill) - +20% damage to targets with HP Shield at Tier 3
+**兩種方法**：技偷和加入門派
+
+**重要**：解鎖武術還不夠 - 你還必須**裝備實際武器**才能使用它
 
 ---
 
-### Healing-Based Skills
-**Panacea Fan** (Pure Healer):
-- Light Dust After Morning Rain
-- Resurrection
-- Mistbound Aid
-- Emerald Dewtouch
+#### 方法1：技偷（主要方法）
 
-**Soulshade Umbrella** (Hybrid Healer):
-- Echoes of a Thousand Plants
-- Thousand Echoes
+**概述**：潛行滲透任務，你觀察武術家學習他們的技巧
 
-**Enhanced by**:
-- Esoteric Revival (Inner Way)
-- Mending Loom (Inner Way)
-- Restoring Blossom (Inner Way)
-- Royal Remedy (Inner Way)
-- Morale Chant (Inner Way) - Universal
+**解鎖步驟**：
 
----
+1. **導航到發展菜單** → 武術菜單
+2. **選擇你想解鎖的武器**
+3. **選擇「獲取」** - 自動在地圖上標記任務位置
+4. **獲取龍鑰** - 滲透任務所需
+5. **滲透派系基地** - 需要潛行，無戰鬥
+6. **找到機關**並插入龍鑰以解鎖區域
+7. **到達地圖上標記的觀察點**
+8. **完成技偷小遊戲**：
+   - 觀看武術家表演技巧
+   - 看到**金色光環**出現時按互動
+   - 成功觀察以學習武術
+9. **離開位置**完成任務
 
-### Taunt Mechanics
-**Stormbreaker Spear** (Tank):
-- Storm Roar - Taunt ability
+**所需物品**：
+- **龍鑰** - 解鎖派系基地的關鍵
+- 從探索和特定任務獲得
 
-**Enhanced by**:
-- Rock Solid (Inner Way) - Increases damage reduction after taunt, but reduces damage dealt and increases Aggro
+**推薦秘術技能**：
+- **死亡之觸** - 無聲擊倒
+- **靜止之幕** - 潛行增強
+- **風感** - 檢測敵人和障礙物
 
----
+**獎勵**：
+- 滲透期間打開寶箱的支線任務
+- 寶箱可能包含你正在解鎖的武術的**武器物品**
+- 建議徹底探索以獲取裝備
 
-### Charge-Based Mechanics
-**Skills that benefit from charging**:
-- All Heavy Attacks
-- Ninefold Umbrella's Spring Sorrow (up to 2 layers with Blossom Barrage Inner Way)
-- Nameless Sword's Vanguard Sword (multiple sword energy with Sword Morph Inner Way)
-
-**Enhanced by**:
-- Battle Anthem (Inner Way) - +10% Charged Skill damage vs bosses
+**相關系統**：查看 \`/game-data/gameplay/skill-theft.md\` 獲取完整的技偷指南
 
 ---
 
-## Conversion Skills Strategy
+#### 方法2：加入門派
 
-Most weapons have a **Conversion** skill that allows tactical stance changes:
-- Sword - Conversion
-- Spear - Conversion
-- Fan - Conversion
-- Umbrella - Conversion
-- Mo Blade - Conversion
-- Rope Dart - Conversion
-- Dual Blades - Dual-Weapon Skill
+**概述**：追蹤並加入秘密武術門派以學習他們的技巧
 
-**Purpose**:
-- Switch combat styles mid-fight
-- Adapt to different enemy types
-- Enable different combo routes
-- Provide tactical flexibility
+**加入步驟**：
+
+1. **尋找線索**散布在世界各地
+2. **查看門派菜單**以查看收集的線索
+3. **跟隨線索**追蹤門派長老
+4. **與長老會面**以接收邀請
+5. **加入門派**以學習他們的武術
+
+**好處**：
+- 可以自由加入和離開門派
+- 無需潛行
+- 可能提供武術之外的額外好處
+
+**挑戰**：定位門派並發現加入要求可能很困難
 
 ---
 
-## Related Systems
+### 收集和裝備武器
 
-- **Inner Ways**: Passive skills that enhance Martial Arts (see \`inner-ways.md\`)
-- **Mystic Skills**: Combat skills independent of weapons (see \`mystic-skills.md\`)
-- **Weapons**: Complete weapon list and variants (see \`weapons.md\` in \`/items/\`)
-- **Combat System**: Core combat mechanics (see \`combat-system.md\`)
+**解鎖後**：你必須裝備武器才能使用武術
+
+**裝備步驟**：
+
+1. **打開武術菜單**或你的庫存
+2. **選擇已解鎖的武術**
+3. **從可用選項裝備武器**
+4. **選擇適合你等級和遊戲風格的最佳武器**
+
+**武器來源**：
+- 探索（寶箱、世界掉落）
+- 據點突襲
+- 任務獎勵
+- 技偷任務獎勵寶箱
+- 裝備寶箱和地下城
+
+**重要**：如果你等級高，你可能需要在有效使用之前**升級武器**
+
+**切換武術**：
+- 如果在使用**相同武器類型**的武術之間切換（例如，無名劍到戰略劍，或百草扇到墨扇）：
+  - 無需重新裝備
+  - 建議檢查你當前的武器是否有利於新武術
+  - 某些武器偏愛某些武術勝過其他武術
+
+---
+
+### 升級武術
+
+**所需資源**：
+- **周幣** - 主要貨幣
+- **訓練物品** - 戰鬥練習材料
+- **訣竅**（用於突破） - 特殊知識物品
+
+---
+
+#### 常規升級
+
+**升級過程**：
+
+1. **在發展菜單中選擇武術**
+2. **使用周幣 + 訓練物品**升級
+3. **增加傷害**和技能效果
+
+**等級上限**：武術等級**不能超過你的角色等級**
+
+**訓練物品**：
+- 通過**擊敗敵人**輕鬆刷取
+- 世界戰鬥的常見掉落
+- 可堆疊用於大量升級
+
+**升級好處**：
+- 增加整體傷害輸出
+- 改進技能效果（傷害、範圍、持續時間）
+- 增強天賦效果（護盾、增益、被動加成）
+- 範例：護盾技能在更高等級時獲得更強的護盾
+
+---
+
+#### 突破系統
+
+**每10級需要一次**才能繼續升級超過某些閾值
+
+**突破要求**：
+- **訣竅** - 特殊知識物品
+- **訓練物品** - 戰鬥材料
+- **周幣** - 貨幣
+
+**如何獲取訣竅**：
+
+1. **可用時訪問突破菜單**
+2. **選擇訣竅物品** → 點擊「更多」
+3. **自動打開活動商店**
+4. **使用玉魚貨幣購買武術 - 自訂訣竅**
+5. **選擇你需要的特定訣竅**用於你的武器
+
+**重要限制**：
+- 每週只能購買**最多15個自訂訣竅**
+- 圍繞每週重置計劃突破
+- 優先考慮你最常使用的武術
+
+**玉魚貨幣**：
+- 查看 \`/game-data/items/items-and-materials.md\` 獲取玉魚獲取方式
+- 從多人活動獲得
+
+---
+
+### 升級策略
+
+**優先升級**：
+1. **主武器**你在主動裝載中使用
+2. **坦克武器**如果扮演防禦角色
+3. **治療武器**如果扮演支援角色
+4. **次要武器**用於靈活性
+
+**資源管理**：
+- 在常規遊戲過程中刷訓練物品
+- 為突破成本節省周幣
+- 在每週重置前儲備玉魚
+- 不要將資源分散在所有12種武器上
+
+**高效升級**：
+- 將主武器升級到角色等級
+- 保持次要武器低於5-10級
+- 專注於2-4種最常用武器的突破
+- 在嘗試困難內容之前完成突破
+
+---
+
+### 改進好處
+
+**傷害縮放**：
+- 每級增加所有技能的基礎傷害
+- 蓄力攻擊每級縮放更多
+- 主要技能獲得顯著提升
+
+**技能改進**（範例）：
+- 治療技能恢復更多生命值
+- 護盾技能生成更強的護盾
+- 區域攻擊獲得更大的半徑或更多傷害
+- 機動性技能覆蓋更多距離或有更低的冷卻時間
+
+**天賦改進**：
+- 被動效果變得更強
+- 增益持續時間延長
+- 資源生成增加
+- 協同效應加強
+
+**相關系統**：
+- 被**內功**增強（被動技能）
+- 與**秘術技能**協同用於完整建構
+- 與**裝備套裝**配對以獲得最佳性能
+
+---
+
+## 按路線分類的建構原型
+
+### 坦克建構（石裂 - 威力）
+**武器**：雷鳴刀、破風槍
+**武術專注**：
+- 掠食者之盾（雷鳴刀）
+- 風暴咆哮（破風槍） - 嘲諷能力
+- 高防禦、護盾生成
+**最佳內功**：堅如磐石、抗拒之術、精緻風景、困獸
+
+---
+
+### DPS建構（竹斬 - 風）
+**武器**：煉獄雙刃、凡繩鏢
+**武術專注**：
+- 災厄之貪（煉獄雙刃）
+- 鼠狂（凡繩鏢）
+- 高速攻擊、暴擊傷害
+**最佳內功**：破壞點、遺忘回響、激流反射、仇恨
+
+---
+
+### 治療建構（技縛 - 澤雨）
+**武器**：百草扇、魂影傘
+**武術專注**：
+- 復活（百草扇）
+- 霧縛援助（百草扇）
+- 千回響（魂影傘）
+- 純治療和支援
+**最佳內功**：深奧復甦、修補織機、恢復之花、皇家療法
+
+---
+
+### 平衡建構（鳴鐘路線）
+**武器**：戰略劍、無名劍、震天槍、無名槍
+**武術專注**：
+- 進攻和防禦混合
+- 反擊策略
+- 機動性選項
+**最佳內功**：適應之鋼、洞察打擊、劍視、戰鬥讚歌
+
+---
+
+### 支援/控制建構（技縛 - 碧玉）
+**武器**：墨扇、九折傘
+**武術專注**：
+- 碧風盾（墨扇）
+- 山天（墨扇）
+- 春愁（九折傘）
+- 護盾、投射物、區域控制
+**最佳內功**：飛葫蘆、花雨彈幕、摘星者、雷鳴之花
+
+---
+
+## 特殊武術機制
+
+### 護盾技能
+**帶護盾的武器**：
+- 雷鳴刀（掠食者之盾）
+- 墨扇（碧風盾）
+- 金身（創造護盾的秘術技能）
+
+**協同效應**：
+- 抗拒之術（內功） - 延長護盾持續時間
+- 自由變形（秘術技能） - 對有生命護盾的目標傷害+20%（第3階）
+
+---
+
+### 治療技能
+**百草扇**（純治療）：
+- 晨雨後輕塵
+- 復活
+- 霧縛援助
+- 翡翠露觸
+
+**魂影傘**（混合治療）：
+- 千草回響
+- 千回響
+
+**增強**：
+- 深奧復甦（內功）
+- 修補織機（內功）
+- 恢復之花（內功）
+- 皇家療法（內功）
+- 士氣吟唱（內功） - 通用
+
+---
+
+### 嘲諷機制
+**破風槍**（坦克）：
+- 風暴咆哮 - 嘲諷能力
+
+**增強**：
+- 堅如磐石（內功） - 嘲諷後增加傷害減免，但減少造成的傷害並增加仇恨
+
+---
+
+### 充能機制
+**受益於充能的技能**：
+- 所有重攻擊
+- 九折傘的春愁（使用花雨彈幕內功最多2層）
+- 無名劍的先鋒劍（使用劍變形內功多重劍能量）
+
+**增強**：
+- 戰鬥讚歌（內功） - 對首領的蓄力技能傷害+10%
+
+---
+
+## 轉換技能策略
+
+大多數武器都有**轉換**技能，允許戰術姿態改變：
+- 劍 - 轉換
+- 槍 - 轉換
+- 扇 - 轉換
+- 傘 - 轉換
+- 莫刀 - 轉換
+- 繩鏢 - 轉換
+- 雙刃 - 雙武器技能
+
+**目的**：
+- 戰鬥中期切換戰鬥風格
+- 適應不同的敵人類型
+- 啟用不同的連擊路線
+- 提供戰術靈活性
+
+---
+
+## 相關系統
+
+- **內功**：增強武術的被動技能（查看 \`inner-ways.md\`）
+- **秘術技能**：獨立於武器的戰鬥技能（查看 \`mystic-skills.md\`）
+- **武器**：完整的武器列表和變體（查看 \`/items/\` 中的 \`weapons.md\`）
+- **戰鬥系統**：核心戰鬥機制（查看 \`combat-system.md\`）
 `;

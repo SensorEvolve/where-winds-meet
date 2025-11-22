@@ -1,416 +1,416 @@
-export const content = `# Exploration Skills
+export const content = `# 探索技能
 
-## Overview
+## 概述
 
-**Purpose**: Grant small buffs for mini-games and exploration activities
+**用途**：為小遊戲和探索活動提供小型增益效果
 
-**Unlock Method**: Earn through Exploration Attributes (Aspiration Attributes)
+**解鎖方式**：通過探索屬性（志向屬性）獲得
 
-**Total Skills**: 25 Exploration Skills
+**技能總數**：25個探索技能
 
-**Requirements**:
-- Minimum Total Aspiration Attributes
-- Minimum specific Exploration Attribute level
-
----
-
-## Exploration Attributes
-
-These attributes unlock Exploration Skills:
-
-1. **Magnanimity** (大度)
-2. **Intelligence** (智识)
-3. **Musicality** (乐律)
-4. **Constitution** (体质)
-5. **Perception** (感知)
-6. **Coordination** (协调)
-7. **Elegance** (优雅)
-8. **Mindset** (心态)
-9. **Memory** (记忆)
-10. **Erudition** (博学)
-
-**How to Improve**: Complete various puzzles and mini-games to increase these attributes
+**需求條件**：
+- 最低志向屬性總和
+- 最低特定探索屬性等級
 
 ---
 
-## All Exploration Skills
+## 探索屬性
 
-### Tier 1: 200 Total Aspiration Attributes
+這些屬性可以解鎖探索技能：
 
-#### 1. Drunken Precision (醉拳精准)
-**Requirements**:
-- Total Aspiration: 200
-- Magnanimity: 30
+1. **大度**
+2. **智識**
+3. **樂律**
+4. **體質**
+5. **感知**
+6. **協調**
+7. **優雅**
+8. **心態**
+9. **記憶**
+10. **博學**
 
-**Effect**: Use during Pitch Pot to gain Tipsy effect, shortening aim time
-**Cooldown**: 180 seconds
-
----
-
-#### 2. Rhetoric Edge (辩才)
-**Requirements**:
-- Total Aspiration: 200
-- Intelligence: 30
-
-**Effect**: Start with +2 Inspiration in Gift of Gab mini-game
+**提升方法**：完成各種謎題和小遊戲來提升這些屬性
 
 ---
 
-#### 3. Legendary Musician (乐圣)
-**Requirements**:
-- Total Aspiration: 200
-- Musicality: 30
+## 所有探索技能
 
-**Effect**: Final score of Graceful Melody increases by 5%
+### 第一階：志向屬性總和 200
 
----
+#### 1. 醉拳精準
+**需求條件**：
+- 志向總和：200
+- 大度：30
 
-#### 4. Equine Friend (马语者)
-**Requirements**:
-- Total Aspiration: 200
-- Constitution: 30
-
-**Effect**: Talent that wins animals' favor, making horse capture easier
+**效果**：在投壺時使用可獲得微醺效果，縮短瞄準時間
+**冷卻時間**：180秒
 
 ---
 
-#### 5. Two for One (双倍奖励)
-**Requirements**:
-- Total Aspiration: 200
-- Perception: 30
+#### 2. 辯才
+**需求條件**：
+- 志向總和：200
+- 智識：30
 
-**Effect**: Small chance to obtain extra gathering reward in Solo Mode
-
----
-
-#### 6. Body of Iron (铁骨)
-**Requirements**:
-- Total Aspiration: 200
-- Coordination: 30
-
-**Effect**: Become immune to falling damage (excluding serious injury)
-**Cooldown**: 10 minutes
+**效果**：在辯論小遊戲中以+2點靈感開始
 
 ---
 
-#### 7. Effortless Swim (轻松游泳)
-**Requirements**:
-- Total Aspiration: 200
-- Elegance: 30
+#### 3. 樂聖
+**需求條件**：
+- 志向總和：200
+- 樂律：30
 
-**Effect**: Reduces Stamina consumption rate while swimming
-
----
-
-#### 8. Brawn Boost (力量提升)
-**Requirements**:
-- Total Aspiration: 200
-- Constitution: 30
-
-**Effect**: Increases damage from pushing attacks during Sumo Wrestling
+**效果**：雅樂最終得分提高5%
 
 ---
 
-#### 9. Fishing Expert (钓鱼专家)
-**Requirements**:
-- Total Aspiration: 200
-- Mindset: 30
+#### 4. 馬語者
+**需求條件**：
+- 志向總和：200
+- 體質：30
 
-**Effect**: Shortens the time fish take to bite during Fishing Contests
-
----
-
-#### 10. Quick Draw (快速拉弓)
-**Requirements**:
-- Total Aspiration: 200
-- Perception: 30
-
-**Effect**: Increases bow-drawing speed by 10% during archery
+**效果**：贏得動物好感的天賦，使捕馬變得更容易
 
 ---
 
-### Tier 2: 400 Total Aspiration Attributes
+#### 5. 雙倍獎勵
+**需求條件**：
+- 志向總和：200
+- 感知：30
 
-#### 11. Divine Craftsman (神匠)
-**Requirements**:
-- Total Aspiration: 400
-- Coordination: 75
-- Memory: 50
-
-**Effect**: Buildings become more durable with component durability increased
+**效果**：在單人模式下採集時有小機率獲得額外獎勵
 
 ---
 
-#### 12. Body of Diamond (金刚不坏)
-**Requirements**:
-- Total Aspiration: 400
-- Musicality: 50
-- Perception: 30
+#### 6. 鐵骨
+**需求條件**：
+- 志向總和：200
+- 協調：30
 
-**Effect**: Lowers the chance of contracting disease from high falls
-
----
-
-#### 13. Strength of Conviction (信念之力)
-**Requirements**:
-- Total Aspiration: 400
-- Erudition: 50
-- Elegance: 30
-
-**Effect**: Reduces crime probability by 50% when forcibly demanding items from NPCs
+**效果**：免疫墜落傷害（不包括重傷）
+**冷卻時間**：10分鐘
 
 ---
 
-#### 14. Swift and Agile (迅捷敏锐)
-**Requirements**:
-- Total Aspiration: 400
-- Constitution: 50
-- Coordination: 30
+#### 7. 輕鬆游泳
+**需求條件**：
+- 志向總和：200
+- 優雅：30
 
-**Effect**: Increases damage from thrusting and stake techniques during Sumo Wrestling
-
----
-
-#### 15. Inner Peace (内心平静)
-**Requirements**:
-- Total Aspiration: 400
-- Mindset: 50
-- Constitution: 30
-
-**Effect**: Chance to resist disease when approaching Spellbound state
+**效果**：降低游泳時的耐力消耗速率
 
 ---
 
-#### 16. Swift Arrow (疾箭)
-**Requirements**:
-- Total Aspiration: 400
-- Perception: 50
-- Elegance: 30
+#### 8. 力量提升
+**需求條件**：
+- 志向總和：200
+- 體質：30
 
-**Effect**: Increases arrow flight speed by 20% during archery
-
----
-
-#### 17. Shadow Theft (影盗)
-**Requirements**:
-- Total Aspiration: 400
-- Mindset: 50
-- Elegance: 30
-
-**Effect**: Less likely to arouse suspicion when theft fails using Heavenly Snatch
+**效果**：在相撲中增加推攻擊的傷害
 
 ---
 
-### Tier 3: 600 Total Aspiration Attributes
+#### 9. 釣魚專家
+**需求條件**：
+- 志向總和：200
+- 心態：30
 
-#### 18. Treasure Seeker (寻宝者)
-**Requirements**:
-- Total Aspiration: 600
-- Perception: 75
-- Elegance: 75
-
-**Effect**: Shows closest chest on minimap in Qinghe and Kaifeng (excluding some hidden chests)
+**效果**：在釣魚比賽中縮短魚咬鉤的時間
 
 ---
 
-#### 19. Animal Whisperer (动物私语)
-**Requirements**:
-- Total Aspiration: 600
-- Mindset: 75
-- Intelligence: 50
+#### 10. 快速拉弓
+**需求條件**：
+- 志向總和：200
+- 感知：30
 
-**Effect**: Allows you to understand speech of certain birds and beasts
-
----
-
-#### 20. Mystic Recovery (神秘恢复)
-**Requirements**:
-- Total Aspiration: 600
-- Musicality: 75
-- Constitution: 50
-
-**Effect**: Increases chance of Self-Healing during disease evolution
+**效果**：在射箭時提升10%的拉弓速度
 
 ---
 
-#### 21. Lucky Break (幸运突破)
-**Requirements**:
-- Total Aspiration: 600
-- Magnanimity: 75
-- Coordination: 50
+### 第二階：志向屬性總和 400
 
-**Effect**: Chance to prevent Gear durability loss when seriously injured
+#### 11. 神匠
+**需求條件**：
+- 志向總和：400
+- 協調：75
+- 記憶：50
 
----
-
-#### 22. Healer's Edge (治疗优势)
-**Requirements**:
-- Total Aspiration: 600
-- Memory: 75
-- Erudition: 50
-
-**Effect**: Reduces disease damage by 30% in first round of open-world Healer mode
+**效果**：建築變得更加耐用，零件耐久度增加
 
 ---
 
-#### 23. Arrow of Precision (精准之箭)
-**Requirements**:
-- Total Aspiration: 600
-- Perception: 75
-- Magnanimity: 50
+#### 12. 金剛不壞
+**需求條件**：
+- 志向總和：400
+- 樂律：50
+- 感知：30
 
-**Effect**: Increases arrow duration by 20% during archery
-
----
-
-#### 24. Thousand Hands (千手)
-**Requirements**:
-- Total Aspiration: 600
-- Coordination: 75
-- Perception: 50
-
-**Effect**: Increases theft success rate when using Heavenly Snatch
+**效果**：降低從高處墜落感染疾病的機率
 
 ---
 
-## Mini-Games & Activities
+#### 13. 信念之力
+**需求條件**：
+- 志向總和：400
+- 博學：50
+- 優雅：30
 
-Based on the skills, these mini-games/activities exist in the game:
-
-### 1. Pitch Pot (投壶)
-- Traditional Chinese throwing game
-- Related Skill: Drunken Precision
-
-### 2. Gift of Gab (辩论)
-- Conversation/debate mini-game
-- Uses "Inspiration" mechanic
-- Related Skill: Rhetoric Edge
-
-### 3. Graceful Melody (音律)
-- Music performance mini-game
-- Scored performance
-- Related Skill: Legendary Musician
-
-### 4. Horse Capture (捕马)
-- Taming wild horses
-- Related Skill: Equine Friend
-
-### 5. Gathering (采集)
-- Resource collection
-- Related Skill: Two for One
-
-### 6. Swimming (游泳)
-- Stamina-based activity
-- Related Skill: Effortless Swim
-
-### 7. Sumo Wrestling (相扑)
-- Combat mini-game
-- Push, thrust, and stake techniques
-- Related Skills: Brawn Boost, Swift and Agile
-
-### 8. Fishing Contests (钓鱼比赛)
-- Timed fishing activity
-- Related Skill: Fishing Expert
-
-### 9. Archery (射箭)
-- Bow and arrow mini-game
-- Related Skills: Quick Draw, Swift Arrow, Arrow of Precision
-
-### 10. Building/Construction (建造)
-- Structure creation with durability
-- Related Skill: Divine Craftsman
-
-### 11. Heavenly Snatch (天机窃取)
-- Theft mechanic
-- Can fail and arouse suspicion
-- Related Skills: Shadow Theft, Thousand Hands
-
-### 12. NPC Demanding (强索)
-- Forcibly request items from NPCs
-- Crime system involvement
-- Related Skill: Strength of Conviction
+**效果**：在強行向NPC索要物品時，犯罪機率降低50%
 
 ---
 
-## Disease System
+#### 14. 迅捷敏銳
+**需求條件**：
+- 志向總和：400
+- 體質：50
+- 協調：30
 
-Referenced by multiple skills:
-
-**Mechanics**:
-- Can contract disease from high falls
-- Disease can evolve
-- "Spellbound state" exists
-- Self-Healing is possible
-- Disease causes damage in Healer mode
-
-**Related Skills**:
-- Body of Diamond (reduces disease from falls)
-- Inner Peace (resist disease when approaching Spellbound state)
-- Mystic Recovery (increases Self-Healing chance)
-- Healer's Edge (reduces disease damage in Healer mode)
+**效果**：在相撲中增加刺擊和樁法技巧的傷害
 
 ---
 
-## Known Locations
+#### 15. 內心平靜
+**需求條件**：
+- 志向總和：400
+- 心態：50
+- 體質：30
 
-Skills reference these specific locations:
-
-1. **Qinghe** (清河)
-2. **Kaifeng** (开封)
-
-These are two of the 20 regions in the game.
-
----
-
-## Progression Strategy
-
-### Early Game (200 Total Aspiration)
-**Priority Skills**:
-1. **Body of Iron** - Falling damage immunity is extremely useful
-2. **Two for One** - Extra gathering rewards help with progression
-3. **Effortless Swim** - Reduces stamina drain
-
-### Mid Game (400 Total Aspiration)
-**Priority Skills**:
-1. **Divine Craftsman** - If building is important
-2. **Body of Diamond** - Disease prevention
-3. **Inner Peace** - Disease resistance
-
-### Late Game (600 Total Aspiration)
-**Priority Skills**:
-1. **Treasure Seeker** - Find hidden chests easily
-2. **Animal Whisperer** - Unique dialogue/secrets
-3. **Healer's Edge** - If playing Healer career
+**效果**：在接近入魔狀態時有機會抵抗疾病
 
 ---
 
-## Attribute Focus Recommendations
+#### 16. 疾箭
+**需求條件**：
+- 志向總和：400
+- 感知：50
+- 優雅：30
 
-### For Explorers
-Focus on: **Perception** and **Elegance**
-- Unlocks: Two for One, Treasure Seeker, Arrow of Precision, Thousand Hands
-
-### For Survivalists
-Focus on: **Constitution** and **Mindset**
-- Unlocks: Equine Friend, Brawn Boost, Inner Peace, Mystic Recovery
-
-### For Mini-Game Enthusiasts
-Focus on: **Musicality**, **Intelligence**, **Magnanimity**
-- Unlocks: Legendary Musician, Rhetoric Edge, Drunken Precision
-
-### For Completionists
-Balance all attributes to unlock all 25 skills
+**效果**：在射箭時提升20%的箭矢飛行速度
 
 ---
 
-## Tips
+#### 17. 影盜
+**需求條件**：
+- 志向總和：400
+- 心態：50
+- 優雅：30
 
-1. **Body of Iron is Essential**: Falling damage immunity saves you constantly
-2. **Treasure Seeker**: Very helpful for completionists finding all chests
-3. **Animal Whisperer**: Likely unlocks unique quests or lore
-4. **Two for One**: Great for farming materials in solo mode
-5. **Theft Skills**: If you engage with the crime system, these are valuable
-6. **Healer's Edge**: Must-have if you chose Healer career
+**效果**：使用天機竊取失敗時較不容易引起懷疑
+
+---
+
+### 第三階：志向屬性總和 600
+
+#### 18. 尋寶者
+**需求條件**：
+- 志向總和：600
+- 感知：75
+- 優雅：75
+
+**效果**：在清河和開封的小地圖上顯示最近的寶箱（不包括部分隱藏寶箱）
+
+---
+
+#### 19. 動物私語
+**需求條件**：
+- 志向總和：600
+- 心態：75
+- 智識：50
+
+**效果**：讓你能夠理解某些鳥獸的語言
+
+---
+
+#### 20. 神秘恢復
+**需求條件**：
+- 志向總和：600
+- 樂律：75
+- 體質：50
+
+**效果**：在疾病演變過程中增加自我治癒的機率
+
+---
+
+#### 21. 幸運突破
+**需求條件**：
+- 志向總和：600
+- 大度：75
+- 協調：50
+
+**效果**：重傷時有機會防止裝備耐久度損失
+
+---
+
+#### 22. 治療優勢
+**需求條件**：
+- 志向總和：600
+- 記憶：75
+- 博學：50
+
+**效果**：在開放世界治療師模式的第一回合中，疾病傷害降低30%
+
+---
+
+#### 23. 精準之箭
+**需求條件**：
+- 志向總和：600
+- 感知：75
+- 大度：50
+
+**效果**：在射箭時箭矢持續時間增加20%
+
+---
+
+#### 24. 千手
+**需求條件**：
+- 志向總和：600
+- 協調：75
+- 感知：50
+
+**效果**：使用天機竊取時提升盜竊成功率
+
+---
+
+## 小遊戲與活動
+
+根據技能，遊戲中存在這些小遊戲/活動：
+
+### 1. 投壺
+- 傳統中國投擲遊戲
+- 相關技能：醉拳精準
+
+### 2. 辯論
+- 對話/辯論小遊戲
+- 使用「靈感」機制
+- 相關技能：辯才
+
+### 3. 音律
+- 音樂表演小遊戲
+- 計分表演
+- 相關技能：樂聖
+
+### 4. 捕馬
+- 馴服野馬
+- 相關技能：馬語者
+
+### 5. 採集
+- 資源收集
+- 相關技能：雙倍獎勵
+
+### 6. 游泳
+- 基於耐力的活動
+- 相關技能：輕鬆游泳
+
+### 7. 相撲
+- 戰鬥小遊戲
+- 推、刺和樁法技巧
+- 相關技能：力量提升、迅捷敏銳
+
+### 8. 釣魚比賽
+- 限時釣魚活動
+- 相關技能：釣魚專家
+
+### 9. 射箭
+- 弓箭小遊戲
+- 相關技能：快速拉弓、疾箭、精準之箭
+
+### 10. 建造
+- 具有耐久度的建築建造
+- 相關技能：神匠
+
+### 11. 天機竊取
+- 盜竊機制
+- 可能失敗並引起懷疑
+- 相關技能：影盜、千手
+
+### 12. 強索
+- 強行向NPC索要物品
+- 涉及犯罪系統
+- 相關技能：信念之力
+
+---
+
+## 疾病系統
+
+多個技能都有提到：
+
+**機制**：
+- 從高處墜落可能感染疾病
+- 疾病可能演變
+- 存在「入魔狀態」
+- 可能自我治癒
+- 疾病在治療師模式中造成傷害
+
+**相關技能**：
+- 金剛不壞（降低墜落感染疾病的機率）
+- 內心平靜（接近入魔狀態時抵抗疾病）
+- 神秘恢復（增加自我治癒機率）
+- 治療優勢（降低治療師模式中的疾病傷害）
+
+---
+
+## 已知地點
+
+技能中提到了這些特定地點：
+
+1. **清河**
+2. **開封**
+
+這是遊戲中20個區域中的兩個。
+
+---
+
+## 進階策略
+
+### 初期（志向總和 200）
+**優先技能**：
+1. **鐵骨** - 墜落傷害免疫非常實用
+2. **雙倍獎勵** - 額外採集獎勵有助於進度
+3. **輕鬆游泳** - 降低耐力消耗
+
+### 中期（志向總和 400）
+**優先技能**：
+1. **神匠** - 如果建造很重要
+2. **金剛不壞** - 疾病預防
+3. **內心平靜** - 疾病抵抗
+
+### 後期（志向總和 600）
+**優先技能**：
+1. **尋寶者** - 輕鬆找到隱藏寶箱
+2. **動物私語** - 獨特對話/秘密
+3. **治療優勢** - 如果選擇治療師職業
+
+---
+
+## 屬性專精建議
+
+### 探索者
+專注於：**感知**和**優雅**
+- 解鎖：雙倍獎勵、尋寶者、精準之箭、千手
+
+### 生存主義者
+專注於：**體質**和**心態**
+- 解鎖：馬語者、力量提升、內心平靜、神秘恢復
+
+### 小遊戲愛好者
+專注於：**樂律**、**智識**、**大度**
+- 解鎖：樂聖、辯才、醉拳精準
+
+### 完美主義者
+平衡所有屬性以解鎖全部25個技能
+
+---
+
+## 提示
+
+1. **鐵骨至關重要**：墜落傷害免疫能持續拯救你
+2. **尋寶者**：對想找到所有寶箱的完美主義者非常有幫助
+3. **動物私語**：可能解鎖獨特任務或故事
+4. **雙倍獎勵**：在單人模式下刷材料的好選擇
+5. **盜竊技能**：如果你參與犯罪系統，這些技能很有價值
+6. **治療優勢**：如果選擇治療師職業則必備
 
 ---
 `;

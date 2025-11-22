@@ -1,620 +1,620 @@
-export const content = `# Inner Ways (内功 / Internal Arts)
+export const content = `# 內功
 
-## Inner Ways System Overview
+## 內功系統概述
 
-**Total Count**: 37+ Inner Ways
+**總數量**：37+種內功
 
-**Equipment Limit**: Up to **4 Inner Ways** can be equipped simultaneously
+**裝備限制**：最多可同時裝備**4種內功**
 
-**Type**: Passive skills providing in-combat effects
+**類型**：提供戰鬥中效果的被動技能
 
-**Function**: Primarily combat-focused with no out-of-combat use
-
----
-
-## Inner Way Types
-
-### 1. Universal Inner Ways
-
-**Description**: Work with any weapon or build
-
-**Benefit**: Flexible, always useful regardless of weapon choice
-
-**Identification**: Show "Universal" label in gray text
-
-**Count**: 13 Universal Inner Ways documented
+**功能**：主要專注於戰鬥，無戰鬥外用途
 
 ---
 
-### 2. Martial Art-Related Inner Ways
+## 內功類型
 
-**Description**: Require specific weapon to be fully effective
+### 1. 通用內功
 
-**Identification**: Show weapon name underneath icon
+**說明**：適用於任何武器或流派
 
-**Example**: "Nameless Sword" or "Heavenquaker Spear" requirement
+**優勢**：靈活，無論武器選擇如何都很實用
 
-**Warning**: Can equip incompatible Inner Ways, but they won't work without correct weapon
+**識別**：以灰色文字顯示「通用」標籤
 
----
-
-## Weapon Path Categories
-
-Inner Ways are organized by weapon "Paths":
-
-### Bellstrike Paths
-**Weapons Included**:
-- **Bellstrike - Umbra**: Strategic Sword / Heavenquaker Spear
-- **Bellstrike - Splendor**: Nameless Sword / Nameless Spear
-
-### Stonesplit Path
-**Weapons Included**:
-- **Stonesplit - Might**: Thundercry Blade / Stormbreaker Spear
-
-### Skillbind Paths
-**Weapons Included**:
-- **Skillbind - Jade**: Inkwell Fan / Ninefold Umbrella
-- **Skillbind - Deluge**: Panacea Fan / Soulshade Umbrella
-
-### Bamboocut Path
-**Weapons Included**:
-- **Bamboocut - Wind**: Infernal Twinblades / Mortal Rope Dart
+**數量**：已記錄13種通用內功
 
 ---
 
-## How to Unlock Inner Ways
+### 2. 武學相關內功
 
-### Method 1: Purchase from Merchants
+**說明**：需要特定武器才能完全發揮效果
 
-**Process**:
-1. Select locked Inner Way in menu
-2. Check for "Torn Page" availability
-3. Click to see which Merchant sells it
-4. Game marks Merchant on map automatically
-5. Purchase Torn Page
-6. Unlock Inner Way
+**識別**：圖示下方顯示武器名稱
+
+**範例**：需要「無名劍」或「撼天槍」
+
+**警告**：可以裝備不相容的內功，但沒有正確武器就無法生效
 
 ---
 
-### Method 2: Follow Clues and Complete Quests
+## 武器路線分類
 
-**Process**:
-1. Go to Main Menu > Develop > Inner Way
-2. Select specific Inner Way you want
-3. Click "Comprehend Inner Way" (lower-right)
-4. Click "Comprehend the Clue" (lower-right)
-5. Read clue text carefully (puzzle/riddle)
-6. Click "Explore" (lower-right)
-7. If enough clues gathered, map opens with highlighted area
-8. Visit area, trigger interaction (NPC/Quest)
-9. Complete quest to receive **Inner Way Tome** as reward
+內功按武器「路線」組織：
 
----
+### 鳴鐘路線
+**包含武器**：
+- **鳴鐘 - 暗影**：謀略劍 / 撼天槍
+- **鳴鐘 - 華彩**：無名劍 / 無名槍
 
-### Method 3: Complete Martial Arts Sanctums
+### 裂石路線
+**包含武器**：
+- **裂石 - 威能**：雷鳴刀 / 破陣槍
 
-**Process**:
-1. Find Martial Arts Sanctum (belonging to Sects)
-2. Sneak around sanctum
-3. Collect all Treasure Chests inside
-4. Perform **Skill Theft** of Martial Art
-5. Unlock Inner Way tied to that Martial Art
+### 制技路線
+**包含武器**：
+- **制技 - 翠玉**：墨扇 / 九折傘
+- **制技 - 洪流**：靈藥扇 / 魂影傘
 
-**Example**:
-- Perform Skill Theft of **Heavenquaker Spear** in Heavenquaker Spear Sanctum
-- Unlocks **Wolfchaser's Art** Inner Way
+### 斬竹路線
+**包含武器**：
+- **斬竹 - 疾風**：焚獄雙刀 / 索命繩鏢
 
 ---
 
-## Inner Way Upgrade System
+## 如何解鎖內功
 
-### Tier Structure
+### 方法1：從商人處購買
 
-**Progression**: Tier 1 → Tier 2 → Tier 3 → Tier 4 (assumed)
-
-**Starting Point**: All Inner Ways start at Tier 1 when unlocked
-
-### Upgrade Materials: Tips
-
-**Required**: Specific **Tips** for each Inner Way
-
-**Example**: To upgrade **Sword Morph** from Tier 1 to Tier 2, need **10 Sword Morph Tips**
+**流程**：
+1. 在選單中選擇鎖定的內功
+2. 檢查「殘頁」是否可用
+3. 點擊查看哪位商人出售
+4. 遊戲自動在地圖上標記商人
+5. 購買殘頁
+6. 解鎖內功
 
 ---
 
-## Obtaining Tips
+### 方法2：追隨線索並完成任務
 
-### Primary Method: Shop Purchase
-
-**Access**: Inner Way Menu > Select Inner Way > Inner Way Breakthrough > Tips Box > "More" > "Inner Way Tips - Tome"
-
-**Limit**: 20 Tomes weekly
-
-**Note**: Tips are **random** from purchased Tomes
-
-### Other Methods:
-- Merchants (sell specific Tips)
-- Missions/Quests
-- Event rewards
-- Other in-game activities
+**流程**：
+1. 前往主選單 > 養成 > 內功
+2. 選擇你想要的特定內功
+3. 點擊「領悟內功」（右下角）
+4. 點擊「領悟線索」（右下角）
+5. 仔細閱讀線索文字（謎題/謎語）
+6. 點擊「探索」（右下角）
+7. 如果收集足夠線索，地圖會打開並顯示高亮區域
+8. 前往該區域，觸發互動（NPC/任務）
+9. 完成任務以獲得**內功秘笈**作為獎勵
 
 ---
 
-## Tips Exchange System
+### 方法3：完成武學聖地
 
-### Purpose
-Recycle unwanted Tips to obtain desired Tips
+**流程**：
+1. 找到武學聖地（屬於門派）
+2. 在聖地中潛行
+3. 收集內部所有寶箱
+4. 對武學執行**偷師**
+5. 解鎖與該武學相關的內功
 
-### Currency: Vintage Bookmarks
-
-**How to Obtain**:
-1. Go to Inner Ways main menu
-2. Select "Tips Exchange"
-3. Click "Obtain Book Tokens"
-4. Select Tips you don't want
-5. Recycle them for **Vintage Bookmarks**
-6. Amount varies based on Tip rarity
-
-### How to Use Vintage Bookmarks:
-
-1. In Tips Exchange menu, buy **Recommendation Tomes**
-2. Choose Tome for specific Martial Art weapon
-3. Receive random Tip for:
-   - Inner Ways related to that Martial Art
-   - OR Universal Inner Way Tip
+**範例**：
+- 在撼天槍聖地對**撼天槍**執行偷師
+- 解鎖**逐狼之藝**內功
 
 ---
 
-## Inner Way Conversion System
+## 內功升級系統
 
-### Purpose
-Exchange Tips between different Inner Ways
+### 階層結構
 
-### Requirements
-**Only works with**:
-- **Purple-ranked** Inner Ways
-- **Gold-ranked** Inner Ways
-- NOT available for lower-ranked Inner Ways
+**進程**：一階 → 二階 → 三階 → 四階（推測）
 
-### Process
+**起點**：所有內功解鎖時都從一階開始
 
-1. Enter "Inner Way Conversion" menu
-2. Insert 2 Inner Ways into empty slots
-3. Start conversion process
-4. **Result**: Tip amounts are swapped between the two Inner Ways
+### 升級材料：心得
 
-**Example**:
-- **Before**: Sword Morph (2 Tips), Bitter Seasons (3 Tips)
-- **After**: Sword Morph (3 Tips), Bitter Seasons (2 Tips)
+**需求**：每種內功需要特定的**心得**
 
-### Limitations
-
-**Free Conversions**: 4 per season
-
-**After 4 Free**: Must use Vintage Bookmarks
-
-**Cooldown**: Both Inner Ways enter **7-day cooldown** after conversion
+**範例**：要將**劍氣化形**從一階升級到二階，需要**10個劍氣化形心得**
 
 ---
 
-## Complete List of Inner Ways
+## 獲得心得
 
-### Universal Inner Ways (13 Total)
+### 主要方法：商店購買
 
-#### 1. Bitter Seasons ⭐⭐⭐⭐
-**Effect**:
-- 10% chance on damage to apply **Poison** for 5s (damage per second)
-- Poison reduces target **Physical Defense by 0.6%** for 10s
-- Stacks up to **5 times** (duration refreshed on stack)
+**路徑**：內功選單 > 選擇內功 > 內功突破 > 心得箱 > 「更多」 > 「內功心得 - 秘笈」
 
----
+**限制**：每週20本秘笈
 
-#### 2. Divine Roulette ⭐⭐⭐⭐
-**Effect**:
-On successful deflection, gain one random effect:
-- **Immortal Guidance**: Next skill damage +10%
-- **Immortal Heart**: Next skill guaranteed Critical
-- **Immortal Spirit**: Next skill guaranteed Affinity hit
+**注意**：從購買的秘笈中獲得的心得是**隨機的**
 
-**Duration**: 10 seconds
-**Cooldown**: 30 seconds
-**Applies to**: Martial Art Skills, Perception Skills, Special Skills, Charged Skills, Varied Combos
+### 其他方法：
+- 商人（出售特定心得）
+- 任務/委託
+- 活動獎勵
+- 其他遊戲內活動
 
 ---
 
-#### 3. Envigorated Warrior ⭐⭐⭐
-**Effect**:
-- Increases all damage and healing by **5%**
-- Disabled for 5s after being hit
-- Being hit grants **Cage** effect: +5% damage taken
+## 心得兌換系統
 
-**Risk/Reward**: High damage when not hit, vulnerable when hit
+### 目的
+回收不需要的心得以獲得想要的心得
 
----
+### 貨幣：古籍書籤
 
-#### 4. Evening Snow ⭐⭐⭐⭐
-**Effect**:
-- Within 12s of entering combat, if HP falls below 60%:
-  - Gain **Snow Vision** for 4s
-  - Restore **2% HP + 600 HP per second**
-- Cooldown: 300 seconds (5 minutes)
+**如何獲得**：
+1. 前往內功主選單
+2. 選擇「心得兌換」
+3. 點擊「獲取書籤」
+4. 選擇你不需要的心得
+5. 將其回收為**古籍書籤**
+6. 數量根據心得稀有度而異
 
-**Use**: Emergency survival tool
+### 如何使用古籍書籤：
 
----
-
-#### 5. Fivefold Bleed ⭐⭐⭐⭐
-**Effect**:
-- Chance on hit to apply **Weeping Blood** (damage per second)
-- Stacks up to **5 layers**
-- At full stacks: Immediately clears and causes **Piercing damage**
+1. 在心得兌換選單中，購買**推薦秘笈**
+2. 選擇特定武學武器的秘笈
+3. 隨機獲得以下心得：
+   - 與該武學相關的內功心得
+   - 或通用內功心得
 
 ---
 
-#### 6. Fury Harvest ⭐⭐⭐
-**Effect**:
-- Certain recovery actions have **50% chance** to grant **1 bonus Vitality**
-- Does NOT work when gaining Vitality from:
-  - Attacking
-  - Taking a hit
-  - Successful deflection
+## 內功轉換系統
 
-**Use**: Extra Vitality generation for Mystic Skills
+### 目的
+在不同內功之間交換心得
 
----
+### 需求
+**僅適用於**：
+- **紫色品質**內功
+- **金色品質**內功
+- 不適用於低品質內功
 
-#### 7. Morale Chant ⭐⭐⭐⭐
-**Effect**:
-- Attacking or healing has chance to grant **1 stack**
-- Increases damage and healing
-- Stacks up to **5 times**
-- Chance calculated once every 2 seconds
+### 流程
 
----
+1. 進入「內功轉換」選單
+2. 將2種內功放入空槽位
+3. 開始轉換過程
+4. **結果**：兩種內功的心得數量互換
 
-#### 8. Seasonal Edge ⭐⭐⭐⭐
-**Effect**:
-- After releasing Weapon Skill, continuously increase ONE of:
-  - Critical Rate
-  - Insight Rate
-  - External Damage Bonus
-  - All Elemental Damage Bonus
-- Cooldown: 30 seconds
+**範例**：
+- **轉換前**：劍氣化形（2個心得），苦寒時節（3個心得）
+- **轉換後**：劍氣化形（3個心得），苦寒時節（2個心得）
 
----
+### 限制
 
-#### 9. Shadow Assault ⭐⭐⭐⭐
-**Effect**:
-- Increases **Touch of Death** max range by **1.5m**
-- Increases **Touch of Death** damage by **10%**
-- After successful ambush: Restore HP equal to **5% of damage dealt**
+**免費轉換**：每季4次
 
-**Use**: Essential for stealth builds
+**4次免費後**：必須使用古籍書籤
+
+**冷卻時間**：兩種內功在轉換後都進入**7天冷卻期**
 
 ---
 
-#### 10. Steadfast Stance ⭐⭐⭐
-**Effect**:
-- Less likely to suffer **stagger** when attacked
-- Invalid against bosses or players
+## 完整內功列表
 
-**Use**: PvE combat stability
+### 通用內功（共13種）
 
----
-
-#### 11. Vital Leech ⭐⭐⭐
-**Effect**:
-- Casting **Exhaustion Execution Skill** restores HP equal to **8% of damage dealt**
-
-**Use**: Sustain during combat
+#### 1. 苦寒時節 ⭐⭐⭐⭐
+**效果**：
+- 造成傷害時有10%機率施加**中毒**效果，持續5秒（每秒傷害）
+- 中毒降低目標**物理防禦0.6%**，持續10秒
+- 最多疊加**5層**（疊加時刷新持續時間）
 
 ---
 
-#### 12. Wind Beneath Wings ⭐⭐⭐⭐
-**Effect**:
-- Reduces Endurance cost of Movement Mystic Arts dash while jumping by **10%**
-- After landing: +30% Movement Speed for 3s
-- Restore **1% Max HP + 1000 HP** after defeating any enemy
+#### 2. 神機百態 ⭐⭐⭐⭐
+**效果**：
+成功格擋後，獲得以下隨機效果之一：
+- **仙人指路**：下一個技能傷害+10%
+- **仙人之心**：下一個技能必定爆擊
+- **仙人之靈**：下一個技能必定契合
 
-**Use**: Mobility and sustain
-
----
-
-#### 13. Trapped Beast ⭐⭐⭐⭐
-**Requirement**: Thundercry Blade / Stormbreaker Spear (Stonesplit - Might)
-
-**Effect**:
-- When HP below 30%, taking damage triggers **Cornered Beast**
-- Generates shield absorbing up to **30% Max HP**
-- Duration: 4 seconds
-- Cooldown: 300 seconds (5 minutes)
-
-**Use**: Emergency shield for tanks
+**持續時間**：10秒
+**冷卻時間**：30秒
+**適用於**：武學技能、洞察技能、特殊技能、蓄力技能、變招連擊
 
 ---
 
-## Bellstrike Path Inner Ways
+#### 3. 精力充沛 ⭐⭐⭐
+**效果**：
+- 所有傷害和治療提高**5%**
+- 被擊中後失效5秒
+- 被擊中獲得**囚籠**效果：受到傷害+5%
 
-### Bellstrike - Umbra (Strategic Sword / Heavenquaker Spear)
-
-#### 1. Adaptive Steel ⭐⭐⭐
-**Effect**: Gain Martial Art effect based on current Blade Weapon
-
----
-
-#### 2. Insightful Strike ⭐⭐⭐⭐
-**Effect**:
-- Dealing **Affinity DMG** increases:
-  - Ability to see through enemy attacks
-  - Affinity DMG
-  - Chance to reduce damage taken
+**風險/回報**：未被擊中時高傷害，被擊中時脆弱
 
 ---
 
-#### 3. Sword Horizon ⭐⭐⭐⭐
-**Effect**:
-- After casting Strategic Sword's Martial Arts Skills, Special Skills, or Charged Skills:
-  - Can cast **Crosswind Blade** during ending phase
-  - Unleashes follow-up attacks
-  - Deals high **Bleed damage** if target has max Bleed stacks
+#### 4. 暮雪 ⭐⭐⭐⭐
+**效果**：
+- 進入戰鬥12秒內，如果生命值降至60%以下：
+  - 獲得**雪境視野**，持續4秒
+  - 每秒恢復**2%生命值 + 600生命值**
+- 冷卻時間：300秒（5分鐘）
+
+**用途**：緊急生存工具
 
 ---
 
-#### 4. Wildfire Spark ⭐⭐⭐
-**Effect**: Stamina can be **partially refunded** each time it's consumed
+#### 5. 五重流血 ⭐⭐⭐⭐
+**效果**：
+- 擊中時有機率施加**滴血**效果（每秒傷害）
+- 最多疊加**5層**
+- 滿層時：立即清除並造成**穿刺傷害**
 
 ---
 
-#### 5. Wolfchaser's Art ⭐⭐⭐⭐⭐
-**Unlock**: Perform Skill Theft in Heavenquaker Spear Sanctum
+#### 6. 怒氣收割 ⭐⭐⭐
+**效果**：
+- 某些恢復動作有**50%機率**獲得**1點額外元氣**
+- 不適用於以下方式獲得元氣時：
+  - 攻擊
+  - 受擊
+  - 成功格擋
 
-**Effect**:
-- Heavenquaker Spear's Art Skill **Sober Sorrow** lowers combo count requirements
-- Each hit on bleeding bosses has chance to grant extra combo counts
-
----
-
-### Bellstrike - Splendor (Nameless Sword / Nameless Spear)
-
-#### 1. Battle Anthem ⭐⭐⭐⭐
-**Effect**: Increases **Charged Skills' damage** against all bosses by **10%**
-
-**Use**: Boss fights
+**用途**：為玄功技能產生額外元氣
 
 ---
 
-#### 2. Evasive Charge ⭐⭐⭐
-**Effect**: After perfectly dodging, chance to **refund stamina consumed**
+#### 7. 戰意鼓舞 ⭐⭐⭐⭐
+**效果**：
+- 攻擊或治療時有機率獲得**1層**疊加
+- 增加傷害和治療
+- 最多疊加**5層**
+- 每2秒計算一次機率
 
 ---
 
-#### 3. Mountain's Might ⭐⭐⭐
-**Effect**: Increases Endurance cost reduction from Nameless Spear's Martial Art Skill **Root and Silence**
+#### 8. 四時之刃 ⭐⭐⭐⭐
+**效果**：
+- 釋放武器技能後，持續提升以下之一：
+  - 爆擊率
+  - 洞察率
+  - 外功傷害加成
+  - 所有元素傷害加成
+- 冷卻時間：30秒
 
 ---
 
-#### 4. Sword Morph ⭐⭐⭐⭐⭐
-**Effect**:
-- When Nameless Sword's Charged Skill **Vangrand Sword** is charged with Qi shield:
-  - Unleashes multiple additional sword energy attacks at 2nd charging stage
-  - Can consume bonus Endurance to increase damage
-  - Each Endurance: +1% damage, up to **20%**
+#### 9. 影襲 ⭐⭐⭐⭐
+**效果**：
+- **一擊必殺**最大距離增加**1.5米**
+- **一擊必殺**傷害提高**10%**
+- 成功偷襲後：恢復等於**已造成傷害5%**的生命值
+
+**用途**：潛行流派必備
 
 ---
 
-## Stonesplit Path Inner Ways
+#### 10. 堅定姿態 ⭐⭐⭐
+**效果**：
+- 受攻擊時較不易**硬直**
+- 對首領或玩家無效
 
-### Stonesplit - Might (Thundercry Blade / Stormbreaker Spear)
-
-#### 1. Art of Resistance ⭐⭐⭐⭐
-**Effect**: Increases duration of **Health Shields** and additional effects from source Skills
-
----
-
-#### 2. Exquisite Scenery ⭐⭐⭐⭐
-**Effect**:
-- Successfully defending with **Stoic Cleaver** (Thundercry Blade):
-  - Activates special counterattack
-  - Press Perception Skill or Heavy Attack for first-stage Charged Heavy Attack (no charging)
-  - Cooldown: 10 seconds
-- Hitting target with Varied Combo restores **1 bar of Battle Will**
+**用途**：PvE戰鬥穩定性
 
 ---
 
-#### 3. Rock Solid ⭐⭐⭐⭐
-**Effect**:
-- Increases damage reduction of Stormbreaker Spear's **Storm Roar** after taunting
-- While active:
-  - Reduces all damage dealt
-  - Increases Aggro produced
+#### 11. 生命吸取 ⭐⭐⭐
+**效果**：
+- 施放**疲憊處決技能**時恢復等於**已造成傷害8%**的生命值
 
-**Use**: Tank aggro management
+**用途**：戰鬥中維持生命
 
 ---
 
-## Skillbind Path Inner Ways
+#### 12. 迎風展翅 ⭐⭐⭐⭐
+**效果**：
+- 跳躍時移動玄功衝刺的耐力消耗降低**10%**
+- 落地後：移動速度+30%，持續3秒
+- 擊敗任何敵人後恢復**1%最大生命值 + 1000生命值**
 
-### Skillbind - Jade (Inkwell Fan / Ninefold Umbrella)
-
-#### 1. Blossom Barrage ⭐⭐⭐⭐
-**Effect**:
-- Ninefold Umbrella's skill **Spring Sorrow** can be charged to **2 layers**
-- Hitting enemy increases **Projectile skill damage**
-
----
-
-#### 2. Flying Gourds ⭐⭐⭐
-**Effect**:
-- Inkwell Fan's Skill **Mountain Sky** gains **2 charges**
-- Increased cooldown (trade-off)
+**用途**：機動性和生存
 
 ---
 
-#### 3. Star Reacher ⭐⭐⭐⭐
-**Effect**: Gain **External Attack bonus** after inflicting **Airborne** status on enemies
+#### 13. 困獸 ⭐⭐⭐⭐
+**需求**：雷鳴刀 / 破陣槍（裂石 - 威能）
+
+**效果**：
+- 生命值低於30%時，受到傷害觸發**困獸之鬥**
+- 生成吸收最多**30%最大生命值**的護盾
+- 持續時間：4秒
+- 冷卻時間：300秒（5分鐘）
+
+**用途**：坦克緊急護盾
 
 ---
 
-#### 4. Thunderous Bloom ⭐⭐⭐
-**Effect**: Grants damage bonus to next heavy attack or airborne heavy attack after moving significant distance within short duration
+## 鳴鐘路線內功
+
+### 鳴鐘 - 暗影（謀略劍 / 撼天槍）
+
+#### 1. 適應之鋼 ⭐⭐⭐
+**效果**：根據當前刀劍武器獲得武學效果
 
 ---
 
-### Skillbind - Deluge (Panacea Fan / Soulshade Umbrella)
-
-#### 1. Esoteric Revival ⭐⭐⭐⭐⭐
-**Effect**: Increases healing of Panacea Fan's Perception Skill **Resurrection** by **50%** on revived target
-
-**Use**: Healer builds
-
----
-
-#### 2. Mending Loom ⭐⭐⭐⭐
-**Effect**:
-- Soulshade Umbrella's Special Skill **Thousand Echoes** restores **Dew** on activation
-- Consuming certain amounts of Dew heals caster
+#### 2. 洞察之擊 ⭐⭐⭐⭐
+**效果**：
+- 造成**契合傷害**時提升：
+  - 看穿敵人攻擊的能力
+  - 契合傷害
+  - 降低受到傷害的機率
 
 ---
 
-#### 3. Restoring Blossom ⭐⭐⭐⭐
-**Effect**:
-- Dealing **Critical healing** applies 1 stack of **Nurturing** for 3s
-- Increases healing received by **2%**
-- Stacks up to **3 times**
-
-**Use**: Healer builds
-
----
-
-#### 4. Royal Remedy ⭐⭐⭐⭐
-**Effect**:
-- Water Entity from Panacea Fan's Martial Art Skill **Mistbound Aid**:
-  - Deals increased healing
-  - Restores bonus Dewdrops
-
-**Use**: Healer builds
+#### 3. 劍氣長河 ⭐⭐⭐⭐
+**效果**：
+- 施放謀略劍的武學技能、特殊技能或蓄力技能後：
+  - 可在結束階段施放**橫風斬**
+  - 釋放後續攻擊
+  - 如果目標有最大層數流血，造成高額**流血傷害**
 
 ---
 
-## Bamboocut Path Inner Ways
-
-### Bamboocut - Wind (Infernal Twinblades / Mortal Rope Dart)
-
-#### 1. Breaking Point ⭐⭐⭐⭐
-**Effect**:
-- Dealing **Critical Damage** to **Exhausted Enemies** grants 1 stack of **Disintegration**
-- Each stack increases:
-  - External Penetration
-  - Critical Damage Bonus
-- Max 3 stacks, lasts 3 seconds
+#### 4. 野火星火 ⭐⭐⭐
+**效果**：每次消耗耐力時可**部分返還**耐力
 
 ---
 
-#### 2. Echoes of Oblivion ⭐⭐⭐⭐
-**Effect**:
-- Infernal Twinblades normal Light Attack applies **Malevolent Mark** stacks
-- In **Blazing Wrath** state, Light Attacks apply **Bitter Fate** stacks
-- Attacking marked targets:
-  - Ignores 10% external Defense
-  - Ignores 10% Bamboocut Resistance
+#### 5. 逐狼之藝 ⭐⭐⭐⭐⭐
+**解鎖**：在撼天槍聖地執行偷師
+
+**效果**：
+- 撼天槍的絕技**醒酒愁**降低連招數量需求
+- 對流血首領的每次命中都有機率獲得額外連招數
 
 ---
 
-#### 3. Riptide Reflex ⭐⭐⭐⭐
-**Effect**:
-- Hitting Enemies with **Control Skills** reduces Cooldown of current Martial Arts Skill
-- Cooldown: 10 seconds
+### 鳴鐘 - 華彩（無名劍 / 無名槍）
+
+#### 1. 戰歌 ⭐⭐⭐⭐
+**效果**：對所有首領的**蓄力技能傷害**提高**10%**
+
+**用途**：首領戰
 
 ---
 
-#### 4. Vendetta ⭐⭐⭐
-**Effect**:
-- Rope Blade extends duration of **Bounty Order**
-- Additionally restores **Grace Tokens**
+#### 2. 閃避蓄力 ⭐⭐⭐
+**效果**：完美閃避後，有機率**返還消耗的耐力**
 
 ---
 
-## Strategy & Build Recommendations
-
-### Universal Must-Haves
-
-**For All Builds**:
-- **Morale Chant** - Universal damage/healing increase
-- **Seasonal Edge** - Flexible stat boost
-- **Divine Roulette** - Deflection reward
-
-**For Survival**:
-- **Evening Snow** - Emergency healing
-- **Trapped Beast** - Emergency shield
-
-**For Stealth**:
-- **Shadow Assault** - Essential for Touch of Death builds
+#### 3. 山之威力 ⭐⭐⭐
+**效果**：提高無名槍武學技能**根深沉默**的耐力消耗降低效果
 
 ---
 
-### Tank Builds (Stonesplit Path)
-
-**Priority Inner Ways**:
-1. **Rock Solid** - Aggro and damage reduction
-2. **Art of Resistance** - Shield duration
-3. **Trapped Beast** - Emergency shield
-4. **Exquisite Scenery** - Counterattack and Battle Will
-
----
-
-### DPS Builds
-
-**For Boss Damage**:
-1. **Battle Anthem** - +10% vs bosses
-2. **Sword Morph** - Massive charged damage
-3. **Breaking Point** - Stacking damage bonus
-4. **Fivefold Bleed** - DOT damage
-
-**For Crit Builds**:
-- **Divine Roulette** - Guaranteed crits
-- **Breaking Point** - Crit damage bonus
+#### 4. 劍氣化形 ⭐⭐⭐⭐⭐
+**效果**：
+- 當無名劍的蓄力技能**凡格蘭劍**帶氣盾蓄力時：
+  - 在第二蓄力階段釋放多個額外劍氣攻擊
+  - 可以消耗額外耐力來提高傷害
+  - 每點耐力：傷害+1%，最高**20%**
 
 ---
 
-### Healer Builds (Skillbind - Deluge)
+## 裂石路線內功
 
-**Essential Inner Ways**:
-1. **Esoteric Revival** - 50% more resurrection healing
-2. **Royal Remedy** - Enhanced Water Entity healing
-3. **Restoring Blossom** - Self-healing from crits
-4. **Mending Loom** - Dew restoration and healing
+### 裂石 - 威能（雷鳴刀 / 破陣槍）
 
----
-
-### Mobility Builds
-
-**Priority**:
-- **Wind Beneath Wings** - Movement speed, HP restore
-- **Evasive Charge** - Stamina refunds
-- **Wildfire Spark** - Stamina refunds
+#### 1. 抗性之藝 ⭐⭐⭐⭐
+**效果**：延長**生命護盾**的持續時間以及來源技能的額外效果
 
 ---
 
-## Tips for Players
-
-1. **Choose carefully** - Only 4 slots, so synergy matters
-2. **Match your weapon** - Don't waste slots on incompatible Inner Ways
-3. **Prioritize Universal** early if weapon path unclear
-4. **Save Vintage Bookmarks** for high-priority upgrades
-5. **Use 4 free Conversions wisely** each season
-6. **Focus on one Path** initially (easier to upgrade)
-7. **Tank = Stonesplit, Healer = Skillbind-Deluge, DPS = flexible**
-8. **Buy weekly Tomes** from shop for steady progression
-9. **Complete Sanctums** for powerful exclusive Inner Ways
-10. **Shadow Assault is mandatory** for stealth builds
+#### 2. 絕美風景 ⭐⭐⭐⭐
+**效果**：
+- 使用**堅毅劈砍**（雷鳴刀）成功防禦時：
+  - 啟動特殊反擊
+  - 按洞察技能或重擊可直接使用第一階段蓄力重擊（無需蓄力）
+  - 冷卻時間：10秒
+- 用變招連擊命中目標恢復**1格戰意**
 
 ---
 
-## Related Systems
+#### 3. 堅如磐石 ⭐⭐⭐⭐
+**效果**：
+- 提高破陣槍的**風暴咆哮**在嘲諷後的傷害減免
+- 啟動時：
+  - 降低所有造成的傷害
+  - 提高產生的仇恨
 
-- **Martial Arts**: Inner Ways enhance specific Martial Arts
-- **Weapons**: Must match weapon to Inner Way path
-- **Paths**: Character build identity (Stonesplit, Bellstrike, etc.)
-- **Tips System**: Upgrade materials for Inner Ways
-- **Sanctums**: Special locations for rare Inner Way unlocks
+**用途**：坦克仇恨管理
+
+---
+
+## 制技路線內功
+
+### 制技 - 翠玉（墨扇 / 九折傘）
+
+#### 1. 花雨齊發 ⭐⭐⭐⭐
+**效果**：
+- 九折傘的技能**春愁**可蓄力至**2層**
+- 命中敵人提高**投射物技能傷害**
+
+---
+
+#### 2. 飛葫 ⭐⭐⭐
+**效果**：
+- 墨扇的技能**山色空濛**獲得**2次使用次數**
+- 冷卻時間增加（權衡）
+
+---
+
+#### 3. 摘星 ⭐⭐⭐⭐
+**效果**：對敵人造成**浮空**狀態後獲得**外功攻擊加成**
+
+---
+
+#### 4. 雷鳴綻放 ⭐⭐⭐
+**效果**：短時間內移動顯著距離後，為下一次重擊或浮空重擊提供傷害加成
+
+---
+
+### 制技 - 洪流（靈藥扇 / 魂影傘）
+
+#### 1. 玄妙重生 ⭐⭐⭐⭐⭐
+**效果**：靈藥扇洞察技能**起死回生**對復活目標的治療提高**50%**
+
+**用途**：治療流派
+
+---
+
+#### 2. 織補之網 ⭐⭐⭐⭐
+**效果**：
+- 魂影傘的特殊技能**千聲回響**啟動時恢復**露水**
+- 消耗一定量的露水治療施法者
+
+---
+
+#### 3. 恢復之花 ⭐⭐⭐⭐
+**效果**：
+- 造成**爆擊治療**時施加1層**滋養**效果，持續3秒
+- 受到的治療提高**2%**
+- 最多疊加**3層**
+
+**用途**：治療流派
+
+---
+
+#### 4. 王者良藥 ⭐⭐⭐⭐
+**效果**：
+- 靈藥扇武學技能**雲霧縹緲**的水靈：
+  - 提供更高治療
+  - 恢復額外露珠
+
+**用途**：治療流派
+
+---
+
+## 斬竹路線內功
+
+### 斬竹 - 疾風（焚獄雙刀 / 索命繩鏢）
+
+#### 1. 破碎點 ⭐⭐⭐⭐
+**效果**：
+- 對**疲憊敵人**造成**爆擊傷害**時獲得1層**瓦解**
+- 每層提升：
+  - 外功穿透
+  - 爆擊傷害加成
+- 最多3層，持續3秒
+
+---
+
+#### 2. 遺忘迴響 ⭐⭐⭐⭐
+**效果**：
+- 焚獄雙刀普通輕攻擊施加**惡意標記**層數
+- 在**燃燒怒火**狀態下，輕攻擊施加**苦命**層數
+- 攻擊標記目標：
+  - 無視10%外功防禦
+  - 無視10%斬竹抗性
+
+---
+
+#### 3. 激流反射 ⭐⭐⭐⭐
+**效果**：
+- 用**控制技能**命中敵人時降低當前武學技能的冷卻時間
+- 冷卻時間：10秒
+
+---
+
+#### 4. 復仇 ⭐⭐⭐
+**效果**：
+- 繩鏢延長**懸賞令**的持續時間
+- 額外恢復**恩澤標記**
+
+---
+
+## 策略與流派建議
+
+### 通用必備
+
+**所有流派**：
+- **戰意鼓舞** - 通用傷害/治療提升
+- **四時之刃** - 靈活屬性加成
+- **神機百態** - 格擋獎勵
+
+**生存**：
+- **暮雪** - 緊急治療
+- **困獸** - 緊急護盾
+
+**潛行**：
+- **影襲** - 一擊必殺流派必備
+
+---
+
+### 坦克流派（裂石路線）
+
+**優先內功**：
+1. **堅如磐石** - 仇恨和傷害減免
+2. **抗性之藝** - 護盾持續時間
+3. **困獸** - 緊急護盾
+4. **絕美風景** - 反擊和戰意
+
+---
+
+### DPS流派
+
+**首領傷害**：
+1. **戰歌** - 對首領+10%
+2. **劍氣化形** - 大量蓄力傷害
+3. **破碎點** - 疊加傷害加成
+4. **五重流血** - 持續傷害
+
+**爆擊流派**：
+- **神機百態** - 保證爆擊
+- **破碎點** - 爆擊傷害加成
+
+---
+
+### 治療流派（制技 - 洪流）
+
+**必備內功**：
+1. **玄妙重生** - 復活治療+50%
+2. **王者良藥** - 強化水靈治療
+3. **恢復之花** - 爆擊自我治療
+4. **織補之網** - 露水恢復和治療
+
+---
+
+### 機動流派
+
+**優先**：
+- **迎風展翅** - 移動速度，生命值恢復
+- **閃避蓄力** - 耐力返還
+- **野火星火** - 耐力返還
+
+---
+
+## 給玩家的提示
+
+1. **謹慎選擇** - 只有4個槽位，協同效應很重要
+2. **匹配武器** - 不要浪費槽位裝備不相容的內功
+3. **武器路線不明確時優先選擇通用**內功
+4. **保存古籍書籤**用於高優先級升級
+5. **明智使用每季4次免費轉換**
+6. **初期專注於一條路線**（更容易升級）
+7. **坦克 = 裂石，治療 = 制技-洪流，DPS = 靈活**
+8. **每週從商店購買秘笈**以穩定進度
+9. **完成聖地**獲得強大專屬內功
+10. **影襲是潛行流派的必備**內功
+
+---
+
+## 相關系統
+
+- **武學**：內功強化特定武學
+- **武器**：必須匹配武器與內功路線
+- **路線**：角色流派身份（裂石、鳴鐘等）
+- **心得系統**：內功的升級材料
+- **聖地**：稀有內功解鎖的特殊地點
 `;

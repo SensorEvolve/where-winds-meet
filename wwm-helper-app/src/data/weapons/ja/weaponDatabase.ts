@@ -3,71 +3,70 @@ import { Weapon } from "../../../types/weapons";
 export const weaponDatabase: Weapon[] = [
   {
     id: "heavenquaker-spear",
-    name: "Heavenquaker Spear",
-    type: "Spear",
-    path: "Bellstrike - Umbra",
+    name: "ヘブンクエーカー・スピア",
+    type: "Spear", // Must remain English
+    path: "Bellstrike - Umbra", // Must remain English
     image: require("../../../../assets/martial_art_weapons/heavenquaker_spear.png"),
     description:
-      "A Martial Arts Weapon that focuses on inflicting Bleeding Damage to drain enemies' HP. The Heavenquaker Spear allows you to inflict Bleed very quickly, providing significant AoE Damage against hordes of enemies.",
-    playstyle:
-      "Bleed-focused DPS with sustained damage over time and AoE capabilities",
+      "出血ダメージを与えて敵のHPを削ることに特化した武学武器です。ヘブンクエーカー・スピアは素早く出血を付与することができ、敵の群れに対して強力な範囲（AoE）ダメージを与えます。",
+    playstyle: "持続的なダメージと範囲攻撃能力を持つ、出血重視のDPS",
 
     howToGet: {
       method: "Skill Theft",
-      location: "Heavenquaker Spear Sanctum in Qinghe Region",
+      location: "清河エリア（Qinghe Region）のヘブンクエーカー・スピアの聖域",
       level: 8,
       details:
-        'Complete "Skill Theft: Unearned Lesson" quest from Qiu Yuehai at Peace Bell Tower. Requires Dragon Key to access the Sanctum.',
+        "平和の鐘楼にいるQiu Yuehaiからクエスト「Skill Theft: Unearned Lesson」を完了する。聖域へのアクセスには龍の鍵（Dragon Key）が必要です。",
     },
 
     stats: {
-      strengths: ["DPS", "Difficulty", "Mobility"],
-      weaknesses: ["Support", "Survivability", "Control"],
+      strengths: ["DPS", "Difficulty", "Mobility"], // Kept English for type safety
+      weaknesses: ["Support", "Survivability", "Control"], // Kept English for type safety
     },
 
     skills: [
       {
-        name: "Sober Sorrow",
-        type: "Martial Art",
+        name: "Sober Sorrow（醒めた悲哀）",
+        type: "Martial Art", // Must remain English
         description:
-          "Spin the long spear with full strength, performing six consecutive sweeping attacks against nearby enemies and dealing massive damage. After the skill ends, gain buffs for 12 seconds based on combo hits: Droplet (<5 hits), Spring Surge (5+ hits), or River Flow (10+ hits).",
+          "長槍を全力で回転させ、近くの敵に対して6回連続のなぎ払い攻撃を行い、大ダメージを与えます。スキル終了後、コンボヒット数に基づいて12秒間バフを獲得します：雫（5ヒット未満）、春の奔流（5ヒット以上）、または大河の流れ（10ヒット以上）。",
         recovery: "12.0s",
         key: "Q",
       },
       {
-        name: "Sweep All",
-        type: "Special",
+        name: "Sweep All（一掃）",
+        type: "Special", // Must remain English
         description:
-          "Swing the spear to deal damage to nearby enemies. Enhanced based on current buff: Droplet (moderate damage), Spring Surge (increased damage/range, reduces defense), River Flow (further increased damage/range, reduces defense, applies Bleed).",
+          "槍を振り回し、近くの敵にダメージを与えます。現在のバフに基づいて強化されます：雫（中ダメージ）、春の奔流（ダメージ/範囲増加、防御力低下）、大河の流れ（ダメージ/範囲さらに増加、防御力低下、出血付与）。",
         recovery: "1.0s",
         key: "~",
       },
       {
-        name: "Spear - Light Attack",
-        type: "Light Attack",
-        description: "Swing a long spear to perform up to four light attacks.",
+        name: "槍 - 軽攻撃",
+        type: "Light Attack", // Must remain English
+        description: "長槍を振るい、最大4回の軽攻撃を行います。",
         recovery: "0.2s",
         key: "Left Click",
       },
       {
-        name: "Drifting Thrust",
-        type: "Charged",
+        name: "Drifting Thrust（漂流突き）",
+        type: "Charged", // Must remain English
         description:
-          "Consume Endurance to charge, then unleash a flurry of thrust with a long spear, dealing multiple hits to enemies ahead. Grants Fortitude (immune to all but CC when hit) during the skill.",
+          "スタミナ（Endurance）を消費してチャージし、長槍による突きの連打を放ち、前方の敵に多段ヒットを与えます。スキル中は「不屈（Fortitude）」（CC以外の攻撃に対して無敵）を獲得します。",
         recovery: "0.2s",
         key: "Hold R",
       },
       {
-        name: "Spear - Heavy Attack",
-        type: "Heavy Attack",
-        description: "Swing a long spear to perform up to three heavy attacks.",
+        name: "槍 - 重攻撃",
+        type: "Heavy Attack", // Must remain English
+        description: "長槍を振るい、最大3回の重攻撃を行います。",
         recovery: "0.2s",
         key: "R",
       },
       {
-        name: "Spear - Conversion",
-        type: "Dual-Weapon",
-        description: "Switch to spear and perform a sweeping attack.",
+        name: "槍 - 切り替え",
+        type: "Dual-Weapon", // Must remain English
+        description: "槍に切り替えてなぎ払い攻撃を行います。",
         recovery: "3.0s",
         key: "TAB",
       },
@@ -75,39 +74,38 @@ export const weaponDatabase: Weapon[] = [
 
     internalArts: [
       {
-        name: "Sword Horizon",
+        name: "Sword Horizon（剣の地平）",
         type: "Attack/Martial Arts/Pursuit",
         description:
-          "After casting Strategic Sword's Martial Arts Skill, Special Skill, or Charged Skill, press at perfect timing to cast Crisscrossing Sword and unleash follow-up attacks. If target has 5 stacks of bleed, remove all bleed stacks and deal high Bleed damage once.",
+          "ストラテジック・ソードの武学スキル、特殊スキル、またはチャージスキルを発動した後、完璧なタイミングで入力すると「交差する剣（Crisscrossing Sword）」を発動し、追撃を行います。ターゲットが出血スタックを5つ持っている場合、すべての出血スタックを取り除き、一度に高い出血ダメージを与えます。",
       },
       {
-        name: "Wolfchaser's Art",
+        name: "Wolfchaser's Art（狼追いの術）",
         type: "Martial Arts/Buff",
         description:
-          "Reduces required combo number to gain Sober Sorrow buff from 5/10 to 4/8. Each time Sober Sorrow hits a boss with Bleed effect, 20-100% chance to increase combo count by 1 based on Bleed stacks.",
+          "「Sober Sorrow」のバフを得るために必要なコンボ数を5/10から4/8に減少させます。「Sober Sorrow」が出血状態のボスにヒットするたびに、出血スタック数に基づいて20-100%の確率でコンボカウントが1増加します。",
       },
       {
-        name: "Adaptive Steel",
+        name: "Adaptive Steel（適応する鋼）",
         type: "Attack/Support/Buff",
-        description:
-          "Spear: Attacks ignore 12.5% of target's Physical Defense.",
+        description: "槍：攻撃はターゲットの物理防御の12.5%を無視します。",
       },
       {
-        name: "Insightful Strike",
+        name: "Insightful Strike（洞察の一撃）",
         type: "Attack/Damage Boost/DMG Reduction",
         description:
-          "Dealing Affinity DMG generates Focus. When Focus is full, enter Concentration state for 10s (increases Affinity DMG by 10%, 5% chance to reduce damage taken by 40% upon hit).",
+          "親和性（Affinity）ダメージを与えるとフォーカス（Focus）が生成されます。フォーカスが満タンになると、10秒間「集中（Concentration）」状態になります（親和性ダメージが10%増加し、被弾時に5%の確率で受けるダメージを40%軽減します）。",
       },
     ],
 
     gearSets: [
       {
-        name: "Hawkwing Set",
+        name: "ホークウィング・セット",
         pieces: 4,
         bonuses: {
-          twoSet: "Affinity Rate +0.1%",
+          twoSet: "親和性率 +0.1%",
           fourSet:
-            "When any damage triggers Affinity, gain Hawkwing: increases Physical Attack by 2% for 5s, stacking up to 5 times.",
+            "いずれかのダメージで親和性が発動した際、「ホークウィング」を獲得：物理攻撃力が5秒間2%増加し、最大5回までスタックします。",
         },
         howToObtain: [
           "Campaign - Still Shore",
@@ -117,12 +115,12 @@ export const weaponDatabase: Weapon[] = [
         ],
       },
       {
-        name: "Eaglerise Set",
+        name: "イーグルライズ・セット",
         pieces: 4,
         bonuses: {
-          twoSet: "Physical Defense +1",
+          twoSet: "物理防御 +1",
           fourSet:
-            "Dealing DoT or healing grants Eaglerise: Reduces damage taken by 1.2% for 10s (max 5 stacks). At max stacks, Eagle Guard reduces next damage by 90% (halved for boss damage). 30s cooldown.",
+            "継続ダメージ（DoT）を与えるか回復を行うと、「イーグルライズ」を獲得：受けるダメージを10秒間1.2%軽減し、最大5回までスタックします。最大スタック時、「イーグルガード」により次の被ダメージを90%軽減します（ボスからのダメージの場合は半減）。クールダウン30秒。",
         },
         howToObtain: [
           "Campaign - Still Shore",
@@ -136,79 +134,80 @@ export const weaponDatabase: Weapon[] = [
 
     talents: [
       {
-        name: "Damage Over Time Enhancement",
+        name: "継続ダメージ強化",
         unlockMethod: "Unlocked after learning Martial Arts",
         description:
-          "Hitting a target with Charged Skill increases their damage-over-time taken.",
+          "ターゲットにチャージスキルを当てると、そのターゲットが受ける継続ダメージが増加します。",
       },
       {
-        name: "Physical Attack Increase",
+        name: "物理攻撃力増加",
         unlockMethod: "Complete Breakthrough to Tier 1",
-        description: "Power can increase Max Physical Attack.",
+        description:
+          "力（Power）によって最大物理攻撃力を増加させることができます。",
       },
       {
-        name: "Damage Over Time Enhancement II",
+        name: "継続ダメージ強化 II",
         unlockMethod: "Complete Breakthrough to Tier 2",
         description:
-          "When calculating category damage, further increases Affinity DMG.",
+          "カテゴリスダメージ計算時、親和性ダメージをさらに増加させます。",
       },
       {
-        name: "Bellstrike Increase",
+        name: "ベルストライク増加",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "Increases Bellstrike (Attribute) Attack. Also increases Bellstrike Penetration based on Max Bellstrike Attack.",
+          "ベルストライク（属性）攻撃力を増加させます。また、最大ベルストライク攻撃力に基づいてベルストライク貫通も増加させます。",
       },
       {
-        name: "Attribute Attack Damage Enhancement",
+        name: "属性攻撃ダメージ強化",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "All skills deal damage based on Attribute Attack, while Bellstrike damage gains a further increase.",
+          "すべてのスキルは属性攻撃力に基づいてダメージを与え、ベルストライクダメージはさらに増加します。",
       },
     ],
 
     effects: [
       {
-        name: "Bleed",
+        name: "出血（Bleed）",
         description:
-          "Deals continuous HP damage over time, stacking up to 5 layers.",
+          "時間の経過とともに継続的なHPダメージを与え、最大5層までスタックします。",
       },
       {
-        name: "Droplet",
-        description: "Increase HP damage dealt by 10%.",
+        name: "雫（Droplet）",
+        description: "与えるHPダメージが10%増加します。",
       },
       {
-        name: "Spring Surge",
-        description: "Increase HP damage dealt by 15%.",
+        name: "春の奔流（Spring Surge）",
+        description: "与えるHPダメージが15%増加します。",
       },
       {
-        name: "River Flow",
-        description: "Increase HP damage dealt by 20%.",
+        name: "大河の流れ（River Flow）",
+        description: "与えるHPダメージが20%増加します。",
       },
     ],
 
     notes: [
-      "Gear Tuning Priorities: Min Physical Attack > Max Physical Attack > Affinity Rate",
-      "Works excellently with Strategic Sword for bleed synergy",
-      "Requires Dragon Key to access Sanctum",
+      "装備調整の優先順位：最小物理攻撃力 > 最大物理攻撃力 > 親和性率",
+      "出血シナジーのため、ストラテジック・ソードとの相性が抜群です",
+      "聖域へのアクセスには龍の鍵が必要です",
     ],
   },
 
   {
     id: "strategic-sword",
-    name: "Strategic Sword",
-    type: "Sword",
-    path: "Bellstrike - Umbra",
+    name: "ストラテジック・ソード",
+    type: "Sword", // Must remain English
+    path: "Bellstrike - Umbra", // Must remain English
     image: require("../../../../assets/martial_art_weapons/strategic_sword.png"),
     description:
-      "The second type of Martial Art you can opt for when using a Sword and a Spear. Rather than just inflicting pure damage, this Martial Art focuses on inflicting Bleeding Damage to drain your enemies' HP. At the same time, you continue to damage them with simple attacks. This Martial Art is very flexible as it allows you to attack passively bigger enemies while you deal with the rest of them, or just fully focus on killing individual targets one by one. Also boasts a lot of mobility but requires large amounts of Endurance to keep the pace up.",
+      "剣と槍を使用する際に選択できる2つ目の武学タイプです。純粋なダメージを与えるだけでなく、この武学は出血ダメージを与えて敵のHPを削ることに重点を置いています。同時に、シンプルな攻撃でダメージを与え続けることもできます。非常に柔軟な武学であり、大型の敵を受動的に攻撃しながら残りの敵に対処したり、個々のターゲットを各個撃破することに集中したりできます。また、高い機動力を誇りますが、ペースを維持するには大量のスタミナ（Endurance）が必要です。",
     playstyle:
-      "Bleed-focused DPS with sustained damage over time, high mobility, and flexible target management - requires high Endurance management",
+      "持続ダメージ、高機動力、柔軟なターゲット管理を持つ出血重視のDPS - 高度なスタミナ管理が必要",
 
     howToGet: {
       method: "Skill Theft",
-      location: "Strategic Sword Sanctum south of Qinghe Region",
+      location: "清河エリア（Qinghe Region）南部のストラテジック・ソードの聖域",
       details:
-        "Requires Dragon Key. Fast-travel to Back Mountain Teleporter. Enter sanctum via Loong Herm Dragon Pillar. Navigate through militiamen guards, loot 2 chests, head to eastern side, go up ramp to second floor, use blue circle for Skill Theft.",
+        "龍の鍵が必要です。裏山のテレポーターへファストトラベルします。Loong Herm Dragon Pillarを経由して聖域に入ります。民兵の警備を抜け、2つの宝箱を略奪し、東側へ向かい、スロープを上がって2階へ行き、青い円を使って技の奪取を行います。",
     },
 
     stats: {
@@ -218,47 +217,47 @@ export const weaponDatabase: Weapon[] = [
 
     skills: [
       {
-        name: "Inner Track Slash",
+        name: "Inner Track Slash（内なる斬撃）",
         type: "Martial Art",
         description:
-          "Dash to an enemy and perform a quick slash, dealing light damage and applying Bleed. During the follow-through, press again to deliver four consecutive slashes to enemies in front, applying Bleed.",
+          "敵にダッシュして素早い斬撃を行い、軽ダメージを与えて出血を付与します。フォロースルー中に再度押すと、前方の敵に4回連続の斬撃を放ち、出血を付与します。",
         recovery: "12.0s",
         key: "Q",
       },
       {
-        name: "Inner Balance Strike III",
+        name: "Inner Balance Strike III（内なる均衡の一撃 III）",
         type: "Special",
         description:
-          "Consume Endurance to evade backward, creating distance, then strike enemies in your original location multiple times. If a target has 5 stacks of Bleed, immediately deal high damage and remove the Bleed stacks. This effect can trigger only once per use on the same target. Each hit applies Bleed.",
+          "スタミナを消費して後方に回避して距離を取り、元の位置にいる敵を複数回攻撃します。ターゲットが出血スタックを5つ持っている場合、即座に大ダメージを与え、出血スタックを取り除きます。この効果は同じターゲットに対して1回の使用につき一度だけ発動します。各ヒットで出血を付与します。",
         recovery: "1.0s",
         key: "~",
       },
       {
-        name: "Sword - Light Attack",
+        name: "剣 - 軽攻撃",
         type: "Light Attack",
-        description: "Perform up to four light attacks with a Longsword.",
+        description: "長剣で最大4回の軽攻撃を行います。",
         recovery: "0.6s",
         key: "Left Click",
       },
       {
-        name: "Second Track Slash",
+        name: "Second Track Slash（二の太刀）",
         type: "Charged",
         description:
-          "Consume Endurance to charge up and dash forward rapidly, dealing massive damage to enemies along the path. While dashing, you become invisible and immune to damage, applying Bleed with each hit.",
+          "スタミナを消費してチャージし、前方に急速ダッシュして、経路上の敵に大ダメージを与えます。ダッシュ中は不可視状態となりダメージを受けず、ヒットごとに出血を付与します。",
         recovery: "1.0s",
         key: "Hold R",
       },
       {
-        name: "Sword - Heavy Attack",
+        name: "剣 - 重攻撃",
         type: "Heavy Attack",
-        description: "Perform up to three heavy attacks with a Longsword.",
+        description: "長剣で最大3回の重攻撃を行います。",
         recovery: "0.9s",
         key: "R",
       },
       {
-        name: "Sword - Conversion",
+        name: "剣 - 切り替え",
         type: "Dual-Weapon",
-        description: "Switch to a Sword and slash.",
+        description: "剣に切り替えて斬りつけます。",
         recovery: "3.0s",
         key: "TAB",
       },
@@ -266,39 +265,39 @@ export const weaponDatabase: Weapon[] = [
 
     internalArts: [
       {
-        name: "Sword Horizon",
+        name: "Sword Horizon（剣の地平）",
         type: "Attack/Martial Arts/Pursuit",
         description:
-          "After casting the Strategic Sword's Martial Arts Skill, Special Skill, or Charged Skill, press the skill button at the perfect timing during the ending phase to cast Crisscrossing Sword and unleash follow-up attacks. If the target has 5 stacks of bleed, remove all bleed stacks and deal high Bleed damage once.",
+          "ストラテジック・ソードの武学スキル、特殊スキル、またはチャージスキルを発動した後、終了フェーズ中の完璧なタイミングでスキルボタンを押すと「交差する剣（Crisscrossing Sword）」を発動し、追撃を行います。ターゲットが出血スタックを5つ持っている場合、すべての出血スタックを取り除き、一度に高い出血ダメージを与えます。",
       },
       {
-        name: "Wolfchaser's Art",
+        name: "Wolfchaser's Art（狼追いの術）",
         type: "Martial Arts/Buff",
         description:
-          "Reduces the required combo number to gain Heavenquaker Spear's Martial Art Skill, Sober Sorrow, buff from 5/10 to 4/8. Each time Sober Sorrow hits a boss with Bleed effect from you, there is a 20%/40%/60%/80%/100% chance to increase the combo count by 1 based on the number of Bleed stacks.",
+          "ヘブンクエーカー・スピアの武学スキル「Sober Sorrow」のバフを得るために必要なコンボ数を5/10から4/8に減少させます。自身の出血効果を受けたボスに「Sober Sorrow」がヒットするたびに、出血スタック数に基づいて20%/40%/60%/80%/100%の確率でコンボカウントが1増加します。",
       },
       {
-        name: "Adaptive Steel",
+        name: "Adaptive Steel（適応する鋼）",
         type: "Attack/Support/Buff",
         description:
-          "Gain a Martial Skill based on the blade weapon you are using: Sword: 10% chance to apply a stack of Bleed to the target when dealing Affinity DMG. Spear: Attacks ignore 12.5% of target's Physical Defense. Dual Blades: After a perfect dodge, increase the next Martial Art Skill's damage within 8 seconds by 25%. Mo Blade: Increases the Critical DMG of Charged Skill and Parry Counter Skills by 20%. The Martial Skill of Sword has a 10-second Cooldown, while Dual Blades' Martial Skill has a cooldown of 25 seconds.",
+          "使用している刃の武器に基づいて武学スキルを獲得します。剣：親和性ダメージを与えた際、10%の確率でターゲットに出血スタックを1つ付与。槍：攻撃はターゲットの物理防御の12.5%を無視。双剣：パーフェクトドッジ後、8秒以内の次の武学スキルのダメージを25%増加。陌刀（Mo Blade）：チャージスキルとパリィカウンタースキルのクリティカルダメージを20%増加。剣の武学スキルは10秒のクールダウンがあり、双剣の武学スキルは25秒のクールダウンがあります。",
       },
       {
-        name: "Insightful Strike",
+        name: "Insightful Strike（洞察の一撃）",
         type: "Attack/Damage Boost/DMG Reduction",
         description:
-          "Dealing Affinity DMG generates Focus. When Focus is full, enter the Concentration state for 10 seconds. Concentration: Increases Affinity DMG by 10%. Upon hit, there's a 5% chance to reduce damage taken by 40%.",
+          "親和性（Affinity）ダメージを与えるとフォーカス（Focus）が生成されます。フォーカスが満タンになると、10秒間「集中（Concentration）」状態になります。集中：親和性ダメージが10%増加します。被弾時に5%の確率で受けるダメージを40%軽減します。",
       },
     ],
 
     gearSets: [
       {
-        name: "Hawkwing Set",
+        name: "ホークウィング・セット",
         pieces: 4,
         bonuses: {
-          twoSet: "Affinity Rate +0.1%",
+          twoSet: "親和性率 +0.1%",
           fourSet:
-            "When any of your damage triggers Affinity, gain Hawkwing: increases Physical Attack by 2% for 5 seconds, stacking up to 5 times.",
+            "いずれかのダメージで親和性が発動した際、「ホークウィング」を獲得：物理攻撃力が5秒間2%増加し、最大5回までスタックします。",
         },
         howToObtain: [
           "Campaign - Still Shore",
@@ -308,12 +307,12 @@ export const weaponDatabase: Weapon[] = [
         ],
       },
       {
-        name: "Eaglerise Set",
+        name: "イーグルライズ・セット",
         pieces: 4,
         bonuses: {
-          twoSet: "Physical Defense +1",
+          twoSet: "物理防御 +1",
           fourSet:
-            "Dealing damage over time or healing grants 1 stack of Eaglerise: Reduces damage taken by 1.2% for 10 seconds, stacking up to 5 times. At max stacks, receives an Eagle Guard effect that reduces the next upcoming damage within 10 seconds by 90% (halved when this damage comes from a boss). This effect can only trigger once every 30 seconds.",
+            "継続ダメージ（DoT）を与えるか回復を行うと、「イーグルライズ」スタックを1つ獲得：受けるダメージを10秒間1.2%軽減し、最大5回までスタックします。最大スタック時、「イーグルガード」効果を受け取り、10秒以内に受ける次のダメージを90%軽減します（このダメージがボスからのものである場合は半減）。この効果は30秒ごとに一度だけ発動可能です。",
         },
         howToObtain: [
           "Campaign - Still Shore",
@@ -327,77 +326,76 @@ export const weaponDatabase: Weapon[] = [
 
     talents: [
       {
-        name: "Bleed Mechanism Enhancement",
+        name: "出血メカニズム強化",
         unlockMethod: "Unlocked after learning Martial Arts",
         description:
-          "Hitting an enemy affected by max Bleed stacks with certain skills can inflict high Bleed damage once.",
+          "最大出血スタックの影響下にある敵に特定のスキルを当てると、一度に高い出血ダメージを与えることができます。",
       },
       {
-        name: "Affinity Rate Upgrade",
+        name: "親和性率アップグレード",
         unlockMethod: "Complete Breakthrough to Tier 1",
-        description: "Power can increase Affinity Rate.",
+        description: "力（Power）によって親和性率を増加させることができます。",
       },
       {
-        name: "Bleed Affinity Enhancement",
+        name: "出血親和性強化",
         unlockMethod: "Complete Breakthrough to Tier 2",
-        description:
-          "When calculating Bleed damage, it further increases Affinity Rate.",
+        description: "出血ダメージ計算時、親和性率をさらに増加させます。",
       },
       {
-        name: "Bellstrike Increase",
+        name: "ベルストライク増加",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "Increases Bellstrike (Attribute) Attack. Also increases Bellstrike Penetration based on Max Bellstrike Attack.",
+          "ベルストライク（属性）攻撃力を増加させます。また、最大ベルストライク攻撃力に基づいてベルストライク貫通も増加させます。",
       },
       {
-        name: "Attribute Damage Enhancement",
+        name: "属性ダメージ強化",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "All skills deal damage based on Attribute Attack, while Bellstrike damage gains a further increase.",
+          "すべてのスキルは属性攻撃力に基づいてダメージを与え、ベルストライクダメージはさらに増加します。",
       },
     ],
 
     effects: [
       {
-        name: "Bleed",
+        name: "出血（Bleed）",
         description:
-          "Deals continuous HP damage over time, stacking up to 5 layers.",
+          "時間の経過とともに継続的なHPダメージを与え、最大5層までスタックします。",
       },
     ],
 
     notes: [
-      "Gear Tuning Priorities: Min Physical Attack > Max Physical Attack > Affinity Rate",
-      "Pairs excellently with Heavenquaker Spear - both share Bellstrike path",
-      "Focuses on Bleeding Damage to drain enemy HP over time",
-      "Very flexible - can passively attack bigger enemies while dealing with others",
-      "Can focus on eliminating individual targets one by one",
-      "High mobility for repositioning and kiting",
-      "Requires large amounts of Endurance to maintain pace",
-      "Second Track Slash grants invisibility and damage immunity while dashing",
-      "Inner Balance Strike III deals high damage when target has 5 Bleed stacks",
-      "Bleed stacks up to 5 layers for maximum damage",
-      "Synergizes with Heavenquaker Spear through Wolfchaser's Art and Sword Horizon",
-      "Requires Dragon Key to access Sanctum",
-      "Shares Hawkwing and Eaglerise gear sets with Heavenquaker Spear",
+      "装備調整の優先順位：最小物理攻撃力 > 最大物理攻撃力 > 親和性率",
+      "ヘブンクエーカー・スピアと非常に相性が良い（どちらもベルストライク・パスを共有）",
+      "敵のHPを時間経過で削る出血ダメージに特化",
+      "非常に柔軟 - 他の敵に対処しながら大型の敵を受動的に攻撃可能",
+      "個々のターゲットを各個撃破することに集中可能",
+      "再配置やカイティング（引き撃ち）のための高い機動力",
+      "ペースを維持するために大量のスタミナが必要",
+      "Second Track Slashはダッシュ中に不可視とダメージ免疫を付与",
+      "Inner Balance Strike IIIはターゲットが5出血スタックの時に大ダメージを与える",
+      "出血は最大5層までスタックしてダメージを最大化",
+      "Wolfchaser's ArtとSword Horizonを通じてヘブンクエーカー・スピアとシナジー効果あり",
+      "聖域へのアクセスには龍の鍵が必要",
+      "ヘブンクエーカー・スピアとホークウィングおよびイーグルライズ装備セットを共有",
     ],
   },
 
   {
     id: "panacea-fan",
-    name: "Panacea Fan",
+    name: "パナセア・ファン",
     type: "Fan",
     path: "Skillbind - Deluge",
     image: require("../../../../assets/martial_art_weapons/panacea_fan.png"),
     description:
-      "The support-oriented alternative to the fan, and the only weapon, alongside the Soulshade Umbrella, that can heal units. This weapon is all about supporting by providing heals and even being able to revive allies, which makes it strongly oriented to multiplayer, but it severely lacks DMG, as it's thought to be a weapon you use while sitting back on battles, only providing heals.",
+      "扇のサポート指向の代替武器であり、ソウルシェード・アンブレラと並んでユニットを回復できる唯一の武器です。この武器は回復の提供や味方の蘇生によるサポートが全てであり、マルチプレイに強く適していますが、ダメージ力には著しく欠けます。戦闘中は後方に位置し、回復の提供に専念する武器と考えられています。",
     playstyle:
-      "Support healer with burst and sustained healing, single-target and group recovery, revival abilities, and team damage buffs",
+      "バースト回復と持続回復、単体およびグループ回復、蘇生能力、チームダメージバフを持つサポートヒーラー",
 
     howToGet: {
       method: "Quest Reward, Skill Theft, or Join Sect",
-      location: "Silver Needle Sanctum in Qinghe Region",
+      location: "清河エリア（Qinghe Region）の銀針（Silver Needle）の聖域",
       details:
-        "Possible reward from Oddities - Mystery of Five Tones Encounter Quest in Qinghe, OR Skill Theft at Silver Needle Sanctum (requires Dragon Key), OR join Silver Needle Sect. For Sanctum: Enter with Dragon Key at Loong Dragon Pillar, navigate past militiamen using stealth, reach Sect Master and perform Skill Theft.",
+        "清河での「Oddities - Mystery of Five Tones」遭遇クエストの報酬、または銀針の聖域での技の奪取（龍の鍵が必要）、または銀針門派への加入で入手可能。聖域の場合：Loong Dragon Pillarで龍の鍵を使って入り、隠密を使って民兵を通り抜け、門派マスターに到達して技の奪取を行う。",
     },
 
     stats: {
@@ -407,56 +405,56 @@ export const weaponDatabase: Weapon[] = [
 
     skills: [
       {
-        name: "Cloudburst Healing",
+        name: "Cloudburst Healing（豪雨の癒し）",
         type: "Martial Art",
         description:
-          "Generates 20 points of Dewdrops when used. Summons a water clone at the target location that heals nearby allies once per second, restoring a small amount of HP. The spirit lasts for 7 seconds. If Dewdrops are full after using, the Sense Skill can be triggered.",
+          "使用時に露の雫（Dewdrops）を20ポイント生成します。ターゲット地点に水の分身を召喚し、近くの味方を毎秒1回回復させ、少量のHPを回復します。分身は7秒間持続します。使用後に露の雫が満タンの場合、センススキル（Sense Skill）を発動できます。",
         recovery: "20.0s",
         key: "Q",
       },
       {
-        name: "Endless Cloud",
+        name: "Endless Cloud（終わらぬ雲）",
         type: "Martial Art",
         description:
-          "Consume all stacks of Dewdrops to provide a large burst of healing to all allies within range. If Soulshade Umbrella is equipped and the Special Skill Echoing Grow is not on cooldown, it will be automatically triggered. (Sense Skill - triggers when Dewdrops are full)",
+          "露の雫のスタックをすべて消費し、範囲内のすべての味方に大きなバースト回復を提供します。ソウルシェード・アンブレラを装備しており、特殊スキル「Echoing Grow」がクールダウン中でない場合、自動的に発動されます。（センススキル - 露の雫が満タン時に発動）",
         recovery: "1.0s",
         key: "Q (when Dewdrops full)",
       },
       {
-        name: "Light Dust After Morning Rain",
+        name: "Light Dust After Morning Rain（朝雨後の光塵）",
         type: "Special",
         description:
-          "Swings the fan, releasing a stream of water, consuming 50 Dewdrops, applying a 6-second healing effect to yourself and the ally with the lowest HP in the party, restoring a moderate amount of HP. If a target is selected in the party panel, the effect is fixed on that target. In non-Duel gameplay, the healing effect applied to yourself is increased by 30%. If there are Fatally Wounded allies nearby and the Sense Skill is not on cooldown, it switches to the Sense Skill.",
+          "扇を振るって水流を放ち、露の雫を50消費して、自身とパーティ内で最もHPの低い味方に6秒間の回復効果を付与し、中程度のHPを回復します。パーティパネルでターゲットが選択されている場合、効果はそのターゲットに固定されます。決闘（Duel）以外のゲームプレイでは、自身に適用される回復効果が30%増加します。近くに重傷（Fatally Wounded）の味方がいてセンススキルがクールダウン中でない場合、センススキルに切り替わります。",
         recovery: "0.2s",
         key: "~",
       },
       {
-        name: "Resurrection",
+        name: "Resurrection（蘇生）",
         type: "Special",
         description:
-          "When there's a Fatally Wounded player in the party, use this skill, consuming Dewdrops, to allow them to fight again. If the selected teammate is Fatally Wounded, revive that teammate. If a non-selected teammate is Fatally Wounded, revives the nearest Fatally Wounded teammate. Can also quickly revive Fatally Wounded teammates via the party list. The more Dewdrops consumed, the more HP recovered after revival. After reviving a target, gain the Abundant Dew effect for 5 seconds. (Sense Skill - triggers when ally is Fatally Wounded)",
+          "パーティ内に重傷のプレイヤーがいる場合、このスキルを使用し露の雫を消費して、再び戦えるようにします。選択したチームメイトが重傷の場合、そのチームメイトを蘇生します。選択されていないチームメイトが重傷の場合、最も近い重傷のチームメイトを蘇生します。パーティリストから重傷のチームメイトを素早く蘇生することも可能です。露の雫を多く消費するほど、蘇生後のHP回復量が増加します。ターゲットを蘇生した後、5秒間「豊富な露（Abundant Dew）」効果を獲得します。（センススキル - 味方が重傷時に発動）",
         recovery: "0.2s",
         key: "~ (when ally Fatally Wounded)",
       },
       {
-        name: "Fourfold Inquiry",
+        name: "Fourfold Inquiry（四重の問い）",
         type: "Light Attack",
-        description: "Wield a fan to perform up to four Ranged Light Attacks.",
+        description: "扇を振るい、最大4回の遠距離軽攻撃を行います。",
         recovery: "0.2s",
         key: "Left Click",
       },
       {
-        name: "Emerald Dewtouch",
+        name: "Emerald Dewtouch（翠玉の露触）",
         type: "Healing",
         description:
-          "Restores a small amount of HP for yourself or an ally. Each segment restores 3, 5, and 12 Dewdrops for yourself. Prioritizes the target with the lowest HP percentage. If a target is selected in the party panel, restoration is fixed on that target.",
+          "自身または味方のHPを少量回復します。各セグメントで自身の露の雫を3、5、12回復します。HPの割合が最も低いターゲットを優先します。パーティパネルでターゲットが選択されている場合、回復はそのターゲットに固定されます。",
         key: "R",
       },
       {
-        name: "Fan - Conversion",
+        name: "扇 - 切り替え",
         type: "Dual-Weapon",
         description:
-          "Switch to a fan and swing it, restoring HP for yourself and one nearby ally over time.",
+          "扇に切り替えてそれを振るい、自身と近くの味方1人のHPを持続的に回復します。",
         recovery: "3.0s",
         key: "TAB",
       },
@@ -464,39 +462,39 @@ export const weaponDatabase: Weapon[] = [
 
     internalArts: [
       {
-        name: "Royal Remedy",
+        name: "Royal Remedy（王家の治療）",
         type: "Support/Martial Arts/Recover",
         description:
-          "Increases the healing effect of the water clone created by Panacea Fan's Martial Art Skill, Cloudburst Healing, by 10%. If you are within its range, gain 1 Dewdrop each time when receive healing over time.",
+          "パナセア・ファンの武学スキル「Cloudburst Healing」によって生成される水の分身の回復効果を10%増加させます。その範囲内にいる場合、持続回復を受けるたびに露の雫を1つ獲得します。",
       },
       {
-        name: "Restoring Blossom",
+        name: "Restoring Blossom（回復の開花）",
         type: "Support/Buff/Stacking",
         description:
-          "Dealing Critical Healing applies one stack of Nurturing for 3 seconds, increasing healing received by 2%, stacking up to 3 times.",
+          "クリティカル回復を行うと、「育成（Nurturing）」スタックを1つ、3秒間適用します。これにより受ける回復量が2%増加し、最大3回までスタックします。",
       },
       {
-        name: "Esoteric Revival",
+        name: "Esoteric Revival（秘儀の蘇生）",
         type: "Support/Buff/Recover",
         description:
-          "Increases the healing of Panacea Fan's Perception Skill, Resurrection, by 50% on the revived target.",
+          "パナセア・ファンの知覚スキル「Resurrection（蘇生）」による回復量を、蘇生されたターゲットに対して50%増加させます。",
       },
       {
-        name: "Mending Loom",
+        name: "Mending Loom（修復の織機）",
         type: "Support/Buff/Recover",
         description:
-          "Casting Soulshade Umbrella's Special Skill, Echoing Grow, restores 5 Dewdrops and additionally heals 10% of your Max HP for every 100 Dewdrops consumed. (when using Soulshade Umbrella as part of the Skillbind - Deluge Arsenal)",
+          "ソウルシェード・アンブレラの特殊スキル「Echoing Grow」を発動すると、露の雫を5回復し、消費した露の雫100ごとに自身の最大HPの10%を追加で回復します。（スキルバインド - デリュージの一部としてソウルシェード・アンブレラを使用している場合）",
       },
     ],
 
     gearSets: [
       {
-        name: "Ivorybloom Set",
+        name: "アイボリーブルーム・セット",
         pieces: 4,
         bonuses: {
           twoSet: "Critical Rate +0.1%",
           fourSet:
-            "At Max HP, there's a bonus 5% chance to deal Critical Healing and Damage, and increases the effects of Critical Healing and Damage by 15%.",
+            "HP最大時、クリティカル回復およびダメージを与える確率が5%ボーナスされ、クリティカル回復およびダメージの効果が15%増加します。",
         },
         howToObtain: [
           "Campaign - Ever-Normal Granary",
@@ -505,12 +503,12 @@ export const weaponDatabase: Weapon[] = [
         ],
       },
       {
-        name: "Whirlsnow Set",
+        name: "ワールスノー・セット",
         pieces: 4,
         bonuses: {
           twoSet: "Physical Defense +1",
           fourSet:
-            "When you lose more than 40% of Max HP in a single instance of damage or when your HP falls below 20%, the next healing you receive within 5 seconds restores an additional 25% of your Max HP. This effect triggers once every 60 seconds.",
+            "一度のダメージで最大HPの40%以上を失うか、HPが20%未満に低下した場合、5秒以内に受ける次の回復で最大HPの25%を追加で回復します。この効果は60秒ごとに一度発動します。",
         },
         howToObtain: [
           "Campaign - Ever-Normal Granary",
@@ -523,92 +521,91 @@ export const weaponDatabase: Weapon[] = [
 
     talents: [
       {
-        name: "Aquan Healing Boost",
+        name: "水属性回復ブースト",
         unlockMethod: "Unlocked after learning Martial Arts",
         description:
-          "Restores 2 bonus Dewdrops per second when you are within the range of a water clone you created.",
+          "自身の作成した水の分身の範囲内にいる間、毎秒2つの露の雫を追加で回復します。",
       },
       {
-        name: "Max HP Increases",
+        name: "最大HP増加",
         unlockMethod: "Complete Breakthrough to Tier 1",
         description:
-          "Max HP can be increased based on Defense. Maximum bonus requires 25 DEF.",
+          "防御力に基づいて最大HPを増加させることができます。最大ボーナスには25のDEFが必要です。",
       },
       {
-        name: "Heavy Attack Healing Boost",
+        name: "重攻撃回復ブースト",
         unlockMethod: "Complete Breakthrough to Tier 2",
         description:
-          "Increases Heavy Attack's healing by 5% and further increases it based on Min Physical Attack, up to 5% increase at 250 Min Physical Attack.",
+          "重攻撃の回復量を5%増加させ、さらに最小物理攻撃力に基づいて増加させます（最小物理攻撃力250で最大5%増加）。",
       },
       {
-        name: "Skillbind Attribute Increase",
+        name: "スキルバインド属性増加",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "Increases Skillbind (Attribute) Attack. Also increases Skillbind DMG Bonus based on Min Skillbind Attack.",
+          "スキルバインド（属性）攻撃力を増加させます。また、最小スキルバインド攻撃力に基づいてスキルバインドダメージボーナスを増加させます。",
       },
       {
-        name: "Attribute Attack Damage Enhancement",
+        name: "属性攻撃ダメージ強化",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "Deals bonus healing based on Skillbind Attack. All skills deal damage based on Attribute Attack, while Skillbind damage gains a further increase.",
+          "スキルバインド攻撃力に基づいてボーナス回復を与えます。すべてのスキルは属性攻撃力に基づいてダメージを与え、スキルバインドダメージはさらに増加します。",
       },
     ],
 
     effects: [
       {
-        name: "Dewdrop",
+        name: "露の雫（Dewdrop）",
         description:
-          "A special martial arts resource used by Panacea Fan and Soulshade Umbrella, with a maximum of 100 Points.",
+          "パナセア・ファンとソウルシェード・アンブレラで使用される特別な武学リソースで、最大100ポイントです。",
       },
       {
-        name: "Inner Demon - Healing Reduction",
+        name: "心魔 - 回復減少",
         description:
-          "Before completing the first clear challenges against Campaign and Mysterious Bosses, battles with them are affected by inner demons, greatly reducing Healing Effects.",
+          "キャンペーンおよび謎のボスに対する最初のクリアチャレンジを完了する前は、戦闘が心魔（Inner Demons）の影響を受け、回復効果が大幅に減少します。",
       },
       {
-        name: "Sense Skill",
+        name: "センススキル（Sense Skill）",
         description:
-          "In certain special cases, the corresponding skills may transform into other forms.",
+          "特定の特別な状況下で、対応するスキルが他の形態に変化する場合があります。",
       },
       {
-        name: "Mystic Art - DMG Up",
+        name: "秘技 - ダメージアップ",
         description:
-          "When equipped with both Soulshade Umbrella and Panacea Fan, the damage of Mystic Arts is increased by 20%.",
+          "ソウルシェード・アンブレラとパナセア・ファンの両方を装備している場合、秘技（Mystic Arts）のダメージが20%増加します。",
       },
     ],
 
     notes: [
-      "Gear Tuning Priorities: Min Physical Attack > Max Physical Attack > Critical Rate",
-      "Primary healer weapon - only weapon besides Soulshade Umbrella that can heal",
-      "Can revive Fatally Wounded allies in multiplayer",
-      "Strongly oriented to multiplayer support",
-      "Severely lacks damage output",
-      "Best used while sitting back in battles, providing heals",
-      "Features both burst (Endless Cloud) and sustained healing (Cloudburst Healing)",
-      "Covers single-target and group recovery",
-      "Provides team-wide damage buffs",
-      "Shares Skillbind - Deluge path with Soulshade Umbrella",
-      "Uses Dewdrop resource system (max 100 points)",
-      "Water clone healing can be enhanced with Royal Remedy internal art",
+      "装備調整の優先順位：最小物理攻撃力 > 最大物理攻撃力 > クリティカル率",
+      "主要なヒーラー武器 - ソウルシェード・アンブレラ以外で回復できる唯一の武器",
+      "マルチプレイで重傷の味方を蘇生可能",
+      "マルチプレイのサポートに強く特化",
+      "ダメージ出力に著しく欠ける",
+      "戦闘では後方で回復を提供することに最適",
+      "バースト（Endless Cloud）と持続回復（Cloudburst Healing）の両方を備える",
+      "単体およびグループ回復をカバー",
+      "チーム全体のダメージバフを提供",
+      "ソウルシェード・アンブレラとスキルバインド - デリュージのパスを共有",
+      "露の雫リソースシステム（最大100ポイント）を使用",
+      "水の分身の回復はRoyal Remedy内功で強化可能",
     ],
   },
 
   {
     id: "inkwell-fan",
-    name: "Inkwell Fan",
+    name: "インクウェル・ファン",
     type: "Fan",
     path: "Skillbind - Jade",
     image: require("../../../../assets/martial_art_weapons/inkwell_fan.png"),
     description:
-      "The offensive alternative to the fan, entirely different from the Panacea Fan. Instead of providing heals, this weapon focuses on targeting individual targets from a safe distance where the user cannot be targeted. Provides considerable mobility and crowd control.",
-    playstyle:
-      "Ranged DPS with sustained damage, control, and airborne attack combos",
+      "扇の攻撃的な代替武器であり、パナセア・ファンとは全く異なります。回復を提供する代わりに、この武器はユーザーがターゲットされない安全な距離から個々のターゲットを狙うことに重点を置いています。かなりの機動力とクラウドコントロール（妨害）を提供します。",
+    playstyle: "持続ダメージ、妨害、空中攻撃コンボを持つ遠距離DPS",
 
     howToGet: {
       method: "Skill Theft",
-      location: "Inkwell Fan Sanctum in northern Qinghe Region",
+      location: "清河エリア（Qinghe Region）北部のインクウェル・ファンの聖域",
       details:
-        "Requires Dragon Key. Navigate through sanctum, collect 6 chests, and perform Skill Theft on the Master at the end.",
+        "龍の鍵が必要です。聖域を進み、6つの宝箱を集め、最後にマスターに対して技の奪取を行います。",
     },
 
     stats: {
@@ -618,54 +615,54 @@ export const weaponDatabase: Weapon[] = [
 
     skills: [
       {
-        name: "Jadewind Shield",
+        name: "Jadewind Shield（翡翠風の盾）",
         type: "Martial Art",
         description:
-          "Knock back nearby targets with the fan, creating a wind barrier that blocks all non-boss units and enemy projectiles for 8 seconds while jumping backward to keep distance. Using this skill makes you dodge incoming attacks and grants Enhanced Ballistics, stacking up to 2 times.",
+          "扇で近くのターゲットをノックバックし、ボス以外のユニットと敵の投射物を8秒間ブロックする風のバリアを作成しながら、後方にジャンプして距離を取ります。このスキルを使用すると、来る攻撃を回避し、強化弾道（Enhanced Ballistics）を獲得します（最大2回スタック）。",
         recovery: "15.0s",
         key: "Q",
       },
       {
-        name: "Peak's Springless Silence",
+        name: "Peak's Springless Silence（峰の静寂）",
         type: "Special",
         description:
-          "Dashes forward and strikes the target upward. Applies brief Root. Hitting humanoid enemies puts them into Launch state. Hitting non-player enemies applies Lingering Bone mark. Hitting an enemy already under Launch or with your own Lingering Bone mark grants Riding the Wind effect. Creates a Water Clone at original location; casting again within 5s allows flashback to clone location.",
+          "前方にダッシュしてターゲットを打ち上げます。短い束縛（Root）を適用します。人型エネミーにヒットすると打ち上げ（Launch）状態にします。非プレイヤーエネミーにヒットすると「Lingering Bone（残存する骨）」マークを付与します。既に打ち上げ状態または自身のLingering Boneマークが付いた敵にヒットすると、「風に乗る（Riding the Wind）」効果を獲得します。元の位置に水の分身を作成し、5秒以内に再使用すると分身の位置にフラッシュバックできます。",
         recovery: "12.0s",
         key: "~",
       },
       {
-        name: "Fan - Light Attack",
+        name: "扇 - 軽攻撃",
         type: "Light Attack",
-        description: "Perform up to four ranged light attacks with a fan.",
+        description: "扇で最大4回の遠距離軽攻撃を行います。",
         recovery: "0.2s",
         key: "Left Click",
       },
       {
-        name: "Forsaken Fame",
+        name: "Forsaken Fame（見捨てられた名声）",
         type: "Charged",
         description:
-          "After a brief charge, swings forward to release a whirlwind, dealing moderate damage. Hitting a humanoid enemy puts them into Launch state. Hitting a non-player enemy applies Lingering Bone mark.",
+          "短時間のチャージ後、前方に振るって旋風を放ち、中程度のダメージを与えます。人型エネミーにヒットすると打ち上げ状態にします。非プレイヤーエネミーにヒットすると「Lingering Bone」マークを付与します。",
         key: "Hold Left Click",
       },
       {
-        name: "Fan - Heavy Attack",
+        name: "扇 - 重攻撃",
         type: "Heavy Attack",
         description:
-          "Performs up to three segments of Heavy Attacks. When target is under Launch or afflicted with your own Lingering Bone mark, you can perceive to trigger a Sense Skill.",
+          "最大3セグメントの重攻撃を行います。ターゲットが打ち上げ状態、または自身のLingering Boneマークの影響下にある場合、センススキルを発動するために知覚できます。",
         recovery: "0.2s",
         key: "R",
       },
       {
-        name: "Moon Shatter Spring",
+        name: "Moon Shatter Spring（月砕く泉）",
         type: "Heavy Attack",
         description:
-          "Performs an Aerial Heavy Attack on an enemy under Launch or affected with your own Lingering Bone mark, leaping into the air and swinging the fan for a three-hit combo. With Riding the Wind effect, performs empowered five-hit combo dealing high damage, and grants Tenacity in non-Duel gameplay. 6-second cooldown after use.",
+          "打ち上げ状態または自身のLingering Boneマークの影響下にある敵に対して空中重攻撃を行い、空中に跳躍して扇を振り3ヒットコンボを行います。「風に乗る」効果がある場合、強化された5ヒットコンボを行い大ダメージを与え、決闘以外のゲームプレイでは「不屈（Tenacity）」を獲得します。使用後6秒のクールダウン。",
         key: "Press R (while targeting Airborne enemy)",
       },
       {
-        name: "Fan - Conversion",
+        name: "扇 - 切り替え",
         type: "Dual-Weapon",
-        description: "Switch to a fan and slash.",
+        description: "扇に切り替えて斬りつけます。",
         recovery: "3.0s",
         key: "TAB",
       },
@@ -673,28 +670,27 @@ export const weaponDatabase: Weapon[] = [
 
     internalArts: [
       {
-        name: "Blossom Barrage",
+        name: "Blossom Barrage（満開の弾幕）",
         type: "Attack/Martial Arts/Damage Boost",
         description:
-          "Vernal Umbrella's Martial Arts Skill Spring Sorrow can hold up to 2 stacks. Hitting a target applies Combo effect: increases damage taken from caster's Ballistic Skills by 10% for 8 seconds. (Recommended when using Vernal Umbrella as part of Silkbind - Jade Arsenal)",
+          "ヴァーナル・アンブレラの武学スキル「Spring Sorrow」は最大2スタック保持できます。ターゲットにヒットするとコンボ効果を適用：キャスターの弾道スキル（Ballistic Skills）から受けるダメージが8秒間10%増加します。（スキルバインド - ジェイドの一部としてヴァーナル・アンブレラを使用する場合に推奨）",
       },
       {
-        name: "Flying Gourds",
+        name: "Flying Gourds（空飛ぶ瓢箪）",
         type: "Martial Arts/Support",
         description:
-          "Grants 2 charges to Inkwell Fan's Peak's Springless Silence but increases its cooldown by 3 seconds.",
+          "インクウェル・ファンの「Peak's Springless Silence」に2チャージを付与しますが、クールダウンが3秒増加します。",
       },
       {
-        name: "Thunderous Bloom",
+        name: "Thunderous Bloom（雷鳴の開花）",
         type: "Damage Boost/Buff",
         description:
-          "When you move more than 15m within 3 seconds, gain Spring Thunder: the next 3 Heavy Attacks or Airborne Heavy Attacks within 12 seconds gain 15% DMG Bonus. This effect may trigger once per 15 seconds.",
+          "3秒以内に15m以上移動すると「春の雷（Spring Thunder）」を獲得：12秒以内の次の3回の重攻撃または空中重攻撃のダメージボーナスが15%増加します。この効果は15秒ごとに1回発動します。",
       },
       {
-        name: "Star Reacher",
+        name: "Star Reacher（星を掴む者）",
         type: "Attack/Pursuit/Buff",
-        description:
-          "Gain 10% Physical Attack bonus for 8 seconds after knocking an enemy airborne.",
+        description: "敵を空中に打ち上げた後、8秒間物理攻撃力が10%増加します。",
       },
     ],
 
@@ -705,7 +701,7 @@ export const weaponDatabase: Weapon[] = [
         bonuses: {
           twoSet: "Precision Rate +0.1%",
           fourSet:
-            "After a Light Attack/Airborne Heavy Attack, damage is increased by 12%, lasting 10 seconds. After a Heavy Attack/Airborne Heavy Attack/Light Attack/Charged Attack, damage is increased by 12%.",
+            "軽攻撃/空中重攻撃の後、ダメージが12%増加し、10秒間持続します。重攻撃/空中重攻撃/軽攻撃/チャージ攻撃の後、ダメージが12%増加します。",
         },
         howToObtain: ["Campaign - Heavenfall", "Sword Trial", "Group Dungeons"],
       },
@@ -715,7 +711,7 @@ export const weaponDatabase: Weapon[] = [
         bonuses: {
           twoSet: "Max HP +40",
           fourSet:
-            "After entering combat, if no damage is taken for 10 seconds, gain Beyond the Chill: Reduces the next damage taken and all damage taken within 2 seconds afterward by 40%. Beyond the Chill is removed upon leaving combat.",
+            "戦闘開始後、10秒間ダメージを受けなかった場合、「Beyond the Chill」を獲得：次の被ダメージとその後2秒以内のすべての被ダメージを40%軽減します。「Beyond the Chill」は戦闘を離れると解除されます。",
         },
         howToObtain: [
           "Campaign - Heavenfall",
@@ -728,86 +724,88 @@ export const weaponDatabase: Weapon[] = [
 
     talents: [
       {
-        name: "Low Qi Follow-Up Enhancement",
+        name: "低気（Qi）追撃強化",
         unlockMethod: "Unlocked after learning Martial Arts",
         description:
-          "Increases the Critical Rate of Moon Shatter Spring against targets with low Qi.",
+          "気の低いターゲットに対する「Moon Shatter Spring」のクリティカル率を増加させます。",
       },
       {
-        name: "Physical Attack Increase",
+        name: "物理攻撃力増加",
         unlockMethod: "Complete Breakthrough to Tier 1",
-        description: "Agility can increase Min Physical Attack.",
+        description:
+          "敏捷性（Agility）によって最小物理攻撃力を増加させることができます。",
       },
       {
-        name: "Airborne Follow-up Enhancement",
+        name: "空中追撃強化",
         unlockMethod: "Complete Breakthrough to Tier 2",
-        description: "Increases the Critical DMG of Moon Shatter Spring.",
+        description:
+          "「Moon Shatter Spring」のクリティカルダメージを増加させます。",
       },
       {
-        name: "Silkbind Attribute Increase",
+        name: "スキルバインド属性増加",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "Increases Silkbind (Attribute) Attack. Also increases Silkbind DMG Bonus based on Min Silkbind Attack.",
+          "スキルバインド（属性）攻撃力を増加させます。また、最小スキルバインド攻撃力に基づいてスキルバインドダメージボーナスを増加させます。",
       },
       {
-        name: "Attribute Attack Damage Enhancement",
+        name: "属性攻撃ダメージ強化",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "All skills deal damage based on Attribute Attack, while Silkbind damage gains a further increase.",
+          "すべてのスキルは属性攻撃力に基づいてダメージを与え、スキルバインドダメージはさらに増加します。",
       },
     ],
 
     effects: [
       {
-        name: "Launch",
+        name: "打ち上げ（Launch）",
         description:
-          "Send the target airborne using Special Skill, making them more vulnerable to high damage.",
+          "特殊スキルを使用してターゲットを空中に送り、大ダメージに対してより脆弱にします。",
       },
       {
-        name: "Riding the Wind",
+        name: "風に乗る（Riding the Wind）",
         description:
-          "Unique effect of the Inkwell Fan. The next Follow-up Skill used during this time is empowered. This effect lasts 2 seconds.",
+          "インクウェル・ファンのユニークな効果。この間に使用される次の追撃スキルが強化されます。この効果は2秒間持続します。",
       },
       {
-        name: "Sense Skill",
+        name: "センススキル（Sense Skill）",
         description:
-          "In certain special cases, the corresponding skills may transform into other forms.",
+          "特定の特別な状況下で、対応するスキルが他の形態に変化する場合があります。",
       },
       {
-        name: "Enhanced Ballistics",
-        description: "Increases Projectile skill damage by 20%.",
+        name: "強化弾道（Enhanced Ballistics）",
+        description: "投射物スキルのダメージが20%増加します。",
       },
       {
-        name: "Lingering Bone",
+        name: "Lingering Bone（残存する骨）",
         description:
-          "Mark applied to non-player enemies, enabling aerial combo attacks.",
+          "非プレイヤーエネミーに適用されるマークで、空中コンボ攻撃を可能にします。",
       },
     ],
 
     notes: [
-      "Gear Tuning Priorities: Min Physical Attack > Max Physical Attack > Critical Rate",
-      "Suitable option for those who prefer not to take risks with melee weapons",
-      "Excellent for sustained ranged DPS with crowd control",
-      "Requires Dragon Key to access Sanctum",
+      "装備調整の優先順位：最小物理攻撃力 > 最大物理攻撃力 > クリティカル率",
+      "近接武器でリスクを冒したくないプレイヤーに適したオプション",
+      "クラウドコントロール（妨害）を伴う持続的な遠距離DPSに優れています",
+      "聖域へのアクセスには龍の鍵が必要です",
     ],
   },
 
   {
     id: "mortal-rope-dart",
-    name: "Mortal Rope Dart",
+    name: "モータル・ロープダート",
     type: "Rope Dart",
     path: "Bamboocut - Wind",
     image: require("../../../../assets/martial_art_weapons/mortal_rope_dart.png"),
     description:
-      "Rope Darts offer a blend of ranged and melee strikes. This unique hybrid grants players more versatility when approaching combat encounters. Players can strike at range via sweeping whip-like attacks, catching enemies off balance and chaining follow-up combos.",
+      "縄鏢は遠距離攻撃と近接攻撃の混合を提供します。このユニークなハイブリッド武器は、戦闘でのアプローチに多様性を与えます。プレイヤーは鞭のようななぎ払い攻撃で遠距離から攻撃し、敵のバランスを崩して追撃コンボにつなげることができます。",
     playstyle:
-      "Hybrid ranged/melee with fluid combat rewarding timing and positioning, excellent for crowd management",
+      "タイミングと位置取りが重要な流動的な戦闘を持つハイブリッド遠距離/近接武器、群衆管理に優れる",
 
     howToGet: {
       method: "Skill Theft",
-      location: "Martial Hall in Kaifeng Region",
+      location: "開封（Kaifeng）エリアの武術館（Martial Hall）",
       details:
-        "Requires joining Nine Mortal Ways sect. Complete complex questline involving disguise system: speak with elder, talk to Wuyan, obtain Jade Sachet, unlock disguise, impersonate Muddle, get Core Disciple's Token from kitchen, speak with Elder Tian, use Art Theft to learn martial art.",
+        "Nine Mortal Ways門派への加入が必要です。変装システムを含む複雑なクエストラインを完了します：長老と話す、Wuyanと話す、Jade Sachetを入手、変装を解除、Muddleに変装、キッチンでCore Disciple's Tokenを入手、Elder Tianと話す、Art Theftを使用して武学を習得。",
     },
 
     stats: {
@@ -817,56 +815,56 @@ export const weaponDatabase: Weapon[] = [
 
     skills: [
       {
-        name: "Bladebound Thread",
+        name: "Bladebound Thread（刃の糸）",
         type: "Martial Art",
         description:
-          "Throw the rope dart forward. If it hits a boss, you will be pulled toward the target; otherwise, you will pull the target and rope dart back to you. Press again within 2.5s to unleash a combo kick that knocks the target down. Targets hit receive a Vendetta Token. When the rat attacks a target with Vendetta Token, it deals 50% increased damage and restores Token of Gratitude.",
+          "縄鏢を前方に投げます。ボスに当たった場合、自分がターゲットに向かって引っ張られます。それ以外の場合、ターゲットと縄鏢を自分のほうへ引き寄せます。2.5秒以内に再度押すと、ターゲットをノックダウンするコンボキックを放ちます。ヒットしたターゲットは「復讐のトークン（Vendetta Token）」を受け取ります。ネズミが復讐のトークンを持つターゲットを攻撃すると、50%増加したダメージを与え、「感謝のトークン（Token of Gratitude）」を回復します。",
         recovery: "8.0s",
         key: "Q",
       },
       {
-        name: "Rodent Rampage",
+        name: "Rodent Rampage（齧歯類の暴走）",
         type: "Special",
         description:
-          "Every Token of Grace spent will summon a rat to make a coordinated attack. When you cast a Light Attack, the rat will pop out of the ground and attack. This effect lasts 10s and remains in effect even when switching weapons.",
+          "感謝のトークン（Token of Grace）を消費するごとに、ネズミを召喚して連携攻撃を行います。軽攻撃を行うと、ネズミが地面から飛び出して攻撃します。この効果は10秒間持続し、武器を切り替えても効果は残ります。",
         recovery: "0.5s",
         key: "~",
       },
       {
-        name: "Rope Dart - Light Attack",
+        name: "縄鏢 - 軽攻撃",
         type: "Light Attack",
-        description: "Swing the Rope Dart in up to four Consecutive Attacks.",
+        description: "縄鏢を振り、最大4回の連続攻撃を行います。",
         recovery: "0.3s",
         key: "Left Click",
       },
       {
-        name: "Coiled Dragon",
+        name: "Coiled Dragon（とぐろを巻く龍）",
         type: "Light Attack",
         description:
-          "When used in Charging Stance, throw the rope dart with great force to knock down the enemy hit.",
+          "チャージ構え（Charging Stance）中に使用すると、縄鏢を強力に投げてヒットした敵をノックダウンします。",
         recovery: "0.5s",
         key: "Left Click while holding R",
       },
       {
-        name: "Rodent's Resilience",
+        name: "Rodent's Resilience（ネズミの回復力）",
         type: "Charged",
         description:
-          "Charge to consume Endurance and unleash sword energy forward. Targets hit are controlled for an extended duration. Sword energy damage decreases by 20% with each hit, to a minimum of 50%. Higher charge levels increase damage and range.",
+          "チャージしてスタミナを消費し、前方に剣気を放ちます。ヒットしたターゲットは長時間制御されます。剣気ダメージはヒットごとに20%減少し、最小50%になります。チャージレベルが高いほどダメージと範囲が増加します。",
         recovery: "1.0s",
         key: "Hold R",
       },
       {
-        name: "Rodent's Resilience (Pull)",
+        name: "Rodent's Resilience（引き寄せ）",
         type: "Charged",
         description:
-          "Use when in Charging Stance to toss the Rope Dart to pull a distant enemy toward you.",
+          "チャージ構え中に使用すると、縄鏢を投げて遠くの敵を自分の方へ引き寄せます。",
         recovery: "0.3s",
         key: "Press R",
       },
       {
-        name: "Rope Dart - Conversion",
+        name: "縄鏢 - 切り替え",
         type: "Dual-Weapon",
-        description: "Switch to the Rope Dart and attack.",
+        description: "縄鏢に切り替えて攻撃します。",
         recovery: "3.0s",
         key: "TAB",
       },
@@ -874,28 +872,28 @@ export const weaponDatabase: Weapon[] = [
 
     internalArts: [
       {
-        name: "Echoes of Oblivion",
+        name: "Echoes of Oblivion（忘却の残響）",
         type: "Pursuit/Martial Arts/Debuff",
         description:
-          "Infernal Twinblades Light Attack inflicts Sin. Flamelash state Light Attack inflicts Karma. Infernal Twinblades Light Attacks against targets with these debuffs ignore part of their Physical Defense or Bamboocut Resistance. (When using Infernal Twinblades as part of Bamboocut - Wind Arsenal)",
+          "Infernal Twinbladesの軽攻撃は「罪（Sin）」を付与します。Flamelash状態の軽攻撃は「カルマ（Karma）」を付与します。これらのデバフを持つターゲットに対するInfernal Twinbladesの軽攻撃は、物理防御またはバンブーカット耐性の一部を無視します。（バンブーカット - ウィンドの一部としてInfernal Twinbladesを使用している場合）",
       },
       {
-        name: "Vendetta",
+        name: "Vendetta（復讐）",
         type: "Martial Arts/Buff/Recover",
         description:
-          "Guided Blade: Extends the duration of Vendetta Token and refunds Tokens of Gratitude.",
+          "Guided Blade：復讐のトークンの持続時間を延長し、感謝のトークンを払い戻します。",
       },
       {
-        name: "Riptide Reflex",
+        name: "Riptide Reflex（激流の反射）",
         type: "Control/Buff",
         description:
-          "Hitting an enemy with a control skill reduces the cooldown of your current Martial Arts skill. Can trigger once every 10s.",
+          "制御スキルで敵にヒットすると、現在の武学スキルのクールダウンが短縮されます。10秒ごとに1回発動可能です。",
       },
       {
-        name: "Breaking Point",
+        name: "Breaking Point（限界点）",
         type: "Pursuit/Buff/Stacking",
         description:
-          "Hitting Exhausted enemies with a Critical Hit applies a stack of Disintegration for 3 seconds, stacking up to 3 times. Each stack grants extra Physical Penetration and increases Critical DMG Bonus.",
+          "疲弊（Exhausted）した敵にクリティカルヒットを与えると、「崩壊（Disintegration）」スタックを1つ、3秒間適用し、最大3回までスタックします。各スタックは追加の物理貫通を付与し、クリティカルダメージボーナスを増加させます。",
       },
     ],
 
@@ -906,7 +904,7 @@ export const weaponDatabase: Weapon[] = [
         bonuses: {
           twoSet: "Min Physical Attack Increase",
           fourSet:
-            "Light Attacks deal 15% more damage against targets with less than 40% Qi and 5% more damage against Exhausted targets.",
+            "気が40%未満のターゲットに対して軽攻撃のダメージが15%増加し、疲弊したターゲットに対しては5%増加します。",
         },
         howToObtain: [
           "Campaign - Blissful Retreat",
@@ -921,7 +919,7 @@ export const weaponDatabase: Weapon[] = [
         bonuses: {
           twoSet: "Physical Defense Increase",
           fourSet:
-            "A Perfect Dodge of an enemy attack has a 50% chance of restoring 3% of your Max HP and 10 Endurance.",
+            "敵の攻撃をパーフェクトドッジすると、50%の確率で最大HPの3%とスタミナ10を回復します。",
         },
         howToObtain: [
           "Campaign - Blissful Retreat",
@@ -935,80 +933,80 @@ export const weaponDatabase: Weapon[] = [
 
     talents: [
       {
-        name: "Critical Rate Increase",
+        name: "クリティカル率増加",
         unlockMethod: "Unlocked after learning Martial Arts",
-        description: "The Agility Stat can increase Critical Rate.",
+        description:
+          "敏捷性（Agility）ステータスによってクリティカル率を増加させることができます。",
       },
       {
-        name: "Mouse Damage Enhancement",
+        name: "ネズミダメージ強化",
         unlockMethod: "Complete Breakthrough to Tier 1",
-        description: "Increases the Physical Damage of Rats.",
+        description: "ネズミの物理ダメージを増加させます。",
       },
       {
-        name: "Bamboocut Increase",
+        name: "バンブーカット増加",
         unlockMethod: "Complete Breakthrough to Tier 2",
         description:
-          "Increases Bamboocut Attack. Also increases Bamboocut Damage based on the Minimum Bamboocut Attack.",
+          "バンブーカット攻撃力を増加させます。また、最小バンブーカット攻撃力に基づいてバンブーカットダメージを増加させます。",
       },
       {
-        name: "Attribute Attack Damage Enhancement",
+        name: "属性攻撃ダメージ強化",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "All Skills deal damage based on Attribute Attack, while Bamboocut damage gains a further increase.",
+          "すべてのスキルは属性攻撃力に基づいてダメージを与え、バンブーカットダメージはさらに増加します。",
       },
       {
-        name: "Bone Corrosion Enhancement",
+        name: "骨腐食強化",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "Martial Arts Skill Guided Blade and Varied Combo Coiled Dragon apply Bone Corrosion to the enemy for 5 seconds.",
+          "武学スキル「Guided Blade」と派生コンボ「Coiled Dragon」は、敵に5秒間「骨腐食（Bone Corrosion）」を適用します。",
       },
     ],
 
     effects: [
       {
-        name: "Token of Gratitude",
+        name: "感謝のトークン（Token of Gratitude）",
         description:
-          "Combat Resource used in the Rope Dart Martial Art Mortal Rope Dart. Some Skills require consuming the Token of Gratitude to activate.",
+          "縄鏢武学「モータル・ロープダート」で使用される戦闘リソース。一部のスキルは発動に感謝のトークンの消費が必要です。",
       },
       {
-        name: "Vendetta Token",
-        description: "Special Mark of Martial Art Mortal Rope Dart.",
+        name: "復讐のトークン（Vendetta Token）",
+        description: "武学「モータル・ロープダート」の特別なマーク。",
       },
       {
-        name: "Charging Stance",
+        name: "チャージ構え（Charging Stance）",
         description:
-          "Special Rope Dart Stance: Certain Skills are changed when you are in the stance.",
+          "特別な縄鏢の構え：この構えの間、特定のスキルが変化します。",
       },
       {
-        name: "Endurance",
-        description: "Immune to all but Crowd Control when hit.",
+        name: "スタミナ（Endurance）",
+        description:
+          "被弾時、クラウドコントロール（CC）以外のすべてに対して免疫を持ちます。",
       },
     ],
 
     notes: [
-      "Gear Tuning Priorities: Min Physical Attack > Max Physical Attack > Critical Rate",
-      "Requires joining Nine Mortal Ways sect",
-      "Complex questline with disguise system",
-      "Preferred for seeking tools to manage crowds and shift combat tactics on the fly",
-      "Combat is fluid and dynamic, rewarding timing and positioning over brute force",
+      "装備調整の優先順位：最小物理攻撃力 > 最大物理攻撃力 > クリティカル率",
+      "Nine Mortal Ways門派への加入が必要",
+      "変装システムを伴う複雑なクエストライン",
+      "群衆を管理し、臨機応変に戦闘戦術を変えるためのツールを求めるプレイヤーに推奨",
+      "戦闘は流動的かつ動的で、力押しよりもタイミングと位置取りが報われます",
     ],
   },
 
   {
     id: "nameless-spear",
-    name: "Nameless Spear",
+    name: "名もなき槍",
     type: "Spear",
     path: "Bellstrike - Splendor",
     image: require("../../../../assets/martial_art_weapons/nameless_spear.png"),
     description:
-      "The first weapon you'll unlock in Where Winds Meet, complementing the Nameless Sword. This versatile spear offers strong AoE damage and Endurance recovery while you learn the game's mechanics. It features straightforward attack patterns ideal for beginners, with skills that control crowds and deal area damage.",
-    playstyle:
-      "Beginner-friendly AoE combat with Endurance recovery and crowd control",
+      "「Where Winds Meet」で最初にアンロックする武器であり、名もなき剣を補完します。この多才な槍は、ゲームの仕組みを学びながら強力な範囲（AoE）ダメージとスタミナ回復を提供します。初心者に理想的な単純明快な攻撃パターンを特徴とし、群衆を制御しエリアダメージを与えるスキルを持っています。",
+    playstyle: "スタミナ回復と群衆制御を備えた、初心者向けの範囲攻撃戦闘",
 
     howToGet: {
       method: "Story Progression",
-      details:
-        "Automatically obtained at the start of the game alongside Nameless Sword. No special requirements.",
+      details: "ゲーム開始時に名もなき剣と共に自動的に入手。特別な要件なし。",
     },
 
     stats: {
@@ -1018,46 +1016,46 @@ export const weaponDatabase: Weapon[] = [
 
     skills: [
       {
-        name: "Qiankun's Lock",
+        name: "Qiankun's Lock（乾坤の錠）",
         type: "Martial Art",
         description:
-          "Thrust forward with the spear, dealing damage to enemies in its path and Immobilizing them. After use, recover 15 Endurance for 10 seconds.",
+          "槍で前方に突きを放ち、経路上の敵にダメージを与えて移動不能（Immobilize）にします。使用後、10秒間スタミナを15回復します。",
         recovery: "10.0s",
         key: "Q",
       },
       {
-        name: "Legion Crusher",
+        name: "Legion Crusher（軍団砕き）",
         type: "Special",
         description:
-          "Strike the ground ahead with the spear, dealing damage to enemies in a small area. Using this skill grants Unrivaled for 3 seconds.",
+          "前方の地面を槍で叩き、狭い範囲の敵にダメージを与えます。このスキルを使用すると3秒間「無双（Unrivaled）」を獲得します。",
         recovery: "8.0s",
         key: "~",
       },
       {
-        name: "Storm Dance",
+        name: "Storm Dance（嵐の舞）",
         type: "Charged",
         description:
-          "Charge up and spin the spear around you, dealing damage to nearby enemies multiple times.",
+          "チャージして自身の周囲で槍を回転させ、近くの敵に複数回ダメージを与えます。",
         key: "Hold R",
       },
       {
-        name: "Spear - Light Attack",
+        name: "槍 - 軽攻撃",
         type: "Light Attack",
-        description: "Swing a long spear to perform up to four light attacks.",
+        description: "長槍を振るい、最大4回の軽攻撃を行います。",
         recovery: "0.2s",
         key: "Left Click",
       },
       {
-        name: "Spear - Heavy Attack",
+        name: "槍 - 重攻撃",
         type: "Heavy Attack",
-        description: "Swing a long spear to perform up to three heavy attacks.",
+        description: "長槍を振るい、最大3回の重攻撃を行います。",
         recovery: "0.2s",
         key: "R",
       },
       {
-        name: "Spear - Conversion",
+        name: "槍 - 切り替え",
         type: "Dual-Weapon",
-        description: "Switch to spear and perform a sweeping attack.",
+        description: "槍に切り替えてなぎ払い攻撃を行います。",
         recovery: "3.0s",
         key: "TAB",
       },
@@ -1065,28 +1063,26 @@ export const weaponDatabase: Weapon[] = [
 
     internalArts: [
       {
-        name: "Sword Morph",
+        name: "Sword Morph（剣の変化）",
         type: "Attack/Damage Boost",
-        description:
-          "Increases Physical Attack for a short duration after using certain skills.",
+        description: "特定のスキル使用後、短時間物理攻撃力を増加させます。",
       },
       {
-        name: "Mountain's Might",
+        name: "Mountain's Might（山の威力）",
         type: "Defense/Buff",
         description:
-          "Reduces incoming damage and increases Physical Defense when active.",
+          "発動中、受けるダメージを軽減し、物理防御力を増加させます。",
       },
       {
-        name: "Wildfire Spark",
+        name: "Wildfire Spark（野火の火花）",
         type: "Attack/DoT",
         description:
-          "Adds fire damage over time to attacks, dealing continuous damage to enemies.",
+          "攻撃に火属性の継続ダメージを追加し、敵に継続的なダメージを与えます。",
       },
       {
-        name: "Battle Anthem",
+        name: "Battle Anthem（戦いの賛歌）",
         type: "Support/Buff",
-        description:
-          "Provides buffs to allies in the vicinity, increasing their combat effectiveness.",
+        description: "近くの味方にバフを提供し、戦闘能力を向上させます。",
       },
     ],
 
@@ -1113,69 +1109,69 @@ export const weaponDatabase: Weapon[] = [
 
     talents: [
       {
-        name: "Affinity Rate Upgrade",
+        name: "親和性率アップグレード",
         unlockMethod: "Unlocked after learning Martial Arts",
         description:
-          "Increases Affinity Rate, improving the chance to deal bonus damage.",
+          "親和性率を増加させ、ボーナスダメージを与える確率を向上させます。",
       },
       {
-        name: "Physical Attack Increase",
+        name: "物理攻撃力増加",
         unlockMethod: "Complete Breakthrough to Tier 1",
-        description: "Power can increase Max Physical Attack.",
+        description:
+          "力（Power）によって最大物理攻撃力を増加させることができます。",
       },
       {
-        name: "Endurance Recovery Enhancement",
+        name: "スタミナ回復強化",
         unlockMethod: "Complete Breakthrough to Tier 2",
-        description: "Improves Endurance recovery rate from Qiankun's Lock.",
+        description: "「Qiankun's Lock」によるスタミナ回復率を向上させます。",
       },
       {
-        name: "Bellstrike Increase",
+        name: "ベルストライク増加",
         unlockMethod: "Complete Breakthrough to Tier 3",
-        description: "Increases Bellstrike (Attribute) Attack and Penetration.",
+        description: "ベルストライク（属性）攻撃力と貫通を増加させます。",
       },
       {
-        name: "Max Endurance Increase",
+        name: "最大スタミナ増加",
         unlockMethod: "Complete Breakthrough to Tier 3",
-        description: "Increases maximum Endurance pool for extended combat.",
+        description: "長期戦のために最大スタミナプールを増加させます。",
       },
     ],
 
     effects: [
       {
-        name: "Immobilize",
-        description: "Prevents the target from moving for a short duration.",
+        name: "移動不能（Immobilize）",
+        description: "短時間、ターゲットの移動を防ぎます。",
       },
       {
-        name: "Unrivaled",
+        name: "無双（Unrivaled）",
         description:
-          "Grants immunity to control effects and increases damage output.",
+          "制御効果に対する免疫を付与し、ダメージ出力を増加させます。",
       },
     ],
 
     notes: [
-      "Perfect starter weapon for new players",
-      "Complements Nameless Sword as the first weapon pair",
-      "Focus on AoE damage and crowd control",
-      "Qiankun's Lock provides valuable Endurance recovery",
-      "Simple mechanics make it ideal for learning combat fundamentals",
+      "新規プレイヤーに最適なスターター武器",
+      "最初の武器ペアとして名もなき剣を補完します",
+      "範囲ダメージと群衆制御に焦点を当てています",
+      "「Qiankun's Lock」は貴重なスタミナ回復を提供します",
+      "シンプルなメカニクスは戦闘の基本を学ぶのに理想的です",
     ],
   },
 
   {
     id: "nameless-sword",
-    name: "Nameless Sword",
+    name: "名もなき剣",
     type: "Sword",
     path: "Bellstrike - Splendor",
     image: require("../../../../assets/martial_art_weapons/nameless_sword.png"),
     description:
-      "The first weapon you'll unlock in Where Winds Meet. Ideal for players who prefer focusing on individual targets to sweep them quickly rather than inflicting AoE Damage. A DPS-dedicated weapon that allows hitting targets several times, working well to proc Critical Hits constantly. Provides excellent mobility, extremely necessary against enormous hordes of enemies.",
+      "「Where Winds Meet」で最初にアンロックする武器です。範囲ダメージを与えるよりも、個々のターゲットに集中して素早く倒すことを好むプレイヤーに最適です。DPS特化の武器であり、ターゲットに複数回ヒットさせることができ、クリティカルヒットを絶えず発生させるのに適しています。優れた機動力を提供し、敵の大群に対して極めて必要不可欠です。",
     playstyle:
-      "High mobility single-target DPS with critical hit focus and burst damage potential",
+      "クリティカルヒット重視でバーストダメージの可能性を持つ、高機動力な単体DPS",
 
     howToGet: {
       method: "Story Progression",
-      details:
-        "Automatically obtained at the start of the game alongside Nameless Spear. No special requirements.",
+      details: "ゲーム開始時に名もなき槍と共に自動的に入手。特別な要件なし。",
     },
 
     stats: {
@@ -1185,46 +1181,46 @@ export const weaponDatabase: Weapon[] = [
 
     skills: [
       {
-        name: "Fearless Lunge",
+        name: "Fearless Lunge（恐れなき突進）",
         type: "Martial Art",
         description:
-          "Throw the flying sword to deal light damage to the enemy hit, then dash forward to follow the sword. During the follow-through, press again to unleash up to two strikes of Judgment, each dealing increased damage. After the second strike of Judgement, gain a Qi Shield that lasts 3 seconds.",
+          "飛剣を投げてヒットした敵に軽ダメージを与え、その後前方にダッシュして剣を追います。フォロースルー中に再度押すと、最大2回の「裁き（Judgment）」を放ち、それぞれ増加したダメージを与えます。「裁き」の2撃目の後、3秒間持続する「気の盾（Qi Shield）」を獲得します。",
         recovery: "12.0s",
         key: "Q",
       },
       {
-        name: "Shadow Step",
+        name: "Shadow Step（影歩）",
         type: "Special",
         description:
-          "Consume Endurance to dodge backward and unleash Sword Qi (Sword Qi Damage decreases by 20% with each hit, to a minimum of 50%). Within 3 seconds, press again to use Sword Dash.",
+          "スタミナを消費して後方に回避し、剣気（Sword Qi）を放ちます（剣気ダメージはヒットごとに20%減少し、最小50%になります）。3秒以内に再度押すと「剣のダッシュ（Sword Dash）」を使用できます。",
         recovery: "1.0s",
         key: "~",
       },
       {
-        name: "Sword - Light Attack",
+        name: "剣 - 軽攻撃",
         type: "Light Attack",
-        description: "Perform up to four light attacks with a Longsword.",
+        description: "長剣で最大4回の軽攻撃を行います。",
         recovery: "0.6s",
         key: "Left Click",
       },
       {
-        name: "Homeless Charge",
+        name: "Homeless Charge（寄る辺なき突撃）",
         type: "Charged",
         description:
-          "Consume Endurance to charge up and unleash Sword Qi forward (Sword Qi Damage decreases by 20% with each hit, to a minimum of 50%). Charge level increases over time, boosting the damage and range of the Sword Qi.",
+          "スタミナを消費してチャージし、前方に剣気を放ちます（剣気ダメージはヒットごとに20%減少し、最小50%になります）。チャージレベルは時間とともに増加し、剣気のダメージと範囲を強化します。",
         key: "Hold R",
       },
       {
-        name: "Sword - Heavy Attack",
+        name: "剣 - 重攻撃",
         type: "Heavy Attack",
-        description: "Perform up to three heavy attacks with a Longsword.",
+        description: "長剣で最大3回の重攻撃を行います。",
         recovery: "0.9s",
         key: "R",
       },
       {
-        name: "Sword - Conversion",
+        name: "剣 - 切り替え",
         type: "Dual-Weapon",
-        description: "Switch to a Sword and slash.",
+        description: "剣に切り替えて斬りつけます。",
         recovery: "3.0s",
         key: "TAB",
       },
@@ -1232,27 +1228,27 @@ export const weaponDatabase: Weapon[] = [
 
     internalArts: [
       {
-        name: "Sword Morph",
+        name: "Sword Morph（剣の変化）",
         type: "Attack/Martial Arts/Damage Buff",
         description:
-          "When Nameless Sword's Charged Skill, Homeless Charge, is charged while the Qi Shield is present, it unleashes multiple additional sword energy attacks at the 2nd charging state. You can consume bonus Endurance to increase the sword energy's damage; each Endurance increases damage by 1%, up to 20%.",
+          "気の盾が存在する間に名もなき剣のチャージスキル「Homeless Charge」がチャージされると、2段階目のチャージ状態で複数の追加の剣エネルギー攻撃を放ちます。ボーナススタミナを消費して剣エネルギーのダメージを増加させることができ、スタミナごとのダメージ増加は1%、最大20%までです。",
       },
       {
-        name: "Mountain's Might",
+        name: "Mountain's Might（山の威力）",
         type: "Support/Martial Arts/Cost Reduction",
         description:
-          "Nameless Spear's Martial Art Skill, Qiankun's Lock, grants Endless Gale effect, increasing the Endurance cost reduction to 20% for 5 seconds. Recommended only when using the Nameless Spear as part of the Bellstrike - Splendor Arsenal.",
+          "名もなき槍の武学スキル「Qiankun's Lock」は「終わらぬ疾風（Endless Gale）」効果を付与し、5秒間スタミナコスト削減を20%に増加させます。名もなき槍をベルストライク - スプレンダーの一部として使用している場合にのみ推奨されます。",
       },
       {
-        name: "Wildfire Spark",
+        name: "Wildfire Spark（野火の火花）",
         type: "Support/Recover",
-        description: "Refunds 3.5% of the Endurance consumed.",
+        description: "消費したスタミナの3.5%を払い戻します。",
       },
       {
-        name: "Battle Anthem",
+        name: "Battle Anthem（戦いの賛歌）",
         type: "Attack/Damage Boost",
         description:
-          "Increases Charged Skill's Damage against all bosses by 10%.",
+          "すべてのボスに対するチャージスキルのダメージを10%増加させます。",
       },
     ],
 
@@ -1263,7 +1259,7 @@ export const weaponDatabase: Weapon[] = [
         bonuses: {
           twoSet: "Max Physical Attack +1",
           fourSet:
-            "Casting Martial Art Skill activates Jadeware effect: Increases Affinity DMG by 10% and deals 20% more Affinity DMG to targets under control or have lower than 40% Qi. Lasts 12 seconds. This effect can be triggered once every 30 seconds.",
+            "武学スキルの発動で「Jadeware」効果が発動：親和性ダメージが10%増加し、制御下のターゲットまたは気が40%未満のターゲットに対して親和性ダメージが20%増加します。12秒間持続。この効果は30秒ごとに一度発動可能です。",
         },
         howToObtain: [
           "Campaign - Palace of Annals",
@@ -1279,7 +1275,7 @@ export const weaponDatabase: Weapon[] = [
         bonuses: {
           twoSet: "Physical Defense +1",
           fourSet:
-            "Your Qi Shield duration is extended by 2 seconds. If you have more than 85% Qi or a Qi damage immunity shield, reduce all HP damage taken by 20%.",
+            "気の盾の持続時間が2秒延長されます。気が85%以上あるか、気ダメージ免疫シールドがある場合、受けるすべてのHPダメージを20%軽減します。",
         },
         howToObtain: [
           "Campaign - Palace of Annals",
@@ -1294,61 +1290,61 @@ export const weaponDatabase: Weapon[] = [
 
     talents: [
       {
-        name: "The Qi Struggle Enhancement",
+        name: "気（Qi）闘争強化",
         unlockMethod: "Unlocked after learning Martial Arts",
-        description: "Increases Qi Damage dealt by 10%.",
+        description: "与える気ダメージが10%増加します。",
       },
       {
-        name: "Physical Damage Increase",
+        name: "物理ダメージ増加",
         unlockMethod: "Complete Breakthrough to Tier 1",
         description:
-          "Max Physical Attack can be increased based on Momentum. (Momentum: Converts into Character's Affinity Rate and Max Physical Attack based on a certain Ratio).",
+          "最大物理攻撃力をモメンタム（Momentum）に基づいて増加させることができます。（モメンタム：特定の比率に基づいてキャラクターの親和性率と最大物理攻撃力に変換されます）。",
       },
       {
-        name: "Sword Qi Affinity Enhancement",
+        name: "剣気親和性強化",
         unlockMethod: "Complete Breakthrough to Tier 2",
         description:
-          "Increases the Affinity Rate of sword energy attacks against targets with Qi below 20% (including Exhausted targets) based on Max Physical Attack, up to a 3.5% increase at 500 Max Physical Attack.",
+          "気が20%未満のターゲット（疲弊したターゲットを含む）に対する剣エネルギー攻撃の親和性率を、最大物理攻撃力に基づいて増加させます（最大物理攻撃力500で最大3.5%増加）。",
       },
       {
-        name: "Bellstrike Increase",
+        name: "ベルストライク増加",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "Increases Bellstrike Attack (Attribute Attack) by 19 - 38. Increases Bellstrike Penetration based on Max Bellstrike Attack.",
+          "ベルストライク攻撃力（属性攻撃）を19 - 38増加させます。最大ベルストライク攻撃力に基づいてベルストライク貫通を増加させます。",
       },
       {
-        name: "Attribute Attack Damage Enhancement",
+        name: "属性攻撃ダメージ強化",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "All Skills deal damage based on Attribute Attack, while Bellstrike Attack deals 50% bonus damage.",
+          "すべてのスキルは属性攻撃力に基づいてダメージを与え、ベルストライク攻撃は50%のボーナスダメージを与えます。",
       },
     ],
 
     notes: [
-      "Gear Tuning Priorities: Min Physical Attack > Max Physical Attack > Affinity Rate",
-      "Perfect starter weapon for new players",
-      "Complements Nameless Spear as the first weapon pair",
-      "Both weapons share the same development path (Bellstrike - Splendor)",
-      "High mobility and single-target control; excels at kiting enemies",
-      "Combine strong endurance with charged skills to unleash burst damage",
+      "装備調整の優先順位：最小物理攻撃力 > 最大物理攻撃力 > 親和性率",
+      "新規プレイヤーに最適なスターター武器",
+      "最初の武器ペアとして名もなき槍を補完します",
+      "両方の武器は同じ開発パス（ベルストライク - スプレンダー）を共有します",
+      "高い機動力と単体制御；敵のカイティング（引き撃ち）に優れています",
+      "強力なスタミナとチャージスキルを組み合わせてバーストダメージを放ちます",
     ],
   },
 
   {
     id: "vernal-umbrella",
-    name: "Vernal Umbrella",
+    name: "ヴァーナル・アンブレラ",
     type: "Umbrella",
     path: "Skillbind - Jade",
     image: require("../../../../assets/martial_art_weapons/vemal_umbrella.png"),
     description:
-      "The offensive alternative to the Soulshade Umbrella, entirely different in function. Instead of providing heals, this weapon focuses on targeting individual targets from a safe distance where the user cannot be targeted. Provides considerable mobility and crowd control, making it a suitable option for those who prefer not to take risks with melee weapons.",
-    playstyle: "Ranged sustained DPS with control and airborne burst combos",
+      "ソウルシェード・アンブレラの攻撃的な代替武器であり、機能は全く異なります。回復を提供する代わりに、この武器はユーザーがターゲットされない安全な距離から個々のターゲットを狙うことに重点を置いています。かなりの機動力とクラウドコントロールを提供し、近接武器でリスクを冒したくないプレイヤーに適したオプションとなっています。",
+    playstyle: "制御と空中バーストコンボを持つ遠距離持続DPS",
 
     howToGet: {
       method: "Quest Reward or Skill Theft",
-      location: "Time Tower in Kaifeng Region",
+      location: "開封（Kaifeng）エリアの時の塔（Time Tower）",
       details:
-        "Possible reward from Oddities - Mystery of Five Tones Encounter Quest in Qinghe, OR Skill Theft at Time Tower. For Skill Theft: Speak with Wang Ping'an at tower base, climb to find Jiang Ting'er, complete clue hunt for keepsake (tabby cat, chess players, gossiping women, warehouse, second-floor treasury), retrieve Bramble Rose Hairpin from warehouse, return to Jiang Ting'er, perform Skill Theft on Master.",
+        "清河での「Oddities - Mystery of Five Tones」遭遇クエストの報酬、または時の塔での技の奪取で入手可能。技の奪取の場合：塔の基部でWang Ping'anと話し、登ってJiang Ting'erを見つけ、記念品のヒント探し（トラ猫、チェスプレイヤー、噂話をする女性、倉庫、2階の宝物庫）を完了し、倉庫からBramble Rose Hairpinを回収し、Jiang Ting'erに戻り、マスターに対して技の奪取を行う。",
     },
 
     stats: {
@@ -1358,62 +1354,62 @@ export const weaponDatabase: Weapon[] = [
 
     skills: [
       {
-        name: "Spring Sorrow",
+        name: "Spring Sorrow（春の悲しみ）",
         type: "Martial Art",
         description:
-          "Briefly charges, then fires a flying petal forward. On hit, Immobilizes non-boss enemies for 3 seconds.",
+          "短時間チャージし、前方に空飛ぶ花びらを撃ちます。ヒット時、非ボスの敵を3秒間移動不能（Immobilize）にします。",
         recovery: "15.0s",
         key: "Q",
       },
       {
-        name: "Unfading Flower",
+        name: "Unfading Flower（色褪せぬ花）",
         type: "Special",
         description:
-          "Can be used when at least 50 Blossom are available. Toss the umbrella into the air and draw a hidden sword. You can then switch to another weapon or use the hidden sword's basic skills. While active, the umbrella follows you in midair and automatically fires projectiles at single targets within 5m. If the target is airborne, the umbrella consumes additional Blossom to fire enhanced projectiles and extend the target's airborne duration. Consumes 10 Blossom per second. If Blossom is insufficient, the umbrella is automatically recalled.",
+          "少なくとも50の開花（Blossom）がある場合に使用できます。傘を空中に投げて隠し剣を抜きます。その後、別の武器に切り替えるか、隠し剣の基本スキルを使用できます。発動中、傘は空中であなたに追従し、5m以内の単体ターゲットに自動的に投射物を発射します。ターゲットが空中にいる場合、傘は追加の開花を消費して強化された投射物を発射し、ターゲットの滞空時間を延長します。毎秒10の開花を消費します。開花が不足すると、傘は自動的に回収されます。",
         recovery: "0.2s",
         key: "~",
       },
       {
-        name: "Umbrella - Light Attack",
+        name: "傘 - 軽攻撃",
         type: "Light Attack",
         description:
-          "Swings your Umbrella to land up to three Light Attacks, dealing close to medium range damage.",
+          "傘を振るい、最大3回の軽攻撃を行い、近〜中距離のダメージを与えます。",
         recovery: "0.1s",
         key: "Left Click",
       },
       {
-        name: "Spring Away",
+        name: "Spring Away（春の逃走）",
         type: "Light Attack",
         description:
-          "After charging, open the umbrella to rise into the air and spin rapidly, making yourself airborne and firing projectiles to deal moderate damage. Hitting targets with these projectiles can rapidly accumulate Blossom.",
+          "チャージ後、傘を開いて空中に上昇し急速に回転して、自身を滞空状態にし、投射物を発射して中程度のダメージを与えます。これらの投射物をターゲットに当てると、開花を急速に蓄積できます。",
         key: "Hold Left Click",
       },
       {
-        name: "Apricot Heaven",
+        name: "Apricot Heaven（杏子の天国）",
         type: "Charged",
         description:
-          "A one-stage charged skill that deals massive damage. Open the umbrella to fly into the air, dealing area damage once to nearby enemies. While charging in mid-air, there are two variants based on the charge duration: a normal downward area attack and an enhanced area attack.",
+          "大ダメージを与える1段階チャージスキルです。傘を開いて空中に飛び、近くの敵に一度範囲ダメージを与えます。空中でのチャージ中、チャージ時間に基づいて2つのバリエーションがあります：通常の下降範囲攻撃と強化された範囲攻撃。",
         key: "Hold R",
       },
       {
-        name: "Colorful Phoenix",
+        name: "Colorful Phoenix（彩りの鳳凰）",
         type: "Heavy Attack",
         description:
-          "During the recovery of the first or second heavy attack, tap the light attack button to trigger a combo skill - open the umbrella and dash forward, dealing multiple hits of damage.",
+          "1回目または2回目の重攻撃のリカバリー中に軽攻撃ボタンをタップするとコンボスキルが発動します - 傘を開いて前方にダッシュし、多段ヒットダメージを与えます。",
         recovery: "0.2s",
         key: "R while in the air",
       },
       {
-        name: "Umbrella - Heavy Attack",
+        name: "傘 - 重攻撃",
         type: "Heavy Attack",
         description:
-          "Swings your Umbrella to land up to four Heavy Attacks, dealing close to medium range damage.",
+          "傘を振るい、最大4回の重攻撃を行い、近〜中距離のダメージを与えます。",
         key: "R",
       },
       {
-        name: "Umbrella - Conversion",
+        name: "傘 - 切り替え",
         type: "Dual-Weapon",
-        description: "Switch weapon to umbrella and swing it, dealing damage.",
+        description: "武器を傘に切り替えて振り、ダメージを与えます。",
         recovery: "3.0s",
         key: "TAB",
       },
@@ -1421,28 +1417,27 @@ export const weaponDatabase: Weapon[] = [
 
     internalArts: [
       {
-        name: "Blossom Barrage",
+        name: "Blossom Barrage（満開の弾幕）",
         type: "Attack/Martial Arts/Damage Boost",
         description:
-          "Vernal Umbrella's Martial Arts Skill Spring Sorrow can hold up to 2 stacks. Hitting a target applies the Combo effect: increases damage taken from the caster's Ballistic Skills by 10% for 8 seconds. Affected Ballistic Skills include: Martial Art Skill, Spring Sorrow, and Special Skill Unfading Flower. Recommended when using Vernal Umbrella as part of the Skillbind - Jade Arsenal.",
+          "ヴァーナル・アンブレラの武学スキル「Spring Sorrow」は最大2スタック保持できます。ターゲットにヒットするとコンボ効果を適用：キャスターの弾道スキルから受けるダメージが8秒間10%増加します。影響を受ける弾道スキルには、武学スキル「Spring Sorrow」と特殊スキル「Unfading Flower」が含まれます。スキルバインド - ジェイドの一部としてヴァーナル・アンブレラを使用する場合に推奨されます。",
       },
       {
-        name: "Flying Gourds",
+        name: "Flying Gourds（空飛ぶ瓢箪）",
         type: "Martial Arts/Support",
         description:
-          "Grants 2 charges to Inkwell Fan's Peak's Springless Silence but increases its cooldown by 3 seconds.",
+          "インクウェル・ファンの「Peak's Springless Silence」に2チャージを付与しますが、クールダウンが3秒増加します。",
       },
       {
-        name: "Thunderous Bloom",
+        name: "Thunderous Bloom（雷鳴の開花）",
         type: "Damage Boost/Buff",
         description:
-          "When you move more than 15m within 3 seconds, gain Spring Thunder: the next 3 Heavy Attacks or Airborne Heavy Attacks within 12 seconds gain 15% DMG Bonus. This effect may trigger once per 15 seconds.",
+          "3秒以内に15m以上移動すると「春の雷（Spring Thunder）」を獲得：12秒以内の次の3回の重攻撃または空中重攻撃のダメージボーナスが15%増加します。この効果は15秒ごとに1回発動します。",
       },
       {
-        name: "Star Reacher",
+        name: "Star Reacher（星を掴む者）",
         type: "Attack/Pursuit/Buff",
-        description:
-          "Gain 10% Physical Attack bonus for 8 seconds after knocking an enemy airborne.",
+        description: "敵を空中に打ち上げた後、8秒間物理攻撃力が10%増加します。",
       },
     ],
 
@@ -1453,7 +1448,7 @@ export const weaponDatabase: Weapon[] = [
         bonuses: {
           twoSet: "Precision Rate +0.1%",
           fourSet:
-            "After a Light Attack/Airborne Heavy Attack, damage is increased by 12%, lasting 10 seconds. The reverse is also true. Particularly, after a Heavy Attack/Airborne Heavy Attack/Light Attack/Charged Attack, damage is increased by 12%.",
+            "軽攻撃/空中重攻撃の後、ダメージが12%増加し、10秒間持続します。逆もまた真なりです。特に、重攻撃/空中重攻撃/軽攻撃/チャージ攻撃の後、ダメージが12%増加します。",
         },
         howToObtain: ["Campaign - Heavenfall", "Sword Trial", "Group Dungeons"],
       },
@@ -1463,7 +1458,7 @@ export const weaponDatabase: Weapon[] = [
         bonuses: {
           twoSet: "Max HP +40",
           fourSet:
-            "After entering combat, if no damage is taken for 10 seconds, gain Beyond the Chill: Reduces the next damage taken and all damage taken within 2 seconds afterward by 40%. Beyond the Chill is removed upon leaving combat.",
+            "戦闘開始後、10秒間ダメージを受けなかった場合、「Beyond the Chill」を獲得：次の被ダメージとその後2秒以内のすべての被ダメージを40%軽減します。「Beyond the Chill」は戦闘を離れると解除されます。",
         },
         howToObtain: [
           "Campaign - Heavenfall",
@@ -1476,83 +1471,85 @@ export const weaponDatabase: Weapon[] = [
 
     talents: [
       {
-        name: "Trajectory Skill Enhancement",
+        name: "弾道スキル強化",
         unlockMethod: "Unlocked after learning Martial Arts",
         description:
-          "All Vernal Umbrella ballistic skills ignore a portion of target's Physical Resistance when damaging an immobilized or airborne enemy.",
+          "ヴァーナル・アンブレラのすべての弾道スキルは、移動不能または空中の敵にダメージを与える際、ターゲットの物理耐性の一部を無視します。",
       },
       {
-        name: "Critical Rate Increase",
+        name: "クリティカル率増加",
         unlockMethod: "Complete Breakthrough to Tier 1",
-        description: "Agility can increase Critical Rate.",
+        description:
+          "敏捷性（Agility）によってクリティカル率を増加させることができます。",
       },
       {
-        name: "Trajectory Calculation Enhancement",
+        name: "弾道計算強化",
         unlockMethod: "Complete Breakthrough to Tier 2",
         description:
-          "Increases the Critical DMG of Vernal Umbrella's Ballistic Skills.",
+          "ヴァーナル・アンブレラの弾道スキルのクリティカルダメージを増加させます。",
       },
       {
-        name: "Silkbind Attribute Increase",
+        name: "スキルバインド属性増加",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "Increases Silkbind (Attribute) Attack. Also increases Silkbind DMG Bonus based on Min Silkbind Attack.",
+          "スキルバインド（属性）攻撃力を増加させます。また、最小スキルバインド攻撃力に基づいてスキルバインドダメージボーナスを増加させます。",
       },
       {
-        name: "Attribute Attack Damage Enhancement",
+        name: "属性攻撃ダメージ強化",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "All skills deal damage based on Attribute Attack, while Silkbind damage gains a further increase.",
+          "すべてのスキルは属性攻撃力に基づいてダメージを与え、スキルバインドダメージはさらに増加します。",
       },
     ],
 
     effects: [
       {
-        name: "Airborne",
+        name: "空中（Airborne）",
         description:
-          "Send the target airborne using Special Skill, making them more vulnerable to high damage.",
+          "特殊スキルを使用してターゲットを空中に送り、大ダメージに対してより脆弱にします。",
       },
       {
-        name: "Blossom",
+        name: "開花（Blossom）",
         description:
-          "A unique martial art resource of Vernal Umbrella. Max 100 points. Can be earned from hitting enemies with this martial art equipped. Blossom is consumed continuously while using skills.",
+          "ヴァーナル・アンブレラのユニークな武学リソース。最大100ポイント。この武学を装備して敵に攻撃を当てると獲得できます。開花はスキル使用中に継続的に消費されます。",
       },
       {
-        name: "Immobilize",
-        description: "Target is disabled; unable to move or use any skills.",
+        name: "移動不能（Immobilize）",
+        description:
+          "ターゲットは無効化され、移動やスキルの使用ができなくなります。",
       },
     ],
 
     notes: [
-      "Gear Tuning Priorities: Min Physical Attack > Max Physical Attack > Critical Rate",
-      "Offensive alternative to Soulshade Umbrella",
-      "Shares Skillbind - Jade path with Inkwell Fan",
-      "Ranged playstyle with sustained DPS capabilities",
-      "Safe distance combat - user cannot be easily targeted",
-      "Considerable mobility and crowd control options",
-      "Suitable for players who prefer not to take risks with melee weapons",
-      "Complex questline involving clue hunt for Skill Theft method",
-      "Unique Blossom resource system - max 100 points",
-      "Can draw hidden sword while umbrella auto-fires projectiles",
+      "装備調整の優先順位：最小物理攻撃力 > 最大物理攻撃力 > クリティカル率",
+      "ソウルシェード・アンブレラの攻撃的な代替品",
+      "インクウェル・ファンとスキルバインド - ジェイドのパスを共有",
+      "持続的なDPS能力を持つ遠距離プレイスタイル",
+      "安全な距離での戦闘 - ユーザーは容易にターゲットされない",
+      "かなりの機動力と群衆制御オプション",
+      "近接武器でリスクを冒したくないプレイヤーに適しています",
+      "技の奪取方法のヒント探しを伴う複雑なクエストライン",
+      "ユニークな開花リソースシステム - 最大100ポイント",
+      "傘が自動的に投射物を発射する間、隠し剣を抜くことができます",
     ],
   },
 
   {
     id: "soulshade-umbrella",
-    name: "Soulshade Umbrella",
+    name: "ソウルシェード・アンブレラ",
     type: "Umbrella",
     path: "Skillbind - Deluge",
     image: require("../../../../assets/martial_art_weapons/soulshade_umbrella.png"),
     description:
-      "The support-oriented alternative to the umbrella, and the only weapon, alongside the Panacea Fan, that can heal units. This weapon is all about supporting by providing heals, which makes it strongly oriented to multiplayer, but it severely lacks DMG, as it's thought to be a weapon you use while sitting back on battles, only providing heals.",
+      "傘のサポート指向の代替武器であり、パナセア・ファンと並んでユニットを回復できる唯一の武器です。この武器は回復の提供によるサポートが全てであり、マルチプレイに強く適していますが、ダメージ力には著しく欠けます。戦闘中は後方に位置し、回復の提供に専念する武器と考えられています。",
     playstyle:
-      "Support healer with burst and sustained healing, single-target and group recovery, revival abilities, and team damage buffs",
+      "バースト回復と持続回復、単体およびグループ回復、蘇生能力、チームダメージバフを持つサポートヒーラー",
 
     howToGet: {
       method: "Skill Theft",
-      location: "Soulshade Umbrella Post Station in eastern Kaifeng Region",
+      location: "開封（Kaifeng）エリア東部のソウルシェード・アンブレラの宿場",
       details:
-        "Requires completing Chapter 1: Heaven Has No Pier to unlock Kaifeng region. Navigate Post Station with stealth: enter house on left, assassinate guards, clear disciples, loot chests, descend through coffin ladder to hideout, clear hanging coffins area, climb to objective area, perform Skill Theft on Master.",
+        "開封エリアをアンロックするために第1章：Heaven Has No Pierを完了する必要があります。宿場を隠密で進む：左の家に入り、警備兵を暗殺し、弟子を一掃し、宝箱を略奪し、棺桶の梯子から隠れ家へ降り、吊り棺エリアを一掃し、目的エリアへ登り、マスターに対して技の奪取を行う。",
     },
 
     stats: {
@@ -1562,48 +1559,48 @@ export const weaponDatabase: Weapon[] = [
 
     skills: [
       {
-        name: "Floating Grace",
+        name: "Floating Grace（浮遊する恩恵）",
         type: "Martial Art",
         description:
-          "Send out the umbrella to grant yourself and nearby allies 15% increased damage for 8 seconds and heal once.",
+          "傘を送り出し、自身と近くの味方に8秒間15%のダメージ増加を付与し、一度回復します。",
         recovery: "60.0s",
         key: "Q",
       },
       {
-        name: "Echoes of a Thousand Plants",
+        name: "Echoes of a Thousand Plants（千草の残響）",
         type: "Special",
         description:
-          "Toss the umbrella into the air and pull out a hidden sword from the handle. You may switch to another weapon or use the hidden sword's basic skills. Increases healing by 15% and generates Dewdrops over time (up to 60). The umbrella hovers and follows you, automatically healing the ally with the lowest HP percentage nearby (including yourself). Increase the healing effect by 50% when healing yourself. Use a Special Skill while wielding a hidden sword to recall the umbrella early.",
+          "傘を空中に投げて柄から隠し剣を抜きます。別の武器に切り替えるか、隠し剣の基本スキルを使用できます。回復量を15%増加させ、時間とともに露の雫を生成します（最大60）。傘は空中でホバリングしてあなたに追従し、近くで最もHP割合の低い味方（自身を含む）を自動的に回復します。自身を回復する場合、回復効果が50%増加します。隠し剣を振るっている間に特殊スキルを使用すると、傘を早期に回収できます。",
         recovery: "60.0s",
         key: "~",
       },
       {
-        name: "Umbrella - Light Attack",
+        name: "傘 - 軽攻撃",
         type: "Light Attack",
         description:
-          "Swings your Umbrella to land up to three Light Attacks, dealing close to medium range damage.",
+          "傘を振るい、最大3回の軽攻撃を行い、近〜中距離のダメージを与えます。",
         recovery: "0.1s",
         key: "Left Click",
       },
       {
-        name: "Umbrella - Heavy Attack",
+        name: "傘 - 重攻撃",
         type: "Heavy Attack",
-        description: "Send the umbrella forward to perform a spinning attack.",
+        description: "傘を前方に送り出し、回転攻撃を行います。",
         recovery: "1.6s",
         key: "R",
       },
       {
-        name: "Pale Petal",
+        name: "Pale Petal（淡い花びら）",
         type: "Charged",
         description:
-          "Send the umbrella forward to perform a spinning attack. If the target is already Exhausted, the attack extends the duration of the Exhausted status. Holding the skill increases both its damage and the duration of the effect.",
+          "傘を前方に送り出し、回転攻撃を行います。ターゲットが既に疲弊（Exhausted）している場合、攻撃は疲弊状態の持続時間を延長します。スキルを長押しすると、ダメージと効果時間の両方が増加します。",
         key: "Hold R",
       },
       {
-        name: "Umbrella - Conversion",
+        name: "傘 - 切り替え",
         type: "Dual-Weapon",
         description:
-          "Switch your weapon to umbrella and swing it, dealing damage. Increased healing by 5% and generates Dewdrops over a period of time (up to 30).",
+          "武器を傘に切り替えて振り、ダメージを与えます。回復量を5%増加させ、一定時間かけて露の雫を生成します（最大30）。",
         recovery: "3.0s",
         key: "TAB",
       },
@@ -1611,39 +1608,39 @@ export const weaponDatabase: Weapon[] = [
 
     internalArts: [
       {
-        name: "Royal Remedy",
+        name: "Royal Remedy（王家の治療）",
         type: "Support/Martial Arts/Recover",
         description:
-          "Increases the healing effect of the water clone created by Panacea Fan's Martial Art Skill, Cloudburst Healing, by 10%. If you are within its range, gain 1 Dewdrop each time when receive healing over time.",
+          "パナセア・ファンの武学スキル「Cloudburst Healing」によって生成される水の分身の回復効果を10%増加させます。その範囲内にいる場合、持続回復を受けるたびに露の雫を1つ獲得します。",
       },
       {
-        name: "Restoring Blossom",
+        name: "Restoring Blossom（回復の開花）",
         type: "Support/Buff/Stacking",
         description:
-          "Dealing Critical Healing applies one stack of Nurturing for 3 seconds, increasing healing received by 2%, stacking up to 3 times.",
+          "クリティカル回復を行うと、「育成（Nurturing）」スタックを1つ、3秒間適用します。これにより受ける回復量が2%増加し、最大3回までスタックします。",
       },
       {
-        name: "Esoteric Revival",
+        name: "Esoteric Revival（秘儀の蘇生）",
         type: "Support/Buff/Recover",
         description:
-          "Increases the healing of Panacea Fan's Perception Skill, Resurrection, by 50% on the revived target.",
+          "パナセア・ファンの知覚スキル「Resurrection（蘇生）」による回復量を、蘇生されたターゲットに対して50%増加させます。",
       },
       {
-        name: "Mending Loom",
+        name: "Mending Loom（修復の織機）",
         type: "Support/Buff/Recover",
         description:
-          "Casting Soulshade Umbrella's Special Skill, Echoing Grow, restores 5 Dewdrops and additionally heals 10% of your Max HP for every 100 Dewdrops consumed. (when using Soulshade Umbrella as part of the Skillbind - Deluge Arsenal)",
+          "ソウルシェード・アンブレラの特殊スキル「Echoing Grow」を発動すると、露の雫を5回復し、消費した露の雫100ごとに自身の最大HPの10%を追加で回復します。（スキルバインド - デリュージの一部としてソウルシェード・アンブレラを使用している場合）",
       },
     ],
 
     gearSets: [
       {
-        name: "Ivorybloom Set",
+        name: "アイボリーブルーム・セット",
         pieces: 4,
         bonuses: {
           twoSet: "Critical Rate +0.1%",
           fourSet:
-            "At Max HP, there's a bonus 5% chance to deal Critical Healing and Damage, and increases the effects of Critical Healing and Damage by 15%.",
+            "HP最大時、クリティカル回復およびダメージを与える確率が5%ボーナスされ、クリティカル回復およびダメージの効果が15%増加します。",
         },
         howToObtain: [
           "Campaign - Ever-Normal Granary",
@@ -1652,12 +1649,12 @@ export const weaponDatabase: Weapon[] = [
         ],
       },
       {
-        name: "Whirlsnow Set",
+        name: "ワールスノー・セット",
         pieces: 4,
         bonuses: {
           twoSet: "Physical Defense +1",
           fourSet:
-            "When you lose more than 40% of Max HP in a single instance of damage or when your HP falls below 20%, the next healing you receive within 5 seconds restores an additional 25% of your Max HP. This effect triggers once every 60 seconds.",
+            "一度のダメージで最大HPの40%以上を失うか、HPが20%未満に低下した場合、5秒以内に受ける次の回復で最大HPの25%を追加で回復します。この効果は60秒ごとに一度発動します。",
         },
         howToObtain: [
           "Campaign - Ever-Normal Granary",
@@ -1670,92 +1667,93 @@ export const weaponDatabase: Weapon[] = [
 
     talents: [
       {
-        name: "Buff Enhancement",
+        name: "バフ強化",
         unlockMethod: "Unlocked after learning Martial Arts",
         description:
-          "Martial Art Skill allows you and allies to deal bonus damage against Exhausted enemies. When equipped with both Soulshade Umbrella and Panacea Fan, it increases the damage of Mystic Arts.",
+          "武学スキルにより、自身と味方が疲弊した敵に対してボーナスダメージを与えられるようになります。ソウルシェード・アンブレラとパナセア・ファンの両方を装備している場合、秘技（Mystic Arts）のダメージが増加します。",
       },
       {
-        name: "Physical Attack Increase",
+        name: "物理攻撃力増加",
         unlockMethod: "Complete Breakthrough to Tier 1",
-        description: "Agility can increase Min Physical Attack.",
+        description:
+          "敏捷性（Agility）によって最小物理攻撃力を増加させることができます。",
       },
       {
-        name: "Critical Heal Enhancement",
+        name: "クリティカル回復強化",
         unlockMethod: "Complete Breakthrough to Tier 2",
-        description: "Increases the Critical Healing effect of Special Skills.",
+        description: "特殊スキルのクリティカル回復効果を増加させます。",
       },
       {
-        name: "Skillbind Attribute Increase",
+        name: "スキルバインド属性増加",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "Increases Skillbind (Attribute) Attack. Also increases Skillbind Penetration based on Min Skillbind Attack.",
+          "スキルバインド（属性）攻撃力を増加させます。また、最小スキルバインド攻撃力に基づいてスキルバインド貫通を増加させます。",
       },
       {
-        name: "Attribute Attack Damage Enhancement",
+        name: "属性攻撃ダメージ強化",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "Deals bonus healing based on Skillbind Attack. All skills deal damage based on Attribute Attack, while Skillbind damage gains a further increase.",
+          "スキルバインド攻撃力に基づいてボーナス回復を与えます。すべてのスキルは属性攻撃力に基づいてダメージを与え、スキルバインドダメージはさらに増加します。",
       },
     ],
 
     effects: [
       {
-        name: "Dewdrop",
+        name: "露の雫（Dewdrop）",
         description:
-          "A special martial arts resource used by Panacea Fan and Soulshade Umbrella, with a maximum of 100 Points.",
+          "パナセア・ファンとソウルシェード・アンブレラで使用される特別な武学リソースで、最大100ポイントです。",
       },
       {
-        name: "Inner Demon - Healing Reduction",
+        name: "心魔 - 回復減少",
         description:
-          "Before completing the first clear challenges against Campaign and Mysterious Bosses, battles with them are affected by inner demons, greatly reducing Healing Effects.",
+          "キャンペーンおよび謎のボスに対する最初のクリアチャレンジを完了する前は、戦闘が心魔（Inner Demons）の影響を受け、回復効果が大幅に減少します。",
       },
       {
-        name: "Sense Skill",
+        name: "センススキル（Sense Skill）",
         description:
-          "In certain special cases, the corresponding skills may transform into other forms.",
+          "特定の特別な状況下で、対応するスキルが他の形態に変化する場合があります。",
       },
       {
-        name: "Mystic Art - DMG Up",
+        name: "秘技 - ダメージアップ",
         description:
-          "When equipped with both Soulshade Umbrella and Panacea Fan, the damage of Mystic Arts is increased by 20%.",
+          "ソウルシェード・アンブレラとパナセア・ファンの両方を装備している場合、秘技（Mystic Arts）のダメージが20%増加します。",
       },
     ],
 
     notes: [
-      "Gear Tuning Priorities: Min Physical Attack > Max Physical Attack > Critical Rate",
-      "Support healer weapon - only weapon besides Panacea Fan that can heal",
-      "Strongly oriented to multiplayer support",
-      "Severely lacks damage output",
-      "Best used while sitting back in battles, providing heals",
-      "Features both burst and sustained healing",
-      "Covers single-target and group recovery",
-      "Revival abilities allow defeated allies to rejoin the fight",
-      "Provides team-wide damage buffs (15% increased damage for 8s)",
-      "Shares Skillbind - Deluge path with Panacea Fan",
-      "Uses Dewdrop resource system (max 100 points)",
-      "Can draw hidden sword while umbrella auto-heals lowest HP ally",
-      "Increases healing by 15% and generates Dewdrops over time",
-      "Synergizes with Panacea Fan - together they increase Mystic Arts damage by 20%",
-      "Requires completing Chapter 1 to unlock Kaifeng region",
+      "装備調整の優先順位：最小物理攻撃力 > 最大物理攻撃力 > クリティカル率",
+      "サポートヒーラー武器 - パナセア・ファン以外で回復できる唯一の武器",
+      "マルチプレイのサポートに強く特化",
+      "ダメージ出力に著しく欠ける",
+      "戦闘では後方で回復を提供することに最適",
+      "バースト回復と持続回復の両方を備える",
+      "単体およびグループ回復をカバー",
+      "蘇生能力により敗北した味方を戦線に復帰させられる",
+      "チーム全体のダメージバフを提供（8秒間ダメージ15%増）",
+      "パナセア・ファンとスキルバインド - デリュージのパスを共有",
+      "露の雫リソースシステム（最大100ポイント）を使用",
+      "傘が最もHPの低い味方を自動回復する間、隠し剣を抜くことができます",
+      "回復量を15%増加させ、時間とともに露の雫を生成",
+      "パナセア・ファンとシナジーあり - 共に装備すると秘技のダメージが20%増加",
+      "開封エリアをアンロックするために第1章を完了する必要あり",
     ],
   },
 
   {
     id: "stormbreaker-spear",
-    name: "Stormbreaker Spear",
+    name: "ストームブレイカー・スピア",
     type: "Spear",
     path: "Stonesplit - Might",
     image: require("../../../../assets/martial_art_weapons/stormbreaker_spear.png"),
     description:
-      "This weapon is specifically designed for those who prefer to absorb incoming damage. The Stormbreaker Spear provides the user with several Shields and DMG Reduction resources that increase their survivability. And the mobility is reduced, making its gameplay easy to comprehend. While inflicting damage isn't its specialty, this weapon can do a lot of damage if properly used.",
+      "この武器は、入ってくるダメージを受け止めることを好むプレイヤー向けに特別に設計されています。ストームブレイカー・スピアは、生存率を高めるいくつかのシールドとダメージ軽減リソースをユーザーに提供します。機動力は低下しており、ゲームプレイは理解しやすくなっています。ダメージを与えることは得意ではありませんが、適切に使用すれば大きなダメージを与えることができます。",
     playstyle:
-      "Tank with shields, damage reduction, interruption resistance, and taunt abilities - serves as team damage sponge with wide-range AoE charged skills",
+      "シールド、ダメージ軽減、妨害耐性、挑発能力を持つタンク - 広範囲のAoEチャージスキルでチームのダメージスポンジとして機能",
 
     howToGet: {
       method: "Story Progression",
       details:
-        'After one of the first quests and visiting General Wang, you will receive the Stormbreaker Spear in the mail. Check your inbox to claim "Raging Tides General\'s Gift" (Main Menu > Letter in upper-right corner).',
+        "最初のクエストの1つを終え、Wang将軍を訪問した後、メールでストームブレイカー・スピアを受け取ります。受信箱を確認して「Raging Tides General's Gift」を受け取ってください（メインメニュー > 右上の手紙）。",
     },
 
     stats: {
@@ -1765,47 +1763,47 @@ export const weaponDatabase: Weapon[] = [
 
     skills: [
       {
-        name: "Storm Roar",
+        name: "Storm Roar（嵐の咆哮）",
         type: "Martial Art",
         description:
-          "Shake the spear to release sonic waves, Taunting nearby enemies and Shocking them for 8 seconds while gaining 20% damage reduction for 16 seconds (40% when hitting a Multiplayer Campaign boss). Grants Fortitude during the skill.",
+          "槍を振って音波を放ち、近くの敵を挑発（Taunt）し、8秒間「感電（Shocked）」状態にしながら、16秒間20%のダメージ軽減を獲得します（マルチプレイキャンペーンボスにヒットした場合は40%）。スキル中は「不屈（Fortitude）」を獲得します。",
         recovery: "20.0s",
         key: "Q",
       },
       {
-        name: "Thunder Shock",
+        name: "Thunder Shock（雷撃）",
         type: "Special",
         description:
-          "Consume 2 bars of Fighting Spirit to brace the spear and launch a spinning kick forward, followed by a flipping slam, knocking the target down and applying Vulnerability for 8 seconds. Grants Fortitude during the skill.",
+          "戦意（Fighting Spirit）を2バー消費して槍を構え、前方に回転蹴りを放った後、反転して叩きつけ、ターゲットをノックダウンして8秒間「脆弱（Vulnerability）」を適用します。スキル中は「不屈」を獲得します。",
         recovery: "0.2s",
         key: "~",
       },
       {
-        name: "Spear - Light Attack",
+        name: "槍 - 軽攻撃",
         type: "Light Attack",
-        description: "Swing a long spear to perform up to four light attacks.",
+        description: "長槍を振るい、最大4回の軽攻撃を行います。",
         recovery: "0.2s",
         key: "Left Click",
       },
       {
-        name: "Fury Spear",
+        name: "Fury Spear（激怒の槍）",
         type: "Charged",
         description:
-          "After charging, unleash a flurry of thrusts, dealing high damage. Gain Drumbeat on the final strike. Grants Fortitude during the skill.",
+          "チャージ後、突きの連打を放ち、大ダメージを与えます。最後の攻撃で「ドラムビート（Drumbeat）」を獲得します。スキル中は「不屈」を獲得します。",
         recovery: "0.2s",
         key: "Hold R",
       },
       {
-        name: "Spear - Heavy Attack",
+        name: "槍 - 重攻撃",
         type: "Heavy Attack",
-        description: "Swing a long spear to perform up to three heavy attacks.",
+        description: "長槍を振るい、最大3回の重攻撃を行います。",
         recovery: "0.2s",
         key: "R",
       },
       {
-        name: "Spear - Conversion",
+        name: "槍 - 切り替え",
         type: "Dual-Weapon",
-        description: "Switch to spear and perform a sweeping attack.",
+        description: "槍に切り替えてなぎ払い攻撃を行います。",
         recovery: "3.0s",
         key: "TAB",
       },
@@ -1813,28 +1811,28 @@ export const weaponDatabase: Weapon[] = [
 
     internalArts: [
       {
-        name: "Exquisite Scenery",
+        name: "Exquisite Scenery（絶景）",
         type: "Defense/Martial Arts/Counter",
         description:
-          "Successfully defending with Thundercry Blade activates its special counterattack. Press Perception Skill or Heavy Attack to unleash a first-stage Charged Heavy Attack without charging. This effect can only trigger once every 10 seconds. Hitting a target with a Varied Combo restores 1 bar of Battle Will (no more than 1 bar restored per cast).",
+          "Thundercry Bladeでの防御に成功すると、特別なカウンターアタックが発動可能になります。知覚スキルまたは重攻撃を押すと、チャージなしで1段階目のチャージ重攻撃を放ちます。この効果は10秒ごとに一度発動可能です。派生コンボでターゲットにヒットすると、戦意を1バー回復します（キャストごとに1バーまで）。",
       },
       {
-        name: "Trapped Beast",
+        name: "Trapped Beast（囚われの獣）",
         type: "Defense/Buff/Recover",
         description:
-          "Taking damage while HP is below 30% triggers Cornered Beast, generating a shield that absorbs up to 30% of Max HP. This effect lasts 4 seconds and can trigger once every 300 seconds.",
+          "HPが30%未満の状態でダメージを受けると「追い詰められた獣（Cornered Beast）」が発動し、最大HPの30%まで吸収するシールドを生成します。この効果は4秒間持続し、300秒ごとに一度発動可能です。",
       },
       {
-        name: "Art of Resistance",
+        name: "Art of Resistance（抵抗の術）",
         type: "Defense/Buff",
         description:
-          "Increases the duration of your own HP shield and the bonus effects of its source skill by 4 seconds.",
+          "自身のHPシールドの持続時間とその発生元スキルのボーナス効果を4秒延長します。",
       },
       {
-        name: "Rock Solid",
+        name: "Rock Solid（盤石）",
         type: "Defense/Martial Arts/DMG Reduction",
         description:
-          "Increases the DMG Reduction of Stormbreaker Spear's Storm Roar by 20% after taunting a boss unit, and by 5% after taunting a non-boss unit, up to 20% in total. While the DMG Reduction is active, reduces all damage dealt by 10%. Recommended when using Stormbreaker Spear as part of the Stonesplit - Might Arsenal.",
+          "ボスユニットを挑発した後のストームブレイカー・スピアの「Storm Roar」のダメージ軽減を20%増加させ、非ボスユニットを挑発した後は5%増加させ、合計で最大20%まで増加します。ダメージ軽減がアクティブな間、与えるすべてのダメージが10%減少します。ストームブレイカー・スピアをストーンスプリット - マイトの一部として使用する場合に推奨されます。",
       },
     ],
 
@@ -1845,7 +1843,7 @@ export const weaponDatabase: Weapon[] = [
         bonuses: {
           twoSet: "Max HP +40",
           fourSet:
-            "Increases all Critical DMG and healing by 10%, and further increases them by 15% when you have an HP Shield.",
+            "すべてのクリティカルダメージと回復を10%増加させ、HPシールドがある場合はさらに15%増加させます。",
         },
         howToObtain: [
           "Campaign - Unbound Cavern",
@@ -1859,7 +1857,7 @@ export const weaponDatabase: Weapon[] = [
         bonuses: {
           twoSet: "Max HP +40",
           fourSet:
-            "When attacking while defending, there is a 30% chance to create a shield that absorbs up to 10% of Max HP, lasting 20 seconds. If a shield already exists, restores 2% HP in addition. This effect can only trigger once every 60 seconds.",
+            "防御中に攻撃すると、30%の確率で最大HPの10%まで吸収するシールドを作成し、20秒間持続します。既にシールドが存在する場合、追加でHPを2%回復します。この効果は60秒ごとに一度発動可能です。",
         },
         howToObtain: [
           "Campaign - Unbound Cavern",
@@ -1872,99 +1870,100 @@ export const weaponDatabase: Weapon[] = [
 
     talents: [
       {
-        name: "Max Fighting Spirit Increase",
+        name: "最大戦意（Fighting Spirit）増加",
         unlockMethod: "Unlocked after learning Martial Arts",
-        description: "Increases Max Fighting Spirit by 1 bar.",
+        description: "最大戦意を1バー増加させます。",
       },
       {
-        name: "Precision Rate Increase",
+        name: "精度率増加",
         unlockMethod: "Complete Breakthrough to Tier 1",
         description:
-          "Increases Precision Rate based on Body, capped at 14 Body.",
+          "身体（Body）に基づいて精度率を増加させます（14 Bodyで上限）。",
       },
       {
-        name: "Hit Damage Taken Enhancement",
+        name: "被ヒットダメージ強化",
         unlockMethod: "Complete Breakthrough to Tier 2",
         description:
-          "Reduces Physical Damage taken briefly after hitting Charged Skills and their Varied Combos.",
+          "チャージスキルとその派生コンボを当てた直後、受ける物理ダメージを軽減します。",
       },
       {
-        name: "Stonesplit Increase",
+        name: "ストーンスプリット増加",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "Increases Stonesplit (Attribute) Attack. Also increases Stonesplit Penetration based on Max Stonesplit Attack.",
+          "ストーンスプリット（属性）攻撃力を増加させます。また、最大ストーンスプリット攻撃力に基づいてストーンスプリット貫通を増加させます。",
       },
       {
-        name: "Attribute Attack Damage Enhancement",
+        name: "属性攻撃ダメージ強化",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "All skills deal damage based on Attribute Attack, while Stonesplit damage gains a further increase.",
+          "すべてのスキルは属性攻撃力に基づいてダメージを与え、ストーンスプリットダメージはさらに増加します。",
       },
     ],
 
     effects: [
       {
-        name: "Fighting Spirit",
+        name: "戦意（Fighting Spirit）",
         description:
-          "A unique martial art resource for Thundercry Blade and Stormbreaker Spear. It is gained by blocking or through natural regeneration over time, and is consumed when using certain skills.",
+          "Thundercry Bladeとストームブレイカー・スピアのユニークな武学リソース。ブロックや時間の経過による自然回復で得られ、特定のスキルを使用する際に消費されます。",
       },
       {
-        name: "Drumbeat",
+        name: "ドラムビート（Drumbeat）",
         description:
-          "Increase Charged Skill damage by 15% for 6 seconds. Exclusive to Stormbreaker Spear. Can trigger the Perception Skill of Thundercry Blade's Martial Art Skill.",
+          "6秒間、チャージスキルのダメージを15%増加させます。ストームブレイカー・スピア専用。Thundercry Bladeの武学スキルの知覚スキルを発動できます。",
       },
       {
-        name: "Taunt",
-        description: "Enemies will prioritize attacking taunted targets.",
+        name: "挑発（Taunt）",
+        description: "敵は挑発されたターゲットを優先的に攻撃します。",
       },
       {
-        name: "Shocked",
-        description: "Reduce damage dealt by 20%.",
+        name: "感電（Shocked）",
+        description: "与えるダメージを20%減少させます。",
       },
       {
-        name: "Vulnerable",
+        name: "脆弱（Vulnerable）",
         description:
-          "HP and Qi damage taken increased by 8%. If the damage source is using Thundercry Blade or Stormbreaker Spear, it is additionally increased by 8%.",
+          "受けるHPおよび気ダメージが8%増加します。ダメージ源がThundercry Bladeまたはストームブレイカー・スピアを使用している場合、さらに8%増加します。",
       },
       {
-        name: "Fortitude",
-        description: "Immune to all but Crowd Control when hit.",
+        name: "不屈（Fortitude）",
+        description:
+          "被弾時、クラウドコントロール（CC）以外のすべてに対して免疫を持ちます。",
       },
     ],
 
     notes: [
-      "Gear Tuning Priority: Max HP",
-      "Designed for absorbing incoming damage",
-      "Multiple shields and DMG reduction resources",
-      "Strong survivability - can serve as team damage sponge",
-      "Taunt abilities to control enemy aggro",
-      "Equipped with interruption resistance (Fortitude)",
-      "Can group enemies for wide-range AoE damage with charged skills",
-      "Reduced mobility makes gameplay easy to comprehend",
-      "While damage isn't its specialty, can deal significant damage when properly used",
-      "Shares Stonesplit - Might path and Fighting Spirit resource with Thundercry Blade",
-      "Storm Roar grants 20% damage reduction (40% vs Multiplayer Campaign boss)",
-      "Exclusive Drumbeat effect increases Charged Skill damage by 15%",
-      "Obtained early in game from General Wang's mail",
+      "装備調整の優先順位：最大HP",
+      "入ってくるダメージを受け止めるために設計されています",
+      "複数のシールドとダメージ軽減リソース",
+      "高い生存力 - チームのダメージスポンジとして機能可能",
+      "敵のヘイトを制御する挑発能力",
+      "妨害耐性（不屈）を装備",
+      "チャージスキルで敵を集めて広範囲のAoEダメージを与えることが可能",
+      "機動力が低いためゲームプレイが理解しやすい",
+      "ダメージは専門ではありませんが、適切に使用すれば大きなダメージを与えることができます",
+      "Thundercry Bladeとストーンスプリット - マイトのパスおよび戦意リソースを共有",
+      "Storm Roarは20%のダメージ軽減（マルチプレイキャンペーンボスに対しては40%）を付与",
+      "専用のドラムビート効果でチャージスキルのダメージが15%増加",
+      "ゲーム序盤にWang将軍からのメールで入手",
     ],
   },
 
   {
     id: "thundercry-blade",
-    name: "Thundercry Blade",
+    name: "サンダークライ・ブレード",
     type: "Mo Blade",
     path: "Stonesplit - Might",
     image: require("../../../../assets/martial_art_weapons/thundercry_blade.png"),
     description:
-      "This weapon is specifically designed for those who prefer to absorb incoming damage. The Thundercry Blade provides the user with several Shields that increase their survivability. And the mobility is reduced, making its gameplay easy to comprehend. While inflicting damage isn't its specialty, this weapon can do a lot of damage if properly used.",
+      "この武器は、入ってくるダメージを受け止めることを好むプレイヤー向けに特別に設計されています。サンダークライ・ブレードは、生存率を高めるいくつかのシールドをユーザーに提供します。機動力は低下しており、ゲームプレイは理解しやすくなっています。ダメージを与えることは得意ではありませんが、適切に使用すれば大きなダメージを与えることができます。",
     playstyle:
-      "Tank with shields, damage reduction, interruption resistance - serves as team damage sponge with wide-range charged skills for AoE damage",
+      "シールド、ダメージ軽減、妨害耐性を持つタンク - 広範囲のチャージスキルでチームのダメージスポンジとして機能しAoEダメージを与える",
 
     howToGet: {
       method: "Quest Reward, Skill Theft, or Join Sect",
-      location: "Well of Heaven Martial Camp in Kaifeng Region",
+      location: "開封（Kaifeng）エリアのWell of Heaven Martial Camp",
       details:
-        "Possible reward from Oddities - Mystery of Five Tones Encounter Quest in Qinghe, OR Skill Theft at Well of Heaven Martial Camp in Kaifeng Region, OR join Well of Heaven Sect.",
+        "清河での「Oddities - Mystery of Five Tones」遭遇クエストの報酬、または開封エリアのWell of Heaven Martial Campでの技の奪取、またはWell of Heaven門派への加入で入手可能。",
     },
 
     stats: {
@@ -1974,82 +1973,81 @@ export const weaponDatabase: Weapon[] = [
 
     skills: [
       {
-        name: "Predator's Shield",
+        name: "Predator's Shield（捕食者の盾）",
         type: "Martial Art",
         description:
-          "Grants a shield equal to 25% of your max HP for 8 seconds and increases Fighting Spirit by 2 bars. If you have Drumbeat, it will be removed to trigger your Perception Skill.",
+          "8秒間、最大HPの25%に相当するシールドを付与し、戦意を2バー増加させます。ドラムビートを持っている場合、それが削除されて知覚スキルが発動します。",
         recovery: "12.0s",
         key: "Q",
       },
       {
-        name: "Shifting Heaven",
+        name: "Shifting Heaven（移ろう天）",
         type: "Martial Art",
         description:
-          "Grants a shield equal to 25% of your max HP, lasting 8 seconds. Also gain 2 bars of Fighting Spirit and Breakthrough. (Perception Skill - activates upon Drumbeat)",
+          "8秒間持続する、最大HPの25%に相当するシールドを付与します。また、戦意2バーと「突破（Breakthrough）」を獲得します。（知覚スキル - ドラムビート時に発動）",
         recovery: "12.0s",
         key: "Q (with Drumbeat)",
       },
       {
-        name: "Sunrush Gale",
+        name: "Sunrush Gale（陽衝く疾風）",
         type: "Special",
         description:
-          "Consumes 2 bars of Fighting Spirit to drive the Mo Blade into the ground, generating a vortex that pulls in nearby enemies (ineffective against bosses). Then spins the Mo Blade to unleash a powerful sweeping attack and gains Focus. Grants Fortitude during the skill.",
+          "戦意を2バー消費して陌刀を地面に突き刺し、近くの敵を引き寄せる渦を生成します（ボスには無効）。その後、陌刀を回転させて強力ななぎ払い攻撃を放ち、フォーカスを獲得します。スキル中は「不屈」を獲得します。",
         recovery: "7.0s",
         key: "~",
       },
       {
-        name: "Mo Blade - Light Attack",
+        name: "陌刀 - 軽攻撃",
         type: "Light Attack",
         description:
-          "Swing the Mo Blade to perform up to three light attacks, dealing light damage.",
+          "陌刀を振るい、最大3回の軽攻撃を行い、軽ダメージを与えます。",
         recovery: "0.2s",
         key: "Left Click",
       },
       {
-        name: "Galecloud Cleave",
+        name: "Galecloud Cleave（疾風雲の斬撃）",
         type: "Charged",
         description:
-          "A light charged skill. After charging, spin the Mo Blade to unleash a double sweeping strike, dealing moderate damage in a wide area. You can move while charging. The charge has three stages, with damage increasing at each stage. Releasing at Stage 3 consumes 1 bar of Fighting Spirit (if available) to boost damage by 20% and unlock the light attack varied combo skill. Grants Fortitude during the skill.",
+          "軽チャージスキルです。チャージ後、陌刀を回転させて二重のなぎ払い攻撃を行い、広範囲に中程度のダメージを与えます。チャージ中に移動可能です。チャージには3段階あり、段階ごとにダメージが増加します。ステージ3でリリースすると、戦意を1バー消費して（利用可能な場合）ダメージを20%ブーストし、軽攻撃派生コンボスキルをアンロックします。スキル中は「不屈」を獲得します。",
         recovery: "0.2s",
         key: "Hold Left Click",
       },
       {
-        name: "Light Attack Varied Combo",
+        name: "軽攻撃派生コンボ",
         type: "Light Attack",
         description:
-          "Consume 1 bar of Fighting Spirit to swing the Mo Blade in reverse, launching a sweeping attack that deals moderate damage in a large area. Grants Fortitude during the skill. (Unlocked after Galecloud Cleave Stage 3)",
+          "戦意を1バー消費して陌刀を逆に振り、広範囲に中程度のダメージを与えるなぎ払い攻撃を行います。スキル中は「不屈」を獲得します。（Galecloud Cleaveステージ3後にアンロック）",
         recovery: "1.0s",
         key: "Left Click (after Galecloud Cleave)",
       },
       {
-        name: "Mo Blade - Heavy Attack",
+        name: "陌刀 - 重攻撃",
         type: "Heavy Attack",
         description:
-          "Perform up to three heavy attacks with the Mo Blade, each dealing low damage.",
+          "陌刀で最大3回の重攻撃を行い、それぞれ低ダメージを与えます。",
         recovery: "0.2s",
         key: "R",
       },
       {
-        name: "Avalanche",
+        name: "Avalanche（雪崩）",
         type: "Charged",
         description:
-          "Chargeable heavy attack. Slash upward, then slam down to deal high damage in a small area. You can move while charging. The skill has three power stages; damage increases with each. At Stage 3, consume 1 bar of Fighting Spirit (if available) to boost damage by 20% and unlock a Heavy Attack Combo. Grants Fortitude during the skill.",
+          "チャージ可能な重攻撃です。斬り上げた後、叩きつけて狭い範囲に大ダメージを与えます。チャージ中に移動可能です。スキルには3つのパワーステージがあり、それぞれダメージが増加します。ステージ3で、戦意を1バー消費して（利用可能な場合）ダメージを20%ブーストし、重攻撃コンボをアンロックします。スキル中は「不屈」を獲得します。",
         recovery: "0.2s",
         key: "Hold R",
       },
       {
-        name: "Varied Combo",
+        name: "派生コンボ",
         type: "Heavy Attack",
         description:
-          "Consume 1 bar of Fighting Spirit to leap into the air and flip, slamming into the ground to deal high damage in a small area, knocking the target down. Grants Fortitude during the skill. (Unlocked after Avalanche Stage 3)",
+          "戦意を1バー消費して空中に跳躍し宙返りし、地面に叩きつけて狭い範囲に大ダメージを与え、ターゲットをノックダウンします。スキル中は「不屈」を獲得します。（Avalancheステージ3後にアンロック）",
         recovery: "1.0s",
         key: "R (after Avalanche)",
       },
       {
-        name: "Mo Blade - Conversion",
+        name: "陌刀 - 切り替え",
         type: "Dual-Weapon",
-        description:
-          "Switch weapon to Mo Blade and swing it, dealing light damage.",
+        description: "武器を陌刀に切り替えて振り、軽ダメージを与えます。",
         recovery: "3.0s",
         key: "TAB",
       },
@@ -2057,28 +2055,28 @@ export const weaponDatabase: Weapon[] = [
 
     internalArts: [
       {
-        name: "Exquisite Scenery",
+        name: "Exquisite Scenery（絶景）",
         type: "Defense/Martial Arts/Counter",
         description:
-          "Successfully defending with Thundercry Blade activates its special counterattack. Press Perception Skill or Heavy Attack to unleash a first-stage Charged Heavy Attack without charging. This effect can only trigger once every 10 seconds. Hitting a target with a Varied Combo restores 1 bar of Battle Will (no more than 1 bar restored per cast).",
+          "Thundercry Bladeでの防御に成功すると、特別なカウンターアタックが発動可能になります。知覚スキルまたは重攻撃を押すと、チャージなしで1段階目のチャージ重攻撃を放ちます。この効果は10秒ごとに一度発動可能です。派生コンボでターゲットにヒットすると、戦意を1バー回復します（キャストごとに1バーまで）。",
       },
       {
-        name: "Trapped Beast",
+        name: "Trapped Beast（囚われの獣）",
         type: "Defense/Buff/Recover",
         description:
-          "Taking damage while HP is below 30% triggers Cornered Beast, generating a shield that absorbs up to 30% of Max HP. This effect lasts 4 seconds and can trigger once every 300 seconds.",
+          "HPが30%未満の状態でダメージを受けると「追い詰められた獣（Cornered Beast）」が発動し、最大HPの30%まで吸収するシールドを生成します。この効果は4秒間持続し、300秒ごとに一度発動可能です。",
       },
       {
-        name: "Art of Resistance",
+        name: "Art of Resistance（抵抗の術）",
         type: "Defense/Buff",
         description:
-          "Increases the duration of your own HP shield and the bonus effects of its source skill by 4 seconds.",
+          "自身のHPシールドの持続時間とその発生元スキルのボーナス効果を4秒延長します。",
       },
       {
-        name: "Rock Solid",
+        name: "Rock Solid（盤石）",
         type: "Defense/Martial Arts/DMG Reduction",
         description:
-          "Increases the DMG Reduction of Stormbreaker Spear's Storm Roar by 20% after taunting a boss unit, and by 5% after taunting a non-boss unit, up to 20% in total. While the DMG Reduction is active, reduces all damage dealt by 10%. Recommended when using Stormbreaker Spear as part of the Stonesplit - Might Arsenal.",
+          "ボスユニットを挑発した後のストームブレイカー・スピアの「Storm Roar」のダメージ軽減を20%増加させ、非ボスユニットを挑発した後は5%増加させ、合計で最大20%まで増加します。ダメージ軽減がアクティブな間、与えるすべてのダメージが10%減少します。ストームブレイカー・スピアをストーンスプリット - マイトの一部として使用する場合に推奨されます。",
       },
     ],
 
@@ -2089,7 +2087,7 @@ export const weaponDatabase: Weapon[] = [
         bonuses: {
           twoSet: "Max HP +40",
           fourSet:
-            "Increases all Critical DMG and healing by 10%, and further increases them by 15% when you have an HP Shield.",
+            "すべてのクリティカルダメージと回復を10%増加させ、HPシールドがある場合はさらに15%増加させます。",
         },
         howToObtain: [
           "Campaign - Unbound Cavern",
@@ -2103,7 +2101,7 @@ export const weaponDatabase: Weapon[] = [
         bonuses: {
           twoSet: "Max HP +40",
           fourSet:
-            "When attacking while defending, there is a 30% chance to create a shield that absorbs up to 10% of Max HP, lasting 20 seconds. If a shield already exists, restores 2% HP in addition. This effect can only trigger once every 60 seconds.",
+            "防御中に攻撃すると、30%の確率で最大HPの10%まで吸収するシールドを作成し、20秒間持続します。既にシールドが存在する場合、追加でHPを2%回復します。この効果は60秒ごとに一度発動可能です。",
         },
         howToObtain: [
           "Campaign - Unbound Cavern",
@@ -2116,80 +2114,80 @@ export const weaponDatabase: Weapon[] = [
 
     talents: [
       {
-        name: "Charge Calculation Enhancement",
+        name: "チャージ計算強化",
         unlockMethod: "Unlocked after learning Martial Arts",
         description:
-          "Charged Skill and Varied combo never become Abrasion and deal more Critical DMG.",
+          "チャージスキルと派生コンボは決して摩耗（Abrasion）せず、より多くのクリティカルダメージを与えます。",
       },
       {
-        name: "Max HP Increases",
+        name: "最大HP増加",
         unlockMethod: "Complete Breakthrough to Tier 1",
-        description: "Body can increase Max HP.",
+        description: "身体（Body）によって最大HPを増加させることができます。",
       },
       {
-        name: "Charge Critical Hit Enhancement",
+        name: "チャージクリティカルヒット強化",
         unlockMethod: "Complete Breakthrough to Tier 2",
         description:
-          "Increases the Critical Rate of Charged Skill and related Varied Combo.",
+          "チャージスキルおよび関連する派生コンボのクリティカル率を増加させます。",
       },
       {
-        name: "Stonesplit Increase",
+        name: "ストーンスプリット増加",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "Increases Stonesplit (Attribute) Attack. Also increases Stonesplit Penetration based on Max Stonesplit Attack.",
+          "ストーンスプリット（属性）攻撃力を増加させます。また、最大ストーンスプリット攻撃力に基づいてストーンスプリット貫通を増加させます。",
       },
       {
-        name: "Attribute Attack Damage Enhancement",
+        name: "属性攻撃ダメージ強化",
         unlockMethod: "Complete Breakthrough to Tier 3",
         description:
-          "All skills deal damage based on Attribute Attack, while Stonesplit Damage gains a further increase.",
+          "すべてのスキルは属性攻撃力に基づいてダメージを与え、ストーンスプリットダメージはさらに増加します。",
       },
     ],
 
     effects: [
       {
-        name: "Fighting Spirit",
+        name: "戦意（Fighting Spirit）",
         description:
-          "A unique martial art resource for Thundercry Blade and Stormbreaker Spear. It is gained by blocking or through natural regeneration over time, and is consumed when using certain skills.",
+          "Thundercry Bladeとストームブレイカー・スピアのユニークな武学リソース。ブロックや時間の経過による自然回復で得られ、特定のスキルを使用する際に消費されます。",
       },
       {
-        name: "Breakthrough",
+        name: "突破（Breakthrough）",
         description:
-          "Increases the damage of charged skills by 30% and removes the Endurance cost while charging for 12s.",
+          "12秒間、チャージスキルのダメージを30%増加させ、チャージ中のスタミナコストを削除します。",
       },
       {
-        name: "Shield",
+        name: "シールド（Shield）",
         description:
-          "Absorbs HP damage and associated Qi damage, excluding fixed Qi damage.",
+          "固定気ダメージを除く、HPダメージと関連する気ダメージを吸収します。",
       },
       {
-        name: "Focus",
+        name: "フォーカス（Focus）",
         description:
-          "The next charged skill used within 5 seconds charges 50% faster.",
+          "5秒以内に使用される次のチャージスキルは50%速くチャージされます。",
       },
       {
-        name: "Drumbeat",
+        name: "ドラムビート（Drumbeat）",
         description:
-          "Increase Charged Skill Damage by 15% for 6 seconds. Exclusive to Stormbreaker Spear. Can trigger the Perception Skill of the Thundercry Blade's Martial Art Skill.",
+          "6秒間、チャージスキルのダメージを15%増加させます。ストームブレイカー・スピア専用。Thundercry Bladeの武学スキルの知覚スキルを発動できます。",
       },
     ],
 
     notes: [
-      "Gear Tuning Priority: Max HP",
-      "Designed for absorbing incoming damage",
-      "Multiple shield abilities increase survivability",
-      "Reduced mobility makes gameplay easy to comprehend",
-      "While damage isn't its specialty, can deal significant damage when properly used",
-      "Shares Stonesplit - Might path and Fighting Spirit resource with Stormbreaker Spear",
-      "Predator's Shield grants 25% HP shield and +2 Fighting Spirit bars",
-      "Shifting Heaven Perception Skill triggers when you have Drumbeat buff",
-      "Breakthrough effect: +30% charged skill damage, no Endurance cost for 12s",
-      "Fortitude grants immunity to all but Crowd Control when hit",
-      "Three-stage charged attacks with damage scaling per stage",
-      "Stage 3 charges unlock Varied Combo skills (consumes 1 Fighting Spirit bar)",
-      "Sunrush Gale vortex pulls enemies (ineffective on bosses)",
-      "Shares Rainwhisper and Moonflare gear sets with Stormbreaker Spear",
-      "Synergizes with Stormbreaker Spear through Drumbeat effect",
+      "装備調整の優先順位：最大HP",
+      "入ってくるダメージを受け止めるために設計されています",
+      "複数のシールド能力が生存率を高めます",
+      "機動力が低いためゲームプレイが理解しやすい",
+      "ダメージは専門ではありませんが、適切に使用すれば大きなダメージを与えることができます",
+      "ストームブレイカー・スピアとストーンスプリット - マイトのパスおよび戦意リソースを共有",
+      "Predator's Shieldは25%のHPシールドと+2の戦意バーを付与",
+      "ドラムビートバフを持っているとShifting Heaven知覚スキルが発動",
+      "突破効果：チャージスキルダメージ+30%、12秒間スタミナコストなし",
+      "不屈は被弾時にクラウドコントロール以外のすべてに対する免疫を付与",
+      "段階ごとにダメージが増加する3段階チャージ攻撃",
+      "ステージ3のチャージは派生コンボスキルをアンロック（戦意1バーを消費）",
+      "Sunrush Galeの渦は敵を引き寄せます（ボスには無効）",
+      "ストームブレイカー・スピアとRainwhisperおよびMoonflare装備セットを共有",
+      "ドラムビート効果を通じてストームブレイカー・スピアとシナジー効果あり",
     ],
   },
 ];

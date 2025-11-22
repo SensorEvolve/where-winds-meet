@@ -1,1905 +1,2202 @@
-import { Weapon } from '../../../types/weapons';
+import { Weapon } from "../../../types/weapons";
 
 export const weaponDatabase: Weapon[] = [
   {
-    id: 'heavenquaker-spear',
-    name: 'Heavenquaker Spear',
-    type: 'Spear',
-    path: 'Bellstrike - Umbra',
-    image: require('../../../../assets/martial_art_weapons/heavenquaker_spear.png'),
-    description: 'A Martial Arts Weapon that focuses on inflicting Bleeding Damage to drain enemies\' HP. The Heavenquaker Spear allows you to inflict Bleed very quickly, providing significant AoE Damage against hordes of enemies.',
-    playstyle: 'Bleed-focused DPS with sustained damage over time and AoE capabilities',
+    id: "heavenquaker-spear",
+    name: "헤븐퀘이커 스피어",
+    type: "Spear", // Kept English for logic
+    path: "Bellstrike - Umbra", // Kept English for logic
+    image: require("../../../../assets/martial_art_weapons/heavenquaker_spear.png"),
+    description:
+      "출혈 피해를 입혀 적의 HP를 깎는 데 특화된 무학 무기입니다. 헤븐퀘이커 스피어는 빠르게 출혈을 부여할 수 있어, 적의 무리를 상대로 강력한 범위(AoE) 피해를 줍니다.",
+    playstyle: "지속 피해와 범위 공격 능력을 갖춘 출혈 중심 DPS",
 
     howToGet: {
-      method: 'Skill Theft',
-      location: 'Heavenquaker Spear Sanctum in Qinghe Region',
+      method: "Skill Theft",
+      location: "청하(Qinghe) 지역의 헤븐퀘이커 스피어 성소",
       level: 8,
-      details: 'Complete "Skill Theft: Unearned Lesson" quest from Qiu Yuehai at Peace Bell Tower. Requires Dragon Key to access the Sanctum.',
+      details:
+        '평화의 종탑(Peace Bell Tower)에 있는 Qiu Yuehai에게서 "Skill Theft: Unearned Lesson" 퀘스트를 완료하십시오. 성소에 입장하려면 용의 열쇠(Dragon Key)가 필요합니다.',
     },
 
     stats: {
-      strengths: ['DPS', 'Difficulty', 'Mobility'],
-      weaknesses: ['Support', 'Survivability', 'Control'],
+      strengths: ["DPS", "Difficulty", "Mobility"], // Kept English for logic
+      weaknesses: ["Support", "Survivability", "Control"], // Kept English for logic
     },
 
     skills: [
       {
-        name: 'Sober Sorrow',
-        type: 'Martial Art',
-        description: 'Spin the long spear with full strength, performing six consecutive sweeping attacks against nearby enemies and dealing massive damage. After the skill ends, gain buffs for 12 seconds based on combo hits: Droplet (<5 hits), Spring Surge (5+ hits), or River Flow (10+ hits).',
-        recovery: '12.0s',
-        key: 'Q',
+        name: "Sober Sorrow (깨어난 비애)",
+        type: "Martial Art", // Kept English
+        description:
+          "장창을 전력으로 회전시켜 근처의 적에게 6회 연속 휩쓸기 공격을 가하여 막대한 피해를 줍니다. 스킬 종료 후, 콤보 히트 수에 따라 12초 동안 버프를 획득합니다: 물방울(5히트 미만), 봄의 쇄도(5히트 이상), 강물의 흐름(10히트 이상).",
+        recovery: "12.0s",
+        key: "Q",
       },
       {
-        name: 'Sweep All',
-        type: 'Special',
-        description: 'Swing the spear to deal damage to nearby enemies. Enhanced based on current buff: Droplet (moderate damage), Spring Surge (increased damage/range, reduces defense), River Flow (further increased damage/range, reduces defense, applies Bleed).',
-        recovery: '1.0s',
-        key: '~',
+        name: "Sweep All (일망타진)",
+        type: "Special", // Kept English
+        description:
+          "창을 휘둘러 근처의 적에게 피해를 줍니다. 현재 버프에 따라 강화됩니다: 물방울(중간 피해), 봄의 쇄도(피해/범위 증가, 방어력 감소), 강물의 흐름(피해/범위 더욱 증가, 방어력 감소, 출혈 부여).",
+        recovery: "1.0s",
+        key: "~",
       },
       {
-        name: 'Spear - Light Attack',
-        type: 'Light Attack',
-        description: 'Swing a long spear to perform up to four light attacks.',
-        recovery: '0.2s',
-        key: 'Left Click',
+        name: "Spear - Light Attack (창 - 경공격)",
+        type: "Light Attack", // Kept English
+        description: "장창을 휘둘러 최대 4회의 경공격을 수행합니다.",
+        recovery: "0.2s",
+        key: "Left Click",
       },
       {
-        name: 'Drifting Thrust',
-        type: 'Charged',
-        description: 'Consume Endurance to charge, then unleash a flurry of thrust with a long spear, dealing multiple hits to enemies ahead. Grants Fortitude (immune to all but CC when hit) during the skill.',
-        recovery: '0.2s',
-        key: 'Hold R',
+        name: "Drifting Thrust (표류 찌르기)",
+        type: "Charged", // Kept English
+        description:
+          "지구력(Endurance)을 소모하여 차지한 후, 장창으로 찌르기 난무를 펼쳐 전방의 적에게 다단 히트를 가합니다. 스킬 사용 중에는 불굴(CC기를 제외한 모든 공격에 면역) 상태를 얻습니다.",
+        recovery: "0.2s",
+        key: "Hold R",
       },
       {
-        name: 'Spear - Heavy Attack',
-        type: 'Heavy Attack',
-        description: 'Swing a long spear to perform up to three heavy attacks.',
-        recovery: '0.2s',
-        key: 'R',
+        name: "Spear - Heavy Attack (창 - 중공격)",
+        type: "Heavy Attack", // Kept English
+        description: "장창을 휘둘러 최대 3회의 중공격을 수행합니다.",
+        recovery: "0.2s",
+        key: "R",
       },
       {
-        name: 'Spear - Conversion',
-        type: 'Dual-Weapon',
-        description: 'Switch to spear and perform a sweeping attack.',
-        recovery: '3.0s',
-        key: 'TAB',
+        name: "Spear - Conversion (창 - 전환)",
+        type: "Dual-Weapon", // Kept English
+        description: "창으로 전환하며 휩쓸기 공격을 수행합니다.",
+        recovery: "3.0s",
+        key: "TAB",
       },
     ],
 
     internalArts: [
       {
-        name: 'Sword Horizon',
-        type: 'Attack/Martial Arts/Pursuit',
-        description: 'After casting Strategic Sword\'s Martial Arts Skill, Special Skill, or Charged Skill, press at perfect timing to cast Crisscrossing Sword and unleash follow-up attacks. If target has 5 stacks of bleed, remove all bleed stacks and deal high Bleed damage once.',
+        name: "Sword Horizon (검의 지평)",
+        type: "Attack/Martial Arts/Pursuit",
+        description:
+          "전략검(Strategic Sword)의 무학 스킬, 특수 스킬 또는 차지 스킬을 시전한 후, 완벽한 타이밍에 입력하면 교차하는 검(Crisscrossing Sword)을 시전하여 후속 공격을 가합니다. 대상에게 출혈 중첩이 5개 있는 경우, 모든 출혈 중첩을 제거하고 한 번에 높은 출혈 피해를 줍니다.",
       },
       {
-        name: 'Wolfchaser\'s Art',
-        type: 'Martial Arts/Buff',
-        description: 'Reduces required combo number to gain Sober Sorrow buff from 5/10 to 4/8. Each time Sober Sorrow hits a boss with Bleed effect, 20-100% chance to increase combo count by 1 based on Bleed stacks.',
+        name: "Wolfchaser's Art (늑대 추적자의 기술)",
+        type: "Martial Arts/Buff",
+        description:
+          "Sober Sorrow 버프를 얻기 위해 필요한 콤보 수를 5/10에서 4/8로 줄입니다. Sober Sorrow가 출혈 상태인 보스를 적중시킬 때마다, 출혈 중첩 수에 따라 20-100% 확률로 콤보 카운트가 1 증가합니다.",
       },
       {
-        name: 'Adaptive Steel',
-        type: 'Attack/Support/Buff',
-        description: 'Spear: Attacks ignore 12.5% of target\'s Physical Defense.',
+        name: "Adaptive Steel (적응하는 강철)",
+        type: "Attack/Support/Buff",
+        description: "창: 공격이 대상의 물리 방어력을 12.5% 무시합니다.",
       },
       {
-        name: 'Insightful Strike',
-        type: 'Attack/Damage Boost/DMG Reduction',
-        description: 'Dealing Affinity DMG generates Focus. When Focus is full, enter Concentration state for 10s (increases Affinity DMG by 10%, 5% chance to reduce damage taken by 40% upon hit).',
+        name: "Insightful Strike (통찰의 일격)",
+        type: "Attack/Damage Boost/DMG Reduction",
+        description:
+          "친화력(Affinity) 피해를 입히면 집중(Focus)이 생성됩니다. 집중이 가득 차면 10초 동안 집중 상태에 들어갑니다(친화력 피해 10% 증가, 피격 시 5% 확률로 받는 피해 40% 감소).",
       },
     ],
 
     gearSets: [
       {
-        name: 'Hawkwing Set',
+        name: "Hawkwing Set (매의 날개 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Affinity Rate +0.1%',
-          fourSet: 'When any damage triggers Affinity, gain Hawkwing: increases Physical Attack by 2% for 5s, stacking up to 5 times.',
+          twoSet: "친화력 확률 +0.1%",
+          fourSet:
+            "피해가 친화력을 발동시키면 매의 날개(Hawkwing)를 획득합니다: 5초 동안 물리 공격력이 2% 증가하며, 최대 5회 중첩됩니다.",
         },
-        howToObtain: ['Campaign - Still Shore', 'Campaign - Gleaming Abyss', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: [
+          "Campaign - Still Shore",
+          "Campaign - Gleaming Abyss",
+          "Sword Trial",
+          "Group Dungeons",
+        ],
       },
       {
-        name: 'Eaglerise Set',
+        name: "Eaglerise Set (독수리의 비상 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Physical Defense +1',
-          fourSet: 'Dealing DoT or healing grants Eaglerise: Reduces damage taken by 1.2% for 10s (max 5 stacks). At max stacks, Eagle Guard reduces next damage by 90% (halved for boss damage). 30s cooldown.',
+          twoSet: "물리 방어력 +1",
+          fourSet:
+            "지속 피해(DoT)를 입히거나 치유를 하면 Eaglerise를 획득합니다: 10초 동안 받는 피해가 1.2% 감소합니다(최대 5회 중첩). 최대 중첩 시, 독수리의 수호(Eagle Guard) 효과를 얻어 다음 피해를 90% 감소시킵니다(보스 피해의 경우 절반). 30초 재사용 대기시간.",
         },
-        howToObtain: ['Campaign - Still Shore', 'Campaign - Gleaming Abyss', 'Campaign - Halo Peak', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: [
+          "Campaign - Still Shore",
+          "Campaign - Gleaming Abyss",
+          "Campaign - Halo Peak",
+          "Sword Trial",
+          "Group Dungeons",
+        ],
       },
     ],
 
     talents: [
       {
-        name: 'Damage Over Time Enhancement',
-        unlockMethod: 'Unlocked after learning Martial Arts',
-        description: 'Hitting a target with Charged Skill increases their damage-over-time taken.',
+        name: "지속 피해 강화",
+        unlockMethod: "Unlocked after learning Martial Arts",
+        description:
+          "대상에게 차지 스킬을 적중시키면 받는 지속 피해가 증가합니다.",
       },
       {
-        name: 'Physical Attack Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 1',
-        description: 'Power can increase Max Physical Attack.',
+        name: "물리 공격력 증가",
+        unlockMethod: "Complete Breakthrough to Tier 1",
+        description: "힘(Power)으로 최대 물리 공격력을 증가시킬 수 있습니다.",
       },
       {
-        name: 'Damage Over Time Enhancement II',
-        unlockMethod: 'Complete Breakthrough to Tier 2',
-        description: 'When calculating category damage, further increases Affinity DMG.',
+        name: "지속 피해 강화 II",
+        unlockMethod: "Complete Breakthrough to Tier 2",
+        description:
+          "카테고리 피해 계산 시, 친화력 피해를 추가로 증가시킵니다.",
       },
       {
-        name: 'Bellstrike Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'Increases Bellstrike (Attribute) Attack. Also increases Bellstrike Penetration based on Max Bellstrike Attack.',
+        name: "Bellstrike 증가",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "Bellstrike(속성) 공격력을 증가시킵니다. 또한 최대 Bellstrike 공격력에 비례하여 Bellstrike 관통력을 증가시킵니다.",
       },
       {
-        name: 'Attribute Attack Damage Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'All skills deal damage based on Attribute Attack, while Bellstrike damage gains a further increase.',
+        name: "속성 공격 피해 강화",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "모든 스킬은 속성 공격력에 기반하여 피해를 주며, Bellstrike 피해는 추가로 증가합니다.",
       },
     ],
 
     effects: [
       {
-        name: 'Bleed',
-        description: 'Deals continuous HP damage over time, stacking up to 5 layers.',
+        name: "Bleed (출혈)",
+        description:
+          "시간에 따라 지속적인 HP 피해를 입히며, 최대 5단계까지 중첩됩니다.",
       },
       {
-        name: 'Droplet',
-        description: 'Increase HP damage dealt by 10%.',
+        name: "Droplet (물방울)",
+        description: "가하는 HP 피해가 10% 증가합니다.",
       },
       {
-        name: 'Spring Surge',
-        description: 'Increase HP damage dealt by 15%.',
+        name: "Spring Surge (봄의 쇄도)",
+        description: "가하는 HP 피해가 15% 증가합니다.",
       },
       {
-        name: 'River Flow',
-        description: 'Increase HP damage dealt by 20%.',
+        name: "River Flow (강물의 흐름)",
+        description: "가하는 HP 피해가 20% 증가합니다.",
       },
     ],
 
     notes: [
-      'Gear Tuning Priorities: Min Physical Attack > Max Physical Attack > Affinity Rate',
-      'Works excellently with Strategic Sword for bleed synergy',
-      'Requires Dragon Key to access Sanctum',
+      "장비 튜닝 우선순위: 최소 물리 공격력 > 최대 물리 공격력 > 친화력 확률",
+      "출혈 시너지를 위해 전략검(Strategic Sword)과 매우 잘 어울립니다",
+      "성소에 입장하려면 용의 열쇠(Dragon Key)가 필요합니다",
     ],
   },
 
   {
-    id: 'strategic-sword',
-    name: 'Strategic Sword',
-    type: 'Sword',
-    path: 'Bellstrike - Umbra',
-    image: require('../../../../assets/martial_art_weapons/strategic_sword.png'),
-    description: 'The second type of Martial Art you can opt for when using a Sword and a Spear. Rather than just inflicting pure damage, this Martial Art focuses on inflicting Bleeding Damage to drain your enemies\' HP. At the same time, you continue to damage them with simple attacks. This Martial Art is very flexible as it allows you to attack passively bigger enemies while you deal with the rest of them, or just fully focus on killing individual targets one by one. Also boasts a lot of mobility but requires large amounts of Endurance to keep the pace up.',
-    playstyle: 'Bleed-focused DPS with sustained damage over time, high mobility, and flexible target management - requires high Endurance management',
+    id: "strategic-sword",
+    name: "전략검 (Strategic Sword)",
+    type: "Sword",
+    path: "Bellstrike - Umbra",
+    image: require("../../../../assets/martial_art_weapons/strategic_sword.png"),
+    description:
+      "검과 창을 사용할 때 선택할 수 있는 두 번째 무학입니다. 단순히 순수한 피해를 입히는 것보다, 이 무학은 출혈 피해를 입혀 적의 HP를 고갈시키는 데 중점을 둡니다. 동시에 단순한 공격으로 지속적인 피해를 줄 수 있습니다. 매우 유연한 무학으로, 큰 적을 수동적으로 공격하면서 나머지 적들을 처리하거나, 개별 대상을 하나씩 처치하는 데 집중할 수 있습니다. 또한 높은 기동성을 자랑하지만, 페이스를 유지하려면 많은 지구력(Endurance) 관리가 필요합니다.",
+    playstyle:
+      "지속 피해, 높은 기동성, 유연한 대상 관리를 갖춘 출혈 중심 DPS - 높은 지구력 관리 필요",
 
     howToGet: {
-      method: 'Skill Theft',
-      location: 'Strategic Sword Sanctum south of Qinghe Region',
-      details: 'Requires Dragon Key. Fast-travel to Back Mountain Teleporter. Enter sanctum via Loong Herm Dragon Pillar. Navigate through militiamen guards, loot 2 chests, head to eastern side, go up ramp to second floor, use blue circle for Skill Theft.',
+      method: "Skill Theft",
+      location: "청하(Qinghe) 지역 남쪽의 전략검 성소",
+      details:
+        "용의 열쇠가 필요합니다. 뒷산 순간이동 장치(Back Mountain Teleporter)로 빠르게 이동하십시오. Loong Herm Dragon Pillar를 통해 성소로 입장합니다. 민병대 경비를 뚫고 이동하여 상자 2개를 약탈하고, 동쪽으로 향해 경사로를 따라 2층으로 올라가 파란색 원을 사용하여 기술 강탈을 수행하십시오.",
     },
 
     stats: {
-      strengths: ['DPS', 'Difficulty', 'Mobility'],
-      weaknesses: ['Support', 'Survivability', 'Control'],
+      strengths: ["DPS", "Difficulty", "Mobility"],
+      weaknesses: ["Support", "Survivability", "Control"],
     },
 
     skills: [
       {
-        name: 'Inner Track Slash',
-        type: 'Martial Art',
-        description: 'Dash to an enemy and perform a quick slash, dealing light damage and applying Bleed. During the follow-through, press again to deliver four consecutive slashes to enemies in front, applying Bleed.',
-        recovery: '12.0s',
-        key: 'Q',
+        name: "Inner Track Slash (내면의 베기)",
+        type: "Martial Art",
+        description:
+          "적에게 돌진하여 빠른 베기를 수행해 가벼운 피해를 입히고 출혈을 적용합니다. 후속 동작 중에 다시 누르면 전방의 적들에게 4회 연속 베기를 가하여 출혈을 적용합니다.",
+        recovery: "12.0s",
+        key: "Q",
       },
       {
-        name: 'Inner Balance Strike III',
-        type: 'Special',
-        description: 'Consume Endurance to evade backward, creating distance, then strike enemies in your original location multiple times. If a target has 5 stacks of Bleed, immediately deal high damage and remove the Bleed stacks. This effect can trigger only once per use on the same target. Each hit applies Bleed.',
-        recovery: '1.0s',
-        key: '~',
+        name: "Inner Balance Strike III (내면의 균형 타격 III)",
+        type: "Special",
+        description:
+          "지구력을 소모하여 뒤로 회피해 거리를 벌린 후, 원래 위치에 있는 적들을 여러 번 타격합니다. 대상에게 출혈 중첩이 5개 있는 경우, 즉시 큰 피해를 입히고 출혈 중첩을 제거합니다. 이 효과는 동일한 대상에게 사용당 한 번만 발동할 수 있습니다. 각 타격은 출혈을 적용합니다.",
+        recovery: "1.0s",
+        key: "~",
       },
       {
-        name: 'Sword - Light Attack',
-        type: 'Light Attack',
-        description: 'Perform up to four light attacks with a Longsword.',
-        recovery: '0.6s',
-        key: 'Left Click',
+        name: "Sword - Light Attack (검 - 경공격)",
+        type: "Light Attack",
+        description: "장검으로 최대 4회의 경공격을 수행합니다.",
+        recovery: "0.6s",
+        key: "Left Click",
       },
       {
-        name: 'Second Track Slash',
-        type: 'Charged',
-        description: 'Consume Endurance to charge up and dash forward rapidly, dealing massive damage to enemies along the path. While dashing, you become invisible and immune to damage, applying Bleed with each hit.',
-        recovery: '1.0s',
-        key: 'Hold R',
+        name: "Second Track Slash (두 번째 베기)",
+        type: "Charged",
+        description:
+          "지구력을 소모하여 차지한 후 전방으로 빠르게 돌진하여 경로상의 적들에게 막대한 피해를 입힙니다. 돌진하는 동안 투명 상태가 되며 피해에 면역이 되고, 적중 시마다 출혈을 적용합니다.",
+        recovery: "1.0s",
+        key: "Hold R",
       },
       {
-        name: 'Sword - Heavy Attack',
-        type: 'Heavy Attack',
-        description: 'Perform up to three heavy attacks with a Longsword.',
-        recovery: '0.9s',
-        key: 'R',
+        name: "Sword - Heavy Attack (검 - 중공격)",
+        type: "Heavy Attack",
+        description: "장검으로 최대 3회의 중공격을 수행합니다.",
+        recovery: "0.9s",
+        key: "R",
       },
       {
-        name: 'Sword - Conversion',
-        type: 'Dual-Weapon',
-        description: 'Switch to a Sword and slash.',
-        recovery: '3.0s',
-        key: 'TAB',
+        name: "Sword - Conversion (검 - 전환)",
+        type: "Dual-Weapon",
+        description: "검으로 전환하여 베기를 수행합니다.",
+        recovery: "3.0s",
+        key: "TAB",
       },
     ],
 
     internalArts: [
       {
-        name: 'Sword Horizon',
-        type: 'Attack/Martial Arts/Pursuit',
-        description: 'After casting the Strategic Sword\'s Martial Arts Skill, Special Skill, or Charged Skill, press the skill button at the perfect timing during the ending phase to cast Crisscrossing Sword and unleash follow-up attacks. If the target has 5 stacks of bleed, remove all bleed stacks and deal high Bleed damage once.',
+        name: "Sword Horizon (검의 지평)",
+        type: "Attack/Martial Arts/Pursuit",
+        description:
+          "전략검의 무학 스킬, 특수 스킬 또는 차지 스킬을 시전한 후, 종료 단계에서 완벽한 타이밍에 스킬 버튼을 누르면 교차하는 검(Crisscrossing Sword)을 시전하여 후속 공격을 가합니다. 대상에게 출혈 중첩이 5개 있는 경우, 모든 출혈 중첩을 제거하고 한 번에 높은 출혈 피해를 줍니다.",
       },
       {
-        name: 'Wolfchaser\'s Art',
-        type: 'Martial Arts/Buff',
-        description: 'Reduces the required combo number to gain Heavenquaker Spear\'s Martial Art Skill, Sober Sorrow, buff from 5/10 to 4/8. Each time Sober Sorrow hits a boss with Bleed effect from you, there is a 20%/40%/60%/80%/100% chance to increase the combo count by 1 based on the number of Bleed stacks.',
+        name: "Wolfchaser's Art (늑대 추적자의 기술)",
+        type: "Martial Arts/Buff",
+        description:
+          "헤븐퀘이커 스피어의 무학 스킬인 Sober Sorrow 버프를 얻기 위해 필요한 콤보 수를 5/10에서 4/8로 줄입니다. 당신의 출혈 효과가 적용된 보스에게 Sober Sorrow가 적중할 때마다, 출혈 중첩 수에 따라 20%/40%/60%/80%/100%의 확률로 콤보 카운트가 1 증가합니다.",
       },
       {
-        name: 'Adaptive Steel',
-        type: 'Attack/Support/Buff',
-        description: 'Gain a Martial Skill based on the blade weapon you are using: Sword: 10% chance to apply a stack of Bleed to the target when dealing Affinity DMG. Spear: Attacks ignore 12.5% of target\'s Physical Defense. Dual Blades: After a perfect dodge, increase the next Martial Art Skill\'s damage within 8 seconds by 25%. Mo Blade: Increases the Critical DMG of Charged Skill and Parry Counter Skills by 20%. The Martial Skill of Sword has a 10-second Cooldown, while Dual Blades\' Martial Skill has a cooldown of 25 seconds.',
+        name: "Adaptive Steel (적응하는 강철)",
+        type: "Attack/Support/Buff",
+        description:
+          "사용 중인 칼날 무기에 따라 무학 스킬을 획득합니다: 검: 친화력 피해를 입힐 때 10% 확률로 대상에게 출혈 1중첩 적용. 창: 공격이 대상의 물리 방어력을 12.5% 무시. 쌍검: 완벽한 회피 후, 8초 이내의 다음 무학 스킬 피해가 25% 증가. 맥도(Mo Blade): 차지 스킬 및 패링 반격 스킬의 치명타 피해 20% 증가. 검의 무학 스킬은 10초의 재사용 대기시간이 있으며, 쌍검의 무학 스킬은 25초의 대기시간이 있습니다.",
       },
       {
-        name: 'Insightful Strike',
-        type: 'Attack/Damage Boost/DMG Reduction',
-        description: 'Dealing Affinity DMG generates Focus. When Focus is full, enter the Concentration state for 10 seconds. Concentration: Increases Affinity DMG by 10%. Upon hit, there\'s a 5% chance to reduce damage taken by 40%.',
+        name: "Insightful Strike (통찰의 일격)",
+        type: "Attack/Damage Boost/DMG Reduction",
+        description:
+          "친화력(Affinity) 피해를 입히면 집중(Focus)이 생성됩니다. 집중이 가득 차면 10초 동안 집중 상태에 들어갑니다. 집중: 친화력 피해가 10% 증가합니다. 피격 시 5% 확률로 받는 피해가 40% 감소합니다.",
       },
     ],
 
     gearSets: [
       {
-        name: 'Hawkwing Set',
+        name: "Hawkwing Set (매의 날개 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Affinity Rate +0.1%',
-          fourSet: 'When any of your damage triggers Affinity, gain Hawkwing: increases Physical Attack by 2% for 5 seconds, stacking up to 5 times.',
+          twoSet: "친화력 확률 +0.1%",
+          fourSet:
+            "피해가 친화력을 발동시키면 매의 날개(Hawkwing)를 획득합니다: 5초 동안 물리 공격력이 2% 증가하며, 최대 5회 중첩됩니다.",
         },
-        howToObtain: ['Campaign - Still Shore', 'Campaign - Gleaming Abyss', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: [
+          "Campaign - Still Shore",
+          "Campaign - Gleaming Abyss",
+          "Sword Trial",
+          "Group Dungeons",
+        ],
       },
       {
-        name: 'Eaglerise Set',
+        name: "Eaglerise Set (독수리의 비상 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Physical Defense +1',
-          fourSet: 'Dealing damage over time or healing grants 1 stack of Eaglerise: Reduces damage taken by 1.2% for 10 seconds, stacking up to 5 times. At max stacks, receives an Eagle Guard effect that reduces the next upcoming damage within 10 seconds by 90% (halved when this damage comes from a boss). This effect can only trigger once every 30 seconds.',
+          twoSet: "물리 방어력 +1",
+          fourSet:
+            "지속 피해를 입히거나 치유를 하면 Eaglerise 1중첩을 획득합니다: 10초 동안 받는 피해가 1.2% 감소하며, 최대 5회 중첩됩니다. 최대 중첩 시, 독수리의 수호(Eagle Guard) 효과를 받아 10초 이내에 받는 다음 피해를 90% 감소시킵니다(보스 피해인 경우 절반). 이 효과는 30초마다 한 번만 발동할 수 있습니다.",
         },
-        howToObtain: ['Campaign - Still Shore', 'Campaign - Gleaming Abyss', 'Campaign - Halo Peak', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: [
+          "Campaign - Still Shore",
+          "Campaign - Gleaming Abyss",
+          "Campaign - Halo Peak",
+          "Sword Trial",
+          "Group Dungeons",
+        ],
       },
     ],
 
     talents: [
       {
-        name: 'Bleed Mechanism Enhancement',
-        unlockMethod: 'Unlocked after learning Martial Arts',
-        description: 'Hitting an enemy affected by max Bleed stacks with certain skills can inflict high Bleed damage once.',
+        name: "출혈 메커니즘 강화",
+        unlockMethod: "Unlocked after learning Martial Arts",
+        description:
+          "특정 스킬로 최대 출혈 중첩 상태인 적을 타격하면 한 번에 높은 출혈 피해를 입힐 수 있습니다.",
       },
       {
-        name: 'Affinity Rate Upgrade',
-        unlockMethod: 'Complete Breakthrough to Tier 1',
-        description: 'Power can increase Affinity Rate.',
+        name: "친화력 확률 업그레이드",
+        unlockMethod: "Complete Breakthrough to Tier 1",
+        description: "힘(Power)으로 친화력 확률을 증가시킬 수 있습니다.",
       },
       {
-        name: 'Bleed Affinity Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 2',
-        description: 'When calculating Bleed damage, it further increases Affinity Rate.',
+        name: "출혈 친화력 강화",
+        unlockMethod: "Complete Breakthrough to Tier 2",
+        description: "출혈 피해 계산 시, 친화력 확률을 추가로 증가시킵니다.",
       },
       {
-        name: 'Bellstrike Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'Increases Bellstrike (Attribute) Attack. Also increases Bellstrike Penetration based on Max Bellstrike Attack.',
+        name: "Bellstrike 증가",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "Bellstrike(속성) 공격력을 증가시킵니다. 또한 최대 Bellstrike 공격력에 비례하여 Bellstrike 관통력을 증가시킵니다.",
       },
       {
-        name: 'Attribute Damage Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'All skills deal damage based on Attribute Attack, while Bellstrike damage gains a further increase.',
+        name: "속성 피해 강화",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "모든 스킬은 속성 공격력에 기반하여 피해를 주며, Bellstrike 피해는 추가로 증가합니다.",
       },
     ],
 
     effects: [
       {
-        name: 'Bleed',
-        description: 'Deals continuous HP damage over time, stacking up to 5 layers.',
+        name: "Bleed (출혈)",
+        description:
+          "시간에 따라 지속적인 HP 피해를 입히며, 최대 5단계까지 중첩됩니다.",
       },
     ],
 
     notes: [
-      'Gear Tuning Priorities: Min Physical Attack > Max Physical Attack > Affinity Rate',
-      'Pairs excellently with Heavenquaker Spear - both share Bellstrike path',
-      'Focuses on Bleeding Damage to drain enemy HP over time',
-      'Very flexible - can passively attack bigger enemies while dealing with others',
-      'Can focus on eliminating individual targets one by one',
-      'High mobility for repositioning and kiting',
-      'Requires large amounts of Endurance to maintain pace',
-      'Second Track Slash grants invisibility and damage immunity while dashing',
-      'Inner Balance Strike III deals high damage when target has 5 Bleed stacks',
-      'Bleed stacks up to 5 layers for maximum damage',
-      'Synergizes with Heavenquaker Spear through Wolfchaser\'s Art and Sword Horizon',
-      'Requires Dragon Key to access Sanctum',
-      'Shares Hawkwing and Eaglerise gear sets with Heavenquaker Spear',
+      "장비 튜닝 우선순위: 최소 물리 공격력 > 최대 물리 공격력 > 친화력 확률",
+      "헤븐퀘이커 스피어와 매우 잘 어울림 - 둘 다 Bellstrike 경로 공유",
+      "시간 경과에 따라 적의 HP를 고갈시키는 출혈 피해에 집중",
+      "매우 유연함 - 다른 적들을 처리하면서 큰 적을 수동적으로 공격 가능",
+      "개별 대상을 하나씩 제거하는 데 집중 가능",
+      "재배치 및 카이팅을 위한 높은 기동성",
+      "페이스를 유지하려면 많은 양의 지구력 필요",
+      "Second Track Slash는 돌진 중 투명 및 피해 면역 부여",
+      "Inner Balance Strike III는 대상의 출혈 중첩이 5일 때 높은 피해를 줌",
+      "출혈은 최대 5단계까지 중첩되어 피해 극대화",
+      "Wolfchaser's Art와 Sword Horizon을 통해 헤븐퀘이커 스피어와 시너지 효과",
+      "성소에 입장하려면 용의 열쇠 필요",
+      "헤븐퀘이커 스피어와 매의 날개 및 독수리의 비상 장비 세트 공유",
     ],
   },
 
   {
-    id: 'panacea-fan',
-    name: 'Panacea Fan',
-    type: 'Fan',
-    path: 'Skillbind - Deluge',
-    image: require('../../../../assets/martial_art_weapons/panacea_fan.png'),
-    description: 'The support-oriented alternative to the fan, and the only weapon, alongside the Soulshade Umbrella, that can heal units. This weapon is all about supporting by providing heals and even being able to revive allies, which makes it strongly oriented to multiplayer, but it severely lacks DMG, as it\'s thought to be a weapon you use while sitting back on battles, only providing heals.',
-    playstyle: 'Support healer with burst and sustained healing, single-target and group recovery, revival abilities, and team damage buffs',
+    id: "panacea-fan",
+    name: "파나시아 팬 (Panacea Fan)",
+    type: "Fan",
+    path: "Skillbind - Deluge",
+    image: require("../../../../assets/martial_art_weapons/panacea_fan.png"),
+    description:
+      "부채의 지원형 대체 무기이며, 소울쉐이드 엄브렐러와 함께 유닛을 치유할 수 있는 유일한 무기입니다. 이 무기는 치유를 제공하고 아군을 부활시키는 등 지원에 전념하므로 멀티플레이어에 매우 적합하지만, 피해량은 심각하게 부족합니다. 전투 중에는 뒤로 물러나 치유만 제공하는 무기로 간주됩니다.",
+    playstyle:
+      "순간 치유 및 지속 치유, 단일 대상 및 그룹 회복, 부활 능력, 팀 피해 버프를 갖춘 지원형 힐러",
 
     howToGet: {
-      method: 'Quest Reward, Skill Theft, or Join Sect',
-      location: 'Silver Needle Sanctum in Qinghe Region',
-      details: 'Possible reward from Oddities - Mystery of Five Tones Encounter Quest in Qinghe, OR Skill Theft at Silver Needle Sanctum (requires Dragon Key), OR join Silver Needle Sect. For Sanctum: Enter with Dragon Key at Loong Dragon Pillar, navigate past militiamen using stealth, reach Sect Master and perform Skill Theft.',
+      method: "Quest Reward, Skill Theft, or Join Sect",
+      location: "청하(Qinghe) 지역의 은침(Silver Needle) 성소",
+      details:
+        '청하의 "Oddities - Mystery of Five Tones" 조우 퀘스트 보상, 또는 은침 성소에서 기술 강탈(용의 열쇠 필요), 또는 은침 문파 가입으로 획득 가능. 성소의 경우: Loong Dragon Pillar에서 용의 열쇠로 입장하고, 은신을 사용하여 민병대를 지나 문파 장문인에게 도달하여 기술 강탈을 수행하십시오.',
     },
 
     stats: {
-      strengths: ['Support', 'Survivability', 'Difficulty'],
-      weaknesses: ['Mobility', 'DPS', 'Control'],
+      strengths: ["Support", "Survivability", "Difficulty"],
+      weaknesses: ["Mobility", "DPS", "Control"],
     },
 
     skills: [
       {
-        name: 'Cloudburst Healing',
-        type: 'Martial Art',
-        description: 'Generates 20 points of Dewdrops when used. Summons a water clone at the target location that heals nearby allies once per second, restoring a small amount of HP. The spirit lasts for 7 seconds. If Dewdrops are full after using, the Sense Skill can be triggered.',
-        recovery: '20.0s',
-        key: 'Q',
+        name: "Cloudburst Healing (폭우의 치유)",
+        type: "Martial Art",
+        description:
+          "사용 시 물방울(Dewdrops) 20포인트를 생성합니다. 목표 위치에 물의 분신을 소환하여 근처의 아군을 초당 1회 치유하고 소량의 HP를 회복시킵니다. 분신은 7초 동안 지속됩니다. 사용 후 물방울이 가득 차면 감각 스킬(Sense Skill)을 발동할 수 있습니다.",
+        recovery: "20.0s",
+        key: "Q",
       },
       {
-        name: 'Endless Cloud',
-        type: 'Martial Art',
-        description: 'Consume all stacks of Dewdrops to provide a large burst of healing to all allies within range. If Soulshade Umbrella is equipped and the Special Skill Echoing Grow is not on cooldown, it will be automatically triggered. (Sense Skill - triggers when Dewdrops are full)',
-        recovery: '1.0s',
-        key: 'Q (when Dewdrops full)',
+        name: "Endless Cloud (끝없는 구름)",
+        type: "Martial Art",
+        description:
+          "물방울의 모든 중첩을 소모하여 범위 내 모든 아군에게 큰 순간 치유를 제공합니다. 소울쉐이드 엄브렐러를 장착하고 있고 특수 스킬 Echoing Grow가 재사용 대기 중이 아니라면 자동으로 발동됩니다. (감각 스킬 - 물방울이 가득 찼을 때 발동)",
+        recovery: "1.0s",
+        key: "Q (when Dewdrops full)",
       },
       {
-        name: 'Light Dust After Morning Rain',
-        type: 'Special',
-        description: 'Swings the fan, releasing a stream of water, consuming 50 Dewdrops, applying a 6-second healing effect to yourself and the ally with the lowest HP in the party, restoring a moderate amount of HP. If a target is selected in the party panel, the effect is fixed on that target. In non-Duel gameplay, the healing effect applied to yourself is increased by 30%. If there are Fatally Wounded allies nearby and the Sense Skill is not on cooldown, it switches to the Sense Skill.',
-        recovery: '0.2s',
-        key: '~',
+        name: "Light Dust After Morning Rain (아침 비 후의 가벼운 먼지)",
+        type: "Special",
+        description:
+          "부채를 휘둘러 물줄기를 방출하고 물방울 50을 소모하여 자신과 파티 내 HP가 가장 낮은 아군에게 6초간 치유 효과를 부여하고 중간 정도의 HP를 회복시킵니다. 파티 패널에서 대상이 선택된 경우 효과는 해당 대상에게 고정됩니다. 결투(Duel) 이외의 게임 플레이에서는 자신에게 적용되는 치유 효과가 30% 증가합니다. 근처에 치명상을 입은(Fatally Wounded) 아군이 있고 감각 스킬이 재사용 대기 중이 아니라면 감각 스킬로 전환됩니다.",
+        recovery: "0.2s",
+        key: "~",
       },
       {
-        name: 'Resurrection',
-        type: 'Special',
-        description: 'When there\'s a Fatally Wounded player in the party, use this skill, consuming Dewdrops, to allow them to fight again. If the selected teammate is Fatally Wounded, revive that teammate. If a non-selected teammate is Fatally Wounded, revives the nearest Fatally Wounded teammate. Can also quickly revive Fatally Wounded teammates via the party list. The more Dewdrops consumed, the more HP recovered after revival. After reviving a target, gain the Abundant Dew effect for 5 seconds. (Sense Skill - triggers when ally is Fatally Wounded)',
-        recovery: '0.2s',
-        key: '~ (when ally Fatally Wounded)',
+        name: "Resurrection (부활)",
+        type: "Special",
+        description:
+          "파티 내에 치명상을 입은 플레이어가 있을 때 이 스킬을 사용하여 물방울을 소모해 다시 싸울 수 있게 합니다. 선택한 팀원이 치명상을 입은 경우 해당 팀원을 부활시킵니다. 선택되지 않은 팀원이 치명상을 입은 경우 가장 가까운 치명상 팀원을 부활시킵니다. 파티 목록을 통해 치명상 팀원을 빠르게 부활시킬 수도 있습니다. 소모한 물방울이 많을수록 부활 후 회복되는 HP가 증가합니다. 대상을 부활시킨 후 5초 동안 풍부한 이슬(Abundant Dew) 효과를 얻습니다. (감각 스킬 - 아군이 치명상을 입었을 때 발동)",
+        recovery: "0.2s",
+        key: "~ (when ally Fatally Wounded)",
       },
       {
-        name: 'Fourfold Inquiry',
-        type: 'Light Attack',
-        description: 'Wield a fan to perform up to four Ranged Light Attacks.',
-        recovery: '0.2s',
-        key: 'Left Click',
+        name: "Fourfold Inquiry (네 번의 질문)",
+        type: "Light Attack",
+        description: "부채를 휘둘러 최대 4회의 원거리 경공격을 수행합니다.",
+        recovery: "0.2s",
+        key: "Left Click",
       },
       {
-        name: 'Emerald Dewtouch',
-        type: 'Healing',
-        description: 'Restores a small amount of HP for yourself or an ally. Each segment restores 3, 5, and 12 Dewdrops for yourself. Prioritizes the target with the lowest HP percentage. If a target is selected in the party panel, restoration is fixed on that target.',
-        key: 'R',
+        name: "Emerald Dewtouch (에메랄드 이슬 손길)",
+        type: "Healing",
+        description:
+          "자신 또는 아군의 HP를 소량 회복합니다. 각 구간마다 자신의 물방울을 3, 5, 12 회복합니다. HP 비율이 가장 낮은 대상을 우선시합니다. 파티 패널에서 대상이 선택된 경우 회복은 해당 대상에게 고정됩니다.",
+        key: "R",
       },
       {
-        name: 'Fan - Conversion',
-        type: 'Dual-Weapon',
-        description: 'Switch to a fan and swing it, restoring HP for yourself and one nearby ally over time.',
-        recovery: '3.0s',
-        key: 'TAB',
+        name: "Fan - Conversion (부채 - 전환)",
+        type: "Dual-Weapon",
+        description:
+          "부채로 전환하여 휘둘러 자신과 근처 아군 1명의 HP를 지속적으로 회복합니다.",
+        recovery: "3.0s",
+        key: "TAB",
       },
     ],
 
     internalArts: [
       {
-        name: 'Royal Remedy',
-        type: 'Support/Martial Arts/Recover',
-        description: 'Increases the healing effect of the water clone created by Panacea Fan\'s Martial Art Skill, Cloudburst Healing, by 10%. If you are within its range, gain 1 Dewdrop each time when receive healing over time.',
+        name: "Royal Remedy (왕실의 치료)",
+        type: "Support/Martial Arts/Recover",
+        description:
+          "파나시아 팬의 무학 스킬인 Cloudburst Healing으로 생성된 물의 분신의 치유 효과를 10% 증가시킵니다. 범위 내에 있으면 지속 치유를 받을 때마다 물방울 1개를 획득합니다.",
       },
       {
-        name: 'Restoring Blossom',
-        type: 'Support/Buff/Stacking',
-        description: 'Dealing Critical Healing applies one stack of Nurturing for 3 seconds, increasing healing received by 2%, stacking up to 3 times.',
+        name: "Restoring Blossom (회복의 꽃)",
+        type: "Support/Buff/Stacking",
+        description:
+          "치명타 치유를 하면 3초 동안 육성(Nurturing) 1중첩을 적용하여 받는 치유량을 2% 증가시키며, 최대 3회 중첩됩니다.",
       },
       {
-        name: 'Esoteric Revival',
-        type: 'Support/Buff/Recover',
-        description: 'Increases the healing of Panacea Fan\'s Perception Skill, Resurrection, by 50% on the revived target.',
+        name: "Esoteric Revival (비전 부활)",
+        type: "Support/Buff/Recover",
+        description:
+          "파나시아 팬의 감각 스킬인 Resurrection(부활)의 치유량을 부활된 대상에 대해 50% 증가시킵니다.",
       },
       {
-        name: 'Mending Loom',
-        type: 'Support/Buff/Recover',
-        description: 'Casting Soulshade Umbrella\'s Special Skill, Echoing Grow, restores 5 Dewdrops and additionally heals 10% of your Max HP for every 100 Dewdrops consumed. (when using Soulshade Umbrella as part of the Skillbind - Deluge Arsenal)',
+        name: "Mending Loom (수선의 베틀)",
+        type: "Support/Buff/Recover",
+        description:
+          "소울쉐이드 엄브렐러의 특수 스킬 Echoing Grow를 시전하면 물방울 5개를 회복하고, 소모한 물방울 100개당 최대 HP의 10%를 추가로 회복합니다. (소울쉐이드 엄브렐러를 Skillbind - Deluge 무기고의 일부로 사용할 때)",
       },
     ],
 
     gearSets: [
       {
-        name: 'Ivorybloom Set',
+        name: "Ivorybloom Set (아이보리블룸 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Critical Rate +0.1%',
-          fourSet: 'At Max HP, there\'s a bonus 5% chance to deal Critical Healing and Damage, and increases the effects of Critical Healing and Damage by 15%.',
+          twoSet: "치명타 확률 +0.1%",
+          fourSet:
+            "최대 HP일 때, 치명타 치유 및 피해를 입힐 확률이 5% 추가되며, 치명타 치유 및 피해의 효과가 15% 증가합니다.",
         },
-        howToObtain: ['Campaign - Ever-Normal Granary', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: [
+          "Campaign - Ever-Normal Granary",
+          "Sword Trial",
+          "Group Dungeons",
+        ],
       },
       {
-        name: 'Whirlsnow Set',
+        name: "Whirlsnow Set (월스노우 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Physical Defense +1',
-          fourSet: 'When you lose more than 40% of Max HP in a single instance of damage or when your HP falls below 20%, the next healing you receive within 5 seconds restores an additional 25% of your Max HP. This effect triggers once every 60 seconds.',
+          twoSet: "물리 방어력 +1",
+          fourSet:
+            "한 번의 피해로 최대 HP의 40% 이상을 잃거나 HP가 20% 미만으로 떨어지면, 5초 이내에 받는 다음 치유가 최대 HP의 25%를 추가로 회복합니다. 이 효과는 60초마다 한 번 발동합니다.",
         },
-        howToObtain: ['Campaign - Ever-Normal Granary', 'Campaign - Furnace of Righteousness', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: [
+          "Campaign - Ever-Normal Granary",
+          "Campaign - Furnace of Righteousness",
+          "Sword Trial",
+          "Group Dungeons",
+        ],
       },
     ],
 
     talents: [
       {
-        name: 'Aquan Healing Boost',
-        unlockMethod: 'Unlocked after learning Martial Arts',
-        description: 'Restores 2 bonus Dewdrops per second when you are within the range of a water clone you created.',
+        name: "수속성 치유 부스트",
+        unlockMethod: "Unlocked after learning Martial Arts",
+        description:
+          "자신이 생성한 물의 분신 범위 내에 있을 때 초당 물방울 2개를 추가로 회복합니다.",
       },
       {
-        name: 'Max HP Increases',
-        unlockMethod: 'Complete Breakthrough to Tier 1',
-        description: 'Max HP can be increased based on Defense. Maximum bonus requires 25 DEF.',
+        name: "최대 HP 증가",
+        unlockMethod: "Complete Breakthrough to Tier 1",
+        description:
+          "방어력에 따라 최대 HP를 증가시킬 수 있습니다. 최대 보너스는 25 DEF를 필요로 합니다.",
       },
       {
-        name: 'Heavy Attack Healing Boost',
-        unlockMethod: 'Complete Breakthrough to Tier 2',
-        description: 'Increases Heavy Attack\'s healing by 5% and further increases it based on Min Physical Attack, up to 5% increase at 250 Min Physical Attack.',
+        name: "중공격 치유 부스트",
+        unlockMethod: "Complete Breakthrough to Tier 2",
+        description:
+          "중공격의 치유량을 5% 증가시키고, 최소 물리 공격력에 따라 추가로 증가시켜 250 최소 물리 공격력에서 최대 5%까지 증가합니다.",
       },
       {
-        name: 'Skillbind Attribute Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'Increases Skillbind (Attribute) Attack. Also increases Skillbind DMG Bonus based on Min Skillbind Attack.',
+        name: "Skillbind 속성 증가",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "Skillbind(속성) 공격력을 증가시킵니다. 또한 최소 Skillbind 공격력에 따라 Skillbind 피해 보너스를 증가시킵니다.",
       },
       {
-        name: 'Attribute Attack Damage Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'Deals bonus healing based on Skillbind Attack. All skills deal damage based on Attribute Attack, while Skillbind damage gains a further increase.',
+        name: "속성 공격 피해 강화",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "Skillbind 공격력에 비례하여 추가 치유를 제공합니다. 모든 스킬은 속성 공격력에 기반하여 피해를 주며, Skillbind 피해는 추가로 증가합니다.",
       },
     ],
 
     effects: [
       {
-        name: 'Dewdrop',
-        description: 'A special martial arts resource used by Panacea Fan and Soulshade Umbrella, with a maximum of 100 Points.',
+        name: "Dewdrop (물방울)",
+        description:
+          "파나시아 팬과 소울쉐이드 엄브렐러가 사용하는 특수 무학 자원으로, 최대 100포인트입니다.",
       },
       {
-        name: 'Inner Demon - Healing Reduction',
-        description: 'Before completing the first clear challenges against Campaign and Mysterious Bosses, battles with them are affected by inner demons, greatly reducing Healing Effects.',
+        name: "Inner Demon - Healing Reduction (내면의 악마 - 치유 감소)",
+        description:
+          "캠페인 및 미스터리 보스에 대한 첫 클리어 도전을 완료하기 전에는 전투가 내면의 악마에 영향을 받아 치유 효과가 크게 감소합니다.",
       },
       {
-        name: 'Sense Skill',
-        description: 'In certain special cases, the corresponding skills may transform into other forms.',
+        name: "Sense Skill (감각 스킬)",
+        description:
+          "특정 특수 상황에서 해당 스킬이 다른 형태로 변형될 수 있습니다.",
       },
       {
-        name: 'Mystic Art - DMG Up',
-        description: 'When equipped with both Soulshade Umbrella and Panacea Fan, the damage of Mystic Arts is increased by 20%.',
+        name: "Mystic Art - DMG Up (비술 - 피해 증가)",
+        description:
+          "소울쉐이드 엄브렐러와 파나시아 팬을 모두 장착하면 비술(Mystic Arts)의 피해가 20% 증가합니다.",
       },
     ],
 
     notes: [
-      'Gear Tuning Priorities: Min Physical Attack > Max Physical Attack > Critical Rate',
-      'Primary healer weapon - only weapon besides Soulshade Umbrella that can heal',
-      'Can revive Fatally Wounded allies in multiplayer',
-      'Strongly oriented to multiplayer support',
-      'Severely lacks damage output',
-      'Best used while sitting back in battles, providing heals',
-      'Features both burst (Endless Cloud) and sustained healing (Cloudburst Healing)',
-      'Covers single-target and group recovery',
-      'Provides team-wide damage buffs',
-      'Shares Skillbind - Deluge path with Soulshade Umbrella',
-      'Uses Dewdrop resource system (max 100 points)',
-      'Water clone healing can be enhanced with Royal Remedy internal art',
+      "장비 튜닝 우선순위: 최소 물리 공격력 > 최대 물리 공격력 > 치명타 확률",
+      "주요 힐러 무기 - 소울쉐이드 엄브렐러 외에 치유할 수 있는 유일한 무기",
+      "멀티플레이어에서 치명상을 입은 아군 부활 가능",
+      "멀티플레이어 지원에 강력하게 편중됨",
+      "피해량 심각하게 부족",
+      "전투 뒤쪽에서 치유를 제공하는 데 가장 적합",
+      "순간 치유(Endless Cloud)와 지속 치유(Cloudburst Healing) 모두 갖춤",
+      "단일 대상 및 그룹 회복 커버",
+      "팀 전체 피해 버프 제공",
+      "소울쉐이드 엄브렐러와 Skillbind - Deluge 경로 공유",
+      "물방울 자원 시스템 사용(최대 100포인트)",
+      "물의 분신 치유는 Royal Remedy 내공으로 강화 가능",
     ],
   },
 
   {
-    id: 'inkwell-fan',
-    name: 'Inkwell Fan',
-    type: 'Fan',
-    path: 'Skillbind - Jade',
-    image: require('../../../../assets/martial_art_weapons/inkwell_fan.png'),
-    description: 'The offensive alternative to the fan, entirely different from the Panacea Fan. Instead of providing heals, this weapon focuses on targeting individual targets from a safe distance where the user cannot be targeted. Provides considerable mobility and crowd control.',
-    playstyle: 'Ranged DPS with sustained damage, control, and airborne attack combos',
+    id: "inkwell-fan",
+    name: "잉크웰 팬 (Inkwell Fan)",
+    type: "Fan",
+    path: "Skillbind - Jade",
+    image: require("../../../../assets/martial_art_weapons/inkwell_fan.png"),
+    description:
+      "부채의 공격형 대체 무기로, 파나시아 팬과는 완전히 다릅니다. 치유를 제공하는 대신, 이 무기는 사용자가 표적이 되지 않는 안전한 거리에서 개별 대상을 목표로 하는 데 중점을 둡니다. 상당한 기동성과 군중 제어(CC)를 제공합니다.",
+    playstyle: "지속 피해, 제어, 공중 공격 콤보를 갖춘 원거리 DPS",
 
     howToGet: {
-      method: 'Skill Theft',
-      location: 'Inkwell Fan Sanctum in northern Qinghe Region',
-      details: 'Requires Dragon Key. Navigate through sanctum, collect 6 chests, and perform Skill Theft on the Master at the end.',
+      method: "Skill Theft",
+      location: "청하(Qinghe) 지역 북부의 잉크웰 팬 성소",
+      details:
+        "용의 열쇠가 필요합니다. 성소를 통과하여 상자 6개를 수집하고 마지막에 있는 마스터에게 기술 강탈을 수행하십시오.",
     },
 
     stats: {
-      strengths: ['DPS', 'Control', 'Mobility'],
-      weaknesses: ['Difficulty', 'Survivability', 'Support'],
+      strengths: ["DPS", "Control", "Mobility"],
+      weaknesses: ["Difficulty", "Survivability", "Support"],
     },
 
     skills: [
       {
-        name: 'Jadewind Shield',
-        type: 'Martial Art',
-        description: 'Knock back nearby targets with the fan, creating a wind barrier that blocks all non-boss units and enemy projectiles for 8 seconds while jumping backward to keep distance. Using this skill makes you dodge incoming attacks and grants Enhanced Ballistics, stacking up to 2 times.',
-        recovery: '15.0s',
-        key: 'Q',
+        name: "Jadewind Shield (옥풍의 방패)",
+        type: "Martial Art",
+        description:
+          "부채로 근처 대상을 밀쳐내고, 보스가 아닌 유닛과 적의 투사체를 8초 동안 막는 바람 장막을 생성하며 뒤로 점프하여 거리를 유지합니다. 이 스킬을 사용하면 들어오는 공격을 회피하고 강화 탄도(Enhanced Ballistics)를 획득하며, 최대 2회 중첩됩니다.",
+        recovery: "15.0s",
+        key: "Q",
       },
       {
-        name: "Peak's Springless Silence",
-        type: 'Special',
-        description: 'Dashes forward and strikes the target upward. Applies brief Root. Hitting humanoid enemies puts them into Launch state. Hitting non-player enemies applies Lingering Bone mark. Hitting an enemy already under Launch or with your own Lingering Bone mark grants Riding the Wind effect. Creates a Water Clone at original location; casting again within 5s allows flashback to clone location.',
-        recovery: '12.0s',
-        key: '~',
+        name: "Peak's Springless Silence (봉우리의 샘 없는 침묵)",
+        type: "Special",
+        description:
+          "전방으로 돌진하여 대상을 공중으로 띄웁니다. 짧은 속박(Root)을 적용합니다. 인간형 적을 타격하면 띄우기(Launch) 상태로 만듭니다. 비플레이어 적을 타격하면 뼈의 잔재(Lingering Bone) 표식을 적용합니다. 이미 띄우기 상태이거나 자신의 뼈의 잔재 표식이 있는 적을 타격하면 바람 타기(Riding the Wind) 효과를 얻습니다. 원래 위치에 물의 분신을 생성하며, 5초 이내에 다시 시전하면 분신 위치로 순간 이동할 수 있습니다.",
+        recovery: "12.0s",
+        key: "~",
       },
       {
-        name: 'Fan - Light Attack',
-        type: 'Light Attack',
-        description: 'Perform up to four ranged light attacks with a fan.',
-        recovery: '0.2s',
-        key: 'Left Click',
+        name: "Fan - Light Attack (부채 - 경공격)",
+        type: "Light Attack",
+        description: "부채로 최대 4회의 원거리 경공격을 수행합니다.",
+        recovery: "0.2s",
+        key: "Left Click",
       },
       {
-        name: 'Forsaken Fame',
-        type: 'Charged',
-        description: 'After a brief charge, swings forward to release a whirlwind, dealing moderate damage. Hitting a humanoid enemy puts them into Launch state. Hitting a non-player enemy applies Lingering Bone mark.',
-        key: 'Hold Left Click',
+        name: "Forsaken Fame (버려진 명성)",
+        type: "Charged",
+        description:
+          "잠시 차지한 후, 전방으로 휘둘러 회오리바람을 방출하여 중간 정도의 피해를 줍니다. 인간형 적을 타격하면 띄우기 상태로 만듭니다. 비플레이어 적을 타격하면 뼈의 잔재 표식을 적용합니다.",
+        key: "Hold Left Click",
       },
       {
-        name: 'Fan - Heavy Attack',
-        type: 'Heavy Attack',
-        description: 'Performs up to three segments of Heavy Attacks. When target is under Launch or afflicted with your own Lingering Bone mark, you can perceive to trigger a Sense Skill.',
-        recovery: '0.2s',
-        key: 'R',
+        name: "Fan - Heavy Attack (부채 - 중공격)",
+        type: "Heavy Attack",
+        description:
+          "최대 3구간의 중공격을 수행합니다. 대상이 띄우기 상태이거나 자신의 뼈의 잔재 표식에 걸린 경우, 감각 스킬을 발동할 수 있습니다.",
+        recovery: "0.2s",
+        key: "R",
       },
       {
-        name: 'Moon Shatter Spring',
-        type: 'Heavy Attack',
-        description: 'Performs an Aerial Heavy Attack on an enemy under Launch or affected with your own Lingering Bone mark, leaping into the air and swinging the fan for a three-hit combo. With Riding the Wind effect, performs empowered five-hit combo dealing high damage, and grants Tenacity in non-Duel gameplay. 6-second cooldown after use.',
-        key: 'Press R (while targeting Airborne enemy)',
+        name: "Moon Shatter Spring (달 부수는 샘)",
+        type: "Heavy Attack",
+        description:
+          "띄우기 상태이거나 자신의 뼈의 잔재 표식이 있는 적에게 공중 중공격을 수행하여, 공중으로 도약해 부채를 휘두르는 3연타 콤보를 날립니다. 바람 타기 효과가 있으면 강화된 5연타 콤보로 높은 피해를 입히고, 결투(Duel) 이외의 게임 플레이에서 불굴(Tenacity)을 얻습니다. 사용 후 6초의 재사용 대기시간이 있습니다.",
+        key: "Press R (while targeting Airborne enemy)",
       },
       {
-        name: 'Fan - Conversion',
-        type: 'Dual-Weapon',
-        description: 'Switch to a fan and slash.',
-        recovery: '3.0s',
-        key: 'TAB',
+        name: "Fan - Conversion (부채 - 전환)",
+        type: "Dual-Weapon",
+        description: "부채로 전환하여 베기를 수행합니다.",
+        recovery: "3.0s",
+        key: "TAB",
       },
     ],
 
     internalArts: [
       {
-        name: 'Blossom Barrage',
-        type: 'Attack/Martial Arts/Damage Boost',
-        description: 'Vernal Umbrella\'s Martial Arts Skill Spring Sorrow can hold up to 2 stacks. Hitting a target applies Combo effect: increases damage taken from caster\'s Ballistic Skills by 10% for 8 seconds. (Recommended when using Vernal Umbrella as part of Silkbind - Jade Arsenal)',
+        name: "Blossom Barrage (꽃의 탄막)",
+        type: "Attack/Martial Arts/Damage Boost",
+        description:
+          "버널 엄브렐러의 무학 스킬 Spring Sorrow는 최대 2중첩까지 유지할 수 있습니다. 대상을 타격하면 콤보 효과를 적용합니다: 8초 동안 시전자의 탄도 스킬(Ballistic Skills)로부터 받는 피해가 10% 증가합니다. (버널 엄브렐러를 Silkbind - Jade 무기고의 일부로 사용할 때 권장)",
       },
       {
-        name: 'Flying Gourds',
-        type: 'Martial Arts/Support',
-        description: 'Grants 2 charges to Inkwell Fan\'s Peak\'s Springless Silence but increases its cooldown by 3 seconds.',
+        name: "Flying Gourds (비행 호리병)",
+        type: "Martial Arts/Support",
+        description:
+          "잉크웰 팬의 Peak's Springless Silence에 2회 충전 횟수를 부여하지만 재사용 대기시간이 3초 증가합니다.",
       },
       {
-        name: 'Thunderous Bloom',
-        type: 'Damage Boost/Buff',
-        description: 'When you move more than 15m within 3 seconds, gain Spring Thunder: the next 3 Heavy Attacks or Airborne Heavy Attacks within 12 seconds gain 15% DMG Bonus. This effect may trigger once per 15 seconds.',
+        name: "Thunderous Bloom (천둥 같은 개화)",
+        type: "Damage Boost/Buff",
+        description:
+          "3초 이내에 15m 이상 이동하면 봄의 천둥(Spring Thunder)을 획득합니다: 12초 이내의 다음 3회 중공격 또는 공중 중공격이 15% 피해 보너스를 얻습니다. 이 효과는 15초마다 한 번 발동할 수 있습니다.",
       },
       {
-        name: 'Star Reacher',
-        type: 'Attack/Pursuit/Buff',
-        description: 'Gain 10% Physical Attack bonus for 8 seconds after knocking an enemy airborne.',
+        name: "Star Reacher (별을 쫓는 자)",
+        type: "Attack/Pursuit/Buff",
+        description:
+          "적을 공중으로 띄운 후 8초 동안 물리 공격력 10% 보너스를 얻습니다.",
       },
     ],
 
     gearSets: [
       {
-        name: 'Veil of the Willow Set',
+        name: "Veil of the Willow Set (버드나무의 장막 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Precision Rate +0.1%',
-          fourSet: 'After a Light Attack/Airborne Heavy Attack, damage is increased by 12%, lasting 10 seconds. After a Heavy Attack/Airborne Heavy Attack/Light Attack/Charged Attack, damage is increased by 12%.',
+          twoSet: "정밀도(Precision Rate) +0.1%",
+          fourSet:
+            "경공격/공중 중공격 후, 피해가 12% 증가하며 10초간 지속됩니다. 중공격/공중 중공격/경공격/차지 공격 후에도 피해가 12% 증가합니다.",
         },
-        howToObtain: ['Campaign - Heavenfall', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: ["Campaign - Heavenfall", "Sword Trial", "Group Dungeons"],
       },
       {
-        name: 'Beyond the Chill Set',
+        name: "Beyond the Chill Set (추위를 넘어선 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Max HP +40',
-          fourSet: 'After entering combat, if no damage is taken for 10 seconds, gain Beyond the Chill: Reduces the next damage taken and all damage taken within 2 seconds afterward by 40%. Beyond the Chill is removed upon leaving combat.',
+          twoSet: "최대 HP +40",
+          fourSet:
+            "전투 진입 후 10초 동안 피해를 입지 않으면 Beyond the Chill을 획득합니다: 다음 받는 피해와 그 후 2초 이내의 모든 받는 피해를 40% 감소시킵니다. Beyond the Chill은 전투 종료 시 제거됩니다.",
         },
-        howToObtain: ['Campaign - Heavenfall', 'Campaign - Furnace of Righteousness', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: [
+          "Campaign - Heavenfall",
+          "Campaign - Furnace of Righteousness",
+          "Sword Trial",
+          "Group Dungeons",
+        ],
       },
     ],
 
     talents: [
       {
-        name: 'Low Qi Follow-Up Enhancement',
-        unlockMethod: 'Unlocked after learning Martial Arts',
-        description: 'Increases the Critical Rate of Moon Shatter Spring against targets with low Qi.',
+        name: "저 기력(Qi) 후속타 강화",
+        unlockMethod: "Unlocked after learning Martial Arts",
+        description:
+          "기력이 낮은 대상을 상대로 Moon Shatter Spring의 치명타 확률을 증가시킵니다.",
       },
       {
-        name: 'Physical Attack Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 1',
-        description: 'Agility can increase Min Physical Attack.',
+        name: "물리 공격력 증가",
+        unlockMethod: "Complete Breakthrough to Tier 1",
+        description:
+          "민첩성(Agility)으로 최소 물리 공격력을 증가시킬 수 있습니다.",
       },
       {
-        name: 'Airborne Follow-up Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 2',
-        description: 'Increases the Critical DMG of Moon Shatter Spring.',
+        name: "공중 후속타 강화",
+        unlockMethod: "Complete Breakthrough to Tier 2",
+        description: "Moon Shatter Spring의 치명타 피해를 증가시킵니다.",
       },
       {
-        name: 'Silkbind Attribute Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'Increases Silkbind (Attribute) Attack. Also increases Silkbind DMG Bonus based on Min Silkbind Attack.',
+        name: "Silkbind 속성 증가",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "Silkbind(속성) 공격력을 증가시킵니다. 또한 최소 Silkbind 공격력에 따라 Silkbind 피해 보너스를 증가시킵니다.",
       },
       {
-        name: 'Attribute Attack Damage Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'All skills deal damage based on Attribute Attack, while Silkbind damage gains a further increase.',
+        name: "속성 공격 피해 강화",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "모든 스킬은 속성 공격력에 기반하여 피해를 주며, Silkbind 피해는 추가로 증가합니다.",
       },
     ],
 
     effects: [
       {
-        name: 'Launch',
-        description: 'Send the target airborne using Special Skill, making them more vulnerable to high damage.',
+        name: "Launch (띄우기)",
+        description:
+          "특수 스킬을 사용하여 대상을 공중으로 띄워 높은 피해에 더 취약하게 만듭니다.",
       },
       {
-        name: 'Riding the Wind',
-        description: 'Unique effect of the Inkwell Fan. The next Follow-up Skill used during this time is empowered. This effect lasts 2 seconds.',
+        name: "Riding the Wind (바람 타기)",
+        description:
+          "잉크웰 팬의 고유 효과. 이 시간 동안 사용되는 다음 후속 스킬이 강화됩니다. 이 효과는 2초 동안 지속됩니다.",
       },
       {
-        name: 'Sense Skill',
-        description: 'In certain special cases, the corresponding skills may transform into other forms.',
+        name: "Sense Skill (감각 스킬)",
+        description:
+          "특정 특수 상황에서 해당 스킬이 다른 형태로 변형될 수 있습니다.",
       },
       {
-        name: 'Enhanced Ballistics',
-        description: 'Increases Projectile skill damage by 20%.',
+        name: "Enhanced Ballistics (강화 탄도)",
+        description: "투사체 스킬 피해가 20% 증가합니다.",
       },
       {
-        name: 'Lingering Bone',
-        description: 'Mark applied to non-player enemies, enabling aerial combo attacks.',
+        name: "Lingering Bone (뼈의 잔재)",
+        description:
+          "비플레이어 적에게 적용되는 표식으로, 공중 콤보 공격을 가능하게 합니다.",
       },
     ],
 
     notes: [
-      'Gear Tuning Priorities: Min Physical Attack > Max Physical Attack > Critical Rate',
-      'Suitable option for those who prefer not to take risks with melee weapons',
-      'Excellent for sustained ranged DPS with crowd control',
-      'Requires Dragon Key to access Sanctum',
+      "장비 튜닝 우선순위: 최소 물리 공격력 > 최대 물리 공격력 > 치명타 확률",
+      "근접 무기로 위험을 감수하고 싶지 않은 사람들에게 적합한 옵션",
+      "군중 제어를 갖춘 지속적인 원거리 DPS에 탁월",
+      "성소에 입장하려면 용의 열쇠 필요",
     ],
   },
 
   {
-    id: 'mortal-rope-dart',
-    name: 'Mortal Rope Dart',
-    type: 'Rope Dart',
-    path: 'Bamboocut - Wind',
-    image: require('../../../../assets/martial_art_weapons/mortal_rope_dart.png'),
-    description: 'Rope Darts offer a blend of ranged and melee strikes. This unique hybrid grants players more versatility when approaching combat encounters. Players can strike at range via sweeping whip-like attacks, catching enemies off balance and chaining follow-up combos.',
-    playstyle: 'Hybrid ranged/melee with fluid combat rewarding timing and positioning, excellent for crowd management',
+    id: "mortal-rope-dart",
+    name: "필멸의 승표 (Mortal Rope Dart)",
+    type: "Rope Dart",
+    path: "Bamboocut - Wind",
+    image: require("../../../../assets/martial_art_weapons/mortal_rope_dart.png"),
+    description:
+      "승표(Rope Dart)는 원거리 공격과 근접 타격의 혼합을 제공합니다. 이 독특한 하이브리드는 플레이어에게 전투 접근 방식에 더 많은 다양성을 부여합니다. 플레이어는 채찍과 같은 휩쓸기 공격으로 원거리에서 타격하여 적의 균형을 무너뜨리고 후속 콤보를 이어갈 수 있습니다.",
+    playstyle:
+      "타이밍과 위치 선정이 중요한 유동적인 전투를 갖춘 하이브리드 원거리/근접 무기, 군중 관리에 탁월",
 
     howToGet: {
-      method: 'Skill Theft',
-      location: 'Martial Hall in Kaifeng Region',
-      details: 'Requires joining Nine Mortal Ways sect. Complete complex questline involving disguise system: speak with elder, talk to Wuyan, obtain Jade Sachet, unlock disguise, impersonate Muddle, get Core Disciple\'s Token from kitchen, speak with Elder Tian, use Art Theft to learn martial art.',
+      method: "Skill Theft",
+      location: "개봉(Kaifeng) 지역의 무술관(Martial Hall)",
+      details:
+        "구사문(Nine Mortal Ways) 문파 가입이 필요합니다. 변장 시스템이 포함된 복잡한 퀘스트 라인 완료: 장로와 대화, Wuyan과 대화, 옥주머니(Jade Sachet) 획득, 변장 잠금 해제, Muddle로 변장, 부엌에서 핵심 제자의 토큰(Core Disciple's Token) 획득, Elder Tian과 대화, 기술 강탈을 사용하여 무학 습득.",
     },
 
     stats: {
-      strengths: ['DPS', 'Control', 'Mobility'],
-      weaknesses: ['Support', 'Survivability', 'Difficulty'],
+      strengths: ["DPS", "Control", "Mobility"],
+      weaknesses: ["Support", "Survivability", "Difficulty"],
     },
 
     skills: [
       {
-        name: 'Bladebound Thread',
-        type: 'Martial Art',
-        description: 'Throw the rope dart forward. If it hits a boss, you will be pulled toward the target; otherwise, you will pull the target and rope dart back to you. Press again within 2.5s to unleash a combo kick that knocks the target down. Targets hit receive a Vendetta Token. When the rat attacks a target with Vendetta Token, it deals 50% increased damage and restores Token of Gratitude.',
-        recovery: '8.0s',
-        key: 'Q',
+        name: "Bladebound Thread (칼날 묶인 실)",
+        type: "Martial Art",
+        description:
+          "승표를 전방으로 던집니다. 보스에게 적중하면 자신이 대상 쪽으로 당겨지며, 그렇지 않으면 대상과 승표를 자신 쪽으로 당겨옵니다. 2.5초 이내에 다시 누르면 대상을 넘어뜨리는 콤보 발차기를 날립니다. 적중당한 대상은 복수의 토큰(Vendetta Token)을 받습니다. 쥐가 복수의 토큰을 가진 대상을 공격하면 50% 증가한 피해를 입히고 감사의 토큰(Token of Gratitude)을 회복합니다.",
+        recovery: "8.0s",
+        key: "Q",
       },
       {
-        name: 'Rodent Rampage',
-        type: 'Special',
-        description: 'Every Token of Grace spent will summon a rat to make a coordinated attack. When you cast a Light Attack, the rat will pop out of the ground and attack. This effect lasts 10s and remains in effect even when switching weapons.',
-        recovery: '0.5s',
-        key: '~',
+        name: "Rodent Rampage (설치류의 광란)",
+        type: "Special",
+        description:
+          "감사의 토큰을 소모할 때마다 쥐를 소환하여 협동 공격을 합니다. 경공격을 시전하면 쥐가 땅에서 튀어나와 공격합니다. 이 효과는 10초간 지속되며 무기를 바꿔도 효과가 유지됩니다.",
+        recovery: "0.5s",
+        key: "~",
       },
       {
-        name: 'Rope Dart - Light Attack',
-        type: 'Light Attack',
-        description: 'Swing the Rope Dart in up to four Consecutive Attacks.',
-        recovery: '0.3s',
-        key: 'Left Click',
+        name: "Rope Dart - Light Attack (승표 - 경공격)",
+        type: "Light Attack",
+        description: "승표를 휘둘러 최대 4회의 연속 공격을 수행합니다.",
+        recovery: "0.3s",
+        key: "Left Click",
       },
       {
-        name: 'Coiled Dragon',
-        type: 'Light Attack',
-        description: 'When used in Charging Stance, throw the rope dart with great force to knock down the enemy hit.',
-        recovery: '0.5s',
-        key: 'Left Click while holding R',
+        name: "Coiled Dragon (똬리 튼 용)",
+        type: "Light Attack",
+        description:
+          "차지 자세(Charging Stance)에서 사용 시, 승표를 강력하게 던져 적중한 적을 넘어뜨립니다.",
+        recovery: "0.5s",
+        key: "Left Click while holding R",
       },
       {
-        name: "Rodent's Resilience",
-        type: 'Charged',
-        description: 'Charge to consume Endurance and unleash sword energy forward. Targets hit are controlled for an extended duration. Sword energy damage decreases by 20% with each hit, to a minimum of 50%. Higher charge levels increase damage and range.',
-        recovery: '1.0s',
-        key: 'Hold R',
+        name: "Rodent's Resilience (쥐의 회복력)",
+        type: "Charged",
+        description:
+          "차지하여 지구력을 소모하고 전방으로 검기를 방출합니다. 적중당한 대상은 오랫동안 제어됩니다. 검기 피해는 적중할 때마다 20%씩 감소하여 최소 50%가 됩니다. 차지 단계가 높을수록 피해와 사거리가 증가합니다.",
+        recovery: "1.0s",
+        key: "Hold R",
       },
       {
-        name: "Rodent's Resilience (Pull)",
-        type: 'Charged',
-        description: 'Use when in Charging Stance to toss the Rope Dart to pull a distant enemy toward you.',
-        recovery: '0.3s',
-        key: 'Press R',
+        name: "Rodent's Resilience (Pull) (쥐의 회복력 - 당기기)",
+        type: "Charged",
+        description:
+          "차지 자세 중에 사용하여 승표를 던져 먼 거리의 적을 자신 쪽으로 끌어옵니다.",
+        recovery: "0.3s",
+        key: "Press R",
       },
       {
-        name: 'Rope Dart - Conversion',
-        type: 'Dual-Weapon',
-        description: 'Switch to the Rope Dart and attack.',
-        recovery: '3.0s',
-        key: 'TAB',
+        name: "Rope Dart - Conversion (승표 - 전환)",
+        type: "Dual-Weapon",
+        description: "승표로 전환하여 공격합니다.",
+        recovery: "3.0s",
+        key: "TAB",
       },
     ],
 
     internalArts: [
       {
-        name: 'Echoes of Oblivion',
-        type: 'Pursuit/Martial Arts/Debuff',
-        description: 'Infernal Twinblades Light Attack inflicts Sin. Flamelash state Light Attack inflicts Karma. Infernal Twinblades Light Attacks against targets with these debuffs ignore part of their Physical Defense or Bamboocut Resistance. (When using Infernal Twinblades as part of Bamboocut - Wind Arsenal)',
+        name: "Echoes of Oblivion (망각의 메아리)",
+        type: "Pursuit/Martial Arts/Debuff",
+        description:
+          "Infernal Twinblades 경공격은 죄(Sin)를 부여합니다. Flamelash 상태의 경공격은 업보(Karma)를 부여합니다. 이러한 디버프가 있는 대상에 대한 Infernal Twinblades 경공격은 물리 방어력 또는 Bamboocut 저항의 일부를 무시합니다. (Infernal Twinblades를 Bamboocut - Wind 무기고의 일부로 사용할 때)",
       },
       {
-        name: 'Vendetta',
-        type: 'Martial Arts/Buff/Recover',
-        description: 'Guided Blade: Extends the duration of Vendetta Token and refunds Tokens of Gratitude.',
+        name: "Vendetta (복수)",
+        type: "Martial Arts/Buff/Recover",
+        description:
+          "Guided Blade: 복수의 토큰 지속 시간을 연장하고 감사의 토큰을 반환합니다.",
       },
       {
-        name: 'Riptide Reflex',
-        type: 'Control/Buff',
-        description: 'Hitting an enemy with a control skill reduces the cooldown of your current Martial Arts skill. Can trigger once every 10s.',
+        name: "Riptide Reflex (격류의 반사)",
+        type: "Control/Buff",
+        description:
+          "제어 스킬로 적을 타격하면 현재 무학 스킬의 재사용 대기시간이 감소합니다. 10초마다 한 번 발동할 수 있습니다.",
       },
       {
-        name: 'Breaking Point',
-        type: 'Pursuit/Buff/Stacking',
-        description: 'Hitting Exhausted enemies with a Critical Hit applies a stack of Disintegration for 3 seconds, stacking up to 3 times. Each stack grants extra Physical Penetration and increases Critical DMG Bonus.',
+        name: "Breaking Point (한계점)",
+        type: "Pursuit/Buff/Stacking",
+        description:
+          "지친(Exhausted) 적에게 치명타를 입히면 3초 동안 붕괴(Disintegration) 1중첩을 적용하며, 최대 3회 중첩됩니다. 각 중첩은 추가 물리 관통을 부여하고 치명타 피해 보너스를 증가시킵니다.",
       },
     ],
 
     gearSets: [
       {
-        name: 'Swallowcall Set',
+        name: "Swallowcall Set (제비부름 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Min Physical Attack Increase',
-          fourSet: 'Light Attacks deal 15% more damage against targets with less than 40% Qi and 5% more damage against Exhausted targets.',
+          twoSet: "최소 물리 공격력 증가",
+          fourSet:
+            "기력이 40% 미만인 대상에 대해 경공격이 15% 더 많은 피해를 입히고, 지친 대상에 대해서는 5% 더 많은 피해를 입힙니다.",
         },
-        howToObtain: ['Campaign - Blissful Retreat', 'Campaign - Jinning Pool', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: [
+          "Campaign - Blissful Retreat",
+          "Campaign - Jinning Pool",
+          "Sword Trial",
+          "Group Dungeons",
+        ],
       },
       {
-        name: 'Calmwaters Set',
+        name: "Calmwaters Set (고요한 물 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Physical Defense Increase',
-          fourSet: 'A Perfect Dodge of an enemy attack has a 50% chance of restoring 3% of your Max HP and 10 Endurance.',
+          twoSet: "물리 방어력 증가",
+          fourSet:
+            "적의 공격을 완벽하게 회피하면 50% 확률로 최대 HP의 3%와 지구력 10을 회복합니다.",
         },
-        howToObtain: ['Campaign - Blissful Retreat', 'Campaign - Jinning Pool', 'Campaign - Halo Peak', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: [
+          "Campaign - Blissful Retreat",
+          "Campaign - Jinning Pool",
+          "Campaign - Halo Peak",
+          "Sword Trial",
+          "Group Dungeons",
+        ],
       },
     ],
 
     talents: [
       {
-        name: 'Critical Rate Increase',
-        unlockMethod: 'Unlocked after learning Martial Arts',
-        description: 'The Agility Stat can increase Critical Rate.',
+        name: "치명타 확률 증가",
+        unlockMethod: "Unlocked after learning Martial Arts",
+        description:
+          "민첩(Agility) 스탯으로 치명타 확률을 증가시킬 수 있습니다.",
       },
       {
-        name: 'Mouse Damage Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 1',
-        description: 'Increases the Physical Damage of Rats.',
+        name: "쥐 피해 강화",
+        unlockMethod: "Complete Breakthrough to Tier 1",
+        description: "쥐의 물리 피해를 증가시킵니다.",
       },
       {
-        name: 'Bamboocut Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 2',
-        description: 'Increases Bamboocut Attack. Also increases Bamboocut Damage based on the Minimum Bamboocut Attack.',
+        name: "Bamboocut 증가",
+        unlockMethod: "Complete Breakthrough to Tier 2",
+        description:
+          "Bamboocut 공격력을 증가시킵니다. 또한 최소 Bamboocut 공격력에 따라 Bamboocut 피해를 증가시킵니다.",
       },
       {
-        name: 'Attribute Attack Damage Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'All Skills deal damage based on Attribute Attack, while Bamboocut damage gains a further increase.',
+        name: "속성 공격 피해 강화",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "모든 스킬은 속성 공격력에 기반하여 피해를 주며, Bamboocut 피해는 추가로 증가합니다.",
       },
       {
-        name: 'Bone Corrosion Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'Martial Arts Skill Guided Blade and Varied Combo Coiled Dragon apply Bone Corrosion to the enemy for 5 seconds.',
+        name: "뼈 부식 강화",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "무학 스킬 Guided Blade와 변형 콤보 Coiled Dragon은 적에게 5초 동안 뼈 부식(Bone Corrosion)을 적용합니다.",
       },
     ],
 
     effects: [
       {
-        name: 'Token of Gratitude',
-        description: 'Combat Resource used in the Rope Dart Martial Art Mortal Rope Dart. Some Skills require consuming the Token of Gratitude to activate.',
+        name: "Token of Gratitude (감사의 토큰)",
+        description:
+          "승표 무학 Mortal Rope Dart에서 사용되는 전투 자원입니다. 일부 스킬은 활성화를 위해 감사의 토큰 소모가 필요합니다.",
       },
       {
-        name: 'Vendetta Token',
-        description: 'Special Mark of Martial Art Mortal Rope Dart.',
+        name: "Vendetta Token (복수의 토큰)",
+        description: "무학 Mortal Rope Dart의 특수 표식입니다.",
       },
       {
-        name: 'Charging Stance',
-        description: 'Special Rope Dart Stance: Certain Skills are changed when you are in the stance.',
+        name: "Charging Stance (차지 자세)",
+        description:
+          "특수 승표 자세: 이 자세에 있을 때 특정 스킬이 변경됩니다.",
       },
       {
-        name: 'Endurance',
-        description: 'Immune to all but Crowd Control when hit.',
+        name: "Endurance (지구력)",
+        description: "피격 시 군중 제어(CC)를 제외한 모든 것에 면역이 됩니다.",
       },
     ],
 
     notes: [
-      'Gear Tuning Priorities: Min Physical Attack > Max Physical Attack > Critical Rate',
-      'Requires joining Nine Mortal Ways sect',
-      'Complex questline with disguise system',
-      'Preferred for seeking tools to manage crowds and shift combat tactics on the fly',
-      'Combat is fluid and dynamic, rewarding timing and positioning over brute force',
+      "장비 튜닝 우선순위: 최소 물리 공격력 > 최대 물리 공격력 > 치명타 확률",
+      "구사문(Nine Mortal Ways) 문파 가입 필요",
+      "변장 시스템이 포함된 복잡한 퀘스트 라인",
+      "군중을 관리하고 즉석에서 전투 전술을 변경하는 도구를 찾는 플레이어에게 권장",
+      "전투가 유동적이고 역동적이며, 단순한 힘보다는 타이밍과 위치 선정이 보상받음",
     ],
   },
 
   {
-    id: 'nameless-spear',
-    name: 'Nameless Spear',
-    type: 'Spear',
-    path: 'Bellstrike - Splendor',
-    image: require('../../../../assets/martial_art_weapons/nameless_spear.png'),
-    description: 'The first weapon you\'ll unlock in Where Winds Meet, complementing the Nameless Sword. This versatile spear offers strong AoE damage and Endurance recovery while you learn the game\'s mechanics. It features straightforward attack patterns ideal for beginners, with skills that control crowds and deal area damage.',
-    playstyle: 'Beginner-friendly AoE combat with Endurance recovery and crowd control',
+    id: "nameless-spear",
+    name: "이름 없는 창 (Nameless Spear)",
+    type: "Spear",
+    path: "Bellstrike - Splendor",
+    image: require("../../../../assets/martial_art_weapons/nameless_spear.png"),
+    description:
+      "Where Winds Meet에서 가장 먼저 잠금 해제되는 무기로, 이름 없는 검(Nameless Sword)을 보완합니다. 이 다재다능한 창은 게임의 메커니즘을 배우는 동안 강력한 광역(AoE) 피해와 지구력 회복을 제공합니다. 군중을 제어하고 광역 피해를 입히는 스킬과 함께 초보자에게 이상적인 직관적인 공격 패턴을 특징으로 합니다.",
+    playstyle: "지구력 회복과 군중 제어를 갖춘 초보자 친화적인 광역 전투",
 
     howToGet: {
-      method: 'Story Progression',
-      details: 'Automatically obtained at the start of the game alongside Nameless Sword. No special requirements.',
+      method: "Story Progression",
+      details:
+        "게임 시작 시 이름 없는 검과 함께 자동으로 획득합니다. 특별한 요구 사항 없음.",
     },
 
     stats: {
-      strengths: ['AoE Damage', 'Endurance Recovery', 'Beginner-Friendly'],
-      weaknesses: ['Single Target DPS', 'Advanced Mechanics'],
+      strengths: ["AoE Damage", "Endurance Recovery", "Beginner-Friendly"],
+      weaknesses: ["Single Target DPS", "Advanced Mechanics"],
     },
 
     skills: [
       {
-        name: 'Qiankun\'s Lock',
-        type: 'Martial Art',
-        description: 'Thrust forward with the spear, dealing damage to enemies in its path and Immobilizing them. After use, recover 15 Endurance for 10 seconds.',
-        recovery: '10.0s',
-        key: 'Q',
+        name: "Qiankun's Lock (건곤의 자물쇠)",
+        type: "Martial Art",
+        description:
+          "창으로 전방을 찔러 경로상의 적에게 피해를 주고 이동 불가(Immobilize) 상태로 만듭니다. 사용 후 10초 동안 지구력을 15 회복합니다.",
+        recovery: "10.0s",
+        key: "Q",
       },
       {
-        name: 'Legion Crusher',
-        type: 'Special',
-        description: 'Strike the ground ahead with the spear, dealing damage to enemies in a small area. Using this skill grants Unrivaled for 3 seconds.',
-        recovery: '8.0s',
-        key: '~',
+        name: "Legion Crusher (군단 분쇄기)",
+        type: "Special",
+        description:
+          "창으로 전방의 땅을 내려쳐 좁은 지역의 적에게 피해를 줍니다. 이 스킬을 사용하면 3초 동안 천하무적(Unrivaled)을 획득합니다.",
+        recovery: "8.0s",
+        key: "~",
       },
       {
-        name: 'Storm Dance',
-        type: 'Charged',
-        description: 'Charge up and spin the spear around you, dealing damage to nearby enemies multiple times.',
-        key: 'Hold R',
+        name: "Storm Dance (폭풍의 춤)",
+        type: "Charged",
+        description:
+          "차지하여 주변으로 창을 회전시켜 근처의 적에게 여러 번 피해를 줍니다.",
+        key: "Hold R",
       },
       {
-        name: 'Spear - Light Attack',
-        type: 'Light Attack',
-        description: 'Swing a long spear to perform up to four light attacks.',
-        recovery: '0.2s',
-        key: 'Left Click',
+        name: "Spear - Light Attack (창 - 경공격)",
+        type: "Light Attack",
+        description: "장창을 휘둘러 최대 4회의 경공격을 수행합니다.",
+        recovery: "0.2s",
+        key: "Left Click",
       },
       {
-        name: 'Spear - Heavy Attack',
-        type: 'Heavy Attack',
-        description: 'Swing a long spear to perform up to three heavy attacks.',
-        recovery: '0.2s',
-        key: 'R',
+        name: "Spear - Heavy Attack (창 - 중공격)",
+        type: "Heavy Attack",
+        description: "장창을 휘둘러 최대 3회의 중공격을 수행합니다.",
+        recovery: "0.2s",
+        key: "R",
       },
       {
-        name: 'Spear - Conversion',
-        type: 'Dual-Weapon',
-        description: 'Switch to spear and perform a sweeping attack.',
-        recovery: '3.0s',
-        key: 'TAB',
+        name: "Spear - Conversion (창 - 전환)",
+        type: "Dual-Weapon",
+        description: "창으로 전환하여 휩쓸기 공격을 수행합니다.",
+        recovery: "3.0s",
+        key: "TAB",
       },
     ],
 
     internalArts: [
       {
-        name: 'Sword Morph',
-        type: 'Attack/Damage Boost',
-        description: 'Increases Physical Attack for a short duration after using certain skills.',
+        name: "Sword Morph (검 변형)",
+        type: "Attack/Damage Boost",
+        description:
+          "특정 스킬 사용 후 짧은 시간 동안 물리 공격력을 증가시킵니다.",
       },
       {
-        name: 'Mountain\'s Might',
-        type: 'Defense/Buff',
-        description: 'Reduces incoming damage and increases Physical Defense when active.',
+        name: "Mountain's Might (산의 위력)",
+        type: "Defense/Buff",
+        description: "활성화 시 받는 피해를 줄이고 물리 방어력을 증가시킵니다.",
       },
       {
-        name: 'Wildfire Spark',
-        type: 'Attack/DoT',
-        description: 'Adds fire damage over time to attacks, dealing continuous damage to enemies.',
+        name: "Wildfire Spark (들불의 불꽃)",
+        type: "Attack/DoT",
+        description:
+          "공격에 화염 지속 피해를 추가하여 적에게 지속적인 피해를 줍니다.",
       },
       {
-        name: 'Battle Anthem',
-        type: 'Support/Buff',
-        description: 'Provides buffs to allies in the vicinity, increasing their combat effectiveness.',
+        name: "Battle Anthem (전투의 찬가)",
+        type: "Support/Buff",
+        description: "근처의 아군에게 버프를 제공하여 전투 효율을 높입니다.",
       },
     ],
 
     gearSets: [
       {
-        name: 'Jadeware Set',
+        name: "Jadeware Set (옥기 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Increases Physical Attack',
-          fourSet: 'Skill damage bonus and increased Endurance recovery rate',
+          twoSet: "물리 공격력 증가",
+          fourSet: "스킬 피해 보너스 및 지구력 회복 속도 증가",
         },
-        howToObtain: ['Early Campaign Quests', 'Starter Dungeons'],
+        howToObtain: ["Early Campaign Quests", "Starter Dungeons"],
       },
       {
-        name: 'Formbend Set',
+        name: "Formbend Set (폼벤드 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Increases Max HP',
-          fourSet: 'Reduces skill cooldowns and provides damage reduction',
+          twoSet: "최대 HP 증가",
+          fourSet: "스킬 재사용 대기시간 감소 및 피해 감소 제공",
         },
-        howToObtain: ['Early Campaign Quests', 'Starter Dungeons'],
+        howToObtain: ["Early Campaign Quests", "Starter Dungeons"],
       },
     ],
 
     talents: [
       {
-        name: 'Affinity Rate Upgrade',
-        unlockMethod: 'Unlocked after learning Martial Arts',
-        description: 'Increases Affinity Rate, improving the chance to deal bonus damage.',
+        name: "친화력 확률 업그레이드",
+        unlockMethod: "Unlocked after learning Martial Arts",
+        description:
+          "친화력 확률을 증가시켜 보너스 피해를 입힐 확률을 높입니다.",
       },
       {
-        name: 'Physical Attack Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 1',
-        description: 'Power can increase Max Physical Attack.',
+        name: "물리 공격력 증가",
+        unlockMethod: "Complete Breakthrough to Tier 1",
+        description: "힘(Power)으로 최대 물리 공격력을 증가시킬 수 있습니다.",
       },
       {
-        name: 'Endurance Recovery Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 2',
-        description: 'Improves Endurance recovery rate from Qiankun\'s Lock.',
+        name: "지구력 회복 강화",
+        unlockMethod: "Complete Breakthrough to Tier 2",
+        description: "Qiankun's Lock의 지구력 회복 속도를 향상시킵니다.",
       },
       {
-        name: 'Bellstrike Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'Increases Bellstrike (Attribute) Attack and Penetration.',
+        name: "Bellstrike 증가",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description: "Bellstrike(속성) 공격력과 관통력을 증가시킵니다.",
       },
       {
-        name: 'Max Endurance Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'Increases maximum Endurance pool for extended combat.',
+        name: "최대 지구력 증가",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description: "장기전을 위해 최대 지구력 풀을 증가시킵니다.",
       },
     ],
 
     effects: [
       {
-        name: 'Immobilize',
-        description: 'Prevents the target from moving for a short duration.',
+        name: "Immobilize (이동 불가)",
+        description: "짧은 시간 동안 대상의 이동을 막습니다.",
       },
       {
-        name: 'Unrivaled',
-        description: 'Grants immunity to control effects and increases damage output.',
+        name: "Unrivaled (천하무적)",
+        description: "제어 효과에 대한 면역을 부여하고 피해량을 증가시킵니다.",
       },
     ],
 
     notes: [
-      'Perfect starter weapon for new players',
-      'Complements Nameless Sword as the first weapon pair',
-      'Focus on AoE damage and crowd control',
-      'Qiankun\'s Lock provides valuable Endurance recovery',
-      'Simple mechanics make it ideal for learning combat fundamentals',
+      "새로운 플레이어를 위한 완벽한 스타터 무기",
+      "첫 번째 무기 쌍으로 이름 없는 검을 보완",
+      "광역 피해 및 군중 제어에 집중",
+      "Qiankun's Lock은 귀중한 지구력 회복 제공",
+      "단순한 메커니즘으로 전투 기본을 배우기에 이상적",
     ],
   },
 
   {
-    id: 'nameless-sword',
-    name: 'Nameless Sword',
-    type: 'Sword',
-    path: 'Bellstrike - Splendor',
-    image: require('../../../../assets/martial_art_weapons/nameless_sword.png'),
-    description: 'The first weapon you\'ll unlock in Where Winds Meet. Ideal for players who prefer focusing on individual targets to sweep them quickly rather than inflicting AoE Damage. A DPS-dedicated weapon that allows hitting targets several times, working well to proc Critical Hits constantly. Provides excellent mobility, extremely necessary against enormous hordes of enemies.',
-    playstyle: 'High mobility single-target DPS with critical hit focus and burst damage potential',
+    id: "nameless-sword",
+    name: "이름 없는 검 (Nameless Sword)",
+    type: "Sword",
+    path: "Bellstrike - Splendor",
+    image: require("../../../../assets/martial_art_weapons/nameless_sword.png"),
+    description:
+      "Where Winds Meet에서 가장 먼저 잠금 해제되는 무기입니다. 광역 피해를 입히기보다 개별 대상에 집중하여 빠르게 쓸어버리는 것을 선호하는 플레이어에게 이상적입니다. 대상을 여러 번 타격할 수 있는 DPS 전용 무기로, 치명타를 지속적으로 발동시키는 데 좋습니다. 엄청난 적 무리에 대항할 때 매우 필요한 뛰어난 기동성을 제공합니다.",
+    playstyle: "치명타 중심 및 순간 피해 잠재력을 갖춘 고기동성 단일 대상 DPS",
 
     howToGet: {
-      method: 'Story Progression',
-      details: 'Automatically obtained at the start of the game alongside Nameless Spear. No special requirements.',
+      method: "Story Progression",
+      details:
+        "게임 시작 시 이름 없는 창과 함께 자동으로 획득합니다. 특별한 요구 사항 없음.",
     },
 
     stats: {
-      strengths: ['DPS', 'Difficulty', 'Mobility'],
-      weaknesses: ['Support', 'Control', 'Survivability'],
+      strengths: ["DPS", "Difficulty", "Mobility"],
+      weaknesses: ["Support", "Control", "Survivability"],
     },
 
     skills: [
       {
-        name: 'Fearless Lunge',
-        type: 'Martial Art',
-        description: 'Throw the flying sword to deal light damage to the enemy hit, then dash forward to follow the sword. During the follow-through, press again to unleash up to two strikes of Judgment, each dealing increased damage. After the second strike of Judgement, gain a Qi Shield that lasts 3 seconds.',
-        recovery: '12.0s',
-        key: 'Q',
+        name: "Fearless Lunge (거침없는 돌진)",
+        type: "Martial Art",
+        description:
+          "비검을 던져 적중한 적에게 가벼운 피해를 입힌 후 전방으로 돌진하여 검을 따라갑니다. 후속 동작 중에 다시 누르면 최대 2회의 심판(Judgment)을 가하며, 각각 증가된 피해를 입힙니다. 심판의 두 번째 타격 후 3초간 지속되는 기(Qi) 보호막을 획득합니다.",
+        recovery: "12.0s",
+        key: "Q",
       },
       {
-        name: 'Shadow Step',
-        type: 'Special',
-        description: 'Consume Endurance to dodge backward and unleash Sword Qi (Sword Qi Damage decreases by 20% with each hit, to a minimum of 50%). Within 3 seconds, press again to use Sword Dash.',
-        recovery: '1.0s',
-        key: '~',
+        name: "Shadow Step (그림자 걷기)",
+        type: "Special",
+        description:
+          "지구력을 소모하여 뒤로 회피하고 검기(Sword Qi)를 방출합니다(검기 피해는 적중할 때마다 20%씩 감소하여 최소 50%가 됩니다). 3초 이내에 다시 누르면 검 돌진(Sword Dash)을 사용합니다.",
+        recovery: "1.0s",
+        key: "~",
       },
       {
-        name: 'Sword - Light Attack',
-        type: 'Light Attack',
-        description: 'Perform up to four light attacks with a Longsword.',
-        recovery: '0.6s',
-        key: 'Left Click',
+        name: "Sword - Light Attack (검 - 경공격)",
+        type: "Light Attack",
+        description: "장검으로 최대 4회의 경공격을 수행합니다.",
+        recovery: "0.6s",
+        key: "Left Click",
       },
       {
-        name: 'Homeless Charge',
-        type: 'Charged',
-        description: 'Consume Endurance to charge up and unleash Sword Qi forward (Sword Qi Damage decreases by 20% with each hit, to a minimum of 50%). Charge level increases over time, boosting the damage and range of the Sword Qi.',
-        key: 'Hold R',
+        name: "Homeless Charge (정처 없는 돌격)",
+        type: "Charged",
+        description:
+          "지구력을 소모하여 차지하고 전방으로 검기를 방출합니다(검기 피해는 적중할 때마다 20%씩 감소하여 최소 50%가 됩니다). 차지 레벨은 시간에 따라 증가하여 검기의 피해와 범위를 강화합니다.",
+        key: "Hold R",
       },
       {
-        name: 'Sword - Heavy Attack',
-        type: 'Heavy Attack',
-        description: 'Perform up to three heavy attacks with a Longsword.',
-        recovery: '0.9s',
-        key: 'R',
+        name: "Sword - Heavy Attack (검 - 중공격)",
+        type: "Heavy Attack",
+        description: "장검으로 최대 3회의 중공격을 수행합니다.",
+        recovery: "0.9s",
+        key: "R",
       },
       {
-        name: 'Sword - Conversion',
-        type: 'Dual-Weapon',
-        description: 'Switch to a Sword and slash.',
-        recovery: '3.0s',
-        key: 'TAB',
+        name: "Sword - Conversion (검 - 전환)",
+        type: "Dual-Weapon",
+        description: "검으로 전환하여 베기를 수행합니다.",
+        recovery: "3.0s",
+        key: "TAB",
       },
     ],
 
     internalArts: [
       {
-        name: 'Sword Morph',
-        type: 'Attack/Martial Arts/Damage Buff',
-        description: 'When Nameless Sword\'s Charged Skill, Homeless Charge, is charged while the Qi Shield is present, it unleashes multiple additional sword energy attacks at the 2nd charging state. You can consume bonus Endurance to increase the sword energy\'s damage; each Endurance increases damage by 1%, up to 20%.',
+        name: "Sword Morph (검 변형)",
+        type: "Attack/Martial Arts/Damage Buff",
+        description:
+          "기 보호막이 존재하는 동안 이름 없는 검의 차지 스킬 Homeless Charge를 차지하면, 2단계 차지 상태에서 여러 개의 추가 검 에너지 공격을 방출합니다. 추가 지구력을 소모하여 검 에너지의 피해를 증가시킬 수 있으며, 지구력당 피해가 1%씩, 최대 20%까지 증가합니다.",
       },
       {
-        name: 'Mountain\'s Might',
-        type: 'Support/Martial Arts/Cost Reduction',
-        description: 'Nameless Spear\'s Martial Art Skill, Qiankun\'s Lock, grants Endless Gale effect, increasing the Endurance cost reduction to 20% for 5 seconds. Recommended only when using the Nameless Spear as part of the Bellstrike - Splendor Arsenal.',
+        name: "Mountain's Might (산의 위력)",
+        type: "Support/Martial Arts/Cost Reduction",
+        description:
+          "이름 없는 창의 무학 스킬 Qiankun's Lock은 Endless Gale 효과를 부여하여 5초 동안 지구력 소모 감소를 20%로 증가시킵니다. 이름 없는 창을 Bellstrike - Splendor 무기고의 일부로 사용할 때만 권장됩니다.",
       },
       {
-        name: 'Wildfire Spark',
-        type: 'Support/Recover',
-        description: 'Refunds 3.5% of the Endurance consumed.',
+        name: "Wildfire Spark (들불의 불꽃)",
+        type: "Support/Recover",
+        description: "소모된 지구력의 3.5%를 반환합니다.",
       },
       {
-        name: 'Battle Anthem',
-        type: 'Attack/Damage Boost',
-        description: 'Increases Charged Skill\'s Damage against all bosses by 10%.',
+        name: "Battle Anthem (전투의 찬가)",
+        type: "Attack/Damage Boost",
+        description: "모든 보스에 대한 차지 스킬의 피해를 10% 증가시킵니다.",
       },
     ],
 
     gearSets: [
       {
-        name: 'Jadeware Set',
+        name: "Jadeware Set (옥기 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Max Physical Attack +1',
-          fourSet: 'Casting Martial Art Skill activates Jadeware effect: Increases Affinity DMG by 10% and deals 20% more Affinity DMG to targets under control or have lower than 40% Qi. Lasts 12 seconds. This effect can be triggered once every 30 seconds.',
+          twoSet: "최대 물리 공격력 +1",
+          fourSet:
+            "무학 스킬 시전 시 Jadeware 효과 발동: 친화력 피해 10% 증가 및 제어 상태이거나 기력이 40% 미만인 대상에게 친화력 피해 20% 추가 증가. 12초 지속. 이 효과는 30초마다 한 번 발동할 수 있습니다.",
         },
-        howToObtain: ['Campaign - Palace of Annals', 'Campaign - Bodhi Sea', 'Sword Trial', 'Group Dungeons', 'Activity Shop'],
+        howToObtain: [
+          "Campaign - Palace of Annals",
+          "Campaign - Bodhi Sea",
+          "Sword Trial",
+          "Group Dungeons",
+          "Activity Shop",
+        ],
       },
       {
-        name: 'Formbend Set',
+        name: "Formbend Set (폼벤드 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Physical Defense +1',
-          fourSet: 'Your Qi Shield duration is extended by 2 seconds. If you have more than 85% Qi or a Qi damage immunity shield, reduce all HP damage taken by 20%.',
+          twoSet: "물리 방어력 +1",
+          fourSet:
+            "기 보호막 지속 시간이 2초 연장됩니다. 기력이 85% 이상이거나 기 피해 면역 보호막이 있는 경우, 받는 모든 HP 피해를 20% 감소시킵니다.",
         },
-        howToObtain: ['Campaign - Palace of Annals', 'Campaign - Bodhi Sea', 'Campaign - Halo Peak', 'Sword Trial', 'Group Dungeons', 'Activity Shop'],
+        howToObtain: [
+          "Campaign - Palace of Annals",
+          "Campaign - Bodhi Sea",
+          "Campaign - Halo Peak",
+          "Sword Trial",
+          "Group Dungeons",
+          "Activity Shop",
+        ],
       },
     ],
 
     talents: [
       {
-        name: 'The Qi Struggle Enhancement',
-        unlockMethod: 'Unlocked after learning Martial Arts',
-        description: 'Increases Qi Damage dealt by 10%.',
+        name: "기(Qi) 투쟁 강화",
+        unlockMethod: "Unlocked after learning Martial Arts",
+        description: "가하는 기 피해가 10% 증가합니다.",
       },
       {
-        name: 'Physical Damage Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 1',
-        description: 'Max Physical Attack can be increased based on Momentum. (Momentum: Converts into Character\'s Affinity Rate and Max Physical Attack based on a certain Ratio).',
+        name: "물리 피해 증가",
+        unlockMethod: "Complete Breakthrough to Tier 1",
+        description:
+          "운동량(Momentum)에 따라 최대 물리 공격력을 증가시킬 수 있습니다. (운동량: 특정 비율에 따라 캐릭터의 친화력 확률 및 최대 물리 공격력으로 변환됨).",
       },
       {
-        name: 'Sword Qi Affinity Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 2',
-        description: 'Increases the Affinity Rate of sword energy attacks against targets with Qi below 20% (including Exhausted targets) based on Max Physical Attack, up to a 3.5% increase at 500 Max Physical Attack.',
+        name: "검기 친화력 강화",
+        unlockMethod: "Complete Breakthrough to Tier 2",
+        description:
+          "기력이 20% 미만인 대상(지친 대상 포함)에 대한 검 에너지 공격의 친화력 확률을 최대 물리 공격력에 따라 증가시켜, 500 최대 물리 공격력에서 최대 3.5% 증가시킵니다.",
       },
       {
-        name: 'Bellstrike Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'Increases Bellstrike Attack (Attribute Attack) by 19 - 38. Increases Bellstrike Penetration based on Max Bellstrike Attack.',
+        name: "Bellstrike 증가",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "Bellstrike 공격력(속성 공격)을 19 - 38 증가시킵니다. 최대 Bellstrike 공격력에 비례하여 Bellstrike 관통력을 증가시킵니다.",
       },
       {
-        name: 'Attribute Attack Damage Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'All Skills deal damage based on Attribute Attack, while Bellstrike Attack deals 50% bonus damage.',
+        name: "속성 공격 피해 강화",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "모든 스킬은 속성 공격력에 기반하여 피해를 주며, Bellstrike 공격은 50%의 보너스 피해를 줍니다.",
       },
     ],
 
     notes: [
-      'Gear Tuning Priorities: Min Physical Attack > Max Physical Attack > Affinity Rate',
-      'Perfect starter weapon for new players',
-      'Complements Nameless Spear as the first weapon pair',
-      'Both weapons share the same development path (Bellstrike - Splendor)',
-      'High mobility and single-target control; excels at kiting enemies',
-      'Combine strong endurance with charged skills to unleash burst damage',
+      "장비 튜닝 우선순위: 최소 물리 공격력 > 최대 물리 공격력 > 친화력 확률",
+      "새로운 플레이어를 위한 완벽한 스타터 무기",
+      "첫 번째 무기 쌍으로 이름 없는 창을 보완",
+      "두 무기 모두 동일한 개발 경로(Bellstrike - Splendor)를 공유",
+      "높은 기동성 및 단일 대상 제어; 적 카이팅에 탁월",
+      "강력한 지구력과 차지 스킬을 결합하여 순간 피해 방출",
     ],
   },
 
   {
-    id: 'vernal-umbrella',
-    name: 'Vernal Umbrella',
-    type: 'Umbrella',
-    path: 'Skillbind - Jade',
-    image: require('../../../../assets/martial_art_weapons/vemal_umbrella.png'),
-    description: 'The offensive alternative to the Soulshade Umbrella, entirely different in function. Instead of providing heals, this weapon focuses on targeting individual targets from a safe distance where the user cannot be targeted. Provides considerable mobility and crowd control, making it a suitable option for those who prefer not to take risks with melee weapons.',
-    playstyle: 'Ranged sustained DPS with control and airborne burst combos',
+    id: "vernal-umbrella",
+    name: "버널 엄브렐러 (Vernal Umbrella)",
+    type: "Umbrella",
+    path: "Skillbind - Jade",
+    image: require("../../../../assets/martial_art_weapons/vemal_umbrella.png"),
+    description:
+      "소울쉐이드 엄브렐러의 공격형 대체 무기로, 기능이 완전히 다릅니다. 치유를 제공하는 대신, 이 무기는 사용자가 표적이 되지 않는 안전한 거리에서 개별 대상을 목표로 하는 데 중점을 둡니다. 상당한 기동성과 군중 제어를 제공하여 근접 무기로 위험을 감수하고 싶지 않은 사람들에게 적합한 옵션입니다.",
+    playstyle: "제어 및 공중 폭발 콤보를 갖춘 원거리 지속 DPS",
 
     howToGet: {
-      method: 'Quest Reward or Skill Theft',
-      location: 'Time Tower in Kaifeng Region',
-      details: 'Possible reward from Oddities - Mystery of Five Tones Encounter Quest in Qinghe, OR Skill Theft at Time Tower. For Skill Theft: Speak with Wang Ping\'an at tower base, climb to find Jiang Ting\'er, complete clue hunt for keepsake (tabby cat, chess players, gossiping women, warehouse, second-floor treasury), retrieve Bramble Rose Hairpin from warehouse, return to Jiang Ting\'er, perform Skill Theft on Master.',
+      method: "Quest Reward or Skill Theft",
+      location: "개봉(Kaifeng) 지역의 타임 타워(Time Tower)",
+      details:
+        "청하의 \"Oddities - Mystery of Five Tones\" 조우 퀘스트 보상, 또는 타임 타워에서 기술 강탈. 기술 강탈의 경우: 타워 기단에서 Wang Ping'an과 대화, 올라가서 Jiang Ting'er 찾기, 기념품 단서 찾기(얼룩 고양이, 체스 선수, 잡담하는 여자들, 창고, 2층 보물창고) 완료, 창고에서 찔레장미 비녀(Bramble Rose Hairpin) 회수, Jiang Ting'er에게 돌아가 마스터에게 기술 강탈 수행.",
     },
 
     stats: {
-      strengths: ['DPS', 'Control', 'Mobility'],
-      weaknesses: ['Difficulty', 'Survivability', 'Support'],
+      strengths: ["DPS", "Control", "Mobility"],
+      weaknesses: ["Difficulty", "Survivability", "Support"],
     },
 
     skills: [
       {
-        name: 'Spring Sorrow',
-        type: 'Martial Art',
-        description: 'Briefly charges, then fires a flying petal forward. On hit, Immobilizes non-boss enemies for 3 seconds.',
-        recovery: '15.0s',
-        key: 'Q',
+        name: "Spring Sorrow (봄의 슬픔)",
+        type: "Martial Art",
+        description:
+          "잠시 차지한 후 전방으로 날아가는 꽃잎을 발사합니다. 적중 시 보스가 아닌 적을 3초 동안 이동 불가 상태로 만듭니다.",
+        recovery: "15.0s",
+        key: "Q",
       },
       {
-        name: 'Unfading Flower',
-        type: 'Special',
-        description: 'Can be used when at least 50 Blossom are available. Toss the umbrella into the air and draw a hidden sword. You can then switch to another weapon or use the hidden sword\'s basic skills. While active, the umbrella follows you in midair and automatically fires projectiles at single targets within 5m. If the target is airborne, the umbrella consumes additional Blossom to fire enhanced projectiles and extend the target\'s airborne duration. Consumes 10 Blossom per second. If Blossom is insufficient, the umbrella is automatically recalled.',
-        recovery: '0.2s',
-        key: '~',
+        name: "Unfading Flower (지지 않는 꽃)",
+        type: "Special",
+        description:
+          "개화(Blossom)가 최소 50 있을 때 사용할 수 있습니다. 우산을 공중으로 던지고 숨겨진 검을 뽑습니다. 그 후 다른 무기로 전환하거나 숨겨진 검의 기본 스킬을 사용할 수 있습니다. 활성화된 동안 우산은 공중에서 당신을 따라다니며 5m 이내의 단일 대상에게 자동으로 투사체를 발사합니다. 대상이 공중에 있는 경우 우산은 추가 개화를 소모하여 강화된 투사체를 발사하고 대상의 체공 시간을 연장합니다. 초당 개화 10을 소모합니다. 개화가 부족하면 우산은 자동으로 회수됩니다.",
+        recovery: "0.2s",
+        key: "~",
       },
       {
-        name: 'Umbrella - Light Attack',
-        type: 'Light Attack',
-        description: 'Swings your Umbrella to land up to three Light Attacks, dealing close to medium range damage.',
-        recovery: '0.1s',
-        key: 'Left Click',
+        name: "Umbrella - Light Attack (우산 - 경공격)",
+        type: "Light Attack",
+        description:
+          "우산을 휘둘러 최대 3회의 경공격을 가하며, 근거리에서 중거리 범위의 피해를 입힙니다.",
+        recovery: "0.1s",
+        key: "Left Click",
       },
       {
-        name: 'Spring Away',
-        type: 'Light Attack',
-        description: 'After charging, open the umbrella to rise into the air and spin rapidly, making yourself airborne and firing projectiles to deal moderate damage. Hitting targets with these projectiles can rapidly accumulate Blossom.',
-        key: 'Hold Left Click',
+        name: "Spring Away (봄의 도주)",
+        type: "Light Attack",
+        description:
+          "차지 후 우산을 펼쳐 공중으로 상승하고 빠르게 회전하여 자신을 공중 상태로 만들고 투사체를 발사하여 중간 정도의 피해를 줍니다. 이 투사체로 대상을 맞추면 개화를 빠르게 축적할 수 있습니다.",
+        key: "Hold Left Click",
       },
       {
-        name: 'Apricot Heaven',
-        type: 'Charged',
-        description: 'A one-stage charged skill that deals massive damage. Open the umbrella to fly into the air, dealing area damage once to nearby enemies. While charging in mid-air, there are two variants based on the charge duration: a normal downward area attack and an enhanced area attack.',
-        key: 'Hold R',
+        name: "Apricot Heaven (살구 천국)",
+        type: "Charged",
+        description:
+          "막대한 피해를 주는 1단계 차지 스킬입니다. 우산을 펼쳐 공중으로 날아올라 근처의 적에게 한 번의 광역 피해를 줍니다. 공중에서 차지하는 동안 차지 시간에 따라 두 가지 변형이 있습니다: 일반 하강 광역 공격과 강화된 광역 공격.",
+        key: "Hold R",
       },
       {
-        name: 'Colorful Phoenix',
-        type: 'Heavy Attack',
-        description: 'During the recovery of the first or second heavy attack, tap the light attack button to trigger a combo skill - open the umbrella and dash forward, dealing multiple hits of damage.',
-        recovery: '0.2s',
-        key: 'R while in the air',
+        name: "Colorful Phoenix (화려한 봉황)",
+        type: "Heavy Attack",
+        description:
+          "첫 번째 또는 두 번째 중공격의 회복 동작 중에 경공격 버튼을 탭하면 콤보 스킬이 발동됩니다 - 우산을 펼쳐 전방으로 돌진하며 다단 히트 피해를 줍니다.",
+        recovery: "0.2s",
+        key: "R while in the air",
       },
       {
-        name: 'Umbrella - Heavy Attack',
-        type: 'Heavy Attack',
-        description: 'Swings your Umbrella to land up to four Heavy Attacks, dealing close to medium range damage.',
-        key: 'R',
+        name: "Umbrella - Heavy Attack (우산 - 중공격)",
+        type: "Heavy Attack",
+        description:
+          "우산을 휘둘러 최대 4회의 중공격을 가하며, 근거리에서 중거리 범위의 피해를 입힙니다.",
+        key: "R",
       },
       {
-        name: 'Umbrella - Conversion',
-        type: 'Dual-Weapon',
-        description: 'Switch weapon to umbrella and swing it, dealing damage.',
-        recovery: '3.0s',
-        key: 'TAB',
+        name: "Umbrella - Conversion (우산 - 전환)",
+        type: "Dual-Weapon",
+        description: "무기를 우산으로 전환하고 휘둘러 피해를 줍니다.",
+        recovery: "3.0s",
+        key: "TAB",
       },
     ],
 
     internalArts: [
       {
-        name: 'Blossom Barrage',
-        type: 'Attack/Martial Arts/Damage Boost',
-        description: 'Vernal Umbrella\'s Martial Arts Skill Spring Sorrow can hold up to 2 stacks. Hitting a target applies the Combo effect: increases damage taken from the caster\'s Ballistic Skills by 10% for 8 seconds. Affected Ballistic Skills include: Martial Art Skill, Spring Sorrow, and Special Skill Unfading Flower. Recommended when using Vernal Umbrella as part of the Skillbind - Jade Arsenal.',
+        name: "Blossom Barrage (꽃의 탄막)",
+        type: "Attack/Martial Arts/Damage Boost",
+        description:
+          "버널 엄브렐러의 무학 스킬 Spring Sorrow는 최대 2중첩까지 유지할 수 있습니다. 대상을 타격하면 콤보 효과를 적용합니다: 8초 동안 시전자의 탄도 스킬로부터 받는 피해가 10% 증가합니다. 영향을 받는 탄도 스킬에는 무학 스킬 Spring Sorrow와 특수 스킬 Unfading Flower가 포함됩니다. 버널 엄브렐러를 Skillbind - Jade 무기고의 일부로 사용할 때 권장됩니다.",
       },
       {
-        name: 'Flying Gourds',
-        type: 'Martial Arts/Support',
-        description: 'Grants 2 charges to Inkwell Fan\'s Peak\'s Springless Silence but increases its cooldown by 3 seconds.',
+        name: "Flying Gourds (비행 호리병)",
+        type: "Martial Arts/Support",
+        description:
+          "잉크웰 팬의 Peak's Springless Silence에 2회 충전 횟수를 부여하지만 재사용 대기시간이 3초 증가합니다.",
       },
       {
-        name: 'Thunderous Bloom',
-        type: 'Damage Boost/Buff',
-        description: 'When you move more than 15m within 3 seconds, gain Spring Thunder: the next 3 Heavy Attacks or Airborne Heavy Attacks within 12 seconds gain 15% DMG Bonus. This effect may trigger once per 15 seconds.',
+        name: "Thunderous Bloom (천둥 같은 개화)",
+        type: "Damage Boost/Buff",
+        description:
+          "3초 이내에 15m 이상 이동하면 봄의 천둥(Spring Thunder)을 획득합니다: 12초 이내의 다음 3회 중공격 또는 공중 중공격이 15% 피해 보너스를 얻습니다. 이 효과는 15초마다 한 번 발동할 수 있습니다.",
       },
       {
-        name: 'Star Reacher',
-        type: 'Attack/Pursuit/Buff',
-        description: 'Gain 10% Physical Attack bonus for 8 seconds after knocking an enemy airborne.',
+        name: "Star Reacher (별을 쫓는 자)",
+        type: "Attack/Pursuit/Buff",
+        description:
+          "적을 공중으로 띄운 후 8초 동안 물리 공격력 10% 보너스를 얻습니다.",
       },
     ],
 
     gearSets: [
       {
-        name: 'Veil of the Willow Set',
+        name: "Veil of the Willow Set (버드나무의 장막 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Precision Rate +0.1%',
-          fourSet: 'After a Light Attack/Airborne Heavy Attack, damage is increased by 12%, lasting 10 seconds. The reverse is also true. Particularly, after a Heavy Attack/Airborne Heavy Attack/Light Attack/Charged Attack, damage is increased by 12%.',
+          twoSet: "정밀도(Precision Rate) +0.1%",
+          fourSet:
+            "경공격/공중 중공격 후, 피해가 12% 증가하며 10초간 지속됩니다. 반대의 경우도 마찬가지입니다. 특히, 중공격/공중 중공격/경공격/차지 공격 후 피해가 12% 증가합니다.",
         },
-        howToObtain: ['Campaign - Heavenfall', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: ["Campaign - Heavenfall", "Sword Trial", "Group Dungeons"],
       },
       {
-        name: 'Beyond the Chill Set',
+        name: "Beyond the Chill Set (추위를 넘어선 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Max HP +40',
-          fourSet: 'After entering combat, if no damage is taken for 10 seconds, gain Beyond the Chill: Reduces the next damage taken and all damage taken within 2 seconds afterward by 40%. Beyond the Chill is removed upon leaving combat.',
+          twoSet: "최대 HP +40",
+          fourSet:
+            "전투 진입 후 10초 동안 피해를 입지 않으면 Beyond the Chill을 획득합니다: 다음 받는 피해와 그 후 2초 이내의 모든 받는 피해를 40% 감소시킵니다. Beyond the Chill은 전투 종료 시 제거됩니다.",
         },
-        howToObtain: ['Campaign - Heavenfall', 'Campaign - Furnace of Righteousness', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: [
+          "Campaign - Heavenfall",
+          "Campaign - Furnace of Righteousness",
+          "Sword Trial",
+          "Group Dungeons",
+        ],
       },
     ],
 
     talents: [
       {
-        name: 'Trajectory Skill Enhancement',
-        unlockMethod: 'Unlocked after learning Martial Arts',
-        description: 'All Vernal Umbrella ballistic skills ignore a portion of target\'s Physical Resistance when damaging an immobilized or airborne enemy.',
+        name: "탄도 스킬 강화",
+        unlockMethod: "Unlocked after learning Martial Arts",
+        description:
+          "모든 버널 엄브렐러 탄도 스킬은 이동 불가 또는 공중 상태인 적에게 피해를 줄 때 대상의 물리 저항 일부를 무시합니다.",
       },
       {
-        name: 'Critical Rate Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 1',
-        description: 'Agility can increase Critical Rate.',
+        name: "치명타 확률 증가",
+        unlockMethod: "Complete Breakthrough to Tier 1",
+        description: "민첩성(Agility)으로 치명타 확률을 증가시킬 수 있습니다.",
       },
       {
-        name: 'Trajectory Calculation Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 2',
-        description: 'Increases the Critical DMG of Vernal Umbrella\'s Ballistic Skills.',
+        name: "탄도 계산 강화",
+        unlockMethod: "Complete Breakthrough to Tier 2",
+        description: "버널 엄브렐러 탄도 스킬의 치명타 피해를 증가시킵니다.",
       },
       {
-        name: 'Silkbind Attribute Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'Increases Silkbind (Attribute) Attack. Also increases Silkbind DMG Bonus based on Min Silkbind Attack.',
+        name: "Silkbind 속성 증가",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "Silkbind(속성) 공격력을 증가시킵니다. 또한 최소 Silkbind 공격력에 따라 Silkbind 피해 보너스를 증가시킵니다.",
       },
       {
-        name: 'Attribute Attack Damage Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'All skills deal damage based on Attribute Attack, while Silkbind damage gains a further increase.',
+        name: "속성 공격 피해 강화",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "모든 스킬은 속성 공격력에 기반하여 피해를 주며, Silkbind 피해는 추가로 증가합니다.",
       },
     ],
 
     effects: [
       {
-        name: 'Airborne',
-        description: 'Send the target airborne using Special Skill, making them more vulnerable to high damage.',
+        name: "Airborne (공중)",
+        description:
+          "특수 스킬을 사용하여 대상을 공중으로 띄워 높은 피해에 더 취약하게 만듭니다.",
       },
       {
-        name: 'Blossom',
-        description: 'A unique martial art resource of Vernal Umbrella. Max 100 points. Can be earned from hitting enemies with this martial art equipped. Blossom is consumed continuously while using skills.',
+        name: "Blossom (개화)",
+        description:
+          "버널 엄브렐러의 고유 무학 자원입니다. 최대 100포인트. 이 무학을 장착하고 적을 타격하여 얻을 수 있습니다. 개화는 스킬 사용 중 지속적으로 소모됩니다.",
       },
       {
-        name: 'Immobilize',
-        description: 'Target is disabled; unable to move or use any skills.',
+        name: "Immobilize (이동 불가)",
+        description: "대상은 무력화되어 이동하거나 스킬을 사용할 수 없습니다.",
       },
     ],
 
     notes: [
-      'Gear Tuning Priorities: Min Physical Attack > Max Physical Attack > Critical Rate',
-      'Offensive alternative to Soulshade Umbrella',
-      'Shares Skillbind - Jade path with Inkwell Fan',
-      'Ranged playstyle with sustained DPS capabilities',
-      'Safe distance combat - user cannot be easily targeted',
-      'Considerable mobility and crowd control options',
-      'Suitable for players who prefer not to take risks with melee weapons',
-      'Complex questline involving clue hunt for Skill Theft method',
-      'Unique Blossom resource system - max 100 points',
-      'Can draw hidden sword while umbrella auto-fires projectiles',
+      "장비 튜닝 우선순위: 최소 물리 공격력 > 최대 물리 공격력 > 치명타 확률",
+      "소울쉐이드 엄브렐러의 공격형 대체품",
+      "잉크웰 팬과 Silkbind - Jade 경로 공유",
+      "지속 DPS 능력을 갖춘 원거리 플레이 스타일",
+      "안전 거리 전투 - 사용자가 쉽게 표적이 되지 않음",
+      "상당한 기동성과 군중 제어 옵션",
+      "근접 무기로 위험을 감수하고 싶지 않은 플레이어에게 적합",
+      "기술 강탈 방법을 위한 단서 찾기가 포함된 복잡한 퀘스트 라인",
+      "고유 개화 자원 시스템 - 최대 100포인트",
+      "우산이 자동으로 투사체를 발사하는 동안 숨겨진 검을 뽑을 수 있음",
     ],
   },
 
   {
-    id: 'soulshade-umbrella',
-    name: 'Soulshade Umbrella',
-    type: 'Umbrella',
-    path: 'Skillbind - Deluge',
-    image: require('../../../../assets/martial_art_weapons/soulshade_umbrella.png'),
-    description: 'The support-oriented alternative to the umbrella, and the only weapon, alongside the Panacea Fan, that can heal units. This weapon is all about supporting by providing heals, which makes it strongly oriented to multiplayer, but it severely lacks DMG, as it\'s thought to be a weapon you use while sitting back on battles, only providing heals.',
-    playstyle: 'Support healer with burst and sustained healing, single-target and group recovery, revival abilities, and team damage buffs',
+    id: "soulshade-umbrella",
+    name: "소울쉐이드 엄브렐러 (Soulshade Umbrella)",
+    type: "Umbrella",
+    path: "Skillbind - Deluge",
+    image: require("../../../../assets/martial_art_weapons/soulshade_umbrella.png"),
+    description:
+      "우산의 지원형 대체 무기이며, 파나시아 팬과 함께 유닛을 치유할 수 있는 유일한 무기입니다. 이 무기는 치유를 제공하여 지원하는 데 전념하므로 멀티플레이어에 매우 적합하지만, 피해량은 심각하게 부족합니다. 전투 중에는 뒤로 물러나 치유만 제공하는 무기로 간주됩니다.",
+    playstyle:
+      "순간 치유 및 지속 치유, 단일 대상 및 그룹 회복, 부활 능력, 팀 피해 버프를 갖춘 지원형 힐러",
 
     howToGet: {
-      method: 'Skill Theft',
-      location: 'Soulshade Umbrella Post Station in eastern Kaifeng Region',
-      details: 'Requires completing Chapter 1: Heaven Has No Pier to unlock Kaifeng region. Navigate Post Station with stealth: enter house on left, assassinate guards, clear disciples, loot chests, descend through coffin ladder to hideout, clear hanging coffins area, climb to objective area, perform Skill Theft on Master.',
+      method: "Skill Theft",
+      location: "개봉(Kaifeng) 지역 동부의 소울쉐이드 엄브렐러 역참",
+      details:
+        "개봉 지역을 잠금 해제하려면 챕터 1: Heaven Has No Pier를 완료해야 합니다. 은신으로 역참 이동: 왼쪽 집으로 들어가 경비병 암살, 제자 처치, 상자 약탈, 관 사다리를 통해 은신처로 하강, 매달린 관 구역 정리, 목표 구역으로 등반, 마스터에게 기술 강탈 수행.",
     },
 
     stats: {
-      strengths: ['Support', 'Survivability', 'Difficulty'],
-      weaknesses: ['Mobility', 'DPS', 'Control'],
+      strengths: ["Support", "Survivability", "Difficulty"],
+      weaknesses: ["Mobility", "DPS", "Control"],
     },
 
     skills: [
       {
-        name: 'Floating Grace',
-        type: 'Martial Art',
-        description: 'Send out the umbrella to grant yourself and nearby allies 15% increased damage for 8 seconds and heal once.',
-        recovery: '60.0s',
-        key: 'Q',
+        name: "Floating Grace (부유하는 은혜)",
+        type: "Martial Art",
+        description:
+          "우산을 보내 자신과 근처 아군에게 8초 동안 15% 증가된 피해를 부여하고 한 번 치유합니다.",
+        recovery: "60.0s",
+        key: "Q",
       },
       {
-        name: 'Echoes of a Thousand Plants',
-        type: 'Special',
-        description: 'Toss the umbrella into the air and pull out a hidden sword from the handle. You may switch to another weapon or use the hidden sword\'s basic skills. Increases healing by 15% and generates Dewdrops over time (up to 60). The umbrella hovers and follows you, automatically healing the ally with the lowest HP percentage nearby (including yourself). Increase the healing effect by 50% when healing yourself. Use a Special Skill while wielding a hidden sword to recall the umbrella early.',
-        recovery: '60.0s',
-        key: '~',
+        name: "Echoes of a Thousand Plants (천초의 메아리)",
+        type: "Special",
+        description:
+          "우산을 공중으로 던지고 손잡이에서 숨겨진 검을 뽑습니다. 다른 무기로 전환하거나 숨겨진 검의 기본 스킬을 사용할 수 있습니다. 치유량을 15% 증가시키고 시간이 지남에 따라 물방울을 생성합니다(최대 60). 우산은 공중에 떠서 당신을 따라다니며, 근처의 HP 비율이 가장 낮은 아군(자신 포함)을 자동으로 치유합니다. 자신을 치유할 때 치유 효과가 50% 증가합니다. 숨겨진 검을 휘두르는 동안 특수 스킬을 사용하면 우산을 일찍 회수할 수 있습니다.",
+        recovery: "60.0s",
+        key: "~",
       },
       {
-        name: 'Umbrella - Light Attack',
-        type: 'Light Attack',
-        description: 'Swings your Umbrella to land up to three Light Attacks, dealing close to medium range damage.',
-        recovery: '0.1s',
-        key: 'Left Click',
+        name: "Umbrella - Light Attack (우산 - 경공격)",
+        type: "Light Attack",
+        description:
+          "우산을 휘둘러 최대 3회의 경공격을 가하며, 근거리에서 중거리 범위의 피해를 입힙니다.",
+        recovery: "0.1s",
+        key: "Left Click",
       },
       {
-        name: 'Umbrella - Heavy Attack',
-        type: 'Heavy Attack',
-        description: 'Send the umbrella forward to perform a spinning attack.',
-        recovery: '1.6s',
-        key: 'R',
+        name: "Umbrella - Heavy Attack (우산 - 중공격)",
+        type: "Heavy Attack",
+        description: "우산을 전방으로 보내 회전 공격을 수행합니다.",
+        recovery: "1.6s",
+        key: "R",
       },
       {
-        name: 'Pale Petal',
-        type: 'Charged',
-        description: 'Send the umbrella forward to perform a spinning attack. If the target is already Exhausted, the attack extends the duration of the Exhausted status. Holding the skill increases both its damage and the duration of the effect.',
-        key: 'Hold R',
+        name: "Pale Petal (창백한 꽃잎)",
+        type: "Charged",
+        description:
+          "우산을 전방으로 보내 회전 공격을 수행합니다. 대상이 이미 지친(Exhausted) 상태라면 공격은 지친 상태의 지속 시간을 연장합니다. 스킬을 길게 누르면 피해와 효과 지속 시간이 모두 증가합니다.",
+        key: "Hold R",
       },
       {
-        name: 'Umbrella - Conversion',
-        type: 'Dual-Weapon',
-        description: 'Switch your weapon to umbrella and swing it, dealing damage. Increased healing by 5% and generates Dewdrops over a period of time (up to 30).',
-        recovery: '3.0s',
-        key: 'TAB',
+        name: "Umbrella - Conversion (우산 - 전환)",
+        type: "Dual-Weapon",
+        description:
+          "무기를 우산으로 전환하고 휘둘러 피해를 줍니다. 치유량을 5% 증가시키고 일정 시간 동안 물방울을 생성합니다(최대 30).",
+        recovery: "3.0s",
+        key: "TAB",
       },
     ],
 
     internalArts: [
       {
-        name: 'Royal Remedy',
-        type: 'Support/Martial Arts/Recover',
-        description: 'Increases the healing effect of the water clone created by Panacea Fan\'s Martial Art Skill, Cloudburst Healing, by 10%. If you are within its range, gain 1 Dewdrop each time when receive healing over time.',
+        name: "Royal Remedy (왕실의 치료)",
+        type: "Support/Martial Arts/Recover",
+        description:
+          "파나시아 팬의 무학 스킬인 Cloudburst Healing으로 생성된 물의 분신의 치유 효과를 10% 증가시킵니다. 범위 내에 있으면 지속 치유를 받을 때마다 물방울 1개를 획득합니다.",
       },
       {
-        name: 'Restoring Blossom',
-        type: 'Support/Buff/Stacking',
-        description: 'Dealing Critical Healing applies one stack of Nurturing for 3 seconds, increasing healing received by 2%, stacking up to 3 times.',
+        name: "Restoring Blossom (회복의 꽃)",
+        type: "Support/Buff/Stacking",
+        description:
+          "치명타 치유를 하면 3초 동안 육성(Nurturing) 1중첩을 적용하여 받는 치유량을 2% 증가시키며, 최대 3회 중첩됩니다.",
       },
       {
-        name: 'Esoteric Revival',
-        type: 'Support/Buff/Recover',
-        description: 'Increases the healing of Panacea Fan\'s Perception Skill, Resurrection, by 50% on the revived target.',
+        name: "Esoteric Revival (비전 부활)",
+        type: "Support/Buff/Recover",
+        description:
+          "파나시아 팬의 감각 스킬인 Resurrection(부활)의 치유량을 부활된 대상에 대해 50% 증가시킵니다.",
       },
       {
-        name: 'Mending Loom',
-        type: 'Support/Buff/Recover',
-        description: 'Casting Soulshade Umbrella\'s Special Skill, Echoing Grow, restores 5 Dewdrops and additionally heals 10% of your Max HP for every 100 Dewdrops consumed. (when using Soulshade Umbrella as part of the Skillbind - Deluge Arsenal)',
+        name: "Mending Loom (수선의 베틀)",
+        type: "Support/Buff/Recover",
+        description:
+          "소울쉐이드 엄브렐러의 특수 스킬 Echoing Grow를 시전하면 물방울 5개를 회복하고, 소모한 물방울 100개당 최대 HP의 10%를 추가로 회복합니다. (소울쉐이드 엄브렐러를 Skillbind - Deluge 무기고의 일부로 사용할 때)",
       },
     ],
 
     gearSets: [
       {
-        name: 'Ivorybloom Set',
+        name: "Ivorybloom Set (아이보리블룸 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Critical Rate +0.1%',
-          fourSet: 'At Max HP, there\'s a bonus 5% chance to deal Critical Healing and Damage, and increases the effects of Critical Healing and Damage by 15%.',
+          twoSet: "치명타 확률 +0.1%",
+          fourSet:
+            "최대 HP일 때, 치명타 치유 및 피해를 입힐 확률이 5% 추가되며, 치명타 치유 및 피해의 효과가 15% 증가합니다.",
         },
-        howToObtain: ['Campaign - Ever-Normal Granary', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: [
+          "Campaign - Ever-Normal Granary",
+          "Sword Trial",
+          "Group Dungeons",
+        ],
       },
       {
-        name: 'Whirlsnow Set',
+        name: "Whirlsnow Set (월스노우 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Physical Defense +1',
-          fourSet: 'When you lose more than 40% of Max HP in a single instance of damage or when your HP falls below 20%, the next healing you receive within 5 seconds restores an additional 25% of your Max HP. This effect triggers once every 60 seconds.',
+          twoSet: "물리 방어력 +1",
+          fourSet:
+            "한 번의 피해로 최대 HP의 40% 이상을 잃거나 HP가 20% 미만으로 떨어지면, 5초 이내에 받는 다음 치유가 최대 HP의 25%를 추가로 회복합니다. 이 효과는 60초마다 한 번 발동합니다.",
         },
-        howToObtain: ['Campaign - Ever-Normal Granary', 'Campaign - Furnace of Righteousness', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: [
+          "Campaign - Ever-Normal Granary",
+          "Campaign - Furnace of Righteousness",
+          "Sword Trial",
+          "Group Dungeons",
+        ],
       },
     ],
 
     talents: [
       {
-        name: 'Buff Enhancement',
-        unlockMethod: 'Unlocked after learning Martial Arts',
-        description: 'Martial Art Skill allows you and allies to deal bonus damage against Exhausted enemies. When equipped with both Soulshade Umbrella and Panacea Fan, it increases the damage of Mystic Arts.',
+        name: "Buff Enhancement (버프 강화)",
+        unlockMethod: "Unlocked after learning Martial Arts",
+        description:
+          "무학 스킬을 통해 자신과 아군이 지친 적에게 보너스 피해를 줄 수 있습니다. 소울쉐이드 엄브렐러와 파나시아 팬을 모두 장착하면 비술(Mystic Arts)의 피해가 증가합니다.",
       },
       {
-        name: 'Physical Attack Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 1',
-        description: 'Agility can increase Min Physical Attack.',
+        name: "물리 공격력 증가",
+        unlockMethod: "Complete Breakthrough to Tier 1",
+        description:
+          "민첩성(Agility)으로 최소 물리 공격력을 증가시킬 수 있습니다.",
       },
       {
-        name: 'Critical Heal Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 2',
-        description: 'Increases the Critical Healing effect of Special Skills.',
+        name: "치명타 치유 강화",
+        unlockMethod: "Complete Breakthrough to Tier 2",
+        description: "특수 스킬의 치명타 치유 효과를 증가시킵니다.",
       },
       {
-        name: 'Skillbind Attribute Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'Increases Skillbind (Attribute) Attack. Also increases Skillbind Penetration based on Min Skillbind Attack.',
+        name: "Skillbind 속성 증가",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "Skillbind(속성) 공격력을 증가시킵니다. 또한 최소 Skillbind 공격력에 따라 Skillbind 관통력을 증가시킵니다.",
       },
       {
-        name: 'Attribute Attack Damage Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'Deals bonus healing based on Skillbind Attack. All skills deal damage based on Attribute Attack, while Skillbind damage gains a further increase.',
+        name: "속성 공격 피해 강화",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "Skillbind 공격력에 비례하여 추가 치유를 제공합니다. 모든 스킬은 속성 공격력에 기반하여 피해를 주며, Skillbind 피해는 추가로 증가합니다.",
       },
     ],
 
     effects: [
       {
-        name: 'Dewdrop',
-        description: 'A special martial arts resource used by Panacea Fan and Soulshade Umbrella, with a maximum of 100 Points.',
+        name: "Dewdrop (물방울)",
+        description:
+          "파나시아 팬과 소울쉐이드 엄브렐러가 사용하는 특수 무학 자원으로, 최대 100포인트입니다.",
       },
       {
-        name: 'Inner Demon - Healing Reduction',
-        description: 'Before completing the first clear challenges against Campaign and Mysterious Bosses, battles with them are affected by inner demons, greatly reducing Healing Effects.',
+        name: "Inner Demon - Healing Reduction (내면의 악마 - 치유 감소)",
+        description:
+          "캠페인 및 미스터리 보스에 대한 첫 클리어 도전을 완료하기 전에는 전투가 내면의 악마에 영향을 받아 치유 효과가 크게 감소합니다.",
       },
       {
-        name: 'Sense Skill',
-        description: 'In certain special cases, the corresponding skills may transform into other forms.',
+        name: "Sense Skill (감각 스킬)",
+        description:
+          "특정 특수 상황에서 해당 스킬이 다른 형태로 변형될 수 있습니다.",
       },
       {
-        name: 'Mystic Art - DMG Up',
-        description: 'When equipped with both Soulshade Umbrella and Panacea Fan, the damage of Mystic Arts is increased by 20%.',
+        name: "Mystic Art - DMG Up (비술 - 피해 증가)",
+        description:
+          "소울쉐이드 엄브렐러와 파나시아 팬을 모두 장착하면 비술(Mystic Arts)의 피해가 20% 증가합니다.",
       },
     ],
 
     notes: [
-      'Gear Tuning Priorities: Min Physical Attack > Max Physical Attack > Critical Rate',
-      'Support healer weapon - only weapon besides Panacea Fan that can heal',
-      'Strongly oriented to multiplayer support',
-      'Severely lacks damage output',
-      'Best used while sitting back in battles, providing heals',
-      'Features both burst and sustained healing',
-      'Covers single-target and group recovery',
-      'Revival abilities allow defeated allies to rejoin the fight',
-      'Provides team-wide damage buffs (15% increased damage for 8s)',
-      'Shares Skillbind - Deluge path with Panacea Fan',
-      'Uses Dewdrop resource system (max 100 points)',
-      'Can draw hidden sword while umbrella auto-heals lowest HP ally',
-      'Increases healing by 15% and generates Dewdrops over time',
-      'Synergizes with Panacea Fan - together they increase Mystic Arts damage by 20%',
-      'Requires completing Chapter 1 to unlock Kaifeng region',
+      "장비 튜닝 우선순위: 최소 물리 공격력 > 최대 물리 공격력 > 치명타 확률",
+      "지원형 힐러 무기 - 파나시아 팬 외에 치유할 수 있는 유일한 무기",
+      "멀티플레이어 지원에 강력하게 편중됨",
+      "피해량 심각하게 부족",
+      "전투 뒤쪽에서 치유를 제공하는 데 가장 적합",
+      "순간 치유와 지속 치유 모두 갖춤",
+      "단일 대상 및 그룹 회복 커버",
+      "부활 능력으로 패배한 아군을 전선에 복귀시킬 수 있음",
+      "팀 전체 피해 버프 제공(8초 동안 피해 15% 증가)",
+      "파나시아 팬과 Skillbind - Deluge 경로 공유",
+      "물방울 자원 시스템 사용(최대 100포인트)",
+      "우산이 HP가 가장 낮은 아군을 자동 치유하는 동안 숨겨진 검을 뽑을 수 있음",
+      "치유량 15% 증가 및 시간 경과에 따라 물방울 생성",
+      "파나시아 팬과 시너지 - 함께 장착 시 비술 피해 20% 증가",
+      "개봉 지역을 잠금 해제하려면 챕터 1 완료 필요",
     ],
   },
 
   {
-    id: 'stormbreaker-spear',
-    name: 'Stormbreaker Spear',
-    type: 'Spear',
-    path: 'Stonesplit - Might',
-    image: require('../../../../assets/martial_art_weapons/stormbreaker_spear.png'),
-    description: 'This weapon is specifically designed for those who prefer to absorb incoming damage. The Stormbreaker Spear provides the user with several Shields and DMG Reduction resources that increase their survivability. And the mobility is reduced, making its gameplay easy to comprehend. While inflicting damage isn\'t its specialty, this weapon can do a lot of damage if properly used.',
-    playstyle: 'Tank with shields, damage reduction, interruption resistance, and taunt abilities - serves as team damage sponge with wide-range AoE charged skills',
+    id: "stormbreaker-spear",
+    name: "스톰브레이커 스피어 (Stormbreaker Spear)",
+    type: "Spear",
+    path: "Stonesplit - Might",
+    image: require("../../../../assets/martial_art_weapons/stormbreaker_spear.png"),
+    description:
+      "이 무기는 들어오는 피해를 받아내는 것을 선호하는 플레이어를 위해 특별히 설계되었습니다. 스톰브레이커 스피어는 생존력을 높여주는 여러 보호막과 피해 감소 자원을 사용자에게 제공합니다. 그리고 기동성이 감소하여 게임 플레이를 이해하기 쉽습니다. 피해를 입히는 것이 전문은 아니지만, 적절하게 사용하면 큰 피해를 줄 수 있습니다.",
+    playstyle:
+      "보호막, 피해 감소, 방해 저항, 도발 능력을 갖춘 탱커 - 광범위한 AoE 차지 스킬로 팀의 피해 흡수 역할 수행",
 
     howToGet: {
-      method: 'Story Progression',
-      details: 'After one of the first quests and visiting General Wang, you will receive the Stormbreaker Spear in the mail. Check your inbox to claim "Raging Tides General\'s Gift" (Main Menu > Letter in upper-right corner).',
+      method: "Story Progression",
+      details:
+        '초반 퀘스트 중 하나를 완료하고 Wang 장군을 방문하면 메일로 스톰브레이커 스피어를 받게 됩니다. 수신함을 확인하여 "Raging Tides General\'s Gift"를 수령하십시오(메인 메뉴 > 우측 상단 편지).',
     },
 
     stats: {
-      strengths: ['Survivability', 'Control', 'DPS'],
-      weaknesses: ['Mobility', 'Support', 'Difficulty'],
+      strengths: ["Survivability", "Control", "DPS"],
+      weaknesses: ["Mobility", "Support", "Difficulty"],
     },
 
     skills: [
       {
-        name: 'Storm Roar',
-        type: 'Martial Art',
-        description: 'Shake the spear to release sonic waves, Taunting nearby enemies and Shocking them for 8 seconds while gaining 20% damage reduction for 16 seconds (40% when hitting a Multiplayer Campaign boss). Grants Fortitude during the skill.',
-        recovery: '20.0s',
-        key: 'Q',
+        name: "Storm Roar (폭풍의 포효)",
+        type: "Martial Art",
+        description:
+          "창을 흔들어 음파를 방출하여 근처의 적을 도발(Taunt)하고 8초 동안 감전(Shocked) 상태로 만들며, 16초 동안 20%의 피해 감소를 얻습니다(멀티플레이어 캠페인 보스 타격 시 40%). 스킬 사용 중 불굴(Fortitude)을 획득합니다.",
+        recovery: "20.0s",
+        key: "Q",
       },
       {
-        name: 'Thunder Shock',
-        type: 'Special',
-        description: 'Consume 2 bars of Fighting Spirit to brace the spear and launch a spinning kick forward, followed by a flipping slam, knocking the target down and applying Vulnerability for 8 seconds. Grants Fortitude during the skill.',
-        recovery: '0.2s',
-        key: '~',
+        name: "Thunder Shock (뇌격)",
+        type: "Special",
+        description:
+          "전의(Fighting Spirit) 2바를 소모하여 창을 고정하고 전방으로 회전 발차기를 날린 후, 공중제비 찍기를 하여 대상을 넘어뜨리고 8초 동안 취약(Vulnerability)을 적용합니다. 스킬 사용 중 불굴을 획득합니다.",
+        recovery: "0.2s",
+        key: "~",
       },
       {
-        name: 'Spear - Light Attack',
-        type: 'Light Attack',
-        description: 'Swing a long spear to perform up to four light attacks.',
-        recovery: '0.2s',
-        key: 'Left Click',
+        name: "Spear - Light Attack (창 - 경공격)",
+        type: "Light Attack",
+        description: "장창을 휘둘러 최대 4회의 경공격을 수행합니다.",
+        recovery: "0.2s",
+        key: "Left Click",
       },
       {
-        name: 'Fury Spear',
-        type: 'Charged',
-        description: 'After charging, unleash a flurry of thrusts, dealing high damage. Gain Drumbeat on the final strike. Grants Fortitude during the skill.',
-        recovery: '0.2s',
-        key: 'Hold R',
+        name: "Fury Spear (분노의 창)",
+        type: "Charged",
+        description:
+          "차지 후, 찌르기 난무를 펼쳐 높은 피해를 줍니다. 마지막 타격에서 북소리(Drumbeat)를 획득합니다. 스킬 사용 중 불굴을 획득합니다.",
+        recovery: "0.2s",
+        key: "Hold R",
       },
       {
-        name: 'Spear - Heavy Attack',
-        type: 'Heavy Attack',
-        description: 'Swing a long spear to perform up to three heavy attacks.',
-        recovery: '0.2s',
-        key: 'R',
+        name: "Spear - Heavy Attack (창 - 중공격)",
+        type: "Heavy Attack",
+        description: "장창을 휘둘러 최대 3회의 중공격을 수행합니다.",
+        recovery: "0.2s",
+        key: "R",
       },
       {
-        name: 'Spear - Conversion',
-        type: 'Dual-Weapon',
-        description: 'Switch to spear and perform a sweeping attack.',
-        recovery: '3.0s',
-        key: 'TAB',
+        name: "Spear - Conversion (창 - 전환)",
+        type: "Dual-Weapon",
+        description: "창으로 전환하여 휩쓸기 공격을 수행합니다.",
+        recovery: "3.0s",
+        key: "TAB",
       },
     ],
 
     internalArts: [
       {
-        name: 'Exquisite Scenery',
-        type: 'Defense/Martial Arts/Counter',
-        description: 'Successfully defending with Thundercry Blade activates its special counterattack. Press Perception Skill or Heavy Attack to unleash a first-stage Charged Heavy Attack without charging. This effect can only trigger once every 10 seconds. Hitting a target with a Varied Combo restores 1 bar of Battle Will (no more than 1 bar restored per cast).',
+        name: "Exquisite Scenery (절경)",
+        type: "Defense/Martial Arts/Counter",
+        description:
+          "썬더크라이 블레이드(Thundercry Blade)로 방어에 성공하면 특수 반격이 활성화됩니다. 감각 스킬 또는 중공격을 누르면 차지 없이 1단계 차지 중공격을 시전합니다. 이 효과는 10초마다 한 번 발동할 수 있습니다. 변형 콤보로 대상을 타격하면 전의 1바를 회복합니다(시전 당 1바 제한).",
       },
       {
-        name: 'Trapped Beast',
-        type: 'Defense/Buff/Recover',
-        description: 'Taking damage while HP is below 30% triggers Cornered Beast, generating a shield that absorbs up to 30% of Max HP. This effect lasts 4 seconds and can trigger once every 300 seconds.',
+        name: "Trapped Beast (갇힌 짐승)",
+        type: "Defense/Buff/Recover",
+        description:
+          "HP가 30% 미만일 때 피해를 입으면 궁지에 몰린 짐승(Cornered Beast)이 발동하여 최대 HP의 30%까지 흡수하는 보호막을 생성합니다. 이 효과는 4초 동안 지속되며 300초마다 한 번 발동할 수 있습니다.",
       },
       {
-        name: 'Art of Resistance',
-        type: 'Defense/Buff',
-        description: 'Increases the duration of your own HP shield and the bonus effects of its source skill by 4 seconds.',
+        name: "Art of Resistance (저항의 기술)",
+        type: "Defense/Buff",
+        description:
+          "자신의 HP 보호막 지속 시간과 그 원천 스킬의 보너스 효과를 4초 연장합니다.",
       },
       {
-        name: 'Rock Solid',
-        type: 'Defense/Martial Arts/DMG Reduction',
-        description: 'Increases the DMG Reduction of Stormbreaker Spear\'s Storm Roar by 20% after taunting a boss unit, and by 5% after taunting a non-boss unit, up to 20% in total. While the DMG Reduction is active, reduces all damage dealt by 10%. Recommended when using Stormbreaker Spear as part of the Stonesplit - Might Arsenal.',
+        name: "Rock Solid (반석)",
+        type: "Defense/Martial Arts/DMG Reduction",
+        description:
+          "보스 유닛을 도발한 후 스톰브레이커 스피어의 Storm Roar 피해 감소량을 20% 증가시키고, 보스가 아닌 유닛을 도발한 후에는 5% 증가시켜 총 20%까지 증가시킵니다. 피해 감소가 활성화된 동안 가하는 모든 피해가 10% 감소합니다. 스톰브레이커 스피어를 Stonesplit - Might 무기고의 일부로 사용할 때 권장됩니다.",
       },
     ],
 
     gearSets: [
       {
-        name: 'Rainwhisper Set',
+        name: "Rainwhisper Set (레인위스퍼 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Max HP +40',
-          fourSet: 'Increases all Critical DMG and healing by 10%, and further increases them by 15% when you have an HP Shield.',
+          twoSet: "최대 HP +40",
+          fourSet:
+            "모든 치명타 피해 및 치유를 10% 증가시키고, HP 보호막이 있을 경우 15% 추가로 증가시킵니다.",
         },
-        howToObtain: ['Campaign - Unbound Cavern', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: [
+          "Campaign - Unbound Cavern",
+          "Sword Trial",
+          "Group Dungeons",
+        ],
       },
       {
-        name: 'Moonflare Set',
+        name: "Moonflare Set (문플레어 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Max HP +40',
-          fourSet: 'When attacking while defending, there is a 30% chance to create a shield that absorbs up to 10% of Max HP, lasting 20 seconds. If a shield already exists, restores 2% HP in addition. This effect can only trigger once every 60 seconds.',
+          twoSet: "최대 HP +40",
+          fourSet:
+            "방어 중 공격 시 30% 확률로 최대 HP의 10%까지 흡수하는 보호막을 생성하며, 20초간 지속됩니다. 이미 보호막이 존재하는 경우 추가로 2% HP를 회복합니다. 이 효과는 60초마다 한 번 발동할 수 있습니다.",
         },
-        howToObtain: ['Campaign - Unbound Cavern', 'Campaign - Furnace of Righteousness', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: [
+          "Campaign - Unbound Cavern",
+          "Campaign - Furnace of Righteousness",
+          "Sword Trial",
+          "Group Dungeons",
+        ],
       },
     ],
 
     talents: [
       {
-        name: 'Max Fighting Spirit Increase',
-        unlockMethod: 'Unlocked after learning Martial Arts',
-        description: 'Increases Max Fighting Spirit by 1 bar.',
+        name: "최대 전의(Fighting Spirit) 증가",
+        unlockMethod: "Unlocked after learning Martial Arts",
+        description: "최대 전의를 1바 증가시킵니다.",
       },
       {
-        name: 'Precision Rate Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 1',
-        description: 'Increases Precision Rate based on Body, capped at 14 Body.',
+        name: "정밀도 증가",
+        unlockMethod: "Complete Breakthrough to Tier 1",
+        description:
+          "신체(Body)에 따라 정밀도를 증가시킵니다(14 Body에서 상한).",
       },
       {
-        name: 'Hit Damage Taken Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 2',
-        description: 'Reduces Physical Damage taken briefly after hitting Charged Skills and their Varied Combos.',
+        name: "피격 피해 강화",
+        unlockMethod: "Complete Breakthrough to Tier 2",
+        description:
+          "차지 스킬 및 변형 콤보 적중 직후 받는 물리 피해를 감소시킵니다.",
       },
       {
-        name: 'Stonesplit Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'Increases Stonesplit (Attribute) Attack. Also increases Stonesplit Penetration based on Max Stonesplit Attack.',
+        name: "Stonesplit 증가",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "Stonesplit(속성) 공격력을 증가시킵니다. 또한 최대 Stonesplit 공격력에 비례하여 Stonesplit 관통력을 증가시킵니다.",
       },
       {
-        name: 'Attribute Attack Damage Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'All skills deal damage based on Attribute Attack, while Stonesplit damage gains a further increase.',
+        name: "속성 공격 피해 강화",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "모든 스킬은 속성 공격력에 기반하여 피해를 주며, Stonesplit 피해는 추가로 증가합니다.",
       },
     ],
 
     effects: [
       {
-        name: 'Fighting Spirit',
-        description: 'A unique martial art resource for Thundercry Blade and Stormbreaker Spear. It is gained by blocking or through natural regeneration over time, and is consumed when using certain skills.',
+        name: "Fighting Spirit (전의)",
+        description:
+          "썬더크라이 블레이드와 스톰브레이커 스피어의 고유 무학 자원입니다. 방어하거나 시간이 지남에 따라 자연적으로 회복되며, 특정 스킬 사용 시 소모됩니다.",
       },
       {
-        name: 'Drumbeat',
-        description: 'Increase Charged Skill damage by 15% for 6 seconds. Exclusive to Stormbreaker Spear. Can trigger the Perception Skill of Thundercry Blade\'s Martial Art Skill.',
+        name: "Drumbeat (북소리)",
+        description:
+          "6초 동안 차지 스킬 피해를 15% 증가시킵니다. 스톰브레이커 스피어 전용입니다. 썬더크라이 블레이드 무학 스킬의 감각 스킬을 발동할 수 있습니다.",
       },
       {
-        name: 'Taunt',
-        description: 'Enemies will prioritize attacking taunted targets.',
+        name: "Taunt (도발)",
+        description: "적들은 도발된 대상을 우선적으로 공격합니다.",
       },
       {
-        name: 'Shocked',
-        description: 'Reduce damage dealt by 20%.',
+        name: "Shocked (감전)",
+        description: "가하는 피해를 20% 감소시킵니다.",
       },
       {
-        name: 'Vulnerable',
-        description: 'HP and Qi damage taken increased by 8%. If the damage source is using Thundercry Blade or Stormbreaker Spear, it is additionally increased by 8%.',
+        name: "Vulnerable (취약)",
+        description:
+          "받는 HP 및 기 피해가 8% 증가합니다. 피해 원천이 썬더크라이 블레이드 또는 스톰브레이커 스피어를 사용하는 경우 추가로 8% 증가합니다.",
       },
       {
-        name: 'Fortitude',
-        description: 'Immune to all but Crowd Control when hit.',
+        name: "Fortitude (불굴)",
+        description: "피격 시 군중 제어(CC)를 제외한 모든 것에 면역이 됩니다.",
       },
     ],
 
     notes: [
-      'Gear Tuning Priority: Max HP',
-      'Designed for absorbing incoming damage',
-      'Multiple shields and DMG reduction resources',
-      'Strong survivability - can serve as team damage sponge',
-      'Taunt abilities to control enemy aggro',
-      'Equipped with interruption resistance (Fortitude)',
-      'Can group enemies for wide-range AoE damage with charged skills',
-      'Reduced mobility makes gameplay easy to comprehend',
-      'While damage isn\'t its specialty, can deal significant damage when properly used',
-      'Shares Stonesplit - Might path and Fighting Spirit resource with Thundercry Blade',
-      'Storm Roar grants 20% damage reduction (40% vs Multiplayer Campaign boss)',
-      'Exclusive Drumbeat effect increases Charged Skill damage by 15%',
-      'Obtained early in game from General Wang\'s mail',
+      "장비 튜닝 우선순위: 최대 HP",
+      "들어오는 피해를 받아내도록 설계됨",
+      "다양한 보호막 및 피해 감소 자원",
+      "강력한 생존력 - 팀의 피해 흡수 역할 수행 가능",
+      "적의 어그로를 제어하는 도발 능력",
+      "방해 저항(불굴) 장착",
+      "차지 스킬로 적을 모아 광범위한 AoE 피해를 줄 수 있음",
+      "감소된 기동성으로 게임 플레이 이해가 쉬움",
+      "피해량이 전문은 아니지만 적절히 사용하면 상당한 피해 가능",
+      "썬더크라이 블레이드와 Stonesplit - Might 경로 및 전의 자원 공유",
+      "Storm Roar는 20% 피해 감소 부여 (멀티플레이어 캠페인 보스 상대로 40%)",
+      "전용 북소리 효과로 차지 스킬 피해 15% 증가",
+      "게임 초반 Wang 장군의 메일에서 획득",
     ],
   },
 
   {
-    id: 'thundercry-blade',
-    name: 'Thundercry Blade',
-    type: 'Mo Blade',
-    path: 'Stonesplit - Might',
-    image: require('../../../../assets/martial_art_weapons/thundercry_blade.png'),
-    description: 'This weapon is specifically designed for those who prefer to absorb incoming damage. The Thundercry Blade provides the user with several Shields that increase their survivability. And the mobility is reduced, making its gameplay easy to comprehend. While inflicting damage isn\'t its specialty, this weapon can do a lot of damage if properly used.',
-    playstyle: 'Tank with shields, damage reduction, interruption resistance - serves as team damage sponge with wide-range charged skills for AoE damage',
+    id: "thundercry-blade",
+    name: "썬더크라이 블레이드 (Thundercry Blade)",
+    type: "Mo Blade",
+    path: "Stonesplit - Might",
+    image: require("../../../../assets/martial_art_weapons/thundercry_blade.png"),
+    description:
+      "이 무기는 들어오는 피해를 받아내는 것을 선호하는 플레이어를 위해 특별히 설계되었습니다. 썬더크라이 블레이드는 생존력을 높여주는 여러 보호막을 사용자에게 제공합니다. 그리고 기동성이 감소하여 게임 플레이를 이해하기 쉽습니다. 피해를 입히는 것이 전문은 아니지만, 적절하게 사용하면 큰 피해를 줄 수 있습니다.",
+    playstyle:
+      "보호막, 피해 감소, 방해 저항을 갖춘 탱커 - 광범위한 차지 스킬로 팀의 피해 흡수 역할을 수행하며 AoE 피해를 입힘",
 
     howToGet: {
-      method: 'Quest Reward, Skill Theft, or Join Sect',
-      location: 'Well of Heaven Martial Camp in Kaifeng Region',
-      details: 'Possible reward from Oddities - Mystery of Five Tones Encounter Quest in Qinghe, OR Skill Theft at Well of Heaven Martial Camp in Kaifeng Region, OR join Well of Heaven Sect.',
+      method: "Quest Reward, Skill Theft, or Join Sect",
+      location: "개봉(Kaifeng) 지역의 천정 무술관(Well of Heaven Martial Camp)",
+      details:
+        '청하의 "Oddities - Mystery of Five Tones" 조우 퀘스트 보상, 또는 개봉 지역 천정 무술관에서 기술 강탈, 또는 천정 문파(Well of Heaven Sect) 가입으로 획득 가능.',
     },
 
     stats: {
-      strengths: ['Survivability', 'Control', 'DPS'],
-      weaknesses: ['Mobility', 'Support', 'Difficulty'],
+      strengths: ["Survivability", "Control", "DPS"],
+      weaknesses: ["Mobility", "Support", "Difficulty"],
     },
 
     skills: [
       {
-        name: 'Predator\'s Shield',
-        type: 'Martial Art',
-        description: 'Grants a shield equal to 25% of your max HP for 8 seconds and increases Fighting Spirit by 2 bars. If you have Drumbeat, it will be removed to trigger your Perception Skill.',
-        recovery: '12.0s',
-        key: 'Q',
+        name: "Predator's Shield (포식자의 방패)",
+        type: "Martial Art",
+        description:
+          "8초 동안 최대 HP의 25%에 해당하는 보호막을 부여하고 전의를 2바 증가시킵니다. 북소리(Drumbeat)를 가지고 있다면 제거되어 감각 스킬을 발동합니다.",
+        recovery: "12.0s",
+        key: "Q",
       },
       {
-        name: 'Shifting Heaven',
-        type: 'Martial Art',
-        description: 'Grants a shield equal to 25% of your max HP, lasting 8 seconds. Also gain 2 bars of Fighting Spirit and Breakthrough. (Perception Skill - activates upon Drumbeat)',
-        recovery: '12.0s',
-        key: 'Q (with Drumbeat)',
+        name: "Shifting Heaven (움직이는 하늘)",
+        type: "Martial Art",
+        description:
+          "8초 동안 지속되는 최대 HP의 25%에 해당하는 보호막을 부여합니다. 또한 전의 2바와 돌파(Breakthrough)를 획득합니다. (감각 스킬 - 북소리가 있을 때 발동)",
+        recovery: "12.0s",
+        key: "Q (with Drumbeat)",
       },
       {
-        name: 'Sunrush Gale',
-        type: 'Special',
-        description: 'Consumes 2 bars of Fighting Spirit to drive the Mo Blade into the ground, generating a vortex that pulls in nearby enemies (ineffective against bosses). Then spins the Mo Blade to unleash a powerful sweeping attack and gains Focus. Grants Fortitude during the skill.',
-        recovery: '7.0s',
-        key: '~',
+        name: "Sunrush Gale (태양 돌진 질풍)",
+        type: "Special",
+        description:
+          "전의 2바를 소모하여 맥도(Mo Blade)를 땅에 꽂아 소용돌이를 생성해 근처의 적을 끌어당깁니다(보스에게는 효과 없음). 그 후 맥도를 회전시켜 강력한 휩쓸기 공격을 가하고 집중(Focus)을 획득합니다. 스킬 사용 중 불굴을 획득합니다.",
+        recovery: "7.0s",
+        key: "~",
       },
       {
-        name: 'Mo Blade - Light Attack',
-        type: 'Light Attack',
-        description: 'Swing the Mo Blade to perform up to three light attacks, dealing light damage.',
-        recovery: '0.2s',
-        key: 'Left Click',
+        name: "Mo Blade - Light Attack (맥도 - 경공격)",
+        type: "Light Attack",
+        description:
+          "맥도를 휘둘러 최대 3회의 경공격을 수행하며 가벼운 피해를 줍니다.",
+        recovery: "0.2s",
+        key: "Left Click",
       },
       {
-        name: 'Galecloud Cleave',
-        type: 'Charged',
-        description: 'A light charged skill. After charging, spin the Mo Blade to unleash a double sweeping strike, dealing moderate damage in a wide area. You can move while charging. The charge has three stages, with damage increasing at each stage. Releasing at Stage 3 consumes 1 bar of Fighting Spirit (if available) to boost damage by 20% and unlock the light attack varied combo skill. Grants Fortitude during the skill.',
-        recovery: '0.2s',
-        key: 'Hold Left Click',
+        name: "Galecloud Cleave (질풍구름 베기)",
+        type: "Charged",
+        description:
+          "가벼운 차지 스킬입니다. 차지 후 맥도를 회전시켜 이중 휩쓸기 타격을 가해 넓은 지역에 중간 정도의 피해를 줍니다. 차지 중에 이동할 수 있습니다. 차지는 3단계가 있으며 단계마다 피해가 증가합니다. 3단계에서 손을 떼면 전의 1바를 소모하여(가능한 경우) 피해를 20% 증가시키고 경공격 변형 콤보 스킬을 잠금 해제합니다. 스킬 사용 중 불굴을 획득합니다.",
+        recovery: "0.2s",
+        key: "Hold Left Click",
       },
       {
-        name: 'Light Attack Varied Combo',
-        type: 'Light Attack',
-        description: 'Consume 1 bar of Fighting Spirit to swing the Mo Blade in reverse, launching a sweeping attack that deals moderate damage in a large area. Grants Fortitude during the skill. (Unlocked after Galecloud Cleave Stage 3)',
-        recovery: '1.0s',
-        key: 'Left Click (after Galecloud Cleave)',
+        name: "Light Attack Varied Combo (경공격 변형 콤보)",
+        type: "Light Attack",
+        description:
+          "전의 1바를 소모하여 맥도를 반대 방향으로 휘둘러 넓은 지역에 중간 정도의 피해를 주는 휩쓸기 공격을 수행합니다. 스킬 사용 중 불굴을 획득합니다. (Galecloud Cleave 3단계 후 잠금 해제)",
+        recovery: "1.0s",
+        key: "Left Click (after Galecloud Cleave)",
       },
       {
-        name: 'Mo Blade - Heavy Attack',
-        type: 'Heavy Attack',
-        description: 'Perform up to three heavy attacks with the Mo Blade, each dealing low damage.',
-        recovery: '0.2s',
-        key: 'R',
+        name: "Mo Blade - Heavy Attack (맥도 - 중공격)",
+        type: "Heavy Attack",
+        description:
+          "맥도로 최대 3회의 중공격을 수행하며, 각각 낮은 피해를 줍니다.",
+        recovery: "0.2s",
+        key: "R",
       },
       {
-        name: 'Avalanche',
-        type: 'Charged',
-        description: 'Chargeable heavy attack. Slash upward, then slam down to deal high damage in a small area. You can move while charging. The skill has three power stages; damage increases with each. At Stage 3, consume 1 bar of Fighting Spirit (if available) to boost damage by 20% and unlock a Heavy Attack Combo. Grants Fortitude during the skill.',
-        recovery: '0.2s',
-        key: 'Hold R',
+        name: "Avalanche (눈사태)",
+        type: "Charged",
+        description:
+          "차지 가능한 중공격입니다. 위로 베어 올린 다음 아래로 내려쳐 좁은 지역에 높은 피해를 줍니다. 차지 중에 이동할 수 있습니다. 스킬에는 3단계의 위력이 있으며 각각 피해가 증가합니다. 3단계에서 전의 1바를 소모하여(가능한 경우) 피해를 20% 증가시키고 중공격 콤보를 잠금 해제합니다. 스킬 사용 중 불굴을 획득합니다.",
+        recovery: "0.2s",
+        key: "Hold R",
       },
       {
-        name: 'Varied Combo',
-        type: 'Heavy Attack',
-        description: 'Consume 1 bar of Fighting Spirit to leap into the air and flip, slamming into the ground to deal high damage in a small area, knocking the target down. Grants Fortitude during the skill. (Unlocked after Avalanche Stage 3)',
-        recovery: '1.0s',
-        key: 'R (after Avalanche)',
+        name: "Varied Combo (변형 콤보)",
+        type: "Heavy Attack",
+        description:
+          "전의 1바를 소모하여 공중으로 도약해 뒤집으며 땅을 강타해 좁은 지역에 높은 피해를 주고 대상을 넘어뜨립니다. 스킬 사용 중 불굴을 획득합니다. (Avalanche 3단계 후 잠금 해제)",
+        recovery: "1.0s",
+        key: "R (after Avalanche)",
       },
       {
-        name: 'Mo Blade - Conversion',
-        type: 'Dual-Weapon',
-        description: 'Switch weapon to Mo Blade and swing it, dealing light damage.',
-        recovery: '3.0s',
-        key: 'TAB',
+        name: "Mo Blade - Conversion (맥도 - 전환)",
+        type: "Dual-Weapon",
+        description: "무기를 맥도로 전환하고 휘둘러 가벼운 피해를 줍니다.",
+        recovery: "3.0s",
+        key: "TAB",
       },
     ],
 
     internalArts: [
       {
-        name: 'Exquisite Scenery',
-        type: 'Defense/Martial Arts/Counter',
-        description: 'Successfully defending with Thundercry Blade activates its special counterattack. Press Perception Skill or Heavy Attack to unleash a first-stage Charged Heavy Attack without charging. This effect can only trigger once every 10 seconds. Hitting a target with a Varied Combo restores 1 bar of Battle Will (no more than 1 bar restored per cast).',
+        name: "Exquisite Scenery (절경)",
+        type: "Defense/Martial Arts/Counter",
+        description:
+          "썬더크라이 블레이드로 방어에 성공하면 특수 반격이 활성화됩니다. 감각 스킬 또는 중공격을 누르면 차지 없이 1단계 차지 중공격을 시전합니다. 이 효과는 10초마다 한 번 발동할 수 있습니다. 변형 콤보로 대상을 타격하면 전의 1바를 회복합니다(시전 당 1바 제한).",
       },
       {
-        name: 'Trapped Beast',
-        type: 'Defense/Buff/Recover',
-        description: 'Taking damage while HP is below 30% triggers Cornered Beast, generating a shield that absorbs up to 30% of Max HP. This effect lasts 4 seconds and can trigger once every 300 seconds.',
+        name: "Trapped Beast (갇힌 짐승)",
+        type: "Defense/Buff/Recover",
+        description:
+          "HP가 30% 미만일 때 피해를 입으면 궁지에 몰린 짐승(Cornered Beast)이 발동하여 최대 HP의 30%까지 흡수하는 보호막을 생성합니다. 이 효과는 4초 동안 지속되며 300초마다 한 번 발동할 수 있습니다.",
       },
       {
-        name: 'Art of Resistance',
-        type: 'Defense/Buff',
-        description: 'Increases the duration of your own HP shield and the bonus effects of its source skill by 4 seconds.',
+        name: "Art of Resistance (저항의 기술)",
+        type: "Defense/Buff",
+        description:
+          "자신의 HP 보호막 지속 시간과 그 원천 스킬의 보너스 효과를 4초 연장합니다.",
       },
       {
-        name: 'Rock Solid',
-        type: 'Defense/Martial Arts/DMG Reduction',
-        description: 'Increases the DMG Reduction of Stormbreaker Spear\'s Storm Roar by 20% after taunting a boss unit, and by 5% after taunting a non-boss unit, up to 20% in total. While the DMG Reduction is active, reduces all damage dealt by 10%. Recommended when using Stormbreaker Spear as part of the Stonesplit - Might Arsenal.',
+        name: "Rock Solid (반석)",
+        type: "Defense/Martial Arts/DMG Reduction",
+        description:
+          "보스 유닛을 도발한 후 스톰브레이커 스피어의 Storm Roar 피해 감소량을 20% 증가시키고, 보스가 아닌 유닛을 도발한 후에는 5% 증가시켜 총 20%까지 증가시킵니다. 피해 감소가 활성화된 동안 가하는 모든 피해가 10% 감소합니다. 스톰브레이커 스피어를 Stonesplit - Might 무기고의 일부로 사용할 때 권장됩니다.",
       },
     ],
 
     gearSets: [
       {
-        name: 'Rainwhisper Set',
+        name: "Rainwhisper Set (레인위스퍼 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Max HP +40',
-          fourSet: 'Increases all Critical DMG and healing by 10%, and further increases them by 15% when you have an HP Shield.',
+          twoSet: "최대 HP +40",
+          fourSet:
+            "모든 치명타 피해 및 치유를 10% 증가시키고, HP 보호막이 있을 경우 15% 추가로 증가시킵니다.",
         },
-        howToObtain: ['Campaign - Unbound Cavern', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: [
+          "Campaign - Unbound Cavern",
+          "Sword Trial",
+          "Group Dungeons",
+        ],
       },
       {
-        name: 'Moonflare Set',
+        name: "Moonflare Set (문플레어 세트)",
         pieces: 4,
         bonuses: {
-          twoSet: 'Max HP +40',
-          fourSet: 'When attacking while defending, there is a 30% chance to create a shield that absorbs up to 10% of Max HP, lasting 20 seconds. If a shield already exists, restores 2% HP in addition. This effect can only trigger once every 60 seconds.',
+          twoSet: "최대 HP +40",
+          fourSet:
+            "방어 중 공격 시 30% 확률로 최대 HP의 10%까지 흡수하는 보호막을 생성하며, 20초간 지속됩니다. 이미 보호막이 존재하는 경우 추가로 2% HP를 회복합니다. 이 효과는 60초마다 한 번 발동할 수 있습니다.",
         },
-        howToObtain: ['Campaign - Unbound Cavern', 'Campaign - Furnace of Righteousness', 'Sword Trial', 'Group Dungeons'],
+        howToObtain: [
+          "Campaign - Unbound Cavern",
+          "Campaign - Furnace of Righteousness",
+          "Sword Trial",
+          "Group Dungeons",
+        ],
       },
     ],
 
     talents: [
       {
-        name: 'Charge Calculation Enhancement',
-        unlockMethod: 'Unlocked after learning Martial Arts',
-        description: 'Charged Skill and Varied combo never become Abrasion and deal more Critical DMG.',
+        name: "차지 계산 강화",
+        unlockMethod: "Unlocked after learning Martial Arts",
+        description:
+          "차지 스킬과 변형 콤보는 절대 마모(Abrasion)되지 않으며 더 많은 치명타 피해를 줍니다.",
       },
       {
-        name: 'Max HP Increases',
-        unlockMethod: 'Complete Breakthrough to Tier 1',
-        description: 'Body can increase Max HP.',
+        name: "최대 HP 증가",
+        unlockMethod: "Complete Breakthrough to Tier 1",
+        description: "신체(Body)로 최대 HP를 증가시킬 수 있습니다.",
       },
       {
-        name: 'Charge Critical Hit Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 2',
-        description: 'Increases the Critical Rate of Charged Skill and related Varied Combo.',
+        name: "차지 치명타 강화",
+        unlockMethod: "Complete Breakthrough to Tier 2",
+        description:
+          "차지 스킬 및 관련 변형 콤보의 치명타 확률을 증가시킵니다.",
       },
       {
-        name: 'Stonesplit Increase',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'Increases Stonesplit (Attribute) Attack. Also increases Stonesplit Penetration based on Max Stonesplit Attack.',
+        name: "Stonesplit 증가",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "Stonesplit(속성) 공격력을 증가시킵니다. 또한 최대 Stonesplit 공격력에 비례하여 Stonesplit 관통력을 증가시킵니다.",
       },
       {
-        name: 'Attribute Attack Damage Enhancement',
-        unlockMethod: 'Complete Breakthrough to Tier 3',
-        description: 'All skills deal damage based on Attribute Attack, while Stonesplit Damage gains a further increase.',
+        name: "속성 공격 피해 강화",
+        unlockMethod: "Complete Breakthrough to Tier 3",
+        description:
+          "모든 스킬은 속성 공격력에 기반하여 피해를 주며, Stonesplit 피해는 추가로 증가합니다.",
       },
     ],
 
     effects: [
       {
-        name: 'Fighting Spirit',
-        description: 'A unique martial art resource for Thundercry Blade and Stormbreaker Spear. It is gained by blocking or through natural regeneration over time, and is consumed when using certain skills.',
+        name: "Fighting Spirit (전의)",
+        description:
+          "썬더크라이 블레이드와 스톰브레이커 스피어의 고유 무학 자원입니다. 방어하거나 시간이 지남에 따라 자연적으로 회복되며, 특정 스킬 사용 시 소모됩니다.",
       },
       {
-        name: 'Breakthrough',
-        description: 'Increases the damage of charged skills by 30% and removes the Endurance cost while charging for 12s.',
+        name: "Breakthrough (돌파)",
+        description:
+          "12초 동안 차지 스킬의 피해를 30% 증가시키고 차지 중 지구력 소모를 제거합니다.",
       },
       {
-        name: 'Shield',
-        description: 'Absorbs HP damage and associated Qi damage, excluding fixed Qi damage.',
+        name: "Shield (보호막)",
+        description:
+          "고정 기 피해를 제외한 HP 피해 및 관련 기 피해를 흡수합니다.",
       },
       {
-        name: 'Focus',
-        description: 'The next charged skill used within 5 seconds charges 50% faster.',
+        name: "Focus (집중)",
+        description:
+          "5초 이내에 사용되는 다음 차지 스킬은 50% 더 빠르게 충전됩니다.",
       },
       {
-        name: 'Drumbeat',
-        description: 'Increase Charged Skill Damage by 15% for 6 seconds. Exclusive to Stormbreaker Spear. Can trigger the Perception Skill of the Thundercry Blade\'s Martial Art Skill.',
+        name: "Drumbeat (북소리)",
+        description:
+          "6초 동안 차지 스킬 피해를 15% 증가시킵니다. 스톰브레이커 스피어 전용입니다. 썬더크라이 블레이드 무학 스킬의 감각 스킬을 발동할 수 있습니다.",
       },
     ],
 
     notes: [
-      'Gear Tuning Priority: Max HP',
-      'Designed for absorbing incoming damage',
-      'Multiple shield abilities increase survivability',
-      'Reduced mobility makes gameplay easy to comprehend',
-      'While damage isn\'t its specialty, can deal significant damage when properly used',
-      'Shares Stonesplit - Might path and Fighting Spirit resource with Stormbreaker Spear',
-      'Predator\'s Shield grants 25% HP shield and +2 Fighting Spirit bars',
-      'Shifting Heaven Perception Skill triggers when you have Drumbeat buff',
-      'Breakthrough effect: +30% charged skill damage, no Endurance cost for 12s',
-      'Fortitude grants immunity to all but Crowd Control when hit',
-      'Three-stage charged attacks with damage scaling per stage',
-      'Stage 3 charges unlock Varied Combo skills (consumes 1 Fighting Spirit bar)',
-      'Sunrush Gale vortex pulls enemies (ineffective on bosses)',
-      'Shares Rainwhisper and Moonflare gear sets with Stormbreaker Spear',
-      'Synergizes with Stormbreaker Spear through Drumbeat effect',
+      "장비 튜닝 우선순위: 최대 HP",
+      "들어오는 피해를 받아내도록 설계됨",
+      "다양한 보호막 능력으로 생존력 증가",
+      "감소된 기동성으로 게임 플레이 이해가 쉬움",
+      "피해량이 전문은 아니지만 적절히 사용하면 상당한 피해 가능",
+      "스톰브레이커 스피어와 Stonesplit - Might 경로 및 전의 자원 공유",
+      "Predator's Shield는 25% HP 보호막과 +2 전의 바를 부여",
+      "북소리 버프가 있으면 Shifting Heaven 감각 스킬 발동",
+      "돌파 효과: 차지 스킬 피해 +30%, 12초간 지구력 소모 없음",
+      "불굴은 피격 시 군중 제어를 제외한 모든 것에 면역 부여",
+      "단계별 피해가 증가하는 3단계 차지 공격",
+      "3단계 차지는 변형 콤보 스킬 잠금 해제(전의 1바 소모)",
+      "Sunrush Gale 소용돌이는 적을 끌어당김(보스에게는 효과 없음)",
+      "스톰브레이커 스피어와 Rainwhisper 및 Moonflare 장비 세트 공유",
+      "북소리 효과를 통해 스톰브레이커 스피어와 시너지 효과",
     ],
   },
 ];
 
 // Helper function to get weapon by ID
 export const getWeaponById = (id: string): Weapon | undefined => {
-  return weaponDatabase.find(weapon => weapon.id === id);
+  return weaponDatabase.find((weapon) => weapon.id === id);
 };
 
 // Helper function to get weapons by type
 export const getWeaponsByType = (type: string): Weapon[] => {
-  return weaponDatabase.filter(weapon => weapon.type === type);
+  return weaponDatabase.filter((weapon) => weapon.type === type);
 };
 
 // Helper function to get all weapon types
 export const getAllWeaponTypes = (): string[] => {
-  const types = new Set(weaponDatabase.map(weapon => weapon.type));
+  const types = new Set(weaponDatabase.map((weapon) => weapon.type));
   return Array.from(types);
 };

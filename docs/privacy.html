@@ -27,6 +27,7 @@
       display: flex;
       align-items: center;
       gap: 16px;
+      flex-wrap: wrap;
     }
     nav a {
       color: var(--text-muted);
@@ -36,6 +37,25 @@
     nav a:first-child { color: var(--gold); }
     nav a:hover { color: var(--gold-light); }
     nav .sep { color: var(--border); }
+    .lang-switcher {
+      margin-left: auto;
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .lang-switcher a {
+      font-size: 12px;
+      padding: 3px 10px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .lang-switcher a:hover, .lang-switcher a.active {
+      border-color: rgba(201,168,76,0.5);
+      color: var(--gold);
+    }
     main {
       max-width: 720px;
       margin: 0 auto;
@@ -156,6 +176,12 @@
     <a href="index.html">Where Winds Meet Guide</a>
     <span class="sep">/</span>
     <a href="privacy.html">Privacy Policy</a>
+    <div class="lang-switcher">
+      <a href="privacy.html" class="active">EN</a>
+      <a href="privacy-zh.html">繁中</a>
+      <a href="privacy-ja.html">日本語</a>
+      <a href="privacy-ko.html">한국어</a>
+    </div>
   </nav>
 
   <main>

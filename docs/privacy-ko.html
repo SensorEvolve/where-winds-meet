@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>개인정보 처리방침 — Where Winds Meet Guide</title>
+  <style>
+    :root {
+      --gold: #c9a84c;
+      --gold-light: #e8c96a;
+      --bg: #0d0d0d;
+      --bg-card: #161410;
+      --text: #e8dcc8;
+      --text-muted: #8a7a60;
+      --border: #2a2218;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    .disclaimer {
+      background: #111009;
+      border-bottom: 1px solid var(--border);
+      padding: 10px 24px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+    .disclaimer strong { color: var(--text); font-weight: 500; }
+    nav {
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    nav a { color: var(--text-muted); text-decoration: none; font-size: 13px; }
+    nav a:first-child { color: var(--gold); }
+    nav a:hover { color: var(--gold-light); }
+    nav .sep { color: var(--border); }
+    .lang-switcher {
+      margin-left: auto;
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .lang-switcher a {
+      font-size: 12px;
+      padding: 3px 10px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .lang-switcher a:hover, .lang-switcher a.active {
+      border-color: rgba(201,168,76,0.5);
+      color: var(--gold);
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 60px 24px 80px; }
+    .page-label {
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: clamp(26px, 5vw, 40px);
+      font-weight: 700;
+      color: var(--gold-light);
+      margin-bottom: 8px;
+    }
+    .updated { font-size: 13px; color: var(--text-muted); margin-bottom: 48px; }
+    .summary-card {
+      background: var(--bg-card);
+      border: 1px solid rgba(201,168,76,0.25);
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-bottom: 48px;
+    }
+    .summary-card h2 {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--gold);
+      margin-bottom: 12px;
+    }
+    .summary-card p { font-size: 14px; color: var(--text); line-height: 1.9; }
+    section { margin-bottom: 40px; }
+    section h2 {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--gold-light);
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    section p, section li { font-size: 14px; color: var(--text); line-height: 1.9; }
+    section ul { list-style: none; padding: 0; }
+    section ul li { padding-left: 20px; position: relative; margin-bottom: 6px; }
+    section ul li::before { content: '—'; position: absolute; left: 0; color: var(--text-muted); }
+    section p + p { margin-top: 12px; }
+    .contact-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-top: 16px;
+    }
+    .contact-card a { color: var(--gold); text-decoration: none; }
+    .contact-card a:hover { color: var(--gold-light); }
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    footer p { margin-bottom: 10px; max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.7; }
+    footer a { color: var(--text-muted); text-decoration: none; margin: 0 8px; }
+    footer a:hover { color: var(--gold); }
+  </style>
+</head>
+<body>
+  <div class="disclaimer">
+    <strong>비공식 팬 앱.</strong> 본 앱은 독립적인 커뮤니티 제작 앱으로, Everstone Studio 또는 「연운십육성」 공식 개발팀과 어떠한 관련도 없으며 공인 또는 보증된 앱이 아닙니다. 모든 게임 이름, 콘텐츠 및 상표는 해당 소유자의 재산입니다.
+  </div>
+
+  <nav>
+    <a href="index.html">Where Winds Meet Guide</a>
+    <span class="sep">/</span>
+    <a href="privacy-ko.html">개인정보 처리방침</a>
+    <div class="lang-switcher">
+      <a href="privacy.html">EN</a>
+      <a href="privacy-zh.html">繁中</a>
+      <a href="privacy-ja.html">日本語</a>
+      <a href="privacy-ko.html" class="active">한국어</a>
+    </div>
+  </nav>
+
+  <main>
+    <p class="page-label">법적 고지</p>
+    <h1>개인정보 처리방침</h1>
+    <p class="updated">최종 업데이트: 2025년 11월</p>
+
+    <div class="summary-card">
+      <h2>요약</h2>
+      <p>Where Winds Meet Guide는 어떠한 개인정보도 수집, 저장 또는 공유하지 않습니다. 앱은 완전히 오프라인으로 작동하며 계정 생성이 필요하지 않습니다. 데이터는 절대 기기 밖으로 전송되지 않습니다.</p>
+    </div>
+
+    <section>
+      <h2>1. 수집하는 정보</h2>
+      <p>Where Winds Meet Guide는 사용자의 개인정보를 일절 수집하지 않습니다.</p>
+      <p>계정 생성, 이름, 이메일 주소 또는 기타 개인 식별 정보를 제공하실 필요가 없습니다.</p>
+    </section>
+
+    <section>
+      <h2>2. 앱 작동 방식</h2>
+      <p>Where Winds Meet Guide의 모든 콘텐츠(캐릭터 가이드, 아이템 데이터베이스, 지역 정보, 성장 가이드 등)는 앱에 직접 내장되어 있으며 기기에서 로컬로 접근됩니다.</p>
+      <p>기기에 저장되는 유일한 데이터는 앱 환경설정(언어 선택 및 표시 설정 등)으로, 기기의 내장 저장소를 사용하여 로컬에 저장됩니다. 이 데이터는 절대 기기 밖으로 전송되지 않습니다.</p>
+    </section>
+
+    <section>
+      <h2>3. 수집하지 않는 데이터</h2>
+      <p>다음 정보는 수집하지 않으며 접근할 수도 없습니다:</p>
+      <ul>
+        <li>이름, 이메일 주소 또는 연락처 정보</li>
+        <li>위치 데이터</li>
+        <li>기기 식별자 또는 광고 식별자</li>
+        <li>사용 분석 또는 충돌 보고서</li>
+        <li>게임 계정이나 저장 데이터에 관한 정보</li>
+        <li>사진, 연락처 또는 기타 기기 콘텐츠</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. 제3자 서비스</h2>
+      <p>Where Winds Meet Guide는 제3자 분석, 광고 또는 데이터 수집 서비스를 일절 사용하지 않습니다.</p>
+      <p>Apple App Store를 통해 앱을 다운로드하는 경우, Apple이 자체 개인정보 처리방침에 따라 특정 사용 데이터를 수집할 수 있습니다. 당사는 해당 데이터에 접근할 수 없습니다.</p>
+    </section>
+
+    <section>
+      <h2>5. 아동 개인정보 보호</h2>
+      <p>Where Winds Meet Guide는 13세 미만 아동을 포함하여 누구의 개인정보도 고의로 수집하지 않습니다. 당사는 어떠한 데이터도 수집하지 않으므로, 본 앱은 모든 연령대의 사용자에게 안전합니다.</p>
+    </section>
+
+    <section>
+      <h2>6. 방침 변경</h2>
+      <p>향후 버전에서 새로운 기능이 추가되는 등 개인정보 처리방침이 변경될 경우, 새로운 시행일과 함께 이 페이지를 업데이트합니다. 정기적으로 확인하시기를 권장합니다.</p>
+    </section>
+
+    <section>
+      <h2>7. 문의</h2>
+      <p>본 개인정보 처리방침에 관한 문의 사항이 있으시면 아래로 연락해 주세요:</p>
+      <div class="contact-card">
+        <p>GitHub에서 이슈 등록: <a href="https://github.com/SensorEvolve/where-winds-meet/issues">github.com/SensorEvolve/where-winds-meet/issues</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>본 앱은 비공식 팬 제작 앱으로, Everstone Studio 또는 「연운십육성」 공식 개발팀과 어떠한 관련도 없으며 공인 또는 보증된 앱이 아닙니다. 모든 게임 이름, 캐릭터 및 관련 콘텐츠는 해당 소유자의 상표 및 재산입니다.</p>
+    <p>
+      &copy; 2025 SensorEvolve &nbsp;·&nbsp;
+      <a href="index.html">홈</a>
+      <a href="privacy-ko.html">개인정보 처리방침</a>
+      <a href="support.html">지원</a>
+    </p>
+  </footer>
+</body>
+</html>
